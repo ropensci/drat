@@ -1,0 +1,23 @@
+general:
+  branches:
+    only:
+      - gh-pages 
+
+machine:
+  services:
+    - docker
+
+test:
+  post:
+    ## Build drat packages
+    -  docker run -ti -v $(pwd):/data -w /data rocker/ropensci Rscript build.R
+
+deployment:
+  production:
+    branch: 
+      - gh-pages 
+    commands:
+     ## Deploy to Github
+     #      - bash deploy.sh > /dev/null 2>&1 
+     ## Deploy to AmazonS3  
+      - docker run -ti -v $(pwd):/data -w /data rocker/ropensci Rscript deploy_s3.R

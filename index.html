@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+</head>
+<body>
+<h1 id="ropensci-drat-repository">rOpenSci drat Repository</h1>
+<p><a href="https://circleci.com/gh/ropensci/drat/tree/gh-pages"><img src="https://circleci.com/gh/ropensci/drat/tree/gh-pages.svg?style=svg" alt="Circle CI" /></a></p>
+<p>Welcome to the rOpenSci drat repository. This repository contains the latest nightly builds from the master branch of all rOpenSci packages currently on GitHub, along with the development versions of common dependencies, which include many packages from Hadley Wickham.</p>
+<p>This allows users to install development versions of our software without specialized functions such as <code>install_github()</code>, allows dependencies not hosted on CRAN to still be resolved automatically, and permits the use of <code>update.packages()</code>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<p>To use, simply add <code>packages.ropensci.org</code> to your existing list of R repos, such as:</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">options</span>(<span class="dt">repos =</span> <span class="kw">c</span>(<span class="st">&quot;http://packages.ropensci.org&quot;</span>, <span class="kw">getOption</span>(<span class="st">&quot;repos&quot;</span>))</code></pre>
+<p>(If you don't have any default CRAN mirrors selected yet by <code>getOption(&quot;repos&quot;)</code>, you may want to add one now). You can also include this line in specific <code>install.packages()</code> requests:</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="st">&quot;taxize&quot;</span>, <span class="dt">repos =</span> <span class="kw">c</span>(<span class="st">&quot;http://packages.ropensci.org&quot;</span>, <span class="st">&quot;http://cran.rstudio.com&quot;</span>))</code></pre>
+<h2 id="details">Details</h2>
+<p>This is made possible by the excellent tools provided in Dirk Eddelbuettel's <a href="https://github.com/eddelbuettel/drat">drat</a> package and Rich FitzJohn's <a href="https://github.com/richfitz/drat.builder">drat.builder</a>. Nightly builds are performed using <a href="https://circleci.com">CircleCi</a> and packages are served through an Amazon S3 static site. Configuration details and scripts necessary for this can be found in our GitHub repo, <a href="https://github.com/ropensci/drat">ropensci/drat</a>. The list of rOpenSci packages included in on the nightly builds of this repository is automatically generated using <a href="">ropensci/ropkgs</a>. Once a package has been onboarded to our domain, there is no need to manually add it here to ensure it is included and updated. The list of third-party packages provided by this repo is found in <code>packages.txt</code>.</p>
+<p>This includes the following files:</p>
+<ul>
+<li><code>circle.yml</code> CI file telling Circle how to build packages (running <code>build.R</code>) and deploy them (by running <code>deploy_S3.R</code>).</li>
+<li><code>build.R</code> Main script file for generating the drat repo.</li>
+<li><code>deploy.R</code> deploy to Amazon S3 using <a href="">clodyr/aws.s3</a> package (alpha).</li>
+<li><code>packages.txt</code> A plain-text list of third party dependencies provided by the package.</li>
+<li><code>packages.json</code>, <code>ropensci.json</code> metadata files created by <code>drat.builder</code> to avoid rebuilding packages with no new commits.</li>
+</ul>
+<p>Please report any <a href="https://github.com/ropensci/drat/issues">issues here</a>.</p>
+<p>License: BSD-2</p>
+<p><a href="http://ropensci.org"><img src="http://ropensci.org/public_images/github_footer.png" alt="ropensci footer" /></a></p>
+</body>
+</html>
