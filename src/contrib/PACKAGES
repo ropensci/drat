@@ -1,0 +1,8 @@
+Package: PKI
+Version: 0.1-3
+Depends: R (>= 2.9.0), base64enc
+Enhances: gmp
+License: GPL-2 | GPL-3 | file LICENSE
+MD5sum: 1dabd03ead2dd665726f8efce9774678
+NeedsCompilation: yes
+
