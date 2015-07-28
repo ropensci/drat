@@ -45,3 +45,10 @@ License: MIT + file LICENSE
 MD5sum: 654b9b45cefd65b46c20ffeb75fecc56
 NeedsCompilation: no
 
+Package: USAboundariesData
+Version: 0.2.0.9000
+Depends: R (>= 3.1.0)
+License: CC0
+MD5sum: 1c8de38a64c6e2d24e11757d70738a18
+NeedsCompilation: no
+
