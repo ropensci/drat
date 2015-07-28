@@ -36,3 +36,12 @@ License: GPL-2 | GPL-3 | file LICENSE
 MD5sum: 1dabd03ead2dd665726f8efce9774678
 NeedsCompilation: yes
 
+Package: rnoaa
+Version: 0.4.2
+Imports: methods, stats, utils, httr (>= 1.0.0), lubridate, dplyr,
+        tidyr, ggplot2, scales, rgdal, XML, jsonlite
+Suggests: testthat, roxygen2, knitr, taxize, ncdf
+License: MIT + file LICENSE
+MD5sum: 654b9b45cefd65b46c20ffeb75fecc56
+NeedsCompilation: no
+
