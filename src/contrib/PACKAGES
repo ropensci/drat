@@ -1,3 +1,13 @@
+Package: fulltext
+Version: 0.0.6.9973
+Imports: methods, utils, stats, httr (>= 1.0.0), magrittr, XML,
+        jsonlite, plyr, rplos, biorxivr, rcrossref, aRxiv, rentrez, tm,
+        rredis, R.cache, digest, whisker
+Suggests: roxygen2, testthat, knitr
+License: MIT + file LICENSE
+MD5sum: 5fc3bc02703cbaae375b75e550aef891
+NeedsCompilation: no
+
 Package: ggplot2
 Version: 1.0.1.9002
 Depends: R (>= 2.14)
