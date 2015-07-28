@@ -45,6 +45,16 @@ License: MIT + file LICENSE
 MD5sum: 654b9b45cefd65b46c20ffeb75fecc56
 NeedsCompilation: no
 
+Package: rotl
+Version: 0.4.1.999
+Depends: R (>= 3.1.1)
+Imports: httr, jsonlite, rncl (>= 0.6.0), ape
+Suggests: knitr (>= 1.10.5), rmarkdown (>= 0.7), testthat, RNeXML,
+        phylobase
+License: BSD_2_clause + file LICENSE
+MD5sum: bab84e000bd153f46bbc0fdaf8d1070a
+NeedsCompilation: no
+
 Package: USAboundariesData
 Version: 0.2.0.9000
 Depends: R (>= 3.1.0)
