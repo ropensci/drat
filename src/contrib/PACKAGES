@@ -20,6 +20,14 @@ License: GPL-2
 MD5sum: e74a95f50d329361cb20b4b508372d47
 NeedsCompilation: no
 
+Package: git2r
+Version: 0.10.1.9000
+Depends: R (>= 3.0.2)
+Imports: graphics, methods, utils
+License: GPL-2
+MD5sum: 6b0c9fb0e756526386052b0dad26ed34
+NeedsCompilation: yes
+
 Package: PKI
 Version: 0.1-3
 Depends: R (>= 2.9.0), base64enc
