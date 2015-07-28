@@ -1,29 +1,33 @@
-## Download logs
 library("aws.s3")
 library("readr")
 library("dplyr")
 library("tidyr")
 library("rgeolocate")
 
+############## Downloading ###################################################
+
+bucket <- "packages.ropensci.org"
 ## DOWNLOADING LOGS ISN'T WORKING YET
 ## Loop over getbucket to list all files
 contents <- list()
 marker <- NULL
 continue <- TRUE
 while(continue){
-  b <- aws.s3::getbucket("drat", marker = marker, region="us-west-2", key = Sys.getenv("AWS_ACCESS_KEY_ID"), secret = Sys.getenv("AWS_SECRET_ACCESS_KEY"))
+  b <- aws.s3::getbucket(bucket, marker = marker, region="us-west-2", 
+                         key = Sys.getenv("AWS_ACCESS_KEY_ID"), 
+                         secret = Sys.getenv("AWS_SECRET_ACCESS_KEY"))
   continue <- as.logical(b$IsTruncated)
   marker <- b[[length(b)]]$Key ## Seems to be ignored...
   contents <- c(contents, b[-1:-5])
 }  
-
 ## Loop over getobject to download all files
 files <- sapply(contents, function(x) x$Key)
 for(f in files){
-  p <- aws.s3::getobject("drat", f)
+  p <- aws.s3::getobject(bucket, f)
 }
 
-### Parsing ###
+
+################## Parsing ####################################################
 
 # format: http://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html
 # includes extra Timzone column that gets falsely parsed as separate from Time, due to the use of a space.
@@ -39,7 +43,8 @@ log_list <- list.files(log_path, recursive = TRUE)
 r <- read.delim(paste0(log_path, log_list[[1]]), sep = ' ', quote = '"', header = FALSE, col.names = columns, stringsAsFactors = FALSE)
 classes <- sapply(r, class)
 
-
+## This could probably be made faster?  The python version is quite fast here
+## Might store list of already-processed files to avoid re-parsing them?
 for(log in log_list){
   r <- read.delim(paste0(log_path, log), sep = ' ', quote = '"', header = FALSE, col.names = columns, stringsAsFactors = FALSE, na.strings = "-", colClasses = classes)
 #  r <- readr::read_delim(paste0(log_path, log), delim=' ', quote='"', col_names = columns, na="-") ## SegFaults with "invalid permissions"
@@ -85,7 +90,7 @@ log_entries %>%
   dplyr::mutate(package = pkgname(Key), version = pkgvers(Key)) %>% 
   dplyr::select(-Key) %>%
   ## Anonymize IP and convert to RStudio log format: (slow!)
-  dplyr::mutate(country = maxmind(Remote_IP, maxmind_data, "country_code")[[1]]) %>%
+  dplyr::mutate(country = rgeolocate::maxmind(Remote_IP, maxmind_data, "country_code")[[1]]) %>%
   dplyr::mutate(ip_id = as.integer(as.factor(Remote_IP)))  %>% 
   dplyr::arrange(Time) %>% dplyr::select(-Remote_IP) %>%
   ## Date and time separate, though not sure that's a good idea... Maybe for vis of diurnal patterns.
@@ -97,4 +102,5 @@ log_entries %>%
 ## Write anonymized, publishable data
 readr::write_csv(downloads, "downloads.csv")
 
-
+# Show total download counts by package
+sort(table(downloads$package))

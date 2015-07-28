@@ -10,4 +10,4 @@ s3copy <- function(path, bucket, recursive = FALSE, ...){
       ...)
   }
 }
-s3copy("src", "drat", recursive = TRUE, region="us-west-2", key = Sys.getenv("AWS_ACCESS_KEY_ID"), secret = Sys.getenv("AWS_SECRET_ACCESS_KEY"))
+s3copy("src", "packages.ropensci.org", recursive = TRUE, region="us-west-2", key = Sys.getenv("AWS_ACCESS_KEY_ID"), secret = Sys.getenv("AWS_SECRET_ACCESS_KEY"))
