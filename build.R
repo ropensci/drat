@@ -6,7 +6,7 @@ options(repos=c("http://cran.rstudio.com",
                 "http://carlboettiger.info/drat",
                 getOption("repos")))
 ## Don't commit if using S3 to deploy
-build("packages.txt", install=TRUE, no_build_vignettes = TRUE, no_commit = TRUE)
+#build("packages.txt", install=TRUE, no_build_vignettes = TRUE, no_commit = TRUE)
 source("ropensci.R")
 build("ropensci.txt", install=TRUE, no_build_vignettes = TRUE, no_commit = TRUE)
 
