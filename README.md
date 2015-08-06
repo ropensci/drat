@@ -15,7 +15,7 @@ To use, simply add
 `packages.ropensci.org` to your existing list of R repos, such as:
 
 ```r
-options(repos = c("http://packages.ropensci.org", getOption("repos"))
+options(repos = c("http://packages.ropensci.org", getOption("repos")))
 ```
 
 (If you don't have any default CRAN mirrors selected yet by `getOption("repos")`, you may want to add one now). You can also include this line in specific `install.packages()` requests:
