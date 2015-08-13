@@ -2,3 +2,4 @@ packages/
 packages_src/
 ropensci.txt
 .Rproj.user
+.Renviron
