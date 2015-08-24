@@ -12,18 +12,20 @@ region <- "us-west-2"
 
 ############## Downloading ###################################################
 download_logs <- function(){
-  ## DOWNLOADING LOGS ISN'T WORKING YET -- bc "marker" (for pagination) is ignored
   ## Loop over getbucket to list all files
   contents <- list()
   marker <- NULL
   continue <- TRUE
-  #while(continue){  # not working yet, so just do first 1000
-    b <- aws.s3::getbucket(bucket, marker = marker, region = region)
+  while(continue){  # not working yet, so just do first 1000
+    b <- aws.s3::getbucket(bucket, marker = marker, region = region, prefix="logs/")
     continue <- as.logical(b$IsTruncated)
     marker <- b[[length(b)]]$Key ## Seems to be ignored...
     contents <- c(contents, b[-1:-5])
-  #}  
-    
+    message(sprintf("Marker at %s, continue is %s", marker, as.character(continue)))
+    continue
+  }  
+  if(!dir.exists("logs")) 
+    dir.create("logs")
   ## Loop over getobject to download all files
   files <- sapply(contents, function(x) x$Key)
   for(f in files){
@@ -59,9 +61,9 @@ parse_logs <- function(){
     r  
   })
   
-  do.call(dplyr::bind_rows, entries) %>%
-  dplyr::mutate(Time = lubridate::dmy_hms(Time)) -> 
-  log_entries
+  log_entries <- do.call(dplyr::bind_rows, entries) %>%
+    dplyr::mutate(Time = lubridate::dmy_hms(Time))
+  
   
   
   return(log_entries)
@@ -75,16 +77,17 @@ append_and_update <- function(log_entries){
     writeBin(bin, "logs/log.csv")
   }
   ## Append previously parsed records to newly parsed ones.  Assumes we are deleting parsed records from S3
-  if(file.exists("logs/log.csv"))
-    log_entries <- dpylr::bind_rows(readr::read_csv("logs/log.csv"), log_entries)
-  
+  if(file.exists("logs/log.csv")){
+    col_types = paste0(rep("c", length(columns)), collapse="")
+    prev_logs <- readr::read_csv("logs/log.csv",
+                                 col_types =  paste0(rep("c", 18), collapse=""))
+    log_entries <- dplyr::bind_rows(prev_logs, log_entries)
+  }
   # Write out for records.
   readr::write_csv(log_entries, "logs/log.csv")
   ## Upload updated logs to S3
-  aws.s3::putobject(object = "logs/log.csv", bucket = bucket, region = region)
+  aws.s3::putobject(object = "logs/log.csv", file = "logs/log.csv", bucket = bucket, region = region)
 
-  delete_logs()
-  
   log_entries
 }
   
@@ -94,7 +97,7 @@ delete_logs <- function(){
   log_list <- list.files(log_path, recursive = TRUE) 
   
   for(f in log_list){
-    p <- aws.s3::deleteobject(bucket = bucket, object = f)
+    p <- aws.s3::deleteobject(bucket = bucket, object = paste0(log_path,f), region = region)
   }
 }
 
@@ -149,9 +152,10 @@ publish_logs <- function(downloads){
 ################################### Run  ##############
 
 
-#download_logs()
+download_logs()
 log_entries <- parse_logs()
-# log_entries <- append_and_update(log_entries)
+log_entries <- append_and_update(log_entries)
+delete_logs()
 downloads <- tidy_logs(log_entries)
 publish_logs(downloads)
 
