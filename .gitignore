@@ -1,5 +1,9 @@
+.Rproj.user
+.Renviron
+.Rhistory
+logs/
+src/
 packages/
 packages_src/
 ropensci.txt
-.Rproj.user
-.Renviron
+downloads.csv
