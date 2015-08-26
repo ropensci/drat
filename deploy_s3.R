@@ -25,6 +25,6 @@ status <- s3copy("src", "packages.ropensci.org",
 warnings()
 
 ## Parse the download logs, update the log summary, delete the raw log files
-source("parse_s3_logs.R")
+# source("parse_s3_logs.R")
 
 
