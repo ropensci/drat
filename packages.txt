@@ -2,8 +2,9 @@ NCEAS/PKIplus
 DataONEorg/rdataone/dataone
 egonw/rrdf/rrdf
 ramnathv/rcharts
-cboettig/drat.builder
 cloudyr/aws.signature
 cloudyr/aws.s3
 eddelbuettel/rcppredis
 iDigBio/ridigbio
+richfitz/drat.builder
+
