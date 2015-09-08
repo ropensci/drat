@@ -1,5 +1,12 @@
 #!/usr/bin/Rscript
 #devtools::install_github("cboettig/drat.builder")
+
+library("downloader")
+path <- c("src/contrib/PACKAGES", "src/contrib/PACKAGES.gz")
+files <- paste0("http://packages.ropensci.org/", path)
+for(i in 1:length(files)) 
+  downloader::download(files[i], path[i])
+
 library("drat.builder")
 options(repos=c("http://cran.rstudio.com",
                 "http://www.omegahat.org/R",
