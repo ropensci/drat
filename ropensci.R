@@ -3,7 +3,9 @@ library("ropkgs")
 out <- ro_pkgs()
 good <- out$packages$status == "good"
 installable <- out$packages$installable
-pkgs <- out$packages$name[installable & good]
-root <- out$packages$root[installable & good]
+exclude <- readLines("exclude.txt")
+blacklist <- out$packages$name %in% exclude 
+pkgs <- out$packages$name[installable & good & !blacklist]
+root <- out$packages$root[installable & good & !blacklist]
 
 writeLines(paste("ropensci", pkgs, root, sep="/"), "ropensci.txt")
