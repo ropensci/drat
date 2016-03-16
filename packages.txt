@@ -1,5 +1,5 @@
 NCEAS/PKIplus
-DataONEorg/rdataone/dataone
+DataONEorg/rdataone
 cboettig/rrdf-copy/rrdflibs
 egonw/rrdf/rrdf
 ramnathv/rcharts
