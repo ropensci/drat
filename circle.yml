@@ -12,12 +12,12 @@ test:
     ## Build drat packages
     - docker run -ti -v $(pwd):/data -w /data rocker/ropensci Rscript build.R
     ## Update download statistics
-    - docker run -ti -v $(pwd):/data -w /data -e AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY rocker/ropensci Rscript parse_s3_logs.R
+    #    - docker run -ti -v $(pwd):/data -w /data -e AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY rocker/ropensci Rscript parse_s3_logs.R
 
 deployment:
   production:
     branch: 
       - gh-pages 
     commands:
-      - docker run -ti -v $(pwd):/data -w /data -e AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY rocker/ropensci Rscript deploy_s3.R
+      #      - docker run -ti -v $(pwd):/data -w /data -e AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY rocker/ropensci Rscript deploy_s3.R
       - bash git_deploy.sh
