@@ -9,4 +9,4 @@ eddelbuettel/rcppredis
 iDigBio/ridigbio
 richfitz/drat.builder
 cboettig/Sxslt
-
+AndySouth/rnaturalearthhires
