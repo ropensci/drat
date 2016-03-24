@@ -12,7 +12,7 @@ for(i in 1:length(files))
 
 library("drat.builder")
 options(repos=c("http://cran.rstudio.com",
-                "http://www.omegahat.org/R",
+                "http://www.omegahat.net/R",
                 "http://packages.ropensci.org",
                 getOption("repos")))
 ## Don't commit if using S3 to deploy
