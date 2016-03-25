@@ -35,16 +35,16 @@ download_logs <- function(){
   }
 }
 
-
+columns = c('Bucket_Owner', 'Bucket', 'Time', 'Timezone', 'Remote_IP', 'Requester',
+            'Request_ID', 'Operation', 'Key', 'Request_URI', 'HTTP_status',
+            'Error_Code', 'Bytes_Sent', 'Object_Size', 'Total_Time',
+            'Turn_Around_Time', 'Referrer', 'User_Agent', 'Version_Id')
 ################## Parsing ####################################################
 parse_logs <- function(){
   # format: http://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html
   # based on: http://ferrouswheel.me/2010/01/python_tparse-fields-in-s3-logs/
   # includes extra Timzone column that gets falsely parsed as separate from Time, due to the use of a space.
-  columns = c('Bucket_Owner', 'Bucket', 'Time', 'Timezone', 'Remote_IP', 'Requester',
-              'Request_ID', 'Operation', 'Key', 'Request_URI', 'HTTP_status',
-              'Error_Code', 'Bytes_Sent', 'Object_Size', 'Total_Time',
-              'Turn_Around_Time', 'Referrer', 'User_Agent', 'Version_Id')
+  
   col_types = paste0(rep("c", length(columns)), collapse="")
   log_path <- 'logs/'
   log_list <- list.files(log_path, recursive = TRUE) 
@@ -81,6 +81,10 @@ append_and_update <- function(log_entries){
     col_types = paste0(rep("c", length(columns)), collapse="")
     prev_logs <- readr::read_csv("logs/log.csv",
                                  col_types =  paste0(rep("c", 18), collapse=""))
+    
+    log_entries <- dplyr::mutate(log_entries, Time = as.character(Time))
+    
+    
     log_entries <- dplyr::bind_rows(prev_logs, log_entries)
   }
   # Write out for records.
