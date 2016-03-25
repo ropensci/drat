@@ -165,4 +165,6 @@ publish_logs(downloads)
 
 
 # Show total download counts by package
-sort(table(downloads$package))
+totals <- sort(table(downloads$package))
+write.csv(totals, "total_downloads.csv")
+totals
