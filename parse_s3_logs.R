@@ -17,7 +17,7 @@ download_logs <- function(){
   marker <- NULL
   continue <- TRUE
   while(continue){  # not working yet, so just do first 1000
-    b <- aws.s3::getbucket(bucket, marker = marker, region = region, prefix="logs/")
+    b <- aws.s3::get_bucket(bucket = "", path = bucket, marker = marker, region = region, prefix="logs/")
     continue <- as.logical(b$IsTruncated)
     marker <- b[[length(b)]]$Key ## Seems to be ignored...
     contents <- c(contents, b[-1:-5])
@@ -29,7 +29,7 @@ download_logs <- function(){
   ## Loop over getobject to download all files
   files <- sapply(contents, function(x) x$Key)
   for(f in files){
-    p <- aws.s3::getobject(bucket = bucket, object = f, region = region)
+    p <- aws.s3::get_object(bucket = "", object = paste0(bucket, "/", f), region = region)
     bin <- httr::content(p, "raw")
     writeBin(bin, f)
   }
@@ -71,7 +71,7 @@ parse_logs <- function(){
 
 append_and_update <- function(log_entries){
   # Download previously parsed records.  
-  p <- aws.s3::getobject(bucket, 'logs/log.csv', region=region, parse_response = FALSE)
+  p <- aws.s3::get_object(bucket = "", object = paste(bucket, 'logs', 'log.csv', sep='/'), region = region, parse_response = FALSE)
   if(httr::status_code(p) == 200){
     bin <- httr::content(p, "raw")
     writeBin(bin, "logs/log.csv")
@@ -90,7 +90,7 @@ append_and_update <- function(log_entries){
   # Write out for records.
   readr::write_csv(log_entries, "logs/log.csv")
   ## Upload updated logs to S3
-  aws.s3::putobject(object = "logs/log.csv", file = "logs/log.csv", bucket = bucket, region = region)
+  aws.s3::put_object(object = paste(bucket, 'logs', 'log.csv', sep='/'), file = "logs/log.csv", bucket = "" ,region = region)
 
   log_entries
 }
@@ -101,7 +101,7 @@ delete_logs <- function(){
   log_list <- list.files(log_path, recursive = TRUE) 
   
   for(f in log_list){
-    p <- aws.s3::deleteobject(bucket = bucket, object = paste0(log_path,f), region = region)
+    p <- aws.s3::delete_object(bucket = "", object = paste0(bucket, "/", log_path,f), region = region)
   }
 }
 
@@ -149,7 +149,7 @@ publish_logs <- function(downloads){
   file <- "downloads.csv"
   readr::write_csv(downloads, file)
   ## Push downloads table to Amazon S3 for future use
-  p <- aws.s3::putobject(file = file, object = file, bucket = bucket, region = region)
+  p <- aws.s3::put_object(file = file, object = paste0(bucket, "/", file), bucket = "", region = region)
 }
 
 
