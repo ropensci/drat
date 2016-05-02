@@ -18,7 +18,7 @@ download_logs <- function(){
   continue <- TRUE
   while(continue){  # not working yet, so just do first 1000
     b <- aws.s3::get_bucket(bucket = "", path = bucket, marker = marker, region = region, prefix="logs/")
-    continue <- as.logical(b$IsTruncated)
+    continue <- as.logical(attr(b,"IsTruncated"))
     marker <- b[[length(b)]]$Key ## Seems to be ignored...
     contents <- c(contents, b[-1:-5])
     message(sprintf("Marker at %s, continue is %s", marker, as.character(continue)))
@@ -29,9 +29,7 @@ download_logs <- function(){
   ## Loop over getobject to download all files
   files <- sapply(contents, function(x) x$Key)
   for(f in files){
-    p <- aws.s3::get_object(bucket = "", object = paste0(bucket, "/", f), region = region)
-    bin <- httr::content(p, "raw")
-    writeBin(bin, f)
+    aws.s3::save_object(bucket = "", file = f, object = paste0(bucket, "/", f), region = region)
   }
 }
 
@@ -51,7 +49,7 @@ parse_logs <- function(){
   
   
   entries <- 
-    lapply(log_list, function(log){  
+    purrr::safely(purrr::map(log_list, function(log){  
       r <- readr::read_delim(paste0(log_path, log), delim=' ', 
                              quote='"', col_names = columns, na="-",
                              col_types = col_types) ## SegFaults with "invalid permissions"
@@ -59,7 +57,7 @@ parse_logs <- function(){
     r[[3]] <- paste(r[[3]], r[[4]])
     r <- r[-4]
     r  
-  })
+  }))
   
   log_entries <- do.call(dplyr::bind_rows, entries) %>%
     dplyr::mutate(Time = lubridate::dmy_hms(Time))
