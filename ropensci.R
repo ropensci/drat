@@ -4,8 +4,8 @@ out <- ro_pkgs()
 good <- out$packages$status == "good"
 installable <- out$packages$installable
 exclude <- readLines("exclude.txt")
-blacklist <- out$packages$name %in% exclude 
-pkgs <- out$packages$name[installable & good & !blacklist]
+blacklist <- out$packages$name %in% exclude
+pkgs <- gsub("https://github.com/", "", out$packages$url)[installable & good & !blacklist]
 root <- out$packages$root[installable & good & !blacklist]
 
-writeLines(paste("ropensci", pkgs, root, sep="/"), "ropensci.txt")
+writeLines(paste(pkgs, root, sep="/"), "ropensci.txt")
