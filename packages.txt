@@ -8,7 +8,6 @@ cloudyr/aws.s3
 eddelbuettel/rcppredis
 iDigBio/ridigbio
 richfitz/drat.builder
-cboettig/Sxslt
 AndySouth/rnaturalearthhires
 omegahat/XMLSchema
 sckott/SSOAP
