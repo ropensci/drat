@@ -2,7 +2,6 @@
 .Renviron
 .Rhistory
 logs/
-src/
 packages/
 packages_src/
 ropensci.txt
