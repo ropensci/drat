@@ -7,7 +7,5 @@ packages_src/
 ropensci.txt
 downloads.csv
 .RData
-ropensci.json
-packages.json
 bin/
 archive/
