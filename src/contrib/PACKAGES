@@ -295,7 +295,7 @@ Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack (>
         1.2.0), plyr, parsedate, uuid, base64enc, jsonlite
 Suggests: knitr, rmarkdown, testthat, digest, openssl (>= 0.9.3)
 License: Apache License 2.0
-MD5sum: a148208f85c1508c52cb366bdeeeeb07
+MD5sum: d48115038df0e8b016373f116f2e4ae2
 NeedsCompilation: no
 
 Package: datapack
@@ -329,7 +329,7 @@ Depends: R (>= 3.0.2)
 Imports: httr, reshape2, XML
 Suggests: testthat
 License: GPL
-MD5sum: 691cd977fb01ea3b91c8ccfa8ce66321
+MD5sum: 6029fc6660081e8dc08ed5c0947c2f62
 NeedsCompilation: no
 
 Package: dirdf
@@ -821,12 +821,12 @@ MD5sum: 0cd7b94c3068dc04cc8b04ba5d3dbc8f
 NeedsCompilation: no
 
 Package: lawn
-Version: 0.3.7.9110
+Version: 0.3.7.9113
 Imports: V8, jsonlite, magrittr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, leaflet
 Enhances: maps, geojsonio
 License: MIT + file LICENSE
-MD5sum: c803fb1066b922b5311b8d70e31dc285
+MD5sum: 6a6bf92d2d75d661aaee59af0278ffa4
 NeedsCompilation: no
 
 Package: lingtypology
@@ -836,7 +836,7 @@ Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
         MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: db81df6ce6532674169e0389f04197bc
+MD5sum: 3b9f41e8a759925f1ad5df600f81ba1b
 NeedsCompilation: no
 
 Package: magick
@@ -846,7 +846,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, magrittr, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal
 License: MIT + file LICENSE
-MD5sum: 4deafc0f1dd9f303c9ca89a209c7c8aa
+MD5sum: d58c69b9b59d520d11ee0a87bc10637d
 NeedsCompilation: yes
 
 Package: mapr
@@ -983,7 +983,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, methods, osmdata, rgeos, sp,
         spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: f62c9f2ea08085865ccd599461b55402
+MD5sum: e578adbe2abc19e624362253a88d1c85
 NeedsCompilation: no
 
 Package: ots
@@ -1078,10 +1078,11 @@ Package: plotdap
 Version: 0.0.1
 Depends: rerddap
 Imports: magrittr, tidyr, dplyr, lazyeval, ggplot2 (>= 2.2.1), scales,
-        maps, mapdata, maptools, plot3D, raster, sf, rgeos, rgdal
+        maps (>= 3.2.0), mapdata, maptools, plot3D, raster, sf, rgeos,
+        rgdal
 Suggests: testthat, Cairo, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: a35d515888597a3349e35e7fd26cd799
+MD5sum: 94c8901ba9c66f3ab47b3e2d1f3050e8
 NeedsCompilation: no
 
 Package: plotly
@@ -1818,7 +1819,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 15ce8b96e9a5381aaf0c1ee1971a0826
+MD5sum: 0b90d03b56577d0c1704d9bdad134286
 NeedsCompilation: no
 
 Package: taxize
@@ -1883,7 +1884,7 @@ LinkingTo: BH, Rcpp, RcppProgress
 Suggests: testthat (>= 0.11.0), knitr (>= 1.11), rmarkdown (>= 0.8),
         covr
 License: MIT + file LICENSE
-MD5sum: be96f6b35ad104e5a16a65c37857a598
+MD5sum: 13a47233db575171a2f48a062eac3601
 NeedsCompilation: yes
 
 Package: tic
@@ -1910,7 +1911,7 @@ Imports: stringi (>= 1.0.1), Rcpp (>= 0.12.3), SnowballC (>= 0.5.1)
 LinkingTo: Rcpp
 Suggests: testthat, covr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 70ae7f22cd448b10c984ca2b00ddba9e
+MD5sum: 01c1543771b73650872011c18e25073e
 NeedsCompilation: yes
 
 Package: traits
