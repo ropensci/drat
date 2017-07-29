@@ -49,7 +49,7 @@ Depends: R (>= 3.0.0)
 Imports: httr, utils, XML
 Suggests: devtools, knitr, rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: beeef9e9abbe54cede731eb2467d3ca1
+MD5sum: fe1b8fadb79837c659c8a1cd4972f1f7
 NeedsCompilation: no
 
 Package: aspacer
@@ -81,7 +81,7 @@ Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.4)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 211541f58fdbf9a90de9d59dfd37562b
+MD5sum: a54753e890ba59d3e746cd501138aa72
 NeedsCompilation: no
 
 Package: aws.signature
@@ -840,13 +840,13 @@ MD5sum: 3b9f41e8a759925f1ad5df600f81ba1b
 NeedsCompilation: no
 
 Package: magick
-Version: 0.4.9000
+Version: 0.5
 Imports: Rcpp (>= 0.12.12), curl
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, magrittr, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal
 License: MIT + file LICENSE
-MD5sum: d58c69b9b59d520d11ee0a87bc10637d
+MD5sum: 3e88547a8fcda68d08e0e2e71538a9a7
 NeedsCompilation: yes
 
 Package: mapr
@@ -1019,7 +1019,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 6975678a87ca001dee9ab5c0c21bf64e
+MD5sum: b61b4e5a98cc1dfd1db24d48c519bd80
 NeedsCompilation: no
 
 Package: pdftools
@@ -1097,7 +1097,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 1673c5980070daa33f9da663953be0db
+MD5sum: 62b119195995dba0d13287f454bbb50f
 NeedsCompilation: no
 
 Package: proj
