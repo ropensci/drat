@@ -386,12 +386,12 @@ MD5sum: 5f224e8fa4174a4160788d86248d2fae
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.7.9.9115
+Version: 0.7.9.9121
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 89a011157d6aa510aae52b592835b142
+MD5sum: f19475df74286d3c0f55b9fc06f99718
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -1528,7 +1528,7 @@ Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), magrittr
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 89e682c7cb2e2a53241896b2b661a1a1
+MD5sum: 6e1454ae58fc609f1d2c774635cd8897
 NeedsCompilation: no
 
 Package: ropenaq
