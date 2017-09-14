@@ -389,9 +389,9 @@ Package: elastic
 Version: 0.8.0
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr
+Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: b85d17fde5487eb3a4b756c2de2b748a
+MD5sum: 9bfa29cd8f0931b2bd980291204030bb
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -789,12 +789,12 @@ MD5sum: f041307acbbca26ecc56b7b606f94279
 NeedsCompilation: no
 
 Package: jqr
-Version: 0.2.9200
+Version: 0.3.0
 Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: d74bf67ae1bc85ec1c254aa65b126051
+MD5sum: a91e6041288ba788f1f65acbb8fa7e2d
 NeedsCompilation: yes
 
 Package: jsonld
@@ -837,7 +837,7 @@ Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
         MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: bdf0dfc33fd0de106f135178de77a10f
+MD5sum: 3b3553236b6b21f52f798c6fc035a756
 NeedsCompilation: no
 
 Package: magick
@@ -1098,7 +1098,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: d1203b5c6eebf0fa5eed4792dae15669
+MD5sum: bb6c9c4d35c755204ffc15bb1db2a4d5
 NeedsCompilation: no
 
 Package: proj
