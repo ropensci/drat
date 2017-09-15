@@ -186,13 +186,13 @@ MD5sum: 6ac95e79aa3711b4824b36d08f4c9faf
 NeedsCompilation: no
 
 Package: ckanr
-Version: 0.1.2.9840
+Version: 0.1.2.9846
 Depends: DBI (>= 0.3.1)
 Imports: methods, stats, utils, httr (>= 1.0.0), jsonlite (>= 0.9.17),
         dplyr (>= 0.7.0), dbplyr, magrittr
 Suggests: knitr, maptools, readxl, testthat, xml2, lazyeval
 License: MIT + file LICENSE
-MD5sum: dbf730825d4c5c030898ad777069ab1d
+MD5sum: df7959e9b6feb3733af9b4f83b55f696
 NeedsCompilation: no
 
 Package: cld2
@@ -386,12 +386,12 @@ MD5sum: 5f224e8fa4174a4160788d86248d2fae
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.0
+Version: 0.8.0.9100
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
-Suggests: roxygen2 (>= 6.0.1), testthat
+Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 9bfa29cd8f0931b2bd980291204030bb
+MD5sum: 384c7a63c7c91192f04b07b60caeade8
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -407,7 +407,7 @@ Version: 1.0.3
 Imports: xml2 (>= 1.1.1), methods, tools, uuid, digest
 Suggests: testthat, knitr, rmarkdown, listviewer, covr, taxize
 License: FreeBSD
-MD5sum: f8985206ffc63a2233189363bed3db17
+MD5sum: 7251ba709ad2c1ad8ff89b50c30aaad0
 NeedsCompilation: no
 
 Package: etseed
@@ -537,15 +537,15 @@ MD5sum: 94fbfbfcac84fb42939862c6ff6d1cce
 NeedsCompilation: no
 
 Package: geojsonio
-Version: 0.4.2
+Version: 0.4.2.9311
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
-        geojson
+        geojson, jqr
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 51a84d7ff3a3c657f9aa41d03f6ba652
+MD5sum: 527be1bc244cb9903fd96f35fb900b47
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -794,7 +794,7 @@ Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: a91e6041288ba788f1f65acbb8fa7e2d
+MD5sum: 472a4c0694251ece73ec560064994dad
 NeedsCompilation: yes
 
 Package: jsonld
@@ -822,12 +822,12 @@ MD5sum: 0cd7b94c3068dc04cc8b04ba5d3dbc8f
 NeedsCompilation: no
 
 Package: lawn
-Version: 0.3.7.9113
+Version: 0.3.7.9115
 Imports: V8, jsonlite, magrittr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, leaflet
 Enhances: maps, geojsonio
 License: MIT + file LICENSE
-MD5sum: 6a6bf92d2d75d661aaee59af0278ffa4
+MD5sum: 3ba58a6408f6e1b0605c9ba8652e1d3e
 NeedsCompilation: no
 
 Package: lingtypology
