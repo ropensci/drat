@@ -794,7 +794,7 @@ Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 472a4c0694251ece73ec560064994dad
+MD5sum: f0a0eb5d59b1936df686f7da5b7a464f
 NeedsCompilation: yes
 
 Package: jsonld
@@ -2054,7 +2054,7 @@ Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 18476e6aa542e7b23a47654dcdbbc78c
+MD5sum: be576bd11d854ade244b561caa0deecc
 NeedsCompilation: yes
 
 Package: zenodo
