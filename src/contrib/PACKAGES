@@ -847,7 +847,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 2dd19bc0c9cf1fd167e07bb87bc22cc7
+MD5sum: fc91210695154970fe8e9ff27e13e6a5
 NeedsCompilation: yes
 
 Package: mapr
@@ -984,7 +984,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, methods, osmdata, rgeos, sp,
         spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 1b03c3ce13b1b72d537b976fa0a844e3
+MD5sum: 9c6601220858e381d8cc712265db997d
 NeedsCompilation: no
 
 Package: ots
@@ -1098,7 +1098,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: bb6c9c4d35c755204ffc15bb1db2a4d5
+MD5sum: 9dd510aafa92a8fdcb81c5af4ba55d22
 NeedsCompilation: no
 
 Package: proj
@@ -1901,9 +1901,9 @@ Package: tic
 Version: 0.2-12
 Depends: R (>= 3.0.0)
 Imports: crayon, git2r, magrittr, memoise, R6, withr
-Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat
+Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 5aaa0f208b9125da14acffb53e9e638a
+MD5sum: 7fe6dd97b3f9201f0b2ca22c1ec24e73
 NeedsCompilation: no
 
 Package: tif
@@ -2049,12 +2049,12 @@ MD5sum: 3882ae2e2ce67539dd4882e7c54c881f
 NeedsCompilation: no
 
 Package: xslt
-Version: 1.1.9000
+Version: 1.2
 Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: be576bd11d854ade244b561caa0deecc
+MD5sum: 2a673caff741ce5dc06eef66ee456f1d
 NeedsCompilation: yes
 
 Package: zenodo
