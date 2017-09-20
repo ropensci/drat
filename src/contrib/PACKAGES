@@ -378,11 +378,11 @@ Package: eechidna
 Version: 1.2
 Depends: R (>= 3.4.0)
 Imports: dplyr, ggplot2, tidyr, shiny, plotly (>= 4.5.6), ggthemes,
-        shinyjs, methods, rvest, xml2, rmapshaper, rgdal
+        colourpicker, methods, rvest, xml2, rmapshaper, rgdal
 Suggests: testthat, knitr, rmarkdown, maptools, purrr, purrrlyr, sp,
         GGally, corrplot, broom, plyr, scales, readr, gridExtra
 License: GPL (>= 2)
-MD5sum: 5f224e8fa4174a4160788d86248d2fae
+MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
@@ -664,7 +664,7 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.2.0)
 Imports: curl, data.table, dplyr, fields, magrittr, purrr (>= 0.2.0),
         R.utils, readr, rgdal (>= 1.1-9), sp, stats, utils
@@ -672,7 +672,7 @@ Suggests: ggplot2, knitr, lubridate, plotKML, raster, reshape2, rgeos,
         rmarkdown, roxygen2 (>= 6.0.1), spacetime, testthat, tibble,
         tidyr, covr
 License: MIT + file LICENSE
-MD5sum: eb92916471484cb292237cc9be3c38dc
+MD5sum: 1ccc5f7f9368768d341c8f8be72b86b4
 NeedsCompilation: no
 
 Package: gtfsr
@@ -789,12 +789,12 @@ MD5sum: f041307acbbca26ecc56b7b606f94279
 NeedsCompilation: no
 
 Package: jqr
-Version: 0.3.0
+Version: 1.0.0
 Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: f0a0eb5d59b1936df686f7da5b7a464f
+MD5sum: eee2ba8e81d54cd8649089694e471bfd
 NeedsCompilation: yes
 
 Package: jsonld
@@ -984,7 +984,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, methods, osmdata, rgeos, sp,
         spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 9c6601220858e381d8cc712265db997d
+MD5sum: cc72e75e0afe49c2f420d1578efe0a9b
 NeedsCompilation: no
 
 Package: ots
@@ -1374,12 +1374,12 @@ MD5sum: ebc2fd776ce4f4da471889d9f6819703
 NeedsCompilation: no
 
 Package: rglobi
-Version: 0.2.9
+Version: 0.2.10
 Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat(>= 0.7), knitr
 License: MIT + file LICENSE
-MD5sum: 157f050d934baa1deb3b614a3fe7735f
+MD5sum: e163f2819b53412d393a552936674ae7
 NeedsCompilation: no
 
 Package: ridb
@@ -2049,12 +2049,12 @@ MD5sum: 3882ae2e2ce67539dd4882e7c54c881f
 NeedsCompilation: no
 
 Package: xslt
-Version: 1.2
+Version: 1.2.9000
 Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2a673caff741ce5dc06eef66ee456f1d
+MD5sum: 40602cc084a07e3d6385b847b23a7c38
 NeedsCompilation: yes
 
 Package: zenodo
