@@ -794,7 +794,7 @@ Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: eee2ba8e81d54cd8649089694e471bfd
+MD5sum: 3f17878410c07173fa27edecbe8ebfc1
 NeedsCompilation: yes
 
 Package: jsonld
@@ -837,7 +837,7 @@ Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
         MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: f7e0e9d4a5b412717782ff3fa4e92fe0
+MD5sum: 104cdb87510cf35da5fd7033c0321473
 NeedsCompilation: no
 
 Package: magick
@@ -1098,7 +1098,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 9dd510aafa92a8fdcb81c5af4ba55d22
+MD5sum: 6d3ad5d95b927c520a3c067d12d2c0ed
 NeedsCompilation: no
 
 Package: proj
@@ -1353,7 +1353,7 @@ Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
         rgeos
 License: MIT + file LICENSE
-MD5sum: b0e021f6be713417e37f969f7a5478d2
+MD5sum: 30cd631be9423f5c833ab372beac4553
 NeedsCompilation: no
 
 Package: rGEM
