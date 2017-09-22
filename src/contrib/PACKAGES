@@ -1829,11 +1829,11 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: ec629246bc4ae9d234f2ddc55ce568a5
+MD5sum: 8b3cb91951a9537caf93f5b6ae568c86
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.8.9.9431
+Version: 0.9.0
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, bold
@@ -1842,7 +1842,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: fe8967ce75c142d39aa65b3c317444b6
+MD5sum: 48889c359a3dc1787010efa536aa1fe8
 NeedsCompilation: no
 
 Package: taxizedb
