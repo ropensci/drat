@@ -545,7 +545,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 527be1bc244cb9903fd96f35fb900b47
+MD5sum: 190eeb1e82a9b83081e383a6cf6f81fc
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -860,11 +860,11 @@ MD5sum: 8913df0682cff070867e9ffbeee41a8b
 NeedsCompilation: no
 
 Package: microdemic
-Version: 0.0.1.9100
-Imports: crul (>= 0.2.0), jsonlite (>= 1.2)
-Suggests: roxygen2 (>= 5.0.1), testthat, covr
+Version: 0.1.0
+Imports: crul (>= 0.2.0), jsonlite (>= 1.2), data.table, tibble
+Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: b8e4aa9351268767b485de64a7fef8ec
+MD5sum: 251af3e7c0390baf9311eacd7ab85487
 NeedsCompilation: no
 
 Package: monkeylearn
