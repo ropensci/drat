@@ -545,7 +545,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 190eeb1e82a9b83081e383a6cf6f81fc
+MD5sum: 21b1854af9814e0319596301159bebe4
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -589,7 +589,7 @@ Imports: dplyr, httr, jsonlite, lazyeval, tidyr, utils, purrr, stringr,
         digest
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 6e5c2f439bb495f65d5ffc2effc07b13
+MD5sum: 5fb53a1590d9bafba4ad9205bbdffe53
 NeedsCompilation: no
 
 Package: getCRUCLdata
@@ -864,7 +864,7 @@ Version: 0.1.0
 Imports: crul (>= 0.2.0), jsonlite (>= 1.2), data.table, tibble
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: 251af3e7c0390baf9311eacd7ab85487
+MD5sum: ed40f8b635fea6040335ed67ed1c5b21
 NeedsCompilation: no
 
 Package: monkeylearn
@@ -1941,7 +1941,7 @@ Depends: R (>= 3.2.0)
 Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
 Suggests: remotes, roxygen2, testthat
 License: GPL (>= 2)
-MD5sum: e7f32525e2196d70bd507e758a75d4b9
+MD5sum: 7f0b42a25fe42ed54b2f80bda1e07584
 NeedsCompilation: no
 
 Package: treebase
