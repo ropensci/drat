@@ -81,7 +81,7 @@ Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.4)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 903e112dfc177536dfca776ea99f2616
+MD5sum: d04a81b4b8b796421c00da2d3c723ee7
 NeedsCompilation: no
 
 Package: aws.signature
@@ -860,11 +860,11 @@ MD5sum: 8913df0682cff070867e9ffbeee41a8b
 NeedsCompilation: no
 
 Package: microdemic
-Version: 0.1.0
+Version: 0.1.0.9100
 Imports: crul (>= 0.2.0), jsonlite (>= 1.2), data.table, tibble
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: ed40f8b635fea6040335ed67ed1c5b21
+MD5sum: fa502042181803915eecb13eea7048a7
 NeedsCompilation: no
 
 Package: monkeylearn
