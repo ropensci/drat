@@ -269,13 +269,13 @@ MD5sum: 23c298cb9ae1e2652af532a0e5daa63b
 NeedsCompilation: no
 
 Package: crul
-Version: 0.3.8.9100
+Version: 0.3.8.9714
 Imports: curl (>= 2.6), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 1ad273d363c3c15242cd167147802e98
+MD5sum: 8fcd3c24551e875958236f5b0a1c8a94
 NeedsCompilation: no
 
 Package: dashboard
@@ -847,7 +847,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 735c0103af9253404cd495f46e5ed316
+MD5sum: 581c9c8f1d5c7ebd982b728552283aca
 NeedsCompilation: yes
 
 Package: mapr
@@ -1433,12 +1433,12 @@ MD5sum: 9503c00c27b7ad4f1d7c08f55e9bed84
 NeedsCompilation: no
 
 Package: ritis
-Version: 0.5.8.9811
+Version: 0.6.0.9100
 Imports: solrium (>= 0.3.0), crul (>= 0.3.8), jsonlite (>= 0.9.22),
         data.table (>= 1.9.6), tibble (>= 1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 4272605abd196169b47202a5241ab97f
+MD5sum: ef050ffdae3761fa1e415254eb426356
 NeedsCompilation: no
 
 Package: rjsonapi
@@ -1528,7 +1528,7 @@ Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), magrittr
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 6e1454ae58fc609f1d2c774635cd8897
+MD5sum: 9b66342d3fbce464858f356a4da56aee
 NeedsCompilation: no
 
 Package: ropenaq
@@ -1833,7 +1833,7 @@ MD5sum: 8b3cb91951a9537caf93f5b6ae568c86
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0
+Version: 0.9.0.9100
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, bold
@@ -1842,7 +1842,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 48889c359a3dc1787010efa536aa1fe8
+MD5sum: 0ef665ddfc91c9e34285c5d7780d9d4d
 NeedsCompilation: no
 
 Package: taxizedb
