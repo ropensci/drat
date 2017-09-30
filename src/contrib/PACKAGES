@@ -789,12 +789,12 @@ MD5sum: f041307acbbca26ecc56b7b606f94279
 NeedsCompilation: no
 
 Package: jqr
-Version: 1.0.0
+Version: 1.0.0.9100
 Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 3f17878410c07173fa27edecbe8ebfc1
+MD5sum: baf3bf7f46bf86f41d8fa3be6209d64c
 NeedsCompilation: yes
 
 Package: jsonld
@@ -847,7 +847,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 581c9c8f1d5c7ebd982b728552283aca
+MD5sum: 0af3184de1e10d7dcba6a7d38a56741a
 NeedsCompilation: yes
 
 Package: mapr
@@ -967,14 +967,14 @@ MD5sum: 05a510388619ef4b6e4bfaf7c05d7a0c
 NeedsCompilation: no
 
 Package: osmdata
-Version: 0.0.5
+Version: 0.0.5.99
 Depends: R (>= 3.2.4)
 Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
         rvest, jsonlite, sp, utils, xml2
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 737a7f4518c736721d4ca606c103faa0
+MD5sum: c237139db417f2565abfb9a600f94891
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1020,7 +1020,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: b347ce6faebfc9673c32e7e4daa87953
+MD5sum: 2b465e9d90829c08c4d59f59515d79c3
 NeedsCompilation: no
 
 Package: pdftools
@@ -1156,7 +1156,7 @@ Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: c76ffaed5c566f9ca50d62d5ab47013a
+MD5sum: f688251874f0034b8f2246806fe2519d
 NeedsCompilation: no
 
 Package: rCharts
@@ -1568,12 +1568,12 @@ MD5sum: 26ca3324d77c7524408c678ed573b6b9
 NeedsCompilation: no
 
 Package: rplos
-Version: 0.6.8.9110
-Imports: ggplot2, httr (>= 1.0.0), jsonlite, dplyr, plyr, lubridate,
+Version: 0.7.8.9110
+Imports: ggplot2, crul (>= 0.3.8), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium
 Suggests: xml2, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 83c0d221e9c92f52eb61120a4c2e6918
+MD5sum: c1c44957e01ca7d84548958696a6a0ff
 NeedsCompilation: no
 
 Package: rrdf
@@ -1663,7 +1663,7 @@ Package: rzmq
 Version: 0.9.2
 Depends: R (>= 3.1.0)
 License: GPL-3
-MD5sum: 3ed640a88057b37d743cb8bdf4393dd2
+MD5sum: 33513333d7e9bbdd84d9ff2d66da986d
 NeedsCompilation: yes
 
 Package: sarsop
