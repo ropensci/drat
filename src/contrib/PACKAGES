@@ -837,7 +837,7 @@ Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
         MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 104cdb87510cf35da5fd7033c0321473
+MD5sum: 926b291097afb10d52b826e505cf6f95
 NeedsCompilation: no
 
 Package: magick
@@ -1660,10 +1660,10 @@ MD5sum: 34a42710e7c5c55491b1c61d99634553
 NeedsCompilation: no
 
 Package: rzmq
-Version: 0.9.2
+Version: 0.9.3
 Depends: R (>= 3.1.0)
 License: GPL-3
-MD5sum: 33513333d7e9bbdd84d9ff2d66da986d
+MD5sum: db6c745279b2fd8977e03327a5a886ef
 NeedsCompilation: yes
 
 Package: sarsop
