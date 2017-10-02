@@ -269,13 +269,13 @@ MD5sum: 23c298cb9ae1e2652af532a0e5daa63b
 NeedsCompilation: no
 
 Package: crul
-Version: 0.3.8.9714
-Imports: curl (>= 2.6), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
-        (>= 0.2.0), mime
+Version: 0.3.8.9914
+Imports: curl (>= 2.8.9000), R6 (>= 2.2.0), urltools (>= 1.6.0),
+        httpcode (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 8fcd3c24551e875958236f5b0a1c8a94
+MD5sum: 17bbed3c5381c73b4c025c001bd904e1
 NeedsCompilation: no
 
 Package: dashboard
@@ -837,7 +837,7 @@ Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
         MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 926b291097afb10d52b826e505cf6f95
+MD5sum: 532cf402462c68ab7772b57e323232ca
 NeedsCompilation: no
 
 Package: magick
@@ -974,7 +974,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: c237139db417f2565abfb9a600f94891
+MD5sum: 6a27aff2c6ef75cc805d703e482ab630
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1663,7 +1663,7 @@ Package: rzmq
 Version: 0.9.3
 Depends: R (>= 3.1.0)
 License: GPL-3
-MD5sum: db6c745279b2fd8977e03327a5a886ef
+MD5sum: fb0f4895d178fbb3bfea696090c39dcf
 NeedsCompilation: yes
 
 Package: sarsop
