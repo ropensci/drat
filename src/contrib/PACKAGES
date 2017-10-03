@@ -269,13 +269,13 @@ MD5sum: 23c298cb9ae1e2652af532a0e5daa63b
 NeedsCompilation: no
 
 Package: crul
-Version: 0.3.8.9914
-Imports: curl (>= 2.8.9000), R6 (>= 2.2.0), urltools (>= 1.6.0),
-        httpcode (>= 0.2.0), mime
+Version: 0.4.0.9100
+Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+        (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 17bbed3c5381c73b4c025c001bd904e1
+MD5sum: 7ed0e5bff2a9ed6a32863c985ea5cefe
 NeedsCompilation: no
 
 Package: dashboard
@@ -361,7 +361,7 @@ Package: dvn
 Version: 0.3.5
 Imports: utils, RCurl, XML
 License: GPL-2
-MD5sum: c3dcd0efe4811e9252f1b4677ffcb3f0
+MD5sum: f358ee3dc0f5782ffa964417b1a70850
 NeedsCompilation: no
 
 Package: ecoengine
@@ -1842,7 +1842,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 0ef665ddfc91c9e34285c5d7780d9d4d
+MD5sum: a0b21db02c19fac556495bbf8a52b840
 NeedsCompilation: no
 
 Package: taxizedb
