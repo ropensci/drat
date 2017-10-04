@@ -847,7 +847,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 0af3184de1e10d7dcba6a7d38a56741a
+MD5sum: 0300abf35d388f94e6b76ea1777002fb
 NeedsCompilation: yes
 
 Package: mapr
@@ -974,7 +974,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 6a27aff2c6ef75cc805d703e482ab630
+MD5sum: abace4a0d3dadb66ec0ac705a04e85ed
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1098,7 +1098,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 6d3ad5d95b927c520a3c067d12d2c0ed
+MD5sum: 4131905831919b1f030473fd8a91523f
 NeedsCompilation: no
 
 Package: proj
@@ -1829,7 +1829,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 8b3cb91951a9537caf93f5b6ae568c86
+MD5sum: 02adbdef3d7d38936744d484110adda9
 NeedsCompilation: no
 
 Package: taxize
