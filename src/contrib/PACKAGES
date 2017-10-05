@@ -214,12 +214,12 @@ MD5sum: 0110a78694aabd94761fc54393b9fb2c
 NeedsCompilation: yes
 
 Package: clifro
-Version: 3.1-4
+Version: 3.1-5
 Imports: methods, lubridate, XML, selectr, RCurl, utils, ggplot2 (>=
         2.0.0), scales, RColorBrewer, reshape2
 Suggests: knitr, rmarkdown, ggmap (>= 2.6), pander, testthat
 License: GPL-2
-MD5sum: 1f2346909a2db4662c5dd97b323a4813
+MD5sum: 9ed68663474585ffc79bc5d0f33d9c20
 NeedsCompilation: no
 
 Package: cmipr
@@ -251,12 +251,12 @@ MD5sum: 289f08a3e2d1017e80e496bd3e3cbfcd
 NeedsCompilation: no
 
 Package: crevents
-Version: 0.0.5.9200
+Version: 0.0.5.9240
 Imports: crul (>= 0.3.8), jsonlite (>= 1.1), tibble (>= 1.2), xml2 (>=
         1.0.0)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: 07ad16dbe1b936817178e8e9c6116e19
+MD5sum: 2c1d5f821ceaf52120c1104359fcf20a
 NeedsCompilation: no
 
 Package: crminer
@@ -833,11 +833,11 @@ NeedsCompilation: no
 Package: lingtypology
 Version: 1.0.7
 Depends: R (>= 3.1.0)
-Imports: leaflet, stats, utils, stringdist, magrittr, grDevices, rowr,
-        MASS, sp
+Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
+        magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 532cf402462c68ab7772b57e323232ca
+MD5sum: 05b392b5c9db5a045a6626e523e6089a
 NeedsCompilation: no
 
 Package: magick
@@ -974,7 +974,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: abace4a0d3dadb66ec0ac705a04e85ed
+MD5sum: a65525d9427d216eabb2a4bf20a41e31
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1156,7 +1156,7 @@ Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: f688251874f0034b8f2246806fe2519d
+MD5sum: 37c50be10c75ac4ed3f32304a750830a
 NeedsCompilation: no
 
 Package: rCharts
@@ -1334,7 +1334,7 @@ Imports: dplyr (>= 0.4.0), lazyeval, httr (>= 1.0.0), tidyr, methods,
         utils
 Suggests: devtools, testthat, rmarkdown, knitr
 License: CC0
-MD5sum: c893f4ed45a07fe7520c0870c467d2cb
+MD5sum: ff6e8bcc528bd83fe178a538e87e5c01
 NeedsCompilation: no
 
 Package: rfisheries
