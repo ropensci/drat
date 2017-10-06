@@ -101,7 +101,7 @@ MD5sum: ce45f3091c8f9ea49762f8f5bb568cac
 NeedsCompilation: no
 
 Package: biomartr
-Version: 0.5.9000
+Version: 0.6.0.9000
 Depends: R (>= 3.1.1)
 Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
         1.9.4), dplyr (>= 0.3.0), readr (>= 0.2.2), downloader (>=
@@ -110,7 +110,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: d6b6b3e32aafc32f9d1b0ea28d03a1d6
+MD5sum: 35378f413bc3ed5dbc6f81f336e4acc9
 NeedsCompilation: yes
 
 Package: bmc
@@ -219,7 +219,7 @@ Imports: methods, lubridate, XML, selectr, RCurl, utils, ggplot2 (>=
         2.0.0), scales, RColorBrewer, reshape2
 Suggests: knitr, rmarkdown, ggmap (>= 2.6), pander, testthat
 License: GPL-2
-MD5sum: 9ed68663474585ffc79bc5d0f33d9c20
+MD5sum: 928d271cf537f3d751d786c540c53cf7
 NeedsCompilation: no
 
 Package: cmipr
@@ -361,7 +361,7 @@ Package: dvn
 Version: 0.3.5
 Imports: utils, RCurl, XML
 License: GPL-2
-MD5sum: f358ee3dc0f5782ffa964417b1a70850
+MD5sum: 00d5fa7aea6983c2efa197b89b9f9735
 NeedsCompilation: no
 
 Package: ecoengine
@@ -837,17 +837,17 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 05b392b5c9db5a045a6626e523e6089a
+MD5sum: 28a914b104fc35903077d337e6d0e7fa
 NeedsCompilation: no
 
 Package: magick
-Version: 1.3.9000
+Version: 1.4
 Imports: Rcpp (>= 0.12.12), magrittr, curl
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 0300abf35d388f94e6b76ea1777002fb
+MD5sum: db50d89c69baf541970e479bab882af2
 NeedsCompilation: yes
 
 Package: mapr
@@ -978,13 +978,13 @@ MD5sum: a65525d9427d216eabb2a4bf20a41e31
 NeedsCompilation: yes
 
 Package: osmplotr
-Version: 0.3.0
+Version: 0.3.0.99
 Depends: R (>= 3.2.3)
 Imports: curl, e1071, ggm, ggplot2, httr, methods, osmdata, rgeos, sp,
         spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: cc72e75e0afe49c2f420d1578efe0a9b
+MD5sum: 28e2412e332a900f5254e537a18e1afa
 NeedsCompilation: no
 
 Package: ots
@@ -1037,7 +1037,7 @@ Version: 0.1.0
 Imports: tibble, sys (>= 1.1), ape
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 147ac2ac38a963ca4c310a45c934411b
+MD5sum: fe868c6278449e32bb93e144adad69bb
 NeedsCompilation: yes
 
 Package: phyrmeta
