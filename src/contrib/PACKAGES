@@ -837,7 +837,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: d8bae56889d71322945178106a6111a3
+MD5sum: b4eee455a7ec1aa8d6f4bfe5b5940033
 NeedsCompilation: no
 
 Package: magick
@@ -974,7 +974,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: a65525d9427d216eabb2a4bf20a41e31
+MD5sum: 952b54ad7c136b9a33196f65c904aff1
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -984,7 +984,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 4ef7e2506c4112987382d69bd5e0dfcc
+MD5sum: 65ba0eac9d4f4b88704fe182d4590e06
 NeedsCompilation: no
 
 Package: ots
@@ -1020,7 +1020,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 2b465e9d90829c08c4d59f59515d79c3
+MD5sum: 2b66b20732b6ee5a82183cc99f128c04
 NeedsCompilation: no
 
 Package: pdftools
@@ -1833,16 +1833,16 @@ MD5sum: 02adbdef3d7d38936744d484110adda9
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9100
+Version: 0.9.0.9210
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
-        1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, bold
-        (>= 0.3.5), data.table, rredlist (>= 0.3.0), rotl (>= 3.0.0),
-        ritis (>= 0.5.0), tibble (>= 1.2), worrms (>= 0.1.0), natserv
-        (>= 0.1.4), wikitaxa (>= 0.1.4)
+        1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, zoo,
+        bold (>= 0.3.5), data.table, rredlist (>= 0.3.0), rotl (>=
+        3.0.0), ritis (>= 0.5.0), tibble (>= 1.2), worrms (>= 0.1.0),
+        natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: a0b21db02c19fac556495bbf8a52b840
+MD5sum: e01e54a2f45cef367d069e634fb1c4ca
 NeedsCompilation: no
 
 Package: taxizedb
@@ -1872,7 +1872,7 @@ Imports: Rcpp (>= 0.12.12), curl, rappdirs, digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: 73de4bc9f6dcaace14a11334e8c2107a
+MD5sum: b8a0c19fdc2604613741c8fc54f6e379
 NeedsCompilation: yes
 
 Package: testdat
@@ -1932,7 +1932,7 @@ Imports: jsonlite (>= 0.9.19), httr (>= 1.1.0), crul (>= 0.3.8), tibble
         0.7.4), xml2 (>= 0.1.2), rvest (>= 0.3.1), hoardr
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, dplyr, plyr
 License: MIT + file LICENSE
-MD5sum: 02f5d60faeec1810c06dd6afa3a363ac
+MD5sum: fe1a24ebadf261531cb5d87bfa717954
 NeedsCompilation: no
 
 Package: travis
