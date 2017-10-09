@@ -62,10 +62,11 @@ NeedsCompilation: no
 
 Package: assertr
 Version: 2.0.2.1
-Imports: dplyr, MASS, lazyeval, stats, utils
+Imports: dplyr (>= 0.7.0), MASS, lazyeval, stats, utils, rlang (>=
+        0.1.2)
 Suggests: knitr, testthat, magrittr
 License: MIT + file LICENSE
-MD5sum: 3e0bd1c9b3d2644f034cd7a319aa284e
+MD5sum: b7eed4f80c9e2743ea0a569bc835a580
 NeedsCompilation: no
 
 Package: atomize
@@ -714,10 +715,11 @@ NeedsCompilation: no
 
 Package: helminthR
 Version: 1.0.3
-Imports: xml2, rvest, magrittr, plyr, ggmap, utils
-Suggests: testthat, ggplot2
+Imports: xml2, rvest, magrittr, plyr, ggmap, utils, knitr, rmarkdown,
+        igraph
+Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: 28eba73067a2c5ec7f9608363b87a3be
+MD5sum: 64dd5abba99dcb2b9ffb0ae60f838fce
 NeedsCompilation: no
 
 Package: historydata
@@ -847,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
         rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: db50d89c69baf541970e479bab882af2
+MD5sum: b9596567413c00635069519c3aae1692
 NeedsCompilation: yes
 
 Package: mapr
@@ -1872,7 +1874,7 @@ Imports: Rcpp (>= 0.12.12), curl, rappdirs, digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: b8a0c19fdc2604613741c8fc54f6e379
+MD5sum: 647e2503dddee30e759a32e7e7c52d71
 NeedsCompilation: yes
 
 Package: testdat
