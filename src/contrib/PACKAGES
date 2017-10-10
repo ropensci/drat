@@ -136,7 +136,7 @@ Depends: R(>= 3.2.1)
 Imports: httr (>= 1.2.0), curl (>= 1.2), ape, taxize, phytools
 Suggests: roxygen2 (>= 5.0.1), testthat, covr
 License: MIT + file LICENSE
-MD5sum: c41e18f58e5a3f66b411bfe48352fe60
+MD5sum: 04a29306df49e0e292b003e3cb065cc2
 NeedsCompilation: no
 
 Package: camsRad
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 952b54ad7c136b9a33196f65c904aff1
+MD5sum: 24eb60cd16b37b5d3b3b79d246448d5c
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 4131905831919b1f030473fd8a91523f
+MD5sum: 419219bcaa4d718648c981ed82f27544
 NeedsCompilation: no
 
 Package: proj
@@ -1534,12 +1534,12 @@ MD5sum: 9b66342d3fbce464858f356a4da56aee
 NeedsCompilation: no
 
 Package: ropenaq
-Version: 0.2.2
+Version: 0.2.3
 Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: 0cbeb4bf5c003cac486ca898e0bebbf2
+MD5sum: 06394c29cd6f963a6a74dcafeaea62c1
 NeedsCompilation: no
 
 Package: ropkgs
@@ -1984,7 +1984,7 @@ Imports: httr (>= 1.1.0), curl (>= 0.9.7), yaml, digest, R6, lazyeval,
         base64enc, loggr (>= 0.3)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 225e6f0d82cce7251867e74d5ec62bdc
+MD5sum: 3a0b6136f7a13e2411557b4822c3faa9
 NeedsCompilation: no
 
 Package: webchem
