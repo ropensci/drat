@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 35378f413bc3ed5dbc6f81f336e4acc9
+MD5sum: 4fb9c34f53c28ac3f575dc68fe99d141
 NeedsCompilation: yes
 
 Package: bmc
@@ -122,12 +122,12 @@ MD5sum: ec13ecd2e5a055b377c4c7393d53a652
 NeedsCompilation: no
 
 Package: bold
-Version: 0.5.0.9210
+Version: 0.5.0.9213
 Imports: xml2, crul (>= 0.3.8), stringr, jsonlite, reshape, plyr,
         data.table, tibble
 Suggests: roxygen2 (>= 6.0.1), sangerseqR, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 9505ee231f517f5ebd216445df2d0c42
+MD5sum: 081f32fd144cd098171351c34680d030
 NeedsCompilation: no
 
 Package: brranching
@@ -673,7 +673,7 @@ Suggests: ggplot2, knitr, lubridate, plotKML, raster, reshape2, rgeos,
         rmarkdown, roxygen2 (>= 6.0.1), spacetime, testthat, tibble,
         tidyr, covr
 License: MIT + file LICENSE
-MD5sum: b8da65a5b002657f5a5bbc35232d9ebf
+MD5sum: df25371df9894421281e664be470bb94
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1039,7 +1039,7 @@ Version: 0.1.0
 Imports: tibble, sys (>= 1.1), ape
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: fe868c6278449e32bb93e144adad69bb
+MD5sum: 0663f2719bdf9b0b09d4d915fb313620
 NeedsCompilation: yes
 
 Package: phyrmeta
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 419219bcaa4d718648c981ed82f27544
+MD5sum: 6c74ffdec5d41577d27bd4f0bf2978a8
 NeedsCompilation: no
 
 Package: proj
@@ -1449,7 +1449,7 @@ Imports: crul (>= 0.2.0), R6 (>= 2.2.0), jsonlite (>= 1.2), plumber (>=
         0.3.1)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: 88d0de5b7c248e2322d6641c4dab6c37
+MD5sum: 9adf0b72f0f5a0d77b3babada4d0f145
 NeedsCompilation: no
 
 Package: rmetadata
