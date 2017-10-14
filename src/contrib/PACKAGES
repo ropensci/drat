@@ -576,12 +576,12 @@ MD5sum: ef9f6ca0f233a24fddb2e1ea00e942e8
 NeedsCompilation: no
 
 Package: geoops
-Version: 0.0.6.9215
+Version: 0.1.0
 Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 19562c65b17df4f6448033defaeb419c
+MD5sum: 3032e8a43c2f22eaea75df82ad0070c4
 NeedsCompilation: yes
 
 Package: geoparser
@@ -824,12 +824,12 @@ MD5sum: 0cd7b94c3068dc04cc8b04ba5d3dbc8f
 NeedsCompilation: no
 
 Package: lawn
-Version: 0.4.1.9110
+Version: 0.4.2
 Imports: V8, jsonlite, magrittr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, leaflet
 Enhances: maps, geojsonio
 License: MIT + file LICENSE
-MD5sum: 11cae27d260b80b6f04eea3d411810b8
+MD5sum: 72a9869d7eeaa5631fe4a44d1eb366c3
 NeedsCompilation: no
 
 Package: lingtypology
@@ -940,7 +940,7 @@ Imports: xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
         1.1.0), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), DBI, knitr, RSQLite, testthat
 License: MIT + file LICENSE
-MD5sum: 0cfd93fe9135fe22598489cc759d621c
+MD5sum: 05751f9431a4543d00032ce6c5b3bb22
 NeedsCompilation: no
 
 Package: opencage
@@ -1296,7 +1296,7 @@ Depends: R (>= 2.13.0)
 Imports: XML, RCurl, ape
 Suggests: roxygen2 (>= 6.0.1), utils, geiger, testthat, covr
 License: GPL (>= 2)
-MD5sum: 413dd70622522dcebce6ea45b80f8b73
+MD5sum: c4634849dbc64cfed4cb21f68025c10e
 NeedsCompilation: no
 
 Package: rerddap
@@ -1309,7 +1309,7 @@ Suggests: roxygen2 (>= 6.0.1), knitr, rmarkdown, testthat, akima,
         ggplot2, mapdata, plot3D
 Enhances: taxize
 License: MIT + file LICENSE
-MD5sum: 1ddc3280f758e54fd01850552fb8e028
+MD5sum: b7a0154ddf9a849323762b19dc63fef1
 NeedsCompilation: no
 
 Package: reuropeana
@@ -1740,7 +1740,7 @@ Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 5.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 8380ba62a780fc68047b40ad62a3d24f
+MD5sum: 46ad44c8eac3df91282f0c57ef73b5c4
 NeedsCompilation: no
 
 Package: sparqldsl
@@ -1968,7 +1968,7 @@ Depends: R (>= 3.1.1)
 Suggests: sf (>= 0.5.1), testthat (>= 0.9.1), USAboundariesData (>=
         0.3.0), covr
 License: MIT + file LICENSE
-MD5sum: 8dd3560fd3721ee8829b3f44e5fc1e4d
+MD5sum: 176a7f660dbb674d09a7a597d79c11cb
 NeedsCompilation: no
 
 Package: USAboundariesData
