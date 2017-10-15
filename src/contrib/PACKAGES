@@ -833,13 +833,13 @@ MD5sum: 72a9869d7eeaa5631fe4a44d1eb366c3
 NeedsCompilation: no
 
 Package: lingtypology
-Version: 1.0.7
+Version: 1.0.9
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: b4eee455a7ec1aa8d6f4bfe5b5940033
+MD5sum: 49cdb59ed500953807d676c210cc4d38
 NeedsCompilation: no
 
 Package: magick
@@ -1735,12 +1735,12 @@ MD5sum: f61af65ad926ba63febebb5e8a7e9302
 NeedsCompilation: no
 
 Package: solrium
-Version: 0.4.1.9252
+Version: 0.9.9.9100
 Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 5.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 46ad44c8eac3df91282f0c57ef73b5c4
+MD5sum: f39cf9785f10485e3bfca8452d9ac53c
 NeedsCompilation: no
 
 Package: sparqldsl
