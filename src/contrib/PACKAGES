@@ -576,12 +576,12 @@ MD5sum: ef9f6ca0f233a24fddb2e1ea00e942e8
 NeedsCompilation: no
 
 Package: geoops
-Version: 0.1.0
+Version: 0.1.0.9100
 Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 3032e8a43c2f22eaea75df82ad0070c4
+MD5sum: 3b21ffb9419256e1db7099d11b335e23
 NeedsCompilation: yes
 
 Package: geoparser
@@ -704,13 +704,13 @@ MD5sum: 2ca794f2ca41258e9d0503f5816cf3cc
 NeedsCompilation: no
 
 Package: hddtools
-Version: 0.7
+Version: 0.8
 Depends: R (>= 3.2.1), rgdal
 Imports: zoo, sp, RCurl, XML, rnrfa, Hmisc, raster, stringr, gdata,
         tibble
 Suggests: testthat, leaflet, rmarkdown, knitr
 License: GPL-3
-MD5sum: 28b17508ed4b35869bc9c46219b40f9c
+MD5sum: 547ad3da0e63f68fe41d1ceee0a58ddf
 NeedsCompilation: no
 
 Package: helminthR
@@ -824,12 +824,12 @@ MD5sum: 0cd7b94c3068dc04cc8b04ba5d3dbc8f
 NeedsCompilation: no
 
 Package: lawn
-Version: 0.4.2
+Version: 0.4.2.9100
 Imports: V8, jsonlite, magrittr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, leaflet
 Enhances: maps, geojsonio
 License: MIT + file LICENSE
-MD5sum: 72a9869d7eeaa5631fe4a44d1eb366c3
+MD5sum: a2723a6506a1413d04094cda47fb34f0
 NeedsCompilation: no
 
 Package: lingtypology
@@ -862,11 +862,11 @@ MD5sum: 8913df0682cff070867e9ffbeee41a8b
 NeedsCompilation: no
 
 Package: microdemic
-Version: 0.1.0.9100
+Version: 0.1.0.9219
 Imports: crul (>= 0.2.0), jsonlite (>= 1.2), data.table, tibble
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: fa502042181803915eecb13eea7048a7
+MD5sum: cb4b196ceaf1d1962ba00523a5fecf3d
 NeedsCompilation: no
 
 Package: monkeylearn
@@ -1376,12 +1376,12 @@ MD5sum: ebc2fd776ce4f4da471889d9f6819703
 NeedsCompilation: no
 
 Package: rglobi
-Version: 0.2.10
+Version: 0.2.11
 Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat(>= 0.7), knitr
 License: MIT + file LICENSE
-MD5sum: 3591617ed02e6e09c311f049a6365ca3
+MD5sum: fbef43e08e39e94d2b83f2acae9ae344
 NeedsCompilation: no
 
 Package: ridb
@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 57b4e63452f9905b29833baea0c68090
+MD5sum: f311dc56360faa5cd8e30b580ebf5a1b
 NeedsCompilation: no
 
 Package: rnpn
