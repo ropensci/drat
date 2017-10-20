@@ -127,7 +127,7 @@ Imports: xml2, crul (>= 0.3.8), stringr, jsonlite, reshape, plyr,
         data.table, tibble
 Suggests: roxygen2 (>= 6.0.1), sangerseqR, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 081f32fd144cd098171351c34680d030
+MD5sum: 55cc82fe9dcb9f84bd18d62013ab7bb7
 NeedsCompilation: no
 
 Package: brranching
@@ -673,7 +673,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 3f35f67b932ac7d75cc7bcdfe74cc88d
+MD5sum: 4306e6a768e45731bc56291cf99ae59d
 NeedsCompilation: no
 
 Package: gtfsr
@@ -935,12 +935,12 @@ MD5sum: 1a2fb469b6853af347955e048efd9754
 NeedsCompilation: no
 
 Package: oai
-Version: 0.2.2.9300
+Version: 0.2.2.9310
 Imports: xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
         1.1.0), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), DBI, knitr, RSQLite, testthat
 License: MIT + file LICENSE
-MD5sum: 05751f9431a4543d00032ce6c5b3bb22
+MD5sum: 8d7b5710657b1464ae08807a9b859a55
 NeedsCompilation: no
 
 Package: opencage
@@ -1728,11 +1728,12 @@ MD5sum: fc9362315173eb1d0f8d355f23a113ba
 NeedsCompilation: no
 
 Package: sofa
-Version: 0.2.0.9400
-Imports: httr (>= 1.2.0), jsonlite (>= 1.1), R6 (>= 2.2.0), mime
-Suggests: roxygen2 (>= 5.0.1), testthat, knitr, rmarkdown, covr
+Version: 0.2.1.9531
+Imports: httr (>= 1.2.0), crul (>= 0.3.8), jsonlite (>= 1.1), R6 (>=
+        2.2.0), mime
+Suggests: roxygen2 (>= 5.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 09d880908c43e83be00eca480a7ccda8
+MD5sum: 64be0c29141dc299d998c62b2e88767d
 NeedsCompilation: no
 
 Package: solrium
