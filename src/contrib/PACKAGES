@@ -530,15 +530,15 @@ NeedsCompilation: no
 
 Package: geojson
 Version: 0.1.4
-Imports: methods, sp, jsonlite (>= 1.1), protolite (>= 1.5), jqr (>=
-        0.2.4), magrittr, lazyeval
+Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
+        1.0.0), magrittr, lazyeval
 Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 94fbfbfcac84fb42939862c6ff6d1cce
+MD5sum: 1f5f028dabc2be941b50a0f1c994a47d
 NeedsCompilation: no
 
 Package: geojsonio
-Version: 0.4.2.9311
+Version: 0.4.2.9631
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
@@ -546,7 +546,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 21b1854af9814e0319596301159bebe4
+MD5sum: 101a618deb105fd5926e862a551c9259
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -1194,13 +1194,13 @@ MD5sum: 7d38956e47a07f661885a6f659990727
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.7.0.9100
+Version: 0.7.0.9410
 Imports: methods, utils, jsonlite (>= 1.0), crul (>= 0.3.4), xml2 (>=
         1.0.0), plyr, bibtex, dplyr (>= 0.5.0), R6, shiny, miniUI,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: ef64142464631de8623f49b484181dcd
+MD5sum: 033ef517218c0887d19f14bcecd92ee3
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: f311dc56360faa5cd8e30b580ebf5a1b
+MD5sum: dd69370e00ed7b6e897e0d5d390ed6ab
 NeedsCompilation: no
 
 Package: rnpn
@@ -1531,7 +1531,7 @@ Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: ed02569afbd05b87323c1bdf66cd87d3
+MD5sum: d3129b5ff1c7d38abb55f12d9abb813f
 NeedsCompilation: no
 
 Package: ropenaq
@@ -1903,10 +1903,10 @@ NeedsCompilation: yes
 Package: tic
 Version: 0.2-12
 Depends: R (>= 3.0.0)
-Imports: crayon, git2r, magrittr, memoise, R6, withr
+Imports: backports, crayon, git2r, magrittr, memoise, R6, withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 7fe6dd97b3f9201f0b2ca22c1ec24e73
+MD5sum: c2848c32c129b5ac1bcb5d56ac43823e
 NeedsCompilation: no
 
 Package: tif
@@ -1940,11 +1940,11 @@ NeedsCompilation: no
 
 Package: travis
 Version: 0.2-11
-Depends: R (>= 3.2.0)
+Depends: R (>= 3.1.0)
 Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
 Suggests: remotes, roxygen2, testthat
 License: GPL (>= 2)
-MD5sum: 7f0b42a25fe42ed54b2f80bda1e07584
+MD5sum: 7c0e87ad6c84a12b7c8189404ecfa8ad
 NeedsCompilation: no
 
 Package: treebase
