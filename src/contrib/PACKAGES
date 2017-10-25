@@ -529,12 +529,12 @@ MD5sum: 7f2793385aa44747c67120d3fa771f2e
 NeedsCompilation: no
 
 Package: geojson
-Version: 0.1.4
+Version: 0.1.4.9100
 Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
         1.0.0), magrittr, lazyeval
 Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 1f5f028dabc2be941b50a0f1c994a47d
+MD5sum: d00c3baa03d9a08a42012e1ee0ae99c0
 NeedsCompilation: no
 
 Package: geojsonio
@@ -542,11 +542,11 @@ Version: 0.4.2.9631
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
-        geojson, jqr
+        geojson (>= 0.1.4), jqr
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 101a618deb105fd5926e862a551c9259
+MD5sum: c37ede2d4eb62eb9eb172603c491f055
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -665,15 +665,15 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.1
+Version: 1.1.0
 Depends: R (>= 3.2.0)
-Imports: curl, dplyr, fields, magrittr, purrr (>= 0.2.0), R.utils,
-        readr, rgdal (>= 1.1-9), rlang, sp, stats, utils
+Imports: curl, dplyr (>= 0.7), magrittr, purrr (>= 0.2.0), R.utils,
+        readr, rgdal (>= 1.1-9), rlang, sp, stats, tibble, utils
 Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 6348bf80026dcc5b32dca4de04fad9c8
+MD5sum: c4b4ac95f56cb68db6235be105ef2d5c
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1149,7 +1149,7 @@ Imports: crul (>= 0.3.4), xml2 (>= 1.0.0), jsonlite (>= 1.1), plyr (>=
         1.8.4), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 2e2259630ea07fd3dd587162e38f1bc6
+MD5sum: e13a3f52f03f154b7efeb289fc1e50ab
 NeedsCompilation: no
 
 Package: rbison
@@ -1204,11 +1204,11 @@ MD5sum: 033ef517218c0887d19f14bcecd92ee3
 NeedsCompilation: no
 
 Package: rdatacite
-Version: 0.1.1.9413
-Imports: oai (>= 0.2.2), solrium (>= 0.4.1.9252)
+Version: 0.1.1.9621
+Imports: oai (>= 0.2.2), solrium (>= 0.9.9.9100)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 426fa49486f0368b1aea83368f8f2f4b
+MD5sum: 792a5820d9b7ae430cb9bd68419f514f
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1832,7 +1832,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 02adbdef3d7d38936744d484110adda9
+MD5sum: 5e83535b78f37c6af0fe51b017dd5079
 NeedsCompilation: no
 
 Package: taxize
