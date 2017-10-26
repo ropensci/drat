@@ -538,7 +538,7 @@ MD5sum: d00c3baa03d9a08a42012e1ee0ae99c0
 NeedsCompilation: no
 
 Package: geojsonio
-Version: 0.4.2.9631
+Version: 0.4.8.9110
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
@@ -546,7 +546,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: c37ede2d4eb62eb9eb172603c491f055
+MD5sum: 3f71ae312ac452aa1dca5ff328627c1e
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -673,7 +673,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: c4b4ac95f56cb68db6235be105ef2d5c
+MD5sum: 04b7f3aa0f0167ba754c627dfb9f3585
 NeedsCompilation: no
 
 Package: gtfsr
@@ -903,7 +903,7 @@ Imports: crul (>= 0.2.0), xml2 (>= 1.0.0), tibble (>= 1.2), data.table
         (>= 1.10.0)
 Suggests: roxygen2 (>= 5.0.1), testthat, covr, ggplot2, maps, mapproj
 License: MIT + file LICENSE
-MD5sum: 3e7ae70f2958e4fb5ec9493ca297205c
+MD5sum: 4705882d088b22cde1ad604c3b3e2c6f
 NeedsCompilation: no
 
 Package: neotoma
@@ -1185,12 +1185,12 @@ MD5sum: 775a905d1de64779740a31144f57725a
 NeedsCompilation: no
 
 Package: RcppRedis
-Version: 0.1.8
-Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
+Version: 0.1.8.1
+Imports: methods, Rcpp (>= 0.11.0), RApiSerialize, RcppMsgPack
 LinkingTo: Rcpp, RApiSerialize, BH
-Suggests: rredis, RUnit, RcppMsgPack
+Suggests: rredis, RUnit
 License: GPL (>= 2)
-MD5sum: 7d38956e47a07f661885a6f659990727
+MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
