@@ -594,14 +594,14 @@ MD5sum: 5fb53a1590d9bafba4ad9205bbdffe53
 NeedsCompilation: no
 
 Package: getCRUCLdata
-Version: 0.1.9
+Version: 0.1.10
 Depends: R (>= 3.2.0)
-Imports: data.table, dplyr, httr, purrr, rappdirs, raster, tidyr,
-        tibble, utils
+Imports: data.table, dplyr, httr, purrr (>= 0.2.0), rappdirs, raster,
+        tidyr, tibble, utils
 Suggests: ccafs, covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>=
         6.0.1), sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 6279791933ee30b1a27faa92b5d9ed61
+MD5sum: 51cc3bc5228b72da7bf476e4a38e9871
 NeedsCompilation: no
 
 Package: getlandsat
@@ -673,7 +673,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 04b7f3aa0f0167ba754c627dfb9f3585
+MD5sum: 4a66c97abb145165dee0ffa1b7271c38
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1435,12 +1435,12 @@ MD5sum: 9503c00c27b7ad4f1d7c08f55e9bed84
 NeedsCompilation: no
 
 Package: ritis
-Version: 0.6.0.9100
-Imports: solrium (>= 0.3.0), crul (>= 0.3.8), jsonlite (>= 0.9.22),
-        data.table (>= 1.9.6), tibble (>= 1.0)
+Version: 0.6.9.9100
+Imports: solrium (>= 0.9.9.9100), crul (>= 0.4.0), jsonlite (>= 1.5),
+        data.table (>= 1.9.6), tibble (>= 1.3.4)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: ef050ffdae3761fa1e415254eb426356
+MD5sum: 02f5a08fd29eeea1ced4153c5c4cabb9
 NeedsCompilation: no
 
 Package: rjsonapi
