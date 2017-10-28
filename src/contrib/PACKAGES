@@ -534,7 +534,7 @@ Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
         1.0.0), magrittr, lazyeval
 Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: d00c3baa03d9a08a42012e1ee0ae99c0
+MD5sum: 50cfac45e6e3128b348b3438859e9418
 NeedsCompilation: no
 
 Package: geojsonio
@@ -601,7 +601,7 @@ Imports: data.table, dplyr, httr, purrr (>= 0.2.0), rappdirs, raster,
 Suggests: ccafs, covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>=
         6.0.1), sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 51cc3bc5228b72da7bf476e4a38e9871
+MD5sum: e48ebfed1017bfb7f75ee23b630f8644
 NeedsCompilation: no
 
 Package: getlandsat
@@ -673,7 +673,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 4a66c97abb145165dee0ffa1b7271c38
+MD5sum: e16a8454a14d6f206249697527826808
 NeedsCompilation: no
 
 Package: gtfsr
