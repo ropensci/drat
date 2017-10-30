@@ -673,7 +673,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: e16a8454a14d6f206249697527826808
+MD5sum: 78090d04a2efd3baa57ba28dfceecb78
 NeedsCompilation: no
 
 Package: gtfsr
@@ -753,7 +753,7 @@ LinkingTo: Rcpp (>= 0.12.12)
 Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 5441ba1aa836a81bab48834027466b50
+MD5sum: 012c5706271df3b2e4a2ad13558340d5
 NeedsCompilation: yes
 
 Package: IEEER
@@ -843,13 +843,13 @@ MD5sum: 49cdb59ed500953807d676c210cc4d38
 NeedsCompilation: no
 
 Package: magick
-Version: 1.4
-Imports: Rcpp (>= 0.12.12), magrittr, curl
+Version: 1.4.9000
+Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster,
-        rgdal, gapminder, tesseract
+Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
+        gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: b9596567413c00635069519c3aae1692
+MD5sum: 5aac45703045f8284f28c40c464b3705
 NeedsCompilation: yes
 
 Package: mapr
@@ -1204,11 +1204,11 @@ MD5sum: 033ef517218c0887d19f14bcecd92ee3
 NeedsCompilation: no
 
 Package: rdatacite
-Version: 0.1.1.9621
+Version: 0.1.2.9621
 Imports: oai (>= 0.2.2), solrium (>= 0.9.9.9100)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 792a5820d9b7ae430cb9bd68419f514f
+MD5sum: 674356c5d6d5e389a752cad3193bf2cf
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1540,7 +1540,7 @@ Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: 06394c29cd6f963a6a74dcafeaea62c1
+MD5sum: 7977de73a57096072937c1d66fe1e843
 NeedsCompilation: no
 
 Package: ropkgs
