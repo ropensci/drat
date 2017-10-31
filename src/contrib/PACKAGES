@@ -325,12 +325,12 @@ MD5sum: 28455ba8cdc189519de9bdbd0259bca0
 NeedsCompilation: no
 
 Package: dbhydroR
-Version: 0.2-3
+Version: 0.2-4
 Depends: R (>= 3.0.2)
 Imports: httr, reshape2, XML
 Suggests: testthat
 License: GPL
-MD5sum: b43400b0b8d62c4db3a8201696dbd8ee
+MD5sum: f3391a751d6605a745ce7c7ff33e77a6
 NeedsCompilation: no
 
 Package: dirdf
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: d54473b041c35de28fc04f8f2f79b298
+MD5sum: 6a689fe51386a4adc1cf61791a3e3fc1
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: dd69370e00ed7b6e897e0d5d390ed6ab
+MD5sum: d1b8984bdb9f1fd32e5f86cff2e1c719
 NeedsCompilation: no
 
 Package: rnpn
