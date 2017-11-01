@@ -408,7 +408,7 @@ Version: 1.0.3
 Imports: xml2 (>= 1.1.1), methods, tools, uuid, digest
 Suggests: testthat, knitr, rmarkdown, listviewer, covr, taxize
 License: FreeBSD
-MD5sum: 7251ba709ad2c1ad8ff89b50c30aaad0
+MD5sum: 70ce134e3eeb8cc056ff5382957114ab
 NeedsCompilation: no
 
 Package: etseed
@@ -747,13 +747,13 @@ MD5sum: 27f07c150840e9e56af3d2d972e86926
 NeedsCompilation: no
 
 Package: hunspell
-Version: 2.6.9000
+Version: 2.7
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 012c5706271df3b2e4a2ad13558340d5
+MD5sum: 053c74bf9756c41206be25b69daa6aaa
 NeedsCompilation: yes
 
 Package: IEEER
@@ -986,7 +986,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 6fdc74e332c59a7c66ac341924998ae9
+MD5sum: 117d5120e29f60654829b8ea4698ebc6
 NeedsCompilation: no
 
 Package: ots
@@ -1571,12 +1571,12 @@ MD5sum: 26ca3324d77c7524408c678ed573b6b9
 NeedsCompilation: no
 
 Package: rplos
-Version: 0.7.8.9110
+Version: 0.7.9.9210
 Imports: ggplot2, crul (>= 0.3.8), jsonlite, dplyr, plyr, lubridate,
-        reshape2, whisker, solrium
+        reshape2, whisker, solrium (>= 0.9.9.9100)
 Suggests: xml2, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: c64038ee3bc47e7725e78a9fae544a5c
+MD5sum: 13c491d29d48e87a97add7908cba3740
 NeedsCompilation: no
 
 Package: rrdf
@@ -1741,7 +1741,7 @@ Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 5.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: f39cf9785f10485e3bfca8452d9ac53c
+MD5sum: d3500b2ce49c6e9c111bdb14a6e3619b
 NeedsCompilation: no
 
 Package: sparqldsl
@@ -1836,7 +1836,7 @@ MD5sum: 5e83535b78f37c6af0fe51b017dd5079
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9210
+Version: 0.9.0.9213
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, zoo,
@@ -1845,7 +1845,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: e01e54a2f45cef367d069e634fb1c4ca
+MD5sum: 527d42303c261a5bddf648d976fdcc2f
 NeedsCompilation: no
 
 Package: taxizedb
