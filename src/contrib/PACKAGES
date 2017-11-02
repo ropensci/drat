@@ -392,7 +392,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 384c7a63c7c91192f04b07b60caeade8
+MD5sum: 0de22c222f7ab6c2a117c5c7f9d90a50
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -748,12 +748,13 @@ NeedsCompilation: no
 
 Package: hunspell
 Version: 2.7
+Depends: R (>= 3.0.2)
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 053c74bf9756c41206be25b69daa6aaa
+MD5sum: 741d5c74237e99138ec378c231b2f45c
 NeedsCompilation: yes
 
 Package: IEEER
@@ -839,7 +840,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 49cdb59ed500953807d676c210cc4d38
+MD5sum: a8f23e86eeee3a9f491f5a207a58fad3
 NeedsCompilation: no
 
 Package: magick
@@ -1026,12 +1027,12 @@ MD5sum: 2b66b20732b6ee5a82183cc99f128c04
 NeedsCompilation: no
 
 Package: pdftools
-Version: 1.4
+Version: 1.4.9000
 Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: jpeg, png, webp, testthat
 License: MIT + file LICENSE
-MD5sum: 28a71e805dcb6aa96f155366bcac4731
+MD5sum: ab097129d70d77b7bf02b4acc8bbd2d2
 NeedsCompilation: yes
 
 Package: phylocomr
@@ -1100,7 +1101,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 7b3c66c49cc1992dd6de14261643bf14
+MD5sum: f003d2f2907756e9e0692dfb2c9ab4bb
 NeedsCompilation: no
 
 Package: proj
@@ -1205,10 +1206,10 @@ NeedsCompilation: no
 
 Package: rdatacite
 Version: 0.1.2.9621
-Imports: oai (>= 0.2.2), solrium (>= 0.9.9.9100)
+Imports: oai (>= 0.2.2), solrium (>= 1.0.0)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 674356c5d6d5e389a752cad3193bf2cf
+MD5sum: bf2403b0bc2f7727459cd636ce3a479c
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1436,11 +1437,11 @@ NeedsCompilation: no
 
 Package: ritis
 Version: 0.6.9.9100
-Imports: solrium (>= 0.9.9.9100), crul (>= 0.4.0), jsonlite (>= 1.5),
+Imports: solrium (>= 1.0.0), crul (>= 0.4.0), jsonlite (>= 1.5),
         data.table (>= 1.9.6), tibble (>= 1.3.4)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 02f5a08fd29eeea1ced4153c5c4cabb9
+MD5sum: 632375beb525911fbeea4ce9125b0103
 NeedsCompilation: no
 
 Package: rjsonapi
@@ -1573,10 +1574,10 @@ NeedsCompilation: no
 Package: rplos
 Version: 0.7.9.9210
 Imports: ggplot2, crul (>= 0.3.8), jsonlite, dplyr, plyr, lubridate,
-        reshape2, whisker, solrium (>= 0.9.9.9100)
+        reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 13c491d29d48e87a97add7908cba3740
+MD5sum: 6b7b607863d704f48499df555d55d1b4
 NeedsCompilation: no
 
 Package: rrdf
@@ -1736,12 +1737,12 @@ MD5sum: 505f51c405abba2770da5f94db803a3d
 NeedsCompilation: no
 
 Package: solrium
-Version: 0.9.9.9100
+Version: 1.0.0
 Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
-Suggests: roxygen2 (>= 5.0.1), testthat, knitr
+Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: d3500b2ce49c6e9c111bdb14a6e3619b
+MD5sum: 8b2151ee9a9d63138aca7ab0866f8d11
 NeedsCompilation: no
 
 Package: sparqldsl
@@ -1832,7 +1833,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 5e83535b78f37c6af0fe51b017dd5079
+MD5sum: 883282448581bc81de1c370cfb71cea4
 NeedsCompilation: no
 
 Package: taxize
