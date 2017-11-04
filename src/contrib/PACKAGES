@@ -276,7 +276,7 @@ Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 7ed0e5bff2a9ed6a32863c985ea5cefe
+MD5sum: 4b7004c16054410c628ddd3fe4db9478
 NeedsCompilation: no
 
 Package: dashboard
@@ -747,14 +747,14 @@ MD5sum: 27f07c150840e9e56af3d2d972e86926
 NeedsCompilation: no
 
 Package: hunspell
-Version: 2.7
+Version: 2.7.9000
 Depends: R (>= 3.0.2)
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 741d5c74237e99138ec378c231b2f45c
+MD5sum: 60a291918ca3c15725a0b84d77265e3a
 NeedsCompilation: yes
 
 Package: IEEER
@@ -804,7 +804,7 @@ Package: jsonld
 Version: 1.2.9000
 Imports: V8, jsonlite, curl (>= 2.7)
 License: BSD_3_clause + file LICENSE
-MD5sum: b69c701dac61bb04cc50923e4742dede
+MD5sum: 6f017a584e2addae1cda7eca9bfa12a5
 NeedsCompilation: no
 
 Package: jsonvalidate
@@ -844,13 +844,13 @@ MD5sum: a8f23e86eeee3a9f491f5a207a58fad3
 NeedsCompilation: no
 
 Package: magick
-Version: 1.4.9000
+Version: 1.5
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
         gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 5aac45703045f8284f28c40c464b3705
+MD5sum: 660ecef58b4fbfe6632a2fe83bc5edd8
 NeedsCompilation: yes
 
 Package: mapr
@@ -1205,11 +1205,11 @@ MD5sum: 033ef517218c0887d19f14bcecd92ee3
 NeedsCompilation: no
 
 Package: rdatacite
-Version: 0.1.2.9621
-Imports: oai (>= 0.2.2), solrium (>= 1.0.0)
+Version: 0.3.0
+Imports: oai (>= 0.2.2), solrium (>= 1.0.0), jsonlite, crul (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: bf2403b0bc2f7727459cd636ce3a479c
+MD5sum: 3941d21e13f797590d8dc5c9540a8348
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1436,12 +1436,12 @@ MD5sum: 9503c00c27b7ad4f1d7c08f55e9bed84
 NeedsCompilation: no
 
 Package: ritis
-Version: 0.7.0
+Version: 0.7.0.9100
 Imports: solrium (>= 1.0.0), crul (>= 0.4.0), jsonlite (>= 1.5),
         data.table (>= 1.9.6), tibble (>= 1.3.4)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 15e3f4512e6cdd61f63b53edc8256936
+MD5sum: d3c23d99285a010dda92b0f91e3d775c
 NeedsCompilation: no
 
 Package: rjsonapi
@@ -1577,7 +1577,7 @@ Imports: ggplot2, crul (>= 0.4.0), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: e1920ad4d846b06e21b8814db7cf0377
+MD5sum: b4fad2c63bea89c821f20ab051a88c5e
 NeedsCompilation: no
 
 Package: rrdf
