@@ -538,7 +538,7 @@ MD5sum: 50cfac45e6e3128b348b3438859e9418
 NeedsCompilation: no
 
 Package: geojsonio
-Version: 0.4.8.9110
+Version: 0.4.8.9114
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
@@ -546,7 +546,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 3f71ae312ac452aa1dca5ff328627c1e
+MD5sum: ad7e43c79550bca955e0dec67cab4c88
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -652,7 +652,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 4496b555480b0c5e573166db56cc3c08
+MD5sum: e98c177b5c6636c8e6b1a46385b428d4
 NeedsCompilation: yes
 
 Package: graphql
@@ -1027,12 +1027,12 @@ MD5sum: 2b66b20732b6ee5a82183cc99f128c04
 NeedsCompilation: no
 
 Package: pdftools
-Version: 1.4.9000
+Version: 1.5
 Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: jpeg, png, webp, testthat
 License: MIT + file LICENSE
-MD5sum: 9f78802e0430ec7c38342c2a5ef7155f
+MD5sum: 3e8f07a626f60cb5c2fdfd5ab26c6a09
 NeedsCompilation: yes
 
 Package: phylocomr
