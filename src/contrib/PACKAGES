@@ -844,13 +844,13 @@ MD5sum: a8f23e86eeee3a9f491f5a207a58fad3
 NeedsCompilation: no
 
 Package: magick
-Version: 1.5
+Version: 1.5.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
         gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 660ecef58b4fbfe6632a2fe83bc5edd8
+MD5sum: 00459e38e1374d42984276af9049ea12
 NeedsCompilation: yes
 
 Package: mapr
@@ -1356,7 +1356,7 @@ Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
         rgeos
 License: MIT + file LICENSE
-MD5sum: 3f91674708b4946c4f413a5ce41f0915
+MD5sum: 2ffb8fe63df4ac8f477e0424d4fbef10
 NeedsCompilation: no
 
 Package: rGEM
