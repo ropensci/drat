@@ -529,12 +529,12 @@ MD5sum: 20cdfc3c39e3ca590d6bf97e0cdb1a93
 NeedsCompilation: no
 
 Package: geojson
-Version: 0.1.4.9100
+Version: 0.2.0
 Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
         1.0.0), magrittr, lazyeval
 Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 50cfac45e6e3128b348b3438859e9418
+MD5sum: 2b05663be80c300b9cf75bfbc6692dfd
 NeedsCompilation: no
 
 Package: geojsonio
@@ -546,7 +546,7 @@ Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: ad7e43c79550bca955e0dec67cab4c88
+MD5sum: 94328e619412b0a7ce1615c8d50bcaa3
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -850,7 +850,7 @@ LinkingTo: Rcpp
 Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
         gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 2baf9cbd59672711ea70bc9b68f25742
+MD5sum: 9b42274a59fab6bf65f3ac12fe62ff90
 NeedsCompilation: yes
 
 Package: mapr
@@ -1249,12 +1249,12 @@ MD5sum: 2c30dba6bdaf22590f619a16b5376d01
 NeedsCompilation: no
 
 Package: rdryad
-Version: 0.2.8.9110
+Version: 0.3.0.9100
 Imports: crul (>= 0.4.0), curl (>= 3.0), xml2 (>= 1.0.0), oai (>=
         0.2.2), solrium (>= 1.0.0)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 22065dd2890aa8b8d89634b023ac8dfa
+MD5sum: 4f29d2625009b29c1751b48c007ed99f
 NeedsCompilation: no
 
 Package: rebird
@@ -1837,7 +1837,7 @@ MD5sum: 883282448581bc81de1c370cfb71cea4
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9213
+Version: 0.9.0.9214
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, zoo,
@@ -1846,7 +1846,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 4a16f22362bc51bdf43374aa19c87a85
+MD5sum: 27accff16aa93700aec142e98881de8d
 NeedsCompilation: no
 
 Package: taxizedb
