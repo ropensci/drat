@@ -542,11 +542,11 @@ Version: 0.4.8.9114
 Depends: R (>= 2.10)
 Imports: methods, sp, rgdal (>= 1.1-1), rgeos, httr (>= 1.1.0),
         maptools, jsonlite (>= 0.9.21), magrittr, readr (>= 0.2.2), V8,
-        geojson (>= 0.1.4), jqr
+        geojson (>= 0.2.0), jqr
 Suggests: gistr, testthat, knitr, leaflet, sf
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 94328e619412b0a7ce1615c8d50bcaa3
+MD5sum: 5bb94216d5c4b095f56d1528acdff264
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -1742,7 +1742,7 @@ Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 45db94e5c070ae6ff84f3979cf7597c5
+MD5sum: c93938116bd61eb5f90abc4656deb851
 NeedsCompilation: no
 
 Package: sparqldsl
