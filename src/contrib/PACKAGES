@@ -107,11 +107,11 @@ Depends: R (>= 3.1.1)
 Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
         1.9.4), dplyr (>= 0.3.0), readr (>= 0.2.2), downloader (>=
         0.3), RCurl (>= 1.95-4.5), XML (>= 3.98-1.1), httr (>= 0.6.1),
-        stringr (>= 0.6.2),
+        stringr (>= 0.6.2), purrr
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 4fb9c34f53c28ac3f575dc68fe99d141
+MD5sum: f822dcdbde275d9eeeacf5bef813a3aa
 NeedsCompilation: yes
 
 Package: bmc
@@ -977,7 +977,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: a0a4b730155c5d73092ca6a0608e555a
+MD5sum: 1bb7eddce5298a3cc29cecd3b1d4c6fb
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -987,7 +987,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 117d5120e29f60654829b8ea4698ebc6
+MD5sum: b9c7ee19d10fad84b79c3380d3eae9bc
 NeedsCompilation: no
 
 Package: ots
@@ -1349,14 +1349,14 @@ MD5sum: c7492dffaafd4969fe692e634399893b
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.9.8.9123
+Version: 0.9.9
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
         rgeos
 License: MIT + file LICENSE
-MD5sum: 88f548d0e3956fc74310f957af774f35
+MD5sum: c2d05245d9c42d27bb96c807ab095355
 NeedsCompilation: no
 
 Package: rGEM
@@ -1492,7 +1492,7 @@ MD5sum: 095112e6c6f040e8bd75186292ab0534
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 2.0.7
+Version: 2.0.8
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), taxize (>= 0.2.2), reshape2 (>=
         1.2.2), httr (>= 0.3), uuid (>= 0.1-1), dplyr (>= 0.5.0),
@@ -1502,7 +1502,7 @@ Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
         testthat (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>=
         0.3.3), Sxslt (>= 0.91)
 License: BSD_3_clause + file LICENSE
-MD5sum: a4fe6e6b9d97176e6d4b18af1b198280
+MD5sum: ba087bc320592887f4000914e0e7f8fd
 NeedsCompilation: no
 
 Package: rnoaa
@@ -1532,7 +1532,7 @@ Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: d3129b5ff1c7d38abb55f12d9abb813f
+MD5sum: f86dcdb3d2dabf8495a117fce5ab8cff
 NeedsCompilation: no
 
 Package: ropenaq
@@ -1656,11 +1656,10 @@ MD5sum: 79183568d0ec1bc52e1711fa3b5e855c
 NeedsCompilation: no
 
 Package: rwdpa
-Version: 0.0.2.9100
-Imports: httr (>= 1.0.0), jsonlite (>= 0.9.19), sp, rgdal, rmapshaper,
-        readr, dplyr
+Version: 0.0.8.9510
+Imports: crul (>= 0.4.0), jsonlite (>= 1.5), sf, readr, hoardr
 License: MIT + file LICENSE
-MD5sum: 34a42710e7c5c55491b1c61d99634553
+MD5sum: a10f271eeb270d2da823bc1ad828d9ea
 NeedsCompilation: no
 
 Package: rzmq
@@ -1777,7 +1776,7 @@ Imports: utils, rgbif (>= 0.9.8), rbison (>= 0.5.0), rebird (>= 0.3.0),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 45b8889496b0d6e6f7ff9573ccbf8947
+MD5sum: fe33558d09682d3ece62af03edbb5866
 NeedsCompilation: no
 
 Package: spplist
@@ -1850,13 +1849,13 @@ MD5sum: 27accff16aa93700aec142e98881de8d
 NeedsCompilation: no
 
 Package: taxizedb
-Version: 0.1.4.9100
+Version: 0.1.5.9110
 Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
         (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), readr (>=
         1.1.1), dbplyr (>= 1.0.0), magrittr (>= 1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: f1ef1c701d25a932c7877b410e9f4fd8
+MD5sum: 526236713a2234c9e0d1e8f9755e86e1
 NeedsCompilation: no
 
 Package: taxizesoap
