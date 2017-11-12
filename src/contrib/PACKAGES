@@ -464,14 +464,14 @@ MD5sum: 53176d4edf851f3d2af1df81ba65f790
 NeedsCompilation: no
 
 Package: fulltext
-Version: 0.1.8.9526
+Version: 0.1.8.9619
 Imports: methods, utils, stats, httr (>= 1.1.0), magrittr, xml2 (>=
         1.0.0), jsonlite, rplos (>= 0.6.4), rcrossref (>= 0.5.4),
-        crminer (>= 0.1.0), aRxiv, rentrez, tm, rredis, R.cache,
-        digest, whisker, data.table
+        crminer (>= 0.1.0), microdemic (>= 0.1.0), aRxiv, rentrez, tm,
+        rredis, R.cache, digest, whisker, data.table
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 5aa2fab14a482444258092ed60eba2dc
+MD5sum: 0b15216102d619613dab5dfedc93b321
 NeedsCompilation: no
 
 Package: gdoc
@@ -1506,14 +1506,14 @@ MD5sum: ba087bc320592887f4000914e0e7f8fd
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.7.1.9141
+Version: 0.7.1.9142
 Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
         tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
         gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 4279508ffcc32749532073e9c95d43ad
+MD5sum: 7d63637194319937bb6c97dd4d915fb3
 NeedsCompilation: no
 
 Package: rnpn
@@ -1526,13 +1526,13 @@ MD5sum: b4644097c78ef310ddceb96fa1dd3f6c
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.5.0
+Version: 0.5.1
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: f86dcdb3d2dabf8495a117fce5ab8cff
+MD5sum: efcf43a0c5e9df1563fcaaeb5c15aa35
 NeedsCompilation: no
 
 Package: ropenaq
