@@ -594,14 +594,14 @@ MD5sum: 5fb53a1590d9bafba4ad9205bbdffe53
 NeedsCompilation: no
 
 Package: getCRUCLdata
-Version: 0.1.10
+Version: 0.1.10.9000
 Depends: R (>= 3.2.0)
-Imports: data.table, dplyr, httr, purrr (>= 0.2.0), rappdirs, raster,
-        tidyr, tibble, utils
+Imports: data.table, dplyr, httr, hoardr, rappdirs, raster, tidyr,
+        tibble, utils
 Suggests: ccafs, covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>=
         6.0.1), sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: e48ebfed1017bfb7f75ee23b630f8644
+MD5sum: df0712e918551e1d43f61ca2b57082ca
 NeedsCompilation: no
 
 Package: getlandsat
@@ -1218,7 +1218,7 @@ Depends: R (>= 3.0.0)
 Imports: utils
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 4628e2c97f29a400e0d445e599fa2c38
+MD5sum: 81fe88a9349992bab1a6af0db85fce77
 NeedsCompilation: no
 
 Package: rdefra
@@ -1526,13 +1526,13 @@ MD5sum: b4644097c78ef310ddceb96fa1dd3f6c
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.5.1
+Version: 0.5.2
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: efcf43a0c5e9df1563fcaaeb5c15aa35
+MD5sum: 6faf4f68fe1d4e200fc16845f854bcc5
 NeedsCompilation: no
 
 Package: ropenaq
