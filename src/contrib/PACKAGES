@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: f822dcdbde275d9eeeacf5bef813a3aa
+MD5sum: 511ac14f64d4f9c139972b6e82e9c8e9
 NeedsCompilation: yes
 
 Package: bmc
@@ -601,7 +601,7 @@ Imports: data.table, dplyr, httr, hoardr, rappdirs, raster, tidyr,
 Suggests: ccafs, covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>=
         6.0.1), sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: df0712e918551e1d43f61ca2b57082ca
+MD5sum: ccd44f3f88e08e7656281002de02582a
 NeedsCompilation: no
 
 Package: getlandsat
@@ -1349,14 +1349,14 @@ MD5sum: c7492dffaafd4969fe692e634399893b
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.9.9
+Version: 0.9.9.9100
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
         rgeos
 License: MIT + file LICENSE
-MD5sum: c2d05245d9c42d27bb96c807ab095355
+MD5sum: a8a996b5ca9ee4eff67de905e8ab81fe
 NeedsCompilation: no
 
 Package: rGEM
@@ -1710,7 +1710,7 @@ Imports: httr, jsonlite, ggplot2, grid, scales, rgdal, maps, sf, sp,
         wicket (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: Apache License 2.0
-MD5sum: a1fae30d7f2b459dcf70599c9814bec6
+MD5sum: 91dd049aa3d65331c8f23e4f094c19b0
 NeedsCompilation: no
 
 Package: seasl
