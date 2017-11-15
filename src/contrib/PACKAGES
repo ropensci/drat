@@ -458,9 +458,9 @@ Package: finch
 Version: 0.1.0.9000
 Imports: xml2 (>= 1.0.0), EML (>= 1.0.1), data.table (>= 1.10.0), plyr,
         rappdirs, digest
-Suggests: roxygen2 (>= 6.0.1), testthat, httr, jsonlite, covr
+Suggests: roxygen2 (>= 6.0.1), testthat, httr, jsonlite
 License: MIT + file LICENSE
-MD5sum: 53176d4edf851f3d2af1df81ba65f790
+MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
 NeedsCompilation: no
 
 Package: fulltext
@@ -970,14 +970,14 @@ MD5sum: 05a510388619ef4b6e4bfaf7c05d7a0c
 NeedsCompilation: no
 
 Package: osmdata
-Version: 0.0.5.99
+Version: 0.0.5.100
 Depends: R (>= 3.2.4)
 Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
         rvest, jsonlite, sp, utils, xml2
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 1bb7eddce5298a3cc29cecd3b1d4c6fb
+MD5sum: 35f7dd974ebba4609623ee4328b1f364
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -987,7 +987,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: b9c7ee19d10fad84b79c3380d3eae9bc
+MD5sum: a84fda976fc7f15690fdf1af80c8d9e4
 NeedsCompilation: no
 
 Package: ots
@@ -1635,16 +1635,16 @@ Version: 1.0.8
 Imports: XML, httr (>= 0.6.1), plyr, foreach, stringr, testthat,
         taxize, RCurl
 License: GPL (>= 2)
-MD5sum: 52b49f882692717d4b4a1c1b4fe82559
+MD5sum: 5c9714646f9a08d0a4bb1d41aea018bd
 NeedsCompilation: no
 
 Package: rvertnet
-Version: 0.6.2.9100
+Version: 0.6.3.9110
 Imports: jsonlite (>= 1.0), crul (>= 0.3.8), dplyr (>= 0.5.0), ggplot2,
         maps
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 82780a9a8bf85173d53ba5ce8bdb710c
+MD5sum: b5046db19b05af087951ef44946db06a
 NeedsCompilation: no
 
 Package: rWBclimate
@@ -1769,14 +1769,14 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.7.0.9210
+Version: 0.7.0.9212
 Imports: utils, rgbif (>= 0.9.8), rbison (>= 0.5.0), rebird (>= 0.3.0),
-        rvertnet (>= 0.6.2), ridigbio (>= 0.3.5), lubridate (>= 1.5.0),
-        crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
+        rvertnet (>= 0.6.3.9110), ridigbio (>= 0.3.5), lubridate (>=
+        1.5.0), crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: fe33558d09682d3ece62af03edbb5866
+MD5sum: c2753ed0cf6841153d0e18d2cbc9242e
 NeedsCompilation: no
 
 Package: spplist
