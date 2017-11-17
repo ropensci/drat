@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 511ac14f64d4f9c139972b6e82e9c8e9
+MD5sum: 1b9859fb441043494121350c34c51370
 NeedsCompilation: yes
 
 Package: bmc
@@ -600,7 +600,7 @@ Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 28f6f11023de8685317b55cb09c97c35
+MD5sum: fc4409258548bedfe04821b306f3c48c
 NeedsCompilation: no
 
 Package: getlandsat
@@ -912,7 +912,7 @@ Depends: R (>= 2.10)
 Imports: plyr, reshape2, jsonlite, httr, xml2, analogue, leaflet, dplyr
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 03b275d237464247a41c0074979d27dc
+MD5sum: 268949c4666ba0cc9fe142fe25a55f20
 NeedsCompilation: no
 
 Package: nneo
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: f66ad12979d158a63f34bdbdbf05025e
+MD5sum: 2b20efa13fb9e4ae8f0450c21f03097d
 NeedsCompilation: no
 
 Package: proj
@@ -1200,7 +1200,7 @@ Imports: methods, utils, jsonlite (>= 1.0), crul (>= 0.3.4), xml2 (>=
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 033ef517218c0887d19f14bcecd92ee3
+MD5sum: 74d085caf1a476ac96c640a470896aa3
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1808,12 +1808,12 @@ Version: 0.1.9
 Depends: sp, R (>= 3.0)
 Imports: curl, readr, dplyr, httr, jsonlite, stringi, stringr,
         lubridate, maptools, raster, rgdal, rgeos, openxlsx, methods,
-        R.utils, geosphere, Rcpp (>= 0.12.1), igraph, nabor, rlang
+        R.utils, geosphere, Rcpp (>= 0.12.1), igraph, nabor, rlang, sf
 LinkingTo: RcppArmadillo, Rcpp
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: fd87469fa0b5cfac428764ea1f228a80
+MD5sum: 706d081668ef342d71c4c3c52a7e6659
 NeedsCompilation: yes
 
 Package: tabulizer
