@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 35f7dd974ebba4609623ee4328b1f364
+MD5sum: 7c7d9b6dd8300d50e78e21906dba43b6
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1544,10 +1544,10 @@ MD5sum: 7977de73a57096072937c1d66fe1e843
 NeedsCompilation: no
 
 Package: ropkgs
-Version: 0.0.1.99
+Version: 0.0.3
 Imports: devtools, downloader, jsonlite
 License: MIT + file LICENSE
-MD5sum: ab6aeb3b2d2c446e7060b7c54f8ae3fa
+MD5sum: d8bfb16376dec94c9edf6c15edd5de1a
 NeedsCompilation: no
 
 Package: rorcid
@@ -1813,7 +1813,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 706d081668ef342d71c4c3c52a7e6659
+MD5sum: 0012f9c83d0ad2481e5369943c938e9a
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -2033,12 +2033,12 @@ MD5sum: ad83515a7955f91e078f1f2ddafb6e15
 NeedsCompilation: no
 
 Package: worrms
-Version: 0.2.0.9100
+Version: 0.2.6.9100
 Imports: crul (>= 0.3.6), tibble (>= 1.2), jsonlite (>= 1.1),
         data.table
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: f321360a9e57b7c903ecaa0196a34975
+MD5sum: 4ee3d49ef171cd17d7679e1808216e30
 NeedsCompilation: no
 
 Package: XMLSchema
