@@ -1501,7 +1501,7 @@ Suggests: rrdf (>= 2.0.2), geiger (>= 2.0), phytools (>= 0.3.93), knitr
         testthat (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>=
         0.3.3), Sxslt (>= 0.91)
 License: BSD_3_clause + file LICENSE
-MD5sum: ba087bc320592887f4000914e0e7f8fd
+MD5sum: c7808eb78d615e29a3a45eb4ea0a0be6
 NeedsCompilation: no
 
 Package: rnoaa
@@ -1956,10 +1956,10 @@ MD5sum: 0187ed93694eab625542b3d12aa91580
 NeedsCompilation: no
 
 Package: unrtf
-Version: 1.0
+Version: 1.1
 Imports: sys
 License: GPL-3
-MD5sum: c96135cdd6cf1ec6ed093e219df9011e
+MD5sum: 3b885a499fa7e190172ace1ab9396185
 NeedsCompilation: yes
 
 Package: USAboundaries
@@ -2051,12 +2051,12 @@ MD5sum: 3882ae2e2ce67539dd4882e7c54c881f
 NeedsCompilation: no
 
 Package: xslt
-Version: 1.2.9000
+Version: 1.3
 Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 40602cc084a07e3d6385b847b23a7c38
+MD5sum: a9a5be5167955d4942ec167cb37810b9
 NeedsCompilation: yes
 
 Package: zenodo
