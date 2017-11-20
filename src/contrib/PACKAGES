@@ -1535,12 +1535,12 @@ MD5sum: 6faf4f68fe1d4e200fc16845f854bcc5
 NeedsCompilation: no
 
 Package: ropenaq
-Version: 0.2.3
+Version: 0.2.4
 Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: 7977de73a57096072937c1d66fe1e843
+MD5sum: 9eed2b44536e1ca2f0ffa027a6393e41
 NeedsCompilation: no
 
 Package: ropkgs
