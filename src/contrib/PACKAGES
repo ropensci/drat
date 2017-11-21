@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 7d63637194319937bb6c97dd4d915fb3
+MD5sum: e45e5c8023850de8b53ed1c64caa8ae1
 NeedsCompilation: no
 
 Package: rnpn
@@ -1540,7 +1540,7 @@ Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: 9eed2b44536e1ca2f0ffa027a6393e41
+MD5sum: 90a4fad0ee76316904dc82141d244922
 NeedsCompilation: no
 
 Package: ropkgs
