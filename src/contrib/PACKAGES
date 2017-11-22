@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 1b9859fb441043494121350c34c51370
+MD5sum: e2b1e486f81fd7b3d53bfa296c247377
 NeedsCompilation: yes
 
 Package: bmc
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: e98c177b5c6636c8e6b1a46385b428d4
+MD5sum: 3e5ae3d07439f407c1de74148aa6a94e
 NeedsCompilation: yes
 
 Package: graphql
@@ -672,7 +672,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: b3e74d7d1e1c6f38aa6b018bce095c04
+MD5sum: a4ee4ff845a6dcce6ed2fe215fdefdeb
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1208,7 +1208,7 @@ Version: 0.3.0.9100
 Imports: oai (>= 0.2.2), solrium (>= 1.0.0), jsonlite, crul (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 7a59b0706e848e782ce68fc1263ce26a
+MD5sum: 1fee3729d46d7d72f420e73cfacbc137
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: e45e5c8023850de8b53ed1c64caa8ae1
+MD5sum: 22997361920d8396dca8f5bf7255f51c
 NeedsCompilation: no
 
 Package: rnpn
@@ -1775,7 +1775,7 @@ Imports: utils, rgbif (>= 0.9.8), rbison (>= 0.5.0), rebird (>= 0.3.0),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: c2753ed0cf6841153d0e18d2cbc9242e
+MD5sum: 0f826cbe90aa949ebbba7e1dab8a67f7
 NeedsCompilation: no
 
 Package: spplist
@@ -1831,7 +1831,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 883282448581bc81de1c370cfb71cea4
+MD5sum: 4ce198e97c7962ae2b162106f1bb61d7
 NeedsCompilation: no
 
 Package: taxize
@@ -1902,10 +1902,11 @@ NeedsCompilation: yes
 Package: tic
 Version: 0.2-12
 Depends: R (>= 3.0.0)
-Imports: backports, crayon, git2r, magrittr, memoise, R6, withr
+Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
+        withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: c2848c32c129b5ac1bcb5d56ac43823e
+MD5sum: bac05277a24a6443832e38a977288614
 NeedsCompilation: no
 
 Package: tif
