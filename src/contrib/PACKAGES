@@ -849,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
         gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 9b42274a59fab6bf65f3ac12fe62ff90
+MD5sum: 916263270e2b62bb17b18cef36a76fc6
 NeedsCompilation: yes
 
 Package: mapr
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 2b20efa13fb9e4ae8f0450c21f03097d
+MD5sum: 263f5e81675f049f8c23e2f0618e3384
 NeedsCompilation: no
 
 Package: proj
@@ -1655,10 +1655,11 @@ MD5sum: 79183568d0ec1bc52e1711fa3b5e855c
 NeedsCompilation: no
 
 Package: rwdpa
-Version: 0.0.8.9510
-Imports: crul (>= 0.4.0), jsonlite (>= 1.5), sf, readr, hoardr
+Version: 0.0.8.9713
+Imports: crul (>= 0.4.0), jsonlite (>= 1.5), sf, readr, hoardr, tibble
+Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: a10f271eeb270d2da823bc1ad828d9ea
+MD5sum: 73ec1b5680331f03efc0796d3b580d9a
 NeedsCompilation: no
 
 Package: rzmq
@@ -1835,7 +1836,7 @@ MD5sum: 4ce198e97c7962ae2b162106f1bb61d7
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9214
+Version: 0.9.0.9216
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         1.0.0), jsonlite, reshape2, stringr, plyr, foreach, ape, zoo,
@@ -1844,7 +1845,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 27accff16aa93700aec142e98881de8d
+MD5sum: 599e34422b85ea302f8b3d0493c71a13
 NeedsCompilation: no
 
 Package: taxizedb
