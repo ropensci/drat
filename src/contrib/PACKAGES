@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: e2b1e486f81fd7b3d53bfa296c247377
+MD5sum: a29de1f2b28b40acb285b1f36b533d82
 NeedsCompilation: yes
 
 Package: bmc
@@ -392,7 +392,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 0de22c222f7ab6c2a117c5c7f9d90a50
+MD5sum: 696d652e200493e85490de936fe0260d
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -846,10 +846,10 @@ Package: magick
 Version: 1.5.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
-Suggests: rmarkdown, rsvg, webp, png, pdftools, ggplot2, raster, rgdal,
-        gapminder, tesseract
+Suggests: methods, rmarkdown, rsvg, webp, png, pdftools, ggplot2,
+        raster, rgdal, gapminder, tesseract, EBImage
 License: MIT + file LICENSE
-MD5sum: 916263270e2b62bb17b18cef36a76fc6
+MD5sum: ba99653e98379b348adf6b193cba0495
 NeedsCompilation: yes
 
 Package: mapr
@@ -1805,7 +1805,7 @@ MD5sum: bbbc537350d0c25ea1398ab6a84d6c69
 NeedsCompilation: no
 
 Package: stplanr
-Version: 0.1.9
+Version: 0.2.1
 Depends: sp, R (>= 3.0)
 Imports: curl, readr, dplyr, httr, jsonlite, stringi, stringr,
         lubridate, maptools, raster, rgdal, rgeos, openxlsx, methods,
@@ -1814,7 +1814,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 0012f9c83d0ad2481e5369943c938e9a
+MD5sum: 33a59854575f45cb6f0151dd8bcb3963
 NeedsCompilation: yes
 
 Package: tabulizer
