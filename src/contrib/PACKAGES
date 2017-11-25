@@ -849,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: methods, rmarkdown, rsvg, webp, png, pdftools, ggplot2,
         raster, rgdal, gapminder, tesseract, EBImage
 License: MIT + file LICENSE
-MD5sum: ba99653e98379b348adf6b193cba0495
+MD5sum: cb368c73f070a1d8404ceb51fb76421b
 NeedsCompilation: yes
 
 Package: mapr
@@ -1177,11 +1177,11 @@ MD5sum: 30f983a581fb295473283646ff9d9f24
 NeedsCompilation: no
 
 Package: rcoreoa
-Version: 0.1.0.9100
-Imports: crul (>= 0.3.8), jsonlite (>= 1.5), pdftools (>= 1.3)
+Version: 0.1.2.9319
+Imports: crul (>= 0.4.0), jsonlite (>= 1.5), pdftools (>= 1.3), hoardr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, rcrossref
 License: MIT + file LICENSE
-MD5sum: 775a905d1de64779740a31144f57725a
+MD5sum: 4d97902ea586dc7ff39341a24e06a59c
 NeedsCompilation: no
 
 Package: RcppRedis
@@ -1440,7 +1440,7 @@ Imports: solrium (>= 1.0.0), crul (>= 0.4.0), jsonlite (>= 1.5),
         data.table (>= 1.9.6), tibble (>= 1.3.4)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: d3c23d99285a010dda92b0f91e3d775c
+MD5sum: 705fd9e14d5e78c32be75d8aa6c0dc2a
 NeedsCompilation: no
 
 Package: rjsonapi
@@ -1845,7 +1845,7 @@ Imports: graphics, methods, stats, utils, httr (>= 1.2.1), xml2 (>=
         natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 599e34422b85ea302f8b3d0493c71a13
+MD5sum: 8d3f6cfac8bb0316f9b61f7128f6f8dd
 NeedsCompilation: no
 
 Package: taxizedb
