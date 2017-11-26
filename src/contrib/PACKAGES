@@ -846,10 +846,10 @@ Package: magick
 Version: 1.5.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
-Suggests: methods, rmarkdown, rsvg, webp, png, pdftools, ggplot2,
-        raster, rgdal, gapminder, tesseract, EBImage
+Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
+        ggplot2, raster, rgdal, gapminder, tesseract, EBImage
 License: MIT + file LICENSE
-MD5sum: cb368c73f070a1d8404ceb51fb76421b
+MD5sum: 44f0fb124ff7e5a980ff8f73650c1a12
 NeedsCompilation: yes
 
 Package: mapr
@@ -1814,7 +1814,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 33a59854575f45cb6f0151dd8bcb3963
+MD5sum: db27c49b0dec1e80a23d25b6668569af
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -1990,12 +1990,12 @@ MD5sum: 3a0b6136f7a13e2411557b4822c3faa9
 NeedsCompilation: no
 
 Package: webchem
-Version: 0.3.0
+Version: 0.3.0.9000
 Depends: R (>= 3.0)
 Imports: xml2, httr, rvest, RCurl, jsonlite, stringr, methods
 Suggests: testthat, rcdk
 License: MIT + file LICENSE
-MD5sum: 5e992bbe4b902ac928cdd729be966ecf
+MD5sum: 6a8513549802c6bb9edb12bf1fa63b6c
 NeedsCompilation: no
 
 Package: webmockr
