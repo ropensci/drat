@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: a29de1f2b28b40acb285b1f36b533d82
+MD5sum: 36a92f7f9516f639df13e33bb9000b0a
 NeedsCompilation: yes
 
 Package: bmc
@@ -849,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal, gapminder, tesseract, EBImage
 License: MIT + file LICENSE
-MD5sum: 44f0fb124ff7e5a980ff8f73650c1a12
+MD5sum: 80c6279e0d7ce5b1c90b38550f850500
 NeedsCompilation: yes
 
 Package: mapr
@@ -1022,7 +1022,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 2b66b20732b6ee5a82183cc99f128c04
+MD5sum: e194ee99a0f3687c83d804c3a825b823
 NeedsCompilation: no
 
 Package: pdftools
