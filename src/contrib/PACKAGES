@@ -664,7 +664,7 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.1.0.9000
+Version: 1.1.1.9000
 Depends: R (>= 3.2.0)
 Imports: curl, dplyr (>= 0.7.0), magrittr, purrr (>= 0.2.0), R.utils,
         readr, rgdal (>= 1.1-9), rlang, sp, stats, tibble, utils
@@ -672,7 +672,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: a4ee4ff845a6dcce6ed2fe215fdefdeb
+MD5sum: 6c33bb950969d4ceebedefa430c57f2e
 NeedsCompilation: no
 
 Package: gtfsr
@@ -849,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal, gapminder, tesseract, EBImage
 License: MIT + file LICENSE
-MD5sum: 80c6279e0d7ce5b1c90b38550f850500
+MD5sum: 061579390d66587b8036a95e17cbd513
 NeedsCompilation: yes
 
 Package: mapr
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 7c7d9b6dd8300d50e78e21906dba43b6
+MD5sum: b97e1f9e6789e717101766243b5ad12c
 NeedsCompilation: yes
 
 Package: osmplotr
