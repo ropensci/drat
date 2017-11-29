@@ -98,7 +98,7 @@ Version: 0.1.2.9100
 Imports: methods, stats, jsonlite, lazyeval, dplyr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, covr
 License: MIT + file LICENSE
-MD5sum: ce45f3091c8f9ea49762f8f5bb568cac
+MD5sum: cb599ec803d7e2339a263a75479471ca
 NeedsCompilation: no
 
 Package: biomartr
@@ -843,13 +843,13 @@ MD5sum: a8f23e86eeee3a9f491f5a207a58fad3
 NeedsCompilation: no
 
 Package: magick
-Version: 1.5.9000
+Version: 1.6
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
-        ggplot2, raster, rgdal, gapminder, tesseract, EBImage
+        ggplot2, raster, rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 061579390d66587b8036a95e17cbd513
+MD5sum: 8131e06729c3a4f5e58494a4fd0d7873
 NeedsCompilation: yes
 
 Package: mapr
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: b97e1f9e6789e717101766243b5ad12c
+MD5sum: 61cd7b7dab2fd4dc855c9a15e52cb1a8
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1217,7 +1217,7 @@ Depends: R (>= 3.0.0)
 Imports: utils
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 81fe88a9349992bab1a6af0db85fce77
+MD5sum: 3dd30fc3f2bf8bb0cdc24eef27b15ac5
 NeedsCompilation: no
 
 Package: rdefra
@@ -1512,7 +1512,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, leaflet,
         rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 22997361920d8396dca8f5bf7255f51c
+MD5sum: 6a8731225499a7e0aacef1d8bc48e28c
 NeedsCompilation: no
 
 Package: rnpn
@@ -1814,7 +1814,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: db27c49b0dec1e80a23d25b6668569af
+MD5sum: 6ee96df6282d164dddbdaf7de49c78e3
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -1851,11 +1851,12 @@ NeedsCompilation: no
 Package: taxizedb
 Version: 0.1.5.9110
 Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
-        (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), readr (>=
-        1.1.1), dbplyr (>= 1.0.0), magrittr (>= 1.5), hoardr (>= 0.1.0)
-Suggests: roxygen2 (>= 6.0.1), testthat
+        (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), tidyr,
+        rlang, readr (>= 1.1.1), dbplyr (>= 1.0.0), magrittr (>= 1.5),
+        hoardr (>= 0.1.0)
+Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 526236713a2234c9e0d1e8f9755e86e1
+MD5sum: 7ef01d2842481374302560202079636e
 NeedsCompilation: no
 
 Package: taxizesoap
