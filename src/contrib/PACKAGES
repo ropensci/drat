@@ -330,7 +330,7 @@ Depends: R (>= 3.0.2)
 Imports: httr, reshape2, XML
 Suggests: testthat, knitr, rmarkdown
 License: GPL
-MD5sum: 8fd14c11f95d7528a9d79639ec246cb3
+MD5sum: 1f52ad983a239697c34d5542f00d1a06
 NeedsCompilation: no
 
 Package: dirdf
@@ -833,23 +833,23 @@ MD5sum: a2723a6506a1413d04094cda47fb34f0
 NeedsCompilation: no
 
 Package: lingtypology
-Version: 1.0.9
+Version: 1.0.10
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: e971de5529785d782b208b22ec5c61cd
+MD5sum: c35af686e1269a7950f962bcb7452deb
 NeedsCompilation: no
 
 Package: magick
-Version: 1.6
+Version: 1.6.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: 5846945a4a5326d074997a83e5bd8407
+MD5sum: e24180d68ce1c8f4df811f30231d8741
 NeedsCompilation: yes
 
 Package: mapr
@@ -1194,13 +1194,13 @@ MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.7.0.9417
-Imports: methods, utils, jsonlite (>= 1.0), crul (>= 0.3.4), xml2 (>=
-        1.0.0), plyr, bibtex, dplyr (>= 0.5.0), R6, shiny, miniUI,
+Version: 0.8.0
+Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
+        1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: af2e09ba04951fc790951bcd263e713b
+MD5sum: 71a322dc66a6799034a598480ee7c33a
 NeedsCompilation: no
 
 Package: rdatacite
