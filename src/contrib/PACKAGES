@@ -136,7 +136,7 @@ Depends: R(>= 3.2.1)
 Imports: httr (>= 1.2.0), curl (>= 1.2), ape, taxize, phytools
 Suggests: roxygen2 (>= 5.0.1), testthat, covr
 License: MIT + file LICENSE
-MD5sum: cd74d867c3633cb62bb30026a06fba2e
+MD5sum: 0abdb6abad16b595208fb831025adb55
 NeedsCompilation: no
 
 Package: camsRad
@@ -166,7 +166,7 @@ Imports: rappdirs (>= 0.3.1), crul (>= 0.2.0), httr, raster (>= 2.5-8),
         (>= 1.9.6)
 Suggests: roxygen2 (>= 5.0.1), testthat, covr, knitr
 License: MIT + file LICENSE
-MD5sum: ed937fda549daed37aad6ec230e53115
+MD5sum: dff52783bcaffac916afa3acefdcab48
 NeedsCompilation: no
 
 Package: charlatan
@@ -193,7 +193,7 @@ Imports: methods, stats, utils, httr (>= 1.0.0), jsonlite (>= 0.9.17),
         dplyr (>= 0.7.0), dbplyr, magrittr
 Suggests: knitr, maptools, readxl, testthat, xml2, lazyeval
 License: MIT + file LICENSE
-MD5sum: df7959e9b6feb3733af9b4f83b55f696
+MD5sum: db2c230db16fa88c3fe768ecdefd4ea1
 NeedsCompilation: no
 
 Package: cld2
@@ -464,14 +464,14 @@ MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
 NeedsCompilation: no
 
 Package: fulltext
-Version: 0.1.8.9791
+Version: 0.1.8.9792
 Imports: methods, utils, stats, httr (>= 1.3.1), magrittr, xml2 (>=
-        1.1.1), jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.7.0.9416),
+        1.1.1), jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0),
         crminer (>= 0.1.4), microdemic (>= 0.1.0), aRxiv, rentrez (>=
         1.1.0), tm, rredis, R.cache, digest, whisker, data.table
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: deb2cd7857beac56229012e7a69c66ed
+MD5sum: 3a29a8954fb1b9e4bb4f77ed1fbb6815
 NeedsCompilation: no
 
 Package: gdoc
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 9883724093a9a167bf3b076452358fdc
+MD5sum: f19bdd3ccf0088a8f2942393392620f7
 NeedsCompilation: no
 
 Package: proj
@@ -1769,14 +1769,14 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.7.0.9212
+Version: 0.7.0.9411
 Imports: utils, rgbif (>= 0.9.8), rbison (>= 0.5.0), rebird (>= 0.3.0),
         rvertnet (>= 0.6.3.9110), ridigbio (>= 0.3.5), lubridate (>=
         1.5.0), crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 0f826cbe90aa949ebbba7e1dab8a67f7
+MD5sum: 883eefbc900fe2949f5eadcdb38c16aa
 NeedsCompilation: no
 
 Package: spplist
