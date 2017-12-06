@@ -425,7 +425,7 @@ Depends: R (>= 3.00)
 Imports: httr, jsonlite, plyr, dplyr, progress, urltools, xml2
 Suggests: testthat, knitr, rmarkdown, ggplot2, purrr, readr
 License: GPL-3
-MD5sum: f2c54b80f6f2a6632528529a0b8a3773
+MD5sum: 79fe77e0b406e44c89378cd547bb5dac
 NeedsCompilation: no
 
 Package: extractr
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: c35af686e1269a7950f962bcb7452deb
+MD5sum: d710434730a538a345bbb4ccb0dd0409
 NeedsCompilation: no
 
 Package: magick
@@ -849,7 +849,7 @@ LinkingTo: Rcpp
 Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
         ggplot2, raster, rgdal, gapminder, tesseract
 License: MIT + file LICENSE
-MD5sum: e24180d68ce1c8f4df811f30231d8741
+MD5sum: 96708cadcad0a4ca2c9b57b9976be4c7
 NeedsCompilation: yes
 
 Package: mapr
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: f19bdd3ccf0088a8f2942393392620f7
+MD5sum: 8a6272b05a10c0299c446996eaa317fb
 NeedsCompilation: no
 
 Package: proj
