@@ -590,7 +590,7 @@ Imports: dplyr, httr, jsonlite, lazyeval, tidyr, utils, purrr, stringr,
         digest
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 5fb53a1590d9bafba4ad9205bbdffe53
+MD5sum: db8b42cc6dd811093c0a3f9df6b28682
 NeedsCompilation: no
 
 Package: getCRUCLdata
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: d710434730a538a345bbb4ccb0dd0409
+MD5sum: c4801e63e677b1c82c95398274906dde
 NeedsCompilation: no
 
 Package: magick
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 8d804f84173d38006821dca82a15d3e2
+MD5sum: 7e6de97c0bbeb6a693e7692b05550039
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 8a6272b05a10c0299c446996eaa317fb
+MD5sum: df779d5050d66c4477e36fa0121ea98d
 NeedsCompilation: no
 
 Package: proj
@@ -1239,12 +1239,12 @@ MD5sum: 95cd95461da10c42e063690db8526c80
 NeedsCompilation: no
 
 Package: rdpla
-Version: 0.2.0
+Version: 0.2.0.9100
 Imports: crul (>= 0.3.8), jsonlite (>= 1.0), tibble, data.table, hoardr
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, ggplot2, lubridate,
         scales
 License: MIT + file LICENSE
-MD5sum: 2c30dba6bdaf22590f619a16b5376d01
+MD5sum: a4032ce69ea08b08ac27429a429f0239
 NeedsCompilation: no
 
 Package: rdryad
