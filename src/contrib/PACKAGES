@@ -261,12 +261,12 @@ MD5sum: 2c1d5f821ceaf52120c1104359fcf20a
 NeedsCompilation: no
 
 Package: crminer
-Version: 0.1.4.9100
+Version: 0.1.5.9110
 Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 23c298cb9ae1e2652af532a0e5daa63b
+MD5sum: 9c2bbfcc26f11c3a639ec493999ab1f5
 NeedsCompilation: no
 
 Package: crul
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: c4801e63e677b1c82c95398274906dde
+MD5sum: 13c2f94d271bc1b93de927cb93aec8ec
 NeedsCompilation: no
 
 Package: magick
@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: df779d5050d66c4477e36fa0121ea98d
+MD5sum: 3d9b5658d2df1388f75586efef324b7a
 NeedsCompilation: no
 
 Package: proj
@@ -1852,7 +1852,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: f5996a1e919e12205f5f34a5376dde6c
+MD5sum: cc8a069ee7410adb45ce8b0eaf8aaaa5
 NeedsCompilation: no
 
 Package: taxizedb
