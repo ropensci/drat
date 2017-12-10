@@ -1100,7 +1100,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 3d9b5658d2df1388f75586efef324b7a
+MD5sum: ea9a98ec4b03b8e5b4573f4a4f244caf
 NeedsCompilation: no
 
 Package: proj
@@ -1330,13 +1330,13 @@ MD5sum: 5af2fe5b7710d148e26ca2b674d526c6
 NeedsCompilation: no
 
 Package: rfishbase
-Version: 2.1.2.3
+Version: 2.1.2.4
 Depends: R (>= 3.0)
 Imports: dplyr (>= 0.4.0), lazyeval, httr (>= 1.0.0), tidyr, methods,
         utils
 Suggests: devtools, testthat, rmarkdown, knitr
 License: CC0
-MD5sum: ff6e8bcc528bd83fe178a538e87e5c01
+MD5sum: dc90dbc9b5840ec04e3911fab4db752c
 NeedsCompilation: no
 
 Package: rfisheries
