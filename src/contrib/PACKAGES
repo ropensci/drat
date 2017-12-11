@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: daa54efe092841bba4cbd87f1081dedb
+MD5sum: 44268202718d3a1377a72fa2841ae5b6
 NeedsCompilation: yes
 
 Package: bmc
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 3e5ae3d07439f407c1de74148aa6a94e
+MD5sum: 61968bd773fa461aeb228ec8e9bce16d
 NeedsCompilation: yes
 
 Package: graphql
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 13c2f94d271bc1b93de927cb93aec8ec
+MD5sum: c73f81232880399f9ab635e9eab43286
 NeedsCompilation: no
 
 Package: magick
