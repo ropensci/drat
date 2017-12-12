@@ -270,13 +270,13 @@ MD5sum: 9c2bbfcc26f11c3a639ec493999ab1f5
 NeedsCompilation: no
 
 Package: crul
-Version: 0.4.0.9100
+Version: 0.4.0.9102
 Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 4b7004c16054410c628ddd3fe4db9478
+MD5sum: 9192f4bf2332acfcb80362cc0be632cb
 NeedsCompilation: no
 
 Package: dashboard
@@ -420,12 +420,12 @@ MD5sum: 8d16b5b2a91364f91c18da8d60f80b00
 NeedsCompilation: no
 
 Package: europepmc
-Version: 0.1.4.9100
+Version: 0.2
 Depends: R (>= 3.00)
 Imports: httr, jsonlite, plyr, dplyr, progress, urltools, xml2
 Suggests: testthat, knitr, rmarkdown, ggplot2, purrr, readr
 License: GPL-3
-MD5sum: 79fe77e0b406e44c89378cd547bb5dac
+MD5sum: 35e890b56e5edc38b70034b38384f1ac
 NeedsCompilation: no
 
 Package: extractr
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: c73f81232880399f9ab635e9eab43286
+MD5sum: a26724b52ce0618428639b682981db5e
 NeedsCompilation: no
 
 Package: magick
