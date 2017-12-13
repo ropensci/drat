@@ -600,7 +600,7 @@ Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 5f15241de8520475924f532be51d75f2
+MD5sum: aa2d4a367cff12b085387b863313e3e8
 NeedsCompilation: no
 
 Package: getlandsat
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 61968bd773fa461aeb228ec8e9bce16d
+MD5sum: 7448605f374fffceb26560c0fcfcafc9
 NeedsCompilation: yes
 
 Package: graphql
@@ -746,14 +746,14 @@ MD5sum: 27f07c150840e9e56af3d2d972e86926
 NeedsCompilation: no
 
 Package: hunspell
-Version: 2.7.9000
+Version: 2.8
 Depends: R (>= 3.0.2)
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: dd0df16db2f8e845a9b81ecb9e71ff5b
+MD5sum: 029148c676039a3a40816a8c0f6f5721
 NeedsCompilation: yes
 
 Package: IEEER
@@ -1253,7 +1253,7 @@ Imports: crul (>= 0.4.0), curl (>= 3.0), xml2 (>= 1.0.0), oai (>=
         0.2.2), solrium (>= 1.0.0)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 4f29d2625009b29c1751b48c007ed99f
+MD5sum: e130848fa50e99c2d92b124b39e663bb
 NeedsCompilation: no
 
 Package: rebird
@@ -1833,13 +1833,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.1.0.9111
+Version: 0.1.0.9112
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 6761b719c0fa6ca3b0f225ca35d79dd7
+MD5sum: 832dfea10e176d7eef721bd47be427fd
 NeedsCompilation: no
 
 Package: taxize
@@ -1858,12 +1858,12 @@ NeedsCompilation: no
 Package: taxizedb
 Version: 0.1.5.9110
 Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
-        (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), tidyr,
-        rlang, readr (>= 1.1.1), dbplyr (>= 1.0.0), magrittr (>= 1.5),
-        hoardr (>= 0.1.0)
+        (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), tibble,
+        tidyr, rlang, readr (>= 1.1.1), dbplyr (>= 1.0.0), magrittr (>=
+        1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 7ef01d2842481374302560202079636e
+MD5sum: cd2cf96963a3971daa13d43004443082
 NeedsCompilation: no
 
 Package: taxizesoap
