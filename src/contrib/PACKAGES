@@ -420,12 +420,12 @@ MD5sum: 8d16b5b2a91364f91c18da8d60f80b00
 NeedsCompilation: no
 
 Package: europepmc
-Version: 0.2
+Version: 0.2.0900
 Depends: R (>= 3.00)
 Imports: httr, jsonlite, plyr, dplyr, progress, urltools, xml2
 Suggests: testthat, knitr, rmarkdown, ggplot2, purrr, readr
 License: GPL-3
-MD5sum: 35e890b56e5edc38b70034b38384f1ac
+MD5sum: 90cf2d8b5b2d43ce92a2c311f78626b0
 NeedsCompilation: no
 
 Package: extractr
@@ -600,7 +600,7 @@ Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: aa2d4a367cff12b085387b863313e3e8
+MD5sum: ef0a59447c18c647541538f5420eb9b7
 NeedsCompilation: no
 
 Package: getlandsat
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 7448605f374fffceb26560c0fcfcafc9
+MD5sum: 41652d41721cb346fced86587e957da8
 NeedsCompilation: yes
 
 Package: graphql
@@ -672,7 +672,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 176eb5df28770f7007862c360ead3c72
+MD5sum: 9effa2f4b453cd781079b46e5732fcc9
 NeedsCompilation: no
 
 Package: gtfsr
@@ -746,14 +746,14 @@ MD5sum: 27f07c150840e9e56af3d2d972e86926
 NeedsCompilation: no
 
 Package: hunspell
-Version: 2.8
+Version: 2.8.1
 Depends: R (>= 3.0.2)
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
-Suggests: testthat, devtools, pdftools, janeaustenr, wordcloud2, knitr,
+Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 029148c676039a3a40816a8c0f6f5721
+MD5sum: 9e640f565aae50887211294d82282465
 NeedsCompilation: yes
 
 Package: IEEER
@@ -976,7 +976,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: de8fa4f99e83524a3e236a8e50adc9fd
+MD5sum: c12d0acb34afec44a7a6ee61849dd61b
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1326,7 +1326,7 @@ Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
 Suggests: testthat, gdata, uuid, knitr, rmarkdown
 License: CC0
-MD5sum: 5af2fe5b7710d148e26ca2b674d526c6
+MD5sum: fb86154b3010af7bd3b92a297d1831cf
 NeedsCompilation: no
 
 Package: rfishbase
