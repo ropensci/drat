@@ -594,13 +594,13 @@ MD5sum: db8b42cc6dd811093c0a3f9df6b28682
 NeedsCompilation: no
 
 Package: getCRUCLdata
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.2.0)
 Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: ef0a59447c18c647541538f5420eb9b7
+MD5sum: 7f7540987b25d44954f8393098fd2380
 NeedsCompilation: no
 
 Package: getlandsat
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 41652d41721cb346fced86587e957da8
+MD5sum: 8e8045119ff75774753e40f2c9847e5c
 NeedsCompilation: yes
 
 Package: graphql
@@ -746,14 +746,14 @@ MD5sum: 27f07c150840e9e56af3d2d972e86926
 NeedsCompilation: no
 
 Package: hunspell
-Version: 2.8.1
+Version: 2.8.9000
 Depends: R (>= 3.0.2)
 Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 9e640f565aae50887211294d82282465
+MD5sum: 01668903ae6c34a64f59da9c2c30f924
 NeedsCompilation: yes
 
 Package: IEEER
@@ -1863,7 +1863,7 @@ Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
         1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: cd2cf96963a3971daa13d43004443082
+MD5sum: 1fce96e7653f5df63fe69f92823f38e5
 NeedsCompilation: no
 
 Package: taxizesoap
