@@ -266,7 +266,7 @@ Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 9c2bbfcc26f11c3a639ec493999ab1f5
+MD5sum: 925efc2aa06f23d8b46228c23ab1594b
 NeedsCompilation: no
 
 Package: crul
@@ -276,7 +276,7 @@ Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 9192f4bf2332acfcb80362cc0be632cb
+MD5sum: 2e1512a7e67ceb1cf93dcab7fa7f39b9
 NeedsCompilation: no
 
 Package: dashboard
@@ -471,7 +471,7 @@ Imports: methods, utils, stats, httr (>= 1.3.1), magrittr, xml2 (>=
         1.1.0), tm, rredis, R.cache, digest, whisker, data.table
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: f70469b9aab4aebb1af89ae526369556
+MD5sum: cc21226ebc0e9a56bb87ab991e1d6534
 NeedsCompilation: no
 
 Package: gdoc
@@ -594,13 +594,13 @@ MD5sum: db8b42cc6dd811093c0a3f9df6b28682
 NeedsCompilation: no
 
 Package: getCRUCLdata
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 3.2.0)
 Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 7f7540987b25d44954f8393098fd2380
+MD5sum: 2ed097cc4d31de4c34f3a997cdd08b9b
 NeedsCompilation: no
 
 Package: getlandsat
@@ -651,7 +651,7 @@ Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 8e8045119ff75774753e40f2c9847e5c
+MD5sum: 4ce11b5c985c2fc2168f65e98e0ccec1
 NeedsCompilation: yes
 
 Package: graphql
@@ -664,7 +664,7 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.1.1.9000
+Version: 1.1.2
 Depends: R (>= 3.2.0)
 Imports: curl, dplyr (>= 0.7.0), magrittr, purrr (>= 0.2.0), R.utils,
         readr, rgdal (>= 1.1-9), rlang, sp, stats, tibble, utils
@@ -672,7 +672,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: 9effa2f4b453cd781079b46e5732fcc9
+MD5sum: 305ba086c5ccfc0dc760d99f96dfb492
 NeedsCompilation: no
 
 Package: gtfsr
@@ -753,7 +753,7 @@ LinkingTo: Rcpp (>= 0.12.12)
 Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: 01668903ae6c34a64f59da9c2c30f924
+MD5sum: e702c4e28edcd3e14c32229aff70caf1
 NeedsCompilation: yes
 
 Package: IEEER
@@ -791,12 +791,12 @@ MD5sum: 7af52d8e9d9a0f9cb6dc51f1bca21a2b
 NeedsCompilation: no
 
 Package: jqr
-Version: 1.0.0.9100
+Version: 1.0.0.9140
 Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: baf3bf7f46bf86f41d8fa3be6209d64c
+MD5sum: 63df977d97d13bb43930f1a4cf4af5f6
 NeedsCompilation: yes
 
 Package: jsonld
@@ -839,7 +839,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: a26724b52ce0618428639b682981db5e
+MD5sum: bb8a998ad51637247e79edfac86688be
 NeedsCompilation: no
 
 Package: magick
@@ -858,7 +858,7 @@ Imports: ggplot2, leaflet, spocc (>= 0.6.0), sp, rworldmap,
         RColorBrewer, jsonlite, gistr
 Suggests: testthat, ggmap, knitr, taxize, maptools
 License: MIT + file LICENSE
-MD5sum: 8913df0682cff070867e9ffbeee41a8b
+MD5sum: 9e7bac07678c5000573be27578fe6b4b
 NeedsCompilation: no
 
 Package: microdemic
@@ -1381,7 +1381,7 @@ Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat(>= 0.7), knitr
 License: MIT + file LICENSE
-MD5sum: fbef43e08e39e94d2b83f2acae9ae344
+MD5sum: b861e09f5c5708f2a3809b816f3ce626
 NeedsCompilation: no
 
 Package: ridb
@@ -1839,11 +1839,11 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 832dfea10e176d7eef721bd47be427fd
+MD5sum: 7b5caa9eb1663fa40659d59f7ac85b6c
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9218
+Version: 0.9.0.9219
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1852,7 +1852,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: cc8a069ee7410adb45ce8b0eaf8aaaa5
+MD5sum: cbfa633d84ad7c6dd1712623e8248f97
 NeedsCompilation: no
 
 Package: taxizedb
@@ -2048,7 +2048,7 @@ Imports: crul (>= 0.3.6), tibble (>= 1.2), jsonlite (>= 1.1),
         data.table
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 4ee3d49ef171cd17d7679e1808216e30
+MD5sum: e2872d3cc6f6bd4f8e62dcb2daca39cc
 NeedsCompilation: no
 
 Package: XMLSchema
