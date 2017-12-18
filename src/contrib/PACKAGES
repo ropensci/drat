@@ -646,12 +646,12 @@ MD5sum: ff1ae4b514ffda588e50f255d856678f
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.19.0.9000
+Version: 0.20.0
 Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: df6f68a601f85b7926f9cd074d2cfe1b
+MD5sum: fe4782b70fa40b01df57bbc1ae2ee2bb
 NeedsCompilation: yes
 
 Package: graphql
@@ -1217,7 +1217,7 @@ Depends: R (>= 3.0.0)
 Imports: utils
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 3dd30fc3f2bf8bb0cdc24eef27b15ac5
+MD5sum: 3e4031f37020eb5e4d86c9ae94da8b5e
 NeedsCompilation: no
 
 Package: rdefra
@@ -1235,7 +1235,7 @@ Depends: R (>= 2.15.2), countrycode, R.cache
 Imports: dplyr, httr, rgeos, sp
 Suggests: rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: 95cd95461da10c42e063690db8526c80
+MD5sum: 2534bb1fa799fc70f27f277fa833da6b
 NeedsCompilation: no
 
 Package: rdpla
@@ -1821,7 +1821,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: c001cd42d30c073735a84e24e461b62d
+MD5sum: c318064877d8f02baa1e5dd65a7563e0
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -1915,7 +1915,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 73d1e69926d1b66c6ead50b596f895b2
+MD5sum: 874da4024abbb7cd096ca2ee9892d152
 NeedsCompilation: no
 
 Package: tif
@@ -2057,7 +2057,7 @@ Depends: R (>= 1.5.0), methods, XML
 Imports: RCurl, codetools
 Suggests: RCurl
 License: GPL-2
-MD5sum: 3882ae2e2ce67539dd4882e7c54c881f
+MD5sum: 0855c9850c1b680a96ba9ee452c2de21
 NeedsCompilation: no
 
 Package: xslt
