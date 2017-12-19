@@ -1204,11 +1204,11 @@ MD5sum: 71a322dc66a6799034a598480ee7c33a
 NeedsCompilation: no
 
 Package: rdatacite
-Version: 0.3.0.9100
+Version: 0.3.0.9110
 Imports: oai (>= 0.2.2), solrium (>= 1.0.0), jsonlite, crul (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 1fee3729d46d7d72f420e73cfacbc137
+MD5sum: 48564c208d1e245e93697862dc0b8ecc
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1253,7 +1253,7 @@ Imports: crul (>= 0.4.0), curl (>= 3.0), xml2 (>= 1.0.0), oai (>=
         0.2.2), solrium (>= 1.0.0)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: e130848fa50e99c2d92b124b39e663bb
+MD5sum: b3b3a753a01186c252d66189b0bad156
 NeedsCompilation: no
 
 Package: rebird
@@ -1748,7 +1748,7 @@ Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: c93938116bd61eb5f90abc4656deb851
+MD5sum: c013b95788b14dd6334a1ce47410d8f3
 NeedsCompilation: no
 
 Package: sparqldsl
@@ -1833,13 +1833,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.1.0.9112
+Version: 0.2.0
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: ac4f438423a2569f08caeba181522484
+MD5sum: 10fdbbe1851506326648535f28b3af75
 NeedsCompilation: no
 
 Package: taxize
@@ -1915,7 +1915,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 874da4024abbb7cd096ca2ee9892d152
+MD5sum: e241b3e9555eac650b40272bf31b5cec
 NeedsCompilation: no
 
 Package: tif
@@ -1953,7 +1953,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
 Suggests: remotes, roxygen2, testthat
 License: GPL (>= 2)
-MD5sum: 374c90438087d3e39859eedae38ab65e
+MD5sum: fc6ccf75b167c9e5609d7a839441caf7
 NeedsCompilation: no
 
 Package: treebase
