@@ -646,12 +646,12 @@ MD5sum: ff1ae4b514ffda588e50f255d856678f
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.20.0
+Version: 0.20.0.9000
 Depends: R (>= 3.0.2), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: fe4782b70fa40b01df57bbc1ae2ee2bb
+MD5sum: b0d9068c805c644ec938bb97d3c7e5d1
 NeedsCompilation: yes
 
 Package: graphql
@@ -672,7 +672,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         maps, plotKML, raster, reshape2, rgeos, rmarkdown, roxygen2 (>=
         6.0.1), spacetime, testthat, tidyr, covr
 License: MIT + file LICENSE
-MD5sum: e190d486c4217588f024224eab6a96d2
+MD5sum: 647edf5a33b1c96d98cfff56fe962f75
 NeedsCompilation: no
 
 Package: gtfsr
@@ -846,10 +846,11 @@ Package: magick
 Version: 1.6.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
-Suggests: spelling, methods, rmarkdown, rsvg, webp, png, pdftools,
-        ggplot2, raster, rgdal, gapminder, tesseract
+Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
+        pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
+        tesseract
 License: MIT + file LICENSE
-MD5sum: 6f40843ad298539e1142f9f2019a7821
+MD5sum: 9ab0d78862816e81b074961f7242b094
 NeedsCompilation: yes
 
 Package: mapr
@@ -976,7 +977,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 34a6b05aff769ad81d40009f27a15a7f
+MD5sum: 60bad36ef3c0b41dc3561d20e60ae729
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1833,13 +1834,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0
+Version: 0.2.0.9100
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 10fdbbe1851506326648535f28b3af75
+MD5sum: 72b4d615278391b011d87a11664f8dfe
 NeedsCompilation: no
 
 Package: taxize
@@ -1852,7 +1853,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: cbfa633d84ad7c6dd1712623e8248f97
+MD5sum: 8871b946495b66fd9aae5d790ac97ff2
 NeedsCompilation: no
 
 Package: taxizedb
@@ -1863,7 +1864,7 @@ Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
         1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 1fce96e7653f5df63fe69f92823f38e5
+MD5sum: 4d222c2a3fce22be47f04cbc4527a905
 NeedsCompilation: no
 
 Package: taxizesoap
