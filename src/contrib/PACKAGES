@@ -220,7 +220,7 @@ Imports: methods, lubridate, XML, selectr, RCurl, utils, ggplot2 (>=
         2.0.0), scales, RColorBrewer, reshape2
 Suggests: knitr, rmarkdown, ggmap (>= 2.6), pander, testthat
 License: GPL-2
-MD5sum: daa0ab4e5f0ad386fa93075ecf9118a3
+MD5sum: 39075176f37c822e6054ae62f36f6ceb
 NeedsCompilation: no
 
 Package: cmipr
@@ -1713,13 +1713,13 @@ MD5sum: 584315d18ef3035db2f000df06e8c859
 NeedsCompilation: no
 
 Package: seaaroundus
-Version: 1.0.1.9157
+Version: 1.2.0
 Depends: R (>= 3.2.2)
-Imports: httr, jsonlite, ggplot2, grid, scales, rgdal, maps, sf, sp,
-        wicket (>= 0.4.0)
+Imports: crul (>= 0.4.0), jsonlite, ggplot2, grid, scales, sp, rgdal,
+        maps, wicket (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: Apache License 2.0
-MD5sum: c0b5e190293e7f3658198bc580513eb2
+MD5sum: 7e6a88f958f9ef394ee8fdb0c2520cdb
 NeedsCompilation: no
 
 Package: seasl
@@ -1750,7 +1750,7 @@ Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: c013b95788b14dd6334a1ce47410d8f3
+MD5sum: 06e1b665268a049cbb8c792e7ce37414
 NeedsCompilation: no
 
 Package: sparqldsl
@@ -1835,17 +1835,17 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9100
+Version: 0.2.0.9101
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 72b4d615278391b011d87a11664f8dfe
+MD5sum: 5bb6ee36f48f58f61c31b56814a2f40f
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9219
+Version: 0.9.0.9320
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1854,7 +1854,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 8871b946495b66fd9aae5d790ac97ff2
+MD5sum: 5437ed5a2fa88efe70cbbf697f6528e4
 NeedsCompilation: no
 
 Package: taxizedb
@@ -2026,12 +2026,12 @@ MD5sum: 80c407731728c25dac1028806082cb21
 NeedsCompilation: no
 
 Package: wicket
-Version: 0.4.000000
+Version: 0.4.0
 Imports: Rcpp
 LinkingTo: Rcpp, BH
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 0cbbdae221a17270d9b2c8b3c5d21f91
+MD5sum: 8299e507fc82bd62198c28ffd0c8182d
 NeedsCompilation: yes
 
 Package: wikitaxa
