@@ -1019,12 +1019,12 @@ MD5sum: 8cf985fb720c710b824cbb568a2ff3ab
 NeedsCompilation: no
 
 Package: patentsview
-Version: 0.1.0.9000
+Version: 0.2.0.9000
 Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: e194ee99a0f3687c83d804c3a825b823
+MD5sum: 05ac07a0e7bb7bfc8a560ee968ad6427
 NeedsCompilation: no
 
 Package: pdftools
@@ -1835,13 +1835,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9101
+Version: 0.2.0.9102
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 5bb6ee36f48f58f61c31b56814a2f40f
+MD5sum: 140bf68cfa1d8ddcbaa775ac66023d8c
 NeedsCompilation: no
 
 Package: taxize
