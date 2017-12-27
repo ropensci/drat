@@ -754,7 +754,7 @@ LinkingTo: Rcpp (>= 0.12.12)
 Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         rmarkdown
 License: GPL-2 | LGPL-2.1 | MPL-1.1
-MD5sum: a0529e328b9d8649aab150f5ede4ae5d
+MD5sum: d7b8f1af39d2f0811327b703adc2a73d
 NeedsCompilation: yes
 
 Package: IEEER
@@ -840,7 +840,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 94e7b82e1a763c7669e2f883bcbea558
+MD5sum: a96670ba03267484863587545fab1828
 NeedsCompilation: no
 
 Package: magick
@@ -1024,7 +1024,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 05ac07a0e7bb7bfc8a560ee968ad6427
+MD5sum: 20babd62405da8b9cd1021ddf19957fd
 NeedsCompilation: no
 
 Package: pdftools
@@ -1824,7 +1824,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 47b4229ffadb1db8965f8917e3632bdf
+MD5sum: 9a448dac0693a02c8e5d8870f7059609
 NeedsCompilation: yes
 
 Package: tabulizer
