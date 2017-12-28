@@ -1814,7 +1814,7 @@ MD5sum: bbbc537350d0c25ea1398ab6a84d6c69
 NeedsCompilation: no
 
 Package: stplanr
-Version: 0.2.2
+Version: 0.2.2.09999
 Depends: R (>= 3.0)
 Imports: sp, curl, readr, dplyr, httr, jsonlite, stringi, stringr,
         lubridate, maptools, raster, rgdal, rgeos, openxlsx, methods,
@@ -1824,7 +1824,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 9a448dac0693a02c8e5d8870f7059609
+MD5sum: ddc83c090d40a0a49ffd01a5c421da7a
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -1918,7 +1918,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: e241b3e9555eac650b40272bf31b5cec
+MD5sum: c52295cd8c2af06f123b954c0cec6c42
 NeedsCompilation: no
 
 Package: tif
