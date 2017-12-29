@@ -270,13 +270,13 @@ MD5sum: 925efc2aa06f23d8b46228c23ab1594b
 NeedsCompilation: no
 
 Package: crul
-Version: 0.4.0.9102
+Version: 0.4.1.9112
 Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 2e1512a7e67ceb1cf93dcab7fa7f39b9
+MD5sum: c10690df3d6095b84eb6ce5baf1c7741
 NeedsCompilation: no
 
 Package: dashboard
