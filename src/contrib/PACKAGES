@@ -844,14 +844,14 @@ MD5sum: a96670ba03267484863587545fab1828
 NeedsCompilation: no
 
 Package: magick
-Version: 1.6.9000
+Version: 1.7
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: 9ab0d78862816e81b074961f7242b094
+MD5sum: f7ec94057b9f70f813fed26e97ce39f7
 NeedsCompilation: yes
 
 Package: mapr
@@ -1881,12 +1881,12 @@ MD5sum: 1b0b9ea2f3d24c965c4ed507f4bee062
 NeedsCompilation: no
 
 Package: tesseract
-Version: 1.6.9000
+Version: 1.7
 Imports: Rcpp (>= 0.12.12), curl, rappdirs, digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: 647e2503dddee30e759a32e7e7c52d71
+MD5sum: 9df92042dc22b5e46ffe1078a5a08aac
 NeedsCompilation: yes
 
 Package: testdat
@@ -1956,7 +1956,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
 Suggests: remotes, roxygen2, testthat
 License: GPL (>= 2)
-MD5sum: fc6ccf75b167c9e5609d7a839441caf7
+MD5sum: 67d4202dc0bf6e47f6327539226075e3
 NeedsCompilation: no
 
 Package: treebase
