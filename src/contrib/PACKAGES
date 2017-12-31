@@ -49,7 +49,7 @@ Depends: R (>= 3.0.0)
 Imports: httr, utils, XML
 Suggests: devtools, knitr, rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: f533dbfd6943fa63aa15b36dcc2e6460
+MD5sum: 21d063702b38eb479cdfd01589cd3a44
 NeedsCompilation: no
 
 Package: aspacer
@@ -1918,7 +1918,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: c52295cd8c2af06f123b954c0cec6c42
+MD5sum: f5b94772e1fd477ec2560e4d79fd973d
 NeedsCompilation: no
 
 Package: tif
@@ -1956,7 +1956,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
 Suggests: remotes, roxygen2, testthat
 License: GPL (>= 2)
-MD5sum: 67d4202dc0bf6e47f6327539226075e3
+MD5sum: 0bd6fa9acbf460ea8a6c0fdf6b1762e3
 NeedsCompilation: no
 
 Package: treebase
