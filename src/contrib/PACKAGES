@@ -102,7 +102,7 @@ MD5sum: cb599ec803d7e2339a263a75479471ca
 NeedsCompilation: no
 
 Package: biomartr
-Version: 0.6.0.9000
+Version: 0.7.0
 Depends: R (>= 3.1.1)
 Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
         1.9.4), dplyr (>= 0.3.0), readr (>= 0.2.2), downloader (>=
@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: d5c2a26b813bea3b8fc7bcaef072414f
+MD5sum: cb2bd312365673cfd8767ec67500d7f1
 NeedsCompilation: yes
 
 Package: bmc
@@ -270,13 +270,13 @@ MD5sum: 925efc2aa06f23d8b46228c23ab1594b
 NeedsCompilation: no
 
 Package: crul
-Version: 0.4.1.9112
+Version: 0.4.1.9113
 Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: c10690df3d6095b84eb6ce5baf1c7741
+MD5sum: 653092ab7c78ae4448976810970adc1c
 NeedsCompilation: no
 
 Package: dashboard
@@ -651,7 +651,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 73d6a3aa29db750b31cbbe54ed5f270d
+MD5sum: c7e4f098084dd1a29126e0d68ef125d7
 NeedsCompilation: yes
 
 Package: graphql
@@ -1024,7 +1024,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 20babd62405da8b9cd1021ddf19957fd
+MD5sum: 12658c5d2f9f087f7a06e2270c613d93
 NeedsCompilation: no
 
 Package: pdftools
