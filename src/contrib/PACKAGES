@@ -576,12 +576,12 @@ MD5sum: ef9f6ca0f233a24fddb2e1ea00e942e8
 NeedsCompilation: no
 
 Package: geoops
-Version: 0.1.4.9100
+Version: 0.1.6
 Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 348e977f9bd20026d7cd817f6b1b1912
+MD5sum: dd3c649fb4684baf97573d1fbe47b72a
 NeedsCompilation: yes
 
 Package: geoparser
@@ -978,7 +978,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 60bad36ef3c0b41dc3561d20e60ae729
+MD5sum: 1f1cbce72f3fe8145f1831f2cf5f2789
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1010,12 +1010,12 @@ MD5sum: 343123f960f988ffdb284a56223c4d52
 NeedsCompilation: no
 
 Package: pangaear
-Version: 0.3.1.9100
-Imports: httr (>= 1.2.0), jsonlite (>= 1.1), rappdirs (>= 0.3.1), xml2
+Version: 0.3.3.9210
+Imports: crul (>= 0.4.0), jsonlite (>= 1.1), rappdirs (>= 0.3.1), xml2
         (>= 1.0.0), oai (>= 0.2.2), tibble (>= 1.1), png
-Suggests: roxygen2 (>= 6.0.1), testthat
+Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 8cf985fb720c710b824cbb568a2ff3ab
+MD5sum: 1ba556ef796fc4163dc28eb845fa23f6
 NeedsCompilation: no
 
 Package: patentsview
@@ -1842,7 +1842,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 140bf68cfa1d8ddcbaa775ac66023d8c
+MD5sum: 84a5f91039c5e5d735799cce2719ca9b
 NeedsCompilation: no
 
 Package: taxize
