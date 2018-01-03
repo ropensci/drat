@@ -651,7 +651,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: c7e4f098084dd1a29126e0d68ef125d7
+MD5sum: edf8e311d98a35df3fc58bd38c2867e4
 NeedsCompilation: yes
 
 Package: graphql
@@ -1024,7 +1024,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 12658c5d2f9f087f7a06e2270c613d93
+MD5sum: 075bbc0ba00fa4c39e6d36461e372dd7
 NeedsCompilation: no
 
 Package: pdftools
@@ -1537,12 +1537,12 @@ MD5sum: 6faf4f68fe1d4e200fc16845f854bcc5
 NeedsCompilation: no
 
 Package: ropenaq
-Version: 0.2.4
+Version: 0.2.5
 Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: 90a4fad0ee76316904dc82141d244922
+MD5sum: a789d1f12c6cf50d3af499b5c6085261
 NeedsCompilation: no
 
 Package: ropkgs
