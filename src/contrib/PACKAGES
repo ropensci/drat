@@ -581,7 +581,7 @@ Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: dd3c649fb4684baf97573d1fbe47b72a
+MD5sum: bbc1d9164cfdedccdbd594c1e54a6295
 NeedsCompilation: yes
 
 Package: geoparser
@@ -646,12 +646,12 @@ MD5sum: ff1ae4b514ffda588e50f255d856678f
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.20.0.9000
+Version: 0.21.0
 Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: edf8e311d98a35df3fc58bd38c2867e4
+MD5sum: 6033c4ba0db8e84db956c6542e3f8aab
 NeedsCompilation: yes
 
 Package: graphql
@@ -1010,12 +1010,12 @@ MD5sum: 343123f960f988ffdb284a56223c4d52
 NeedsCompilation: no
 
 Package: pangaear
-Version: 0.3.3.9210
-Imports: crul (>= 0.4.0), jsonlite (>= 1.1), rappdirs (>= 0.3.1), xml2
-        (>= 1.0.0), oai (>= 0.2.2), tibble (>= 1.1), png
-Suggests: roxygen2 (>= 6.0.1), knitr, testthat
+Version: 0.6.0
+Imports: crul (>= 0.4.0), jsonlite (>= 1.5), rappdirs (>= 0.3.1), xml2
+        (>= 1.1.1), oai (>= 0.2.2), tibble (>= 1.1), png
+Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 1ba556ef796fc4163dc28eb845fa23f6
+MD5sum: 6dec91e708573aaf6881f8197ebaa34e
 NeedsCompilation: no
 
 Package: patentsview
@@ -1542,7 +1542,7 @@ Imports: crul, lubridate, dplyr, jsonlite, tidyr, lazyeval
 Suggests: knitr, rmarkdown, lintr, ggplot2, testthat, openair,
         devtools, rworldmap, ggmap, viridis
 License: GPL (>= 2)
-MD5sum: a789d1f12c6cf50d3af499b5c6085261
+MD5sum: c874e7717e93a5bb4446f866a55952da
 NeedsCompilation: no
 
 Package: ropkgs
@@ -1737,11 +1737,11 @@ MD5sum: fc9362315173eb1d0f8d355f23a113ba
 NeedsCompilation: no
 
 Package: sofa
-Version: 0.2.2.9219
-Imports: crul (>= 0.3.8), jsonlite (>= 1.1), R6 (>= 2.2.0), mime
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
+Version: 0.3.0
+Imports: crul (>= 0.4.0), jsonlite (>= 1.5), R6 (>= 2.2.2), mime
+Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: cec207dc7c0e9e4fc683689f3b52d384
+MD5sum: eedab2df2336cee86ebd3276c5d182ac
 NeedsCompilation: no
 
 Package: solrium
