@@ -102,7 +102,7 @@ MD5sum: cb599ec803d7e2339a263a75479471ca
 NeedsCompilation: no
 
 Package: biomartr
-Version: 0.7.0
+Version: 0.7.0.9000
 Depends: R (>= 3.1.1)
 Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
         1.9.4), dplyr (>= 0.3.0), readr (>= 0.2.2), downloader (>=
@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: cb2bd312365673cfd8767ec67500d7f1
+MD5sum: a593df1a13d8fc0b1e93435d65863c19
 NeedsCompilation: yes
 
 Package: bmc
