@@ -305,7 +305,7 @@ Depends: R (>= 3.1.1)
 Imports: digest, methods, redland, XML, hash, uuid, igraph
 Suggests: testthat, knitr, httr
 License: Apache License (== 2.0)
-MD5sum: accff2736aaa8429a02dd4860348f68c
+MD5sum: ce198c13b4ae3d82a843dbc1e35a02cb
 NeedsCompilation: no
 
 Package: datapkg
@@ -651,7 +651,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: bc7da4ee995b28a89b4f918e8b912201
+MD5sum: c2de9227b3a492615ad2d62e41128df8
 NeedsCompilation: yes
 
 Package: graphql
