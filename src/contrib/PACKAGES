@@ -659,7 +659,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 0f20133f5a096d2e2a89134485fa9b78
+MD5sum: 796545d1315457e0fab8bf49241b661f
 NeedsCompilation: yes
 
 Package: graphql
@@ -727,7 +727,7 @@ Imports: xml2, rvest, magrittr, plyr, ggmap, utils, knitr, rmarkdown,
         igraph
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: 2f49f05b7590099198fd5b8a3cd543ca
+MD5sum: d119e236b293c640d0c45ceba5680858
 NeedsCompilation: no
 
 Package: historydata
@@ -950,7 +950,7 @@ Imports: xml2 (>= 1.0.0), httr (>= 1.2.0), plyr (>= 1.8.4), stringr (>=
         1.1.0), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), DBI, knitr, RSQLite, testthat
 License: MIT + file LICENSE
-MD5sum: 1f87a003866dba0bf71be3dea4b9174b
+MD5sum: c9ff1242620d2e92ec7d571cc6ddd592
 NeedsCompilation: no
 
 Package: opencage
@@ -1450,7 +1450,7 @@ Imports: solrium (>= 1.0.0), crul (>= 0.4.0), jsonlite (>= 1.5),
         data.table (>= 1.9.6), tibble (>= 1.3.4)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 8cbc6fa0a91f2143239de5d6442bd555
+MD5sum: d5e7bb4f92bc7689ac4d32a4d876f224
 NeedsCompilation: no
 
 Package: rjsonapi
