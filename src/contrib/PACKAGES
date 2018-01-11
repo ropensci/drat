@@ -472,14 +472,15 @@ MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
 NeedsCompilation: no
 
 Package: fulltext
-Version: 0.1.9.9211
-Imports: methods, utils, stats, httr (>= 1.3.1), magrittr, xml2 (>=
-        1.1.1), jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0),
-        crminer (>= 0.1.4), microdemic (>= 0.1.0), aRxiv, rentrez (>=
-        1.1.0), tm, rredis, R.cache, digest, whisker, data.table
+Version: 0.9.9.9100
+Imports: methods, utils, stats, crul (>= 0.4.0), httr (>= 1.3.1),
+        magrittr, xml2 (>= 1.1.1), jsonlite, rplos (>= 0.8.0),
+        rcrossref (>= 0.8.0), crminer (>= 0.1.4), microdemic (>=
+        0.1.0), aRxiv, rentrez (>= 1.1.0), tm, digest, whisker,
+        data.table, hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: cc21226ebc0e9a56bb87ab991e1d6534
+MD5sum: 200a1755c0992584679eb746f9239030
 NeedsCompilation: no
 
 Package: gdoc
@@ -659,7 +660,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 796545d1315457e0fab8bf49241b661f
+MD5sum: 5ce5e9f5eb05b8d34c007665f1e64036
 NeedsCompilation: yes
 
 Package: graphql
@@ -1271,7 +1272,7 @@ Version: 0.4.0
 Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr
 Suggests: knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: f0b10975108def0340f432a9c2a5202b
+MD5sum: 7b738c199fa7628944c39dcfee152342
 NeedsCompilation: no
 
 Package: RedisAPI
