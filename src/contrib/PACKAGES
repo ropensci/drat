@@ -480,7 +480,7 @@ Imports: methods, utils, stats, crul (>= 0.4.0), httr (>= 1.3.1),
         data.table, hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 200a1755c0992584679eb746f9239030
+MD5sum: b2cfd1f3b6d2913c0174420ae9e8b537
 NeedsCompilation: no
 
 Package: gdoc
@@ -660,7 +660,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 5ce5e9f5eb05b8d34c007665f1e64036
+MD5sum: 691c2d1db9aff43f49362248e7b1b2e0
 NeedsCompilation: yes
 
 Package: graphql
