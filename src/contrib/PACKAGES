@@ -472,7 +472,7 @@ MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
 NeedsCompilation: no
 
 Package: fulltext
-Version: 0.9.9.9100
+Version: 0.9.9.9110
 Imports: methods, utils, stats, crul (>= 0.4.0), httr (>= 1.3.1),
         magrittr, xml2 (>= 1.1.1), jsonlite, rplos (>= 0.8.0),
         rcrossref (>= 0.8.0), crminer (>= 0.1.4), microdemic (>=
@@ -480,7 +480,7 @@ Imports: methods, utils, stats, crul (>= 0.4.0), httr (>= 1.3.1),
         data.table, hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: b2cfd1f3b6d2913c0174420ae9e8b537
+MD5sum: f0f7f78322d359f52ff40a1423494c2e
 NeedsCompilation: no
 
 Package: gdoc
@@ -660,7 +660,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 691c2d1db9aff43f49362248e7b1b2e0
+MD5sum: 474d900c4d0d653b652cf0976b540348
 NeedsCompilation: yes
 
 Package: graphql
@@ -1845,13 +1845,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9102
+Version: 0.2.0.9104
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: a2a8e364ff67677a29c1ea659eb4ff10
+MD5sum: 407946e2e8995bced21fc91639a0549d
 NeedsCompilation: no
 
 Package: taxize
