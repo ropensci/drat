@@ -660,7 +660,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 474d900c4d0d653b652cf0976b540348
+MD5sum: 9662cf7b381a06646d8909d9f2c9fa08
 NeedsCompilation: yes
 
 Package: graphql
@@ -1015,7 +1015,7 @@ Depends: raster, maps
 Imports: rjson, gtools, RCurl, plyr, scales
 Suggests: roxygen2, testthat
 License: GPL-2
-MD5sum: 343123f960f988ffdb284a56223c4d52
+MD5sum: b04093679ad808b92d358281a025ad8f
 NeedsCompilation: no
 
 Package: pangaear
