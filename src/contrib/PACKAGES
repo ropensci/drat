@@ -476,11 +476,11 @@ Version: 0.9.9.9110
 Imports: methods, utils, stats, crul (>= 0.4.0), httr (>= 1.3.1),
         magrittr, xml2 (>= 1.1.1), jsonlite, rplos (>= 0.8.0),
         rcrossref (>= 0.8.0), crminer (>= 0.1.4), microdemic (>=
-        0.1.0), aRxiv, rentrez (>= 1.1.0), tm, digest, whisker,
-        data.table, hoardr, pdftools, storr, tibble
+        0.1.0), aRxiv, rentrez (>= 1.1.0), digest, whisker, data.table,
+        hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: f0f7f78322d359f52ff40a1423494c2e
+MD5sum: d337173bdfeb985f78294ebe74f6bf62
 NeedsCompilation: no
 
 Package: gdoc
@@ -581,7 +581,7 @@ Version: 0.998
 Depends: R (>= 2.2.0)
 Imports: rjson
 License: GPL-3
-MD5sum: 7ba93c6f179555f51c38aa0886b2a655
+MD5sum: 90b87210c1c7c16079243489a2222e86
 NeedsCompilation: no
 
 Package: geoops
@@ -660,7 +660,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 9662cf7b381a06646d8909d9f2c9fa08
+MD5sum: 469181548360a72e4523d63f4e8d1e31
 NeedsCompilation: yes
 
 Package: graphql
@@ -843,13 +843,13 @@ MD5sum: aa3c55af25776d3ec3b8175ce8209f8d
 NeedsCompilation: no
 
 Package: lingtypology
-Version: 1.0.10
+Version: 1.0.11
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: a96670ba03267484863587545fab1828
+MD5sum: dff4144aec8cf02a1d6e07ac6a6f9a6a
 NeedsCompilation: no
 
 Package: magick
@@ -1237,7 +1237,7 @@ Depends: R (>= 2.10)
 Imports: lubridate, tibble, httr, xml2, dplyr, sp, rgdal
 Suggests: testthat, leaflet, parallel, rmarkdown, knitr, ggplot2, zoo
 License: GPL-3
-MD5sum: 279e8014e151136055faf77839fda3a7
+MD5sum: fc20dd74a8aa21fe2aeaaec62742917c
 NeedsCompilation: no
 
 Package: rdopa
