@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: a593df1a13d8fc0b1e93435d65863c19
+MD5sum: c6f70d0a679735bd54c652e01819f6b7
 NeedsCompilation: yes
 
 Package: bmc
@@ -472,14 +472,14 @@ MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.0
+Version: 1.0.0.9100
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 6fb65e2fa7721a3a9989ab40416e9b78
+MD5sum: 95bd5e62db5580b14fe398b24e8721db
 NeedsCompilation: no
 
 Package: gdoc
@@ -659,7 +659,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: e1682e52acb0b741ecf96be04f9ceec8
+MD5sum: 9c55426394930e0cd416dffd41a15890
 NeedsCompilation: yes
 
 Package: graphql
@@ -872,11 +872,11 @@ MD5sum: 9e7bac07678c5000573be27578fe6b4b
 NeedsCompilation: no
 
 Package: microdemic
-Version: 0.2.0
+Version: 0.2.0.9100
 Imports: crul (>= 0.4.0), jsonlite (>= 1.5), data.table, tibble
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: dadbce220449327e5ce50574d6627505
+MD5sum: 83b17f38b17bf182655f2bcd40e10f87
 NeedsCompilation: no
 
 Package: monkeylearn
@@ -1110,7 +1110,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: ea9a98ec4b03b8e5b4573f4a4f244caf
+MD5sum: a8282d34e8ed9bf0d27980b1e6c88afd
 NeedsCompilation: no
 
 Package: proj
@@ -1850,7 +1850,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 407946e2e8995bced21fc91639a0549d
+MD5sum: 1b0f91f7ab1b2d100f7d100058f2b45f
 NeedsCompilation: no
 
 Package: taxize
