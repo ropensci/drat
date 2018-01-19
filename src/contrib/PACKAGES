@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: c6f70d0a679735bd54c652e01819f6b7
+MD5sum: e0596593dc5b949c996742938e4fc9bb
 NeedsCompilation: yes
 
 Package: bmc
@@ -659,7 +659,7 @@ Depends: R (>= 3.1), methods
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 9c55426394930e0cd416dffd41a15890
+MD5sum: 57693da564fafe1d1b30f02c61fd4780
 NeedsCompilation: yes
 
 Package: graphql
@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: be97d793fc0844b1c34c396d5409b218
+MD5sum: aa15b04c832b83ddc2034dc71b188c18
 NeedsCompilation: no
 
 Package: magick
@@ -1032,7 +1032,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 538009853f8397ce411c4c980294bc9f
+MD5sum: 9a3eb52d7cc47ae314bf725de1fa02ac
 NeedsCompilation: no
 
 Package: pdftools
@@ -1204,13 +1204,13 @@ MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.0
+Version: 0.8.0.9311
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: e57e43912a088d57d5625fd39a759f9e
+MD5sum: 65e290aee566c5089d36317c27a07794
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1850,7 +1850,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 1b0f91f7ab1b2d100f7d100058f2b45f
+MD5sum: 13df1c3510d4d15cd898dcf86aacc208
 NeedsCompilation: no
 
 Package: taxize
