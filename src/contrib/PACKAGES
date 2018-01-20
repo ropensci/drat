@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.4.1.9113
-Imports: curl (>= 2.8.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+Version: 0.5.0
+Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 91e2aead9fb1ce8dd8aa969b0db5cd7a
+MD5sum: bff40f49e4882d5f1ba9b3745f6713fe
 NeedsCompilation: no
 
 Package: dashboard
@@ -395,12 +395,12 @@ MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.0.9100
+Version: 0.8.1.9110
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 937eb39762a0f7cdfc3d4d4a3bc3279d
+MD5sum: 86d4fc6550926b4b86472eb918cf7d3c
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -926,12 +926,12 @@ MD5sum: 268949c4666ba0cc9fe142fe25a55f20
 NeedsCompilation: no
 
 Package: nneo
-Version: 0.1.0.9100
+Version: 0.1.1.9310
 Imports: crul (>= 0.1.0), jsonlite (>= 1.1), tibble (>= 1.2),
         data.table, fauxpas
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: 048036323165769aadb54305e14b0579
+MD5sum: 1186035908dd39c80b5b1b54e4fbceeb
 NeedsCompilation: no
 
 Package: nodbi
@@ -1391,7 +1391,7 @@ Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat(>= 0.7), knitr
 License: MIT + file LICENSE
-MD5sum: b861e09f5c5708f2a3809b816f3ce626
+MD5sum: e6e9fdef6fa4818ee480fc305bbbb43b
 NeedsCompilation: no
 
 Package: ridb
