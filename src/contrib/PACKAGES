@@ -842,13 +842,13 @@ MD5sum: aa3c55af25776d3ec3b8175ce8209f8d
 NeedsCompilation: no
 
 Package: lingtypology
-Version: 1.0.11
+Version: 1.0.12
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: aa15b04c832b83ddc2034dc71b188c18
+MD5sum: cffbb6f6399e44840f8a1e866139d8f2
 NeedsCompilation: no
 
 Package: magick
@@ -1515,14 +1515,14 @@ MD5sum: c7808eb78d615e29a3a45eb4ea0a0be6
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.7.1.9142
+Version: 0.7.1.9148
 Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
         tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
         gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 834052da276aa523a4fe04dee7e1044e
+MD5sum: b22b9898b5c90ac25a21cced7411f8b9
 NeedsCompilation: no
 
 Package: rnpn
@@ -1854,7 +1854,7 @@ MD5sum: 13df1c3510d4d15cd898dcf86aacc208
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9320
+Version: 0.9.0.9371
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1863,7 +1863,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 0ed9a273b7ae7ed7ce341b3a345c6109
+MD5sum: 8cadc2901cac881feba6d15d6f384f79
 NeedsCompilation: no
 
 Package: taxizedb
