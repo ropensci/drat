@@ -395,12 +395,12 @@ MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.1.9110
+Version: 0.8.1.9116
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 86d4fc6550926b4b86472eb918cf7d3c
+MD5sum: d7d6852e614c0579e35232143945b3ec
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: cffbb6f6399e44840f8a1e866139d8f2
+MD5sum: 33fa9e202bc795ae9e1633124b9acec3
 NeedsCompilation: no
 
 Package: magick
@@ -1522,7 +1522,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: b22b9898b5c90ac25a21cced7411f8b9
+MD5sum: b824a3b4fea5fb8df4d6222e92ff3285
 NeedsCompilation: no
 
 Package: rnpn
