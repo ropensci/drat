@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.0
+Version: 0.5.0.9100
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: bff40f49e4882d5f1ba9b3745f6713fe
+MD5sum: 9d036b10991d5e4eeb5635e514aa0da0
 NeedsCompilation: no
 
 Package: dashboard
@@ -771,7 +771,7 @@ Depends: R (>= 3.0.0)
 Imports: httr, XML
 Suggests: devtools, knitr, rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: 9743e71bfe453feb889b2ffe841b95fc
+MD5sum: 415d1885e14a99912d8574e4daec6546
 NeedsCompilation: no
 
 Package: internetarchive
@@ -1319,7 +1319,7 @@ Suggests: roxygen2 (>= 6.0.1), knitr, rmarkdown, testthat, akima,
         ggplot2, mapdata, plot3D
 Enhances: taxize
 License: MIT + file LICENSE
-MD5sum: b7a0154ddf9a849323762b19dc63fef1
+MD5sum: 10b2defdac50a62ebe0fe0e5c1455306
 NeedsCompilation: no
 
 Package: reuropeana
@@ -1515,14 +1515,14 @@ MD5sum: c7808eb78d615e29a3a45eb4ea0a0be6
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.7.1.9148
+Version: 0.7.1.9149
 Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
         tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
         gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: b824a3b4fea5fb8df4d6222e92ff3285
+MD5sum: d9c2d65d257be8aa44182213d633d1ad
 NeedsCompilation: no
 
 Package: rnpn
@@ -1586,7 +1586,7 @@ Imports: ggplot2, crul (>= 0.4.0), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 55fcf5e35fd82611c11eea16db7d8007
+MD5sum: e262ab6754a74f29a12ace101a375efc
 NeedsCompilation: no
 
 Package: rrdf
@@ -1926,7 +1926,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: f5b94772e1fd477ec2560e4d79fd973d
+MD5sum: 5a7d3886f7aace1c9e52fd7b8f82f1b4
 NeedsCompilation: no
 
 Package: tif
