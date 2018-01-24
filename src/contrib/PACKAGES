@@ -780,7 +780,7 @@ Depends: R (>= 3.1.0)
 Imports: httr (>= 1.1.0), dplyr (>= 0.4.3)
 Suggests: knitr, testthat, rmarkdown
 License: MIT + file LICENSE
-MD5sum: ed1df84a52177d4f04f1cfae4bbcc47c
+MD5sum: 3150f62c483a73aff062248bb5600720
 NeedsCompilation: no
 
 Package: isdparser
@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 33fa9e202bc795ae9e1633124b9acec3
+MD5sum: 78d3e2b2f1efbca5021c6f6f16b51859
 NeedsCompilation: no
 
 Package: magick
@@ -986,7 +986,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 66468348bc1516a68caae1673511bfa6
+MD5sum: 4c7539278523f2e6e61bccd13e1f73eb
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1032,7 +1032,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 9a3eb52d7cc47ae314bf725de1fa02ac
+MD5sum: c15faadd71f674056ee7034ca2d65f81
 NeedsCompilation: no
 
 Package: pdftools
@@ -1844,13 +1844,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9104
+Version: 0.2.0.9106
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
-        stringr
+        stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 13df1c3510d4d15cd898dcf86aacc208
+MD5sum: e36bd18bc97746afb6ba9fbcbd6a4d9b
 NeedsCompilation: no
 
 Package: taxize
@@ -1867,14 +1867,14 @@ MD5sum: 8cadc2901cac881feba6d15d6f384f79
 NeedsCompilation: no
 
 Package: taxizedb
-Version: 0.1.5.9110
+Version: 0.1.6
 Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
         (>= 0.10.11), RSQLite (>= 1.1.2), dplyr (>= 0.7.0), tibble,
         tidyr, rlang, readr (>= 1.1.1), dbplyr (>= 1.0.0), magrittr (>=
         1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: f36d9e927155c8b7b39aec5630f533f0
+MD5sum: 8bab50ad86a9957f3c26ba58f8245444
 NeedsCompilation: no
 
 Package: taxizesoap
