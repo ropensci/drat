@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 78d3e2b2f1efbca5021c6f6f16b51859
+MD5sum: 97fc4e6a39015f3a9a94ad4f7af3e468
 NeedsCompilation: no
 
 Package: magick
@@ -935,13 +935,12 @@ MD5sum: 1186035908dd39c80b5b1b54e4fbceeb
 NeedsCompilation: no
 
 Package: nodbi
-Version: 0.0.5.9148
+Version: 0.0.7.9110
 Imports: data.table, jsonlite
-Suggests: sofa (>= 0.2.0), RedisAPI (>= 0.1.4), rrlite (>= 0.2.0),
-        RcppRedis, etseed (>= 0.1.0), elastic (>= 0.7.8), mongolite (>=
-        0.9.1), reeack (>= 0.0.1.9510), testthat
+Suggests: sofa (>= 0.3.0), etseed (>= 0.1.0), elastic (>= 0.8.0),
+        mongolite (>= 1.5), redux, testthat
 License: MIT + file LICENSE
-MD5sum: 1a2fb469b6853af347955e048efd9754
+MD5sum: 3b19ea937b7b2221dee204923f1a7aff
 NeedsCompilation: no
 
 Package: oai
@@ -986,7 +985,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 4c7539278523f2e6e61bccd13e1f73eb
+MD5sum: 433cc88eac55e1bc1959a184b7294f3d
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1110,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: a8282d34e8ed9bf0d27980b1e6c88afd
+MD5sum: 0aba4952b0039d37b12ded4061d1afb8
 NeedsCompilation: no
 
 Package: proj
@@ -1850,7 +1849,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: e36bd18bc97746afb6ba9fbcbd6a4d9b
+MD5sum: fb75d3714f9dcebc56ace3bf7d9ba26f
 NeedsCompilation: no
 
 Package: taxize
