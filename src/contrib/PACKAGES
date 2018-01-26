@@ -463,12 +463,12 @@ MD5sum: a9a417bff080e5a9c17bd303b7ca616e
 NeedsCompilation: no
 
 Package: finch
-Version: 0.1.0.9000
+Version: 0.2.0
 Imports: xml2 (>= 1.0.0), EML (>= 1.0.1), data.table (>= 1.10.0), plyr,
-        rappdirs, digest
-Suggests: roxygen2 (>= 6.0.1), testthat, httr, jsonlite
+        rappdirs, digest, hoardr (>= 0.2.0)
+Suggests: testthat, crul, jsonlite
 License: MIT + file LICENSE
-MD5sum: 75dd4b2213cb9b778221d014dfb9fa6a
+MD5sum: d292c064fbfa332f8c655c9b2a7e3f54
 NeedsCompilation: no
 
 Package: fulltext
@@ -935,12 +935,12 @@ MD5sum: 1186035908dd39c80b5b1b54e4fbceeb
 NeedsCompilation: no
 
 Package: nodbi
-Version: 0.0.7.9110
+Version: 0.0.7.9210
 Imports: data.table, jsonlite
 Suggests: sofa (>= 0.3.0), etseed (>= 0.1.0), elastic (>= 0.8.0),
         mongolite (>= 1.5), redux, testthat
 License: MIT + file LICENSE
-MD5sum: 3b19ea937b7b2221dee204923f1a7aff
+MD5sum: cbc5c038f426f3513901b888a25c8d15
 NeedsCompilation: no
 
 Package: oai
@@ -985,7 +985,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 433cc88eac55e1bc1959a184b7294f3d
+MD5sum: f5a1aa748898d8bd73ef577ba168a84d
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 0aba4952b0039d37b12ded4061d1afb8
+MD5sum: 8c6fd3eeea4c22ff909712d85823e8eb
 NeedsCompilation: no
 
 Package: proj
