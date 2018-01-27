@@ -695,12 +695,12 @@ MD5sum: 43f1667189a43832992df7210a2d85c6
 NeedsCompilation: no
 
 Package: gutenbergr
-Version: 0.1.3
+Version: 0.1.4
 Depends: R (>= 2.10)
 Imports: dplyr, readr, purrr, urltools, stringr, lazyeval
-Suggests: knitr, rmarkdown, testthat, tidytext, ggplot2, tidyr
+Suggests: knitr, rmarkdown, testthat, tidytext, ggplot2, tidyr, curl
 License: GPL-2
-MD5sum: b45df3b0321e50b64ddfbdbcec6b5af2
+MD5sum: 2b498f74358987b3b1a1177cb20980cc
 NeedsCompilation: no
 
 Package: hathi
@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 8c6fd3eeea4c22ff909712d85823e8eb
+MD5sum: 628a646ac319682755531ec207260557
 NeedsCompilation: no
 
 Package: proj
@@ -1888,12 +1888,12 @@ MD5sum: 1b0b9ea2f3d24c965c4ed507f4bee062
 NeedsCompilation: no
 
 Package: tesseract
-Version: 1.7
+Version: 1.8
 Imports: Rcpp (>= 0.12.12), curl, rappdirs, digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: 9df92042dc22b5e46ffe1078a5a08aac
+MD5sum: 4360cab09b3453ec2379b4e986b702ae
 NeedsCompilation: yes
 
 Package: testdat
@@ -1976,10 +1976,10 @@ MD5sum: 0187ed93694eab625542b3d12aa91580
 NeedsCompilation: no
 
 Package: unrtf
-Version: 1.1
+Version: 1.2
 Imports: sys
 License: GPL-3
-MD5sum: 3b885a499fa7e190172ace1ab9396185
+MD5sum: 76b8f170a9ee94751fa0ec3733d5caac
 NeedsCompilation: yes
 
 Package: USAboundaries
