@@ -400,7 +400,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: e57939a31dc0cb576544081bc9e7a1b8
+MD5sum: 482d69268f3ea0241bcb3af3b5b9d3fc
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -655,11 +655,11 @@ NeedsCompilation: no
 
 Package: git2r
 Version: 0.21.0.9000
-Depends: R (>= 3.1), methods
+Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 57693da564fafe1d1b30f02c61fd4780
+MD5sum: ebe6afecf3e0fd8ebc7bf967f5c9fdf1
 NeedsCompilation: yes
 
 Package: graphql
@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 8d0f0c1f76d8519db27591407b56a45a
+MD5sum: 44079ac16c629e5b1bf644f888020bf1
 NeedsCompilation: no
 
 Package: magick
@@ -1031,7 +1031,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: c15faadd71f674056ee7034ca2d65f81
+MD5sum: 1873f404567eb42c9645bfd8dbc3cf80
 NeedsCompilation: no
 
 Package: pdftools
@@ -1576,7 +1576,7 @@ Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 26ca3324d77c7524408c678ed573b6b9
+MD5sum: 1c5616a75c1edc0c2a3daeaef40bbdb9
 NeedsCompilation: no
 
 Package: rplos
@@ -1849,7 +1849,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: fb75d3714f9dcebc56ace3bf7d9ba26f
+MD5sum: f49e3fc4e7828846689dbc4b853a66d8
 NeedsCompilation: no
 
 Package: taxize
@@ -1925,7 +1925,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 5a7d3886f7aace1c9e52fd7b8f82f1b4
+MD5sum: bbe486bbd48b8c2acb75d9a8955c0d58
 NeedsCompilation: no
 
 Package: tif
