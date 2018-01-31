@@ -395,12 +395,12 @@ MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.1.9116
+Version: 0.8.2.9210
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 482d69268f3ea0241bcb3af3b5b9d3fc
+MD5sum: 6d8b381e5c63a6ac6630476e449d2fa8
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: ebe6afecf3e0fd8ebc7bf967f5c9fdf1
+MD5sum: 70c9a53f927aa876ece0ef32f42b9cd4
 NeedsCompilation: yes
 
 Package: graphql
@@ -1318,7 +1318,7 @@ Suggests: roxygen2 (>= 6.0.1), knitr, rmarkdown, testthat, akima,
         ggplot2, mapdata, plot3D
 Enhances: taxize
 License: MIT + file LICENSE
-MD5sum: 049447b49c9b0464debf2a414ba94c1d
+MD5sum: 1599589e188f911b6d2ee420911713af
 NeedsCompilation: no
 
 Package: reuropeana
@@ -1335,7 +1335,7 @@ Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
 Suggests: testthat, gdata, uuid, knitr, rmarkdown
 License: CC0
-MD5sum: fb86154b3010af7bd3b92a297d1831cf
+MD5sum: c97daa78b9eb0149ec05a7eaded679e5
 NeedsCompilation: no
 
 Package: rfishbase
@@ -1576,7 +1576,7 @@ Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 1c5616a75c1edc0c2a3daeaef40bbdb9
+MD5sum: 2063facafca06cbd0a62e63b4c6325d5
 NeedsCompilation: no
 
 Package: rplos
@@ -1853,7 +1853,7 @@ MD5sum: f49e3fc4e7828846689dbc4b853a66d8
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9371
+Version: 0.9.0.9374
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1862,7 +1862,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: ae5ef202162af1254f5b968c951f012b
+MD5sum: da1e1739a8407fffd20b3d69ca63a40e
 NeedsCompilation: no
 
 Package: taxizedb
@@ -1925,7 +1925,7 @@ Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
         withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: bbe486bbd48b8c2acb75d9a8955c0d58
+MD5sum: 1c5651cc53664b161aa9b8b0f0c8bc49
 NeedsCompilation: no
 
 Package: tif
@@ -1960,10 +1960,10 @@ NeedsCompilation: no
 Package: travis
 Version: 0.2-11
 Depends: R (>= 3.1.0)
-Imports: clipr, git2r, httr, memoise, openssl, usethis, withr
-Suggests: remotes, roxygen2, testthat
+Imports: clipr, git2r, httr, memoise, openssl, withr
+Suggests: remotes, roxygen2, testthat, usethis
 License: GPL (>= 2)
-MD5sum: 0bd6fa9acbf460ea8a6c0fdf6b1762e3
+MD5sum: ae660137bb54059ac183455f330a760c
 NeedsCompilation: no
 
 Package: treebase
