@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 4a71a0cf202b8192226a98501a483ae1
+MD5sum: 5ec13b7f490d7c68374d7fc1fe7970e9
 NeedsCompilation: no
 
 Package: proj
@@ -1843,13 +1843,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9106
+Version: 0.2.0.9108
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: f49e3fc4e7828846689dbc4b853a66d8
+MD5sum: 02ab8ffaa1dcf7b090372e3d83c346b4
 NeedsCompilation: no
 
 Package: taxize
