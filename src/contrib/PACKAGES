@@ -580,7 +580,7 @@ Version: 0.998
 Depends: R (>= 2.2.0)
 Imports: rjson
 License: GPL-3
-MD5sum: 90b87210c1c7c16079243489a2222e86
+MD5sum: 43d6c4ac21979d768a58b5c3619a5720
 NeedsCompilation: no
 
 Package: geoops
@@ -848,7 +848,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 44079ac16c629e5b1bf644f888020bf1
+MD5sum: e1b67e42189c9655c1d7cf3414de41c3
 NeedsCompilation: no
 
 Package: magick
@@ -1257,20 +1257,20 @@ MD5sum: 4e88a2cad83b5577880377bf2d5dda5d
 NeedsCompilation: no
 
 Package: rdryad
-Version: 0.3.0.9100
+Version: 0.3.7.9100
 Imports: crul (>= 0.4.0), curl (>= 3.0), xml2 (>= 1.0.0), oai (>=
-        0.2.2), solrium (>= 1.0.0)
+        0.2.2), solrium (>= 1.0.0), data.table, tibble
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: eba262f97e566f95d4d996b9bba4e610
+MD5sum: c409582ef57e97e387a9bf4251f3132f
 NeedsCompilation: no
 
 Package: rebird
-Version: 0.4.0
+Version: 0.4.1.9100
 Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr
 Suggests: knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 7b738c199fa7628944c39dcfee152342
+MD5sum: 3a8f2754094fe79b63352ad4e49d3066
 NeedsCompilation: no
 
 Package: RedisAPI
@@ -1849,11 +1849,11 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 02ab8ffaa1dcf7b090372e3d83c346b4
+MD5sum: dbc50fa4268a4baee5b870d9ce47ce94
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.0.9374
+Version: 0.9.1.9320
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1862,7 +1862,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: da1e1739a8407fffd20b3d69ca63a40e
+MD5sum: a6f36131afdc51200dafa80cce6eda36
 NeedsCompilation: no
 
 Package: taxizedb
@@ -1919,13 +1919,13 @@ MD5sum: 13a47233db575171a2f48a062eac3601
 NeedsCompilation: yes
 
 Package: tic
-Version: 0.2-12
+Version: 0.2-13
 Depends: R (>= 3.0.0)
-Imports: backports, crayon, git2r, magrittr, memoise, methods, R6,
-        withr
+Imports: backports, base64enc, crayon, git2r, magrittr, memoise,
+        methods, R6, withr
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis
 License: GPL (>= 2)
-MD5sum: 1c5651cc53664b161aa9b8b0f0c8bc49
+MD5sum: 8c53f335574fb53eaed9dc539fa138c5
 NeedsCompilation: no
 
 Package: tif
@@ -1963,7 +1963,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, httr, memoise, openssl, withr
 Suggests: remotes, roxygen2, testthat, usethis
 License: GPL (>= 2)
-MD5sum: ae660137bb54059ac183455f330a760c
+MD5sum: 5401bb1cc584c8dd68c2f9b545f3a933
 NeedsCompilation: no
 
 Package: treebase
