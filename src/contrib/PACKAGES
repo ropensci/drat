@@ -1073,7 +1073,7 @@ Depends: R (>= 3.1.0)
 Imports: utils, dplyr (> 0.4.3)
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: c9d99fa41a8362cbb519ff457553a893
+MD5sum: f75eb0058b5fa71a41883f649ae95c4e
 NeedsCompilation: no
 
 Package: pleiades
@@ -1335,7 +1335,7 @@ Depends: R (>= 3.0), methods
 Imports: RJSONIO, httr (>= 0.3), httpuv, plyr, yaml, ggplot2, XML
 Suggests: testthat, gdata, uuid, knitr, rmarkdown
 License: CC0
-MD5sum: c97daa78b9eb0149ec05a7eaded679e5
+MD5sum: 30a90e399bd4571aaf2ba24dbd4c3287
 NeedsCompilation: no
 
 Package: rfishbase
@@ -1364,7 +1364,7 @@ Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
         rgeos
 License: MIT + file LICENSE
-MD5sum: 908bf7b79f50ba9a87c388dec208e192
+MD5sum: fc5bc0905e65184e8901081a286b259c
 NeedsCompilation: no
 
 Package: rGEM
@@ -1853,7 +1853,7 @@ MD5sum: dbc50fa4268a4baee5b870d9ce47ce94
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.1.9320
+Version: 0.9.1.9321
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1862,7 +1862,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
 License: MIT + file LICENSE
-MD5sum: a6f36131afdc51200dafa80cce6eda36
+MD5sum: c29d5196de01b05c404b59ebdbfe91eb
 NeedsCompilation: no
 
 Package: taxizedb
