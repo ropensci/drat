@@ -859,7 +859,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: f7ec94057b9f70f813fed26e97ce39f7
+MD5sum: 6d984d237df4b650a5c2c6739ef5c63b
 NeedsCompilation: yes
 
 Package: mapr
@@ -2013,7 +2013,7 @@ Depends: R (>= 3.0)
 Imports: xml2, httr, rvest, RCurl, jsonlite, stringr, methods
 Suggests: testthat, rcdk
 License: MIT + file LICENSE
-MD5sum: 0a14a10d1bf4e35697adddb8e7cb0318
+MD5sum: 1c811e1643026efbfda8b6a8eafa5005
 NeedsCompilation: no
 
 Package: webmockr
