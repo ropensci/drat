@@ -859,7 +859,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: 6d984d237df4b650a5c2c6739ef5c63b
+MD5sum: 360518583122f5ddec7390263f93b012
 NeedsCompilation: yes
 
 Package: mapr
@@ -1453,12 +1453,12 @@ MD5sum: 56e5ed0988b78f2a13373fe70dccb897
 NeedsCompilation: no
 
 Package: rjsonapi
-Version: 0.1.1.9210
+Version: 0.1.2.9310
 Imports: crul (>= 0.2.0), R6 (>= 2.2.0), jsonlite (>= 1.2), plumber (>=
-        0.3.1)
+        0.3.1), hunspell (>= 2.9)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: e591c9a00054d580d2888ced293a2d22
+MD5sum: e2b9e8dc1e333d577f3d3757fa9f47dd
 NeedsCompilation: no
 
 Package: rmetadata
