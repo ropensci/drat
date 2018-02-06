@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 5ec13b7f490d7c68374d7fc1fe7970e9
+MD5sum: ea42fb5fc1ea83d844396b492fd63c46
 NeedsCompilation: no
 
 Package: proj
@@ -1853,16 +1853,16 @@ MD5sum: dbc50fa4268a4baee5b870d9ce47ce94
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.1.9321
+Version: 0.9.2
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
         foreach, ape, zoo, bold (>= 0.3.5), data.table, rredlist (>=
         0.3.0), rotl (>= 3.0.0), ritis (>= 0.5.0), tibble (>= 1.2),
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
-Suggests: testthat, roxygen2 (>= 6.0.1), knitr, vegan
+Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: c29d5196de01b05c404b59ebdbfe91eb
+MD5sum: ad802e4f984f43d26016fed5b9917eda
 NeedsCompilation: no
 
 Package: taxizedb
