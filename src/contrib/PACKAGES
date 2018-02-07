@@ -1040,7 +1040,7 @@ Imports: Rcpp (>= 0.12.12)
 LinkingTo: Rcpp
 Suggests: jpeg, png, webp, testthat
 License: MIT + file LICENSE
-MD5sum: 05837a02569ce3a665e9efc3bdc2d4ea
+MD5sum: fd1c371dc446e32d9d2e08bcb37b99ef
 NeedsCompilation: yes
 
 Package: phylocomr
@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: ea42fb5fc1ea83d844396b492fd63c46
+MD5sum: 1b87a469a0f25f2000f545e484cdd3a9
 NeedsCompilation: no
 
 Package: proj
@@ -1357,14 +1357,13 @@ MD5sum: 553fa606a7cd242e1c5b919686b2ba34
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.9.9.9100
+Version: 0.9.9.9221
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0)
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, reshape2, maps, sp,
-        rgeos
+Suggests: testthat, knitr, reshape2, maps, sp, rgeos
 License: MIT + file LICENSE
-MD5sum: fc5bc0905e65184e8901081a286b259c
+MD5sum: 9f6b9072c472a6b830ca9e0576edccf4
 NeedsCompilation: no
 
 Package: rGEM
@@ -1849,7 +1848,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: dbc50fa4268a4baee5b870d9ce47ce94
+MD5sum: 1bf41a26baf22c8f64e079c581d3f223
 NeedsCompilation: no
 
 Package: taxize
@@ -1862,7 +1861,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: ad802e4f984f43d26016fed5b9917eda
+MD5sum: 58b6fe3eb969710b5a76d6a2c037a7bc
 NeedsCompilation: no
 
 Package: taxizedb
