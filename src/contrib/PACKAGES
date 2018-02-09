@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: b83df4f06076c0014a671e5cf22a0f70
+MD5sum: 555f5f0cf62eb1a7c396e411b493d4d4
 NeedsCompilation: yes
 
 Package: bmc
@@ -395,12 +395,12 @@ MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.2.9210
+Version: 0.8.2.9219
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 6d8b381e5c63a6ac6630476e449d2fa8
+MD5sum: 05a8ca9d80768252c72e6a2b29c04998
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -637,11 +637,11 @@ MD5sum: 02870cc16137c51afbf487c037b785f1
 NeedsCompilation: no
 
 Package: ghql
-Version: 0.0.3.9110
+Version: 0.0.4.9210
 Imports: httr (>= 1.2.0), jsonlite (>= 1.0), R6, graphql
-Suggests: roxygen2 (>= 5.0.1), testthat, covr
+Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: b004ed7325d23a4e8c2dd4e3cc7a2260
+MD5sum: 44aeaa079565f86f2c47888582650861
 NeedsCompilation: no
 
 Package: gistr
@@ -1109,7 +1109,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 1b87a469a0f25f2000f545e484cdd3a9
+MD5sum: d5caef6285d8113c62e74a1de22ec096
 NeedsCompilation: no
 
 Package: proj
@@ -1555,7 +1555,7 @@ Package: ropkgs
 Version: 0.0.3
 Imports: devtools, downloader, jsonlite
 License: MIT + file LICENSE
-MD5sum: d8bfb16376dec94c9edf6c15edd5de1a
+MD5sum: 05e45278e53171acf8dc45882ff4003c
 NeedsCompilation: no
 
 Package: rorcid
