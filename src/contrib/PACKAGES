@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.0.9100
+Version: 0.5.0.9310
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 9d036b10991d5e4eeb5635e514aa0da0
+MD5sum: 40fa224baac45e6c17b0a0af40fc74f5
 NeedsCompilation: no
 
 Package: dashboard
@@ -634,7 +634,7 @@ Version: 1.0.1
 Imports: ini, jsonlite, httr
 Suggests: covr, pingr, testthat
 License: MIT + file LICENSE
-MD5sum: 02870cc16137c51afbf487c037b785f1
+MD5sum: 6ece64af44cdf2fe73902fc71d617339
 NeedsCompilation: no
 
 Package: ghql
@@ -1534,13 +1534,13 @@ MD5sum: d7a1f62aa41fec235fd8d9904a7fe07e
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.5.2
+Version: 0.6.0
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 6faf4f68fe1d4e200fc16845f854bcc5
+MD5sum: 42b7684160c3628d78d918bfac6e606b
 NeedsCompilation: no
 
 Package: ropenaq
