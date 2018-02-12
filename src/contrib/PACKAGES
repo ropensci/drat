@@ -220,7 +220,7 @@ Imports: methods, lubridate, XML, selectr, RCurl, utils, ggplot2 (>=
         2.0.0), scales, RColorBrewer, reshape2
 Suggests: knitr, rmarkdown, ggmap (>= 2.6), pander, testthat
 License: GPL-2
-MD5sum: 39075176f37c822e6054ae62f36f6ceb
+MD5sum: bd3c57b250d61d0bd73b2a3c0c6f6078
 NeedsCompilation: no
 
 Package: cmipr
@@ -434,7 +434,7 @@ Depends: R (>= 3.00)
 Imports: httr, jsonlite, plyr, dplyr, progress, urltools, xml2
 Suggests: testthat, knitr, rmarkdown, ggplot2, purrr, readr
 License: GPL-3
-MD5sum: 90cf2d8b5b2d43ce92a2c311f78626b0
+MD5sum: 92712c5bdb811ed3162699b999777ef9
 NeedsCompilation: no
 
 Package: extractr
@@ -1204,13 +1204,13 @@ MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.0.9311
+Version: 0.8.1.9210
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 6d6fb51810ef87d7577caa070e183383
+MD5sum: 4e633c9094c931d884ee718c79f12508
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1540,7 +1540,7 @@ Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 42b7684160c3628d78d918bfac6e606b
+MD5sum: a0e9534cd7bf724bf0163bda58f85e36
 NeedsCompilation: no
 
 Package: ropenaq
@@ -1560,12 +1560,12 @@ MD5sum: 05e45278e53171acf8dc45882ff4003c
 NeedsCompilation: no
 
 Package: rorcid
-Version: 0.3.5.9100
-Imports: crul (>= 0.3.4.9415), fauxpas, jsonlite (>= 1.0), tibble (>=
-        1.3.0)
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
+Version: 0.4.0
+Imports: crul (>= 0.5.0), httr, fauxpas, jsonlite (>= 1.5), xml2 (>=
+        1.1.1), tibble (>= 1.3.0), data.table
+Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: ec007cfaa23ff5f883952a4e7d9ee4b5
+MD5sum: fed9e1580adea036440cde8b9a8a5c64
 NeedsCompilation: no
 
 Package: rotl
