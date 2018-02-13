@@ -102,7 +102,7 @@ MD5sum: 6a8df83a8aa1ac851506bc7b0ffba988
 NeedsCompilation: no
 
 Package: biomartr
-Version: 0.7.0.9000
+Version: 0.8.0.9000
 Depends: R (>= 3.1.1)
 Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
         1.9.4), dplyr (>= 0.3.0), readr (>= 0.2.2), downloader (>=
@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 66c7aa313869e14815fc3f8fcaea5a40
+MD5sum: 272b06311e59afaa81c51ce439dc94d8
 NeedsCompilation: yes
 
 Package: bmc
@@ -1110,7 +1110,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, RSelenium, png,
         IRdisplay
 License: MIT + file LICENSE
-MD5sum: 0bc8704ec7264aed64038bf7cfa027b5
+MD5sum: b3af43851a3901c800371d14b3635ebe
 NeedsCompilation: no
 
 Package: proj
@@ -1372,7 +1372,7 @@ Version: 0.0.0.05
 Imports: foreign, ggplot2, rmarkdown, memisc, rapport
 Suggests: testthat, roxygen2, knitr
 License: MIT + file LICENSE
-MD5sum: bd7943b6f7b00ea461a10a05af30ccc5
+MD5sum: d25effacce958829fd714a08355f7682
 NeedsCompilation: no
 
 Package: rgeospatialquality
@@ -1843,13 +1843,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9108
+Version: 0.2.0.9110
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
-        stringr, crayon
+        stringr, crayon, tidyr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 0d581090ee92fa73ef7f78def7944126
+MD5sum: 0ad1c76161f00c99172b0f7e808bb865
 NeedsCompilation: no
 
 Package: taxize
