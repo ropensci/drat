@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.0.9310
+Version: 0.5.0.9410
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 40fa224baac45e6c17b0a0af40fc74f5
+MD5sum: e3d63f45097e161b114af8ac0477353e
 NeedsCompilation: no
 
 Package: dashboard
@@ -510,7 +510,7 @@ Imports: dplyr (>= 0.4.2), httr (>= 1.0.0), jsonlite (>= 0.9.16)
 Suggests: genderdata (>= 0.5.0), ggplot2 (>= 1.0.0), knitr (>= 1.11),
         testthat (>= 0.10.0), rmarkdown (>= 0.9.0), covr
 License: MIT + file LICENSE
-MD5sum: 5b8f8183821c42bb84b998b45f5af27c
+MD5sum: 29dc825fae45f3d5675c98734a59fbc9
 NeedsCompilation: no
 
 Package: genderdata
@@ -634,7 +634,7 @@ Version: 1.0.1
 Imports: ini, jsonlite, httr
 Suggests: covr, pingr, testthat
 License: MIT + file LICENSE
-MD5sum: 6ece64af44cdf2fe73902fc71d617339
+MD5sum: 793969cd297e8e77dd8048d552cb1d77
 NeedsCompilation: no
 
 Package: ghql
@@ -1385,12 +1385,12 @@ MD5sum: ebc2fd776ce4f4da471889d9f6819703
 NeedsCompilation: no
 
 Package: rglobi
-Version: 0.2.11
+Version: 0.2.12
 Depends: R (>= 3.0.1)
 Imports: rjson (>= 0.2.13), RCurl
 Suggests: testthat(>= 0.7), knitr
 License: MIT + file LICENSE
-MD5sum: e6e9fdef6fa4818ee480fc305bbbb43b
+MD5sum: 8e0350e3c7ed7e87fd8c50affbca9299
 NeedsCompilation: no
 
 Package: ridb
@@ -1576,7 +1576,7 @@ Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 2063facafca06cbd0a62e63b4c6325d5
+MD5sum: 9a39c45a9e28659433b6cb2fccbad7dc
 NeedsCompilation: no
 
 Package: rplos
@@ -1843,13 +1843,13 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9110
+Version: 0.2.0.9111
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 0ad1c76161f00c99172b0f7e808bb865
+MD5sum: 84ea1425f5fa18dab4bdebca1a6cdf7f
 NeedsCompilation: no
 
 Package: taxize
