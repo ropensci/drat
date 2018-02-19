@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: ec2bbd973478a5e7854f15a9bbd4abc4
+MD5sum: aee48595c1f7e233b348ebcd73dea59b
 NeedsCompilation: yes
 
 Package: graphql
@@ -859,7 +859,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: 5fcd6cb9cbe1a957ec3a74194c757746
+MD5sum: dbb2c25a7acbc535ecbc55cadf8ee919
 NeedsCompilation: yes
 
 Package: mapr
