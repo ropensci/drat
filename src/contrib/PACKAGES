@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: cb71fa807af8b2ddcc988e67f1893acc
+MD5sum: 218ec47211c450af2d2e7e79a2ece6b1
 NeedsCompilation: yes
 
 Package: bmc
@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 9d94fc68cad83f0a0b3366f8bcbf99b7
+MD5sum: 54a1b916d2d3cbcb7ecfd5f7faa9cb19
 NeedsCompilation: yes
 
 Package: graphql
@@ -859,7 +859,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: 3e383686f481c0afdb9b4152461380dc
+MD5sum: 2a6ae5c7dea8de34dd0dde0700684619
 NeedsCompilation: yes
 
 Package: mapr
@@ -1892,7 +1892,7 @@ Imports: Rcpp (>= 0.12.12), xml2, stringr, curl, rappdirs, digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: 988a6db31e4029e956538e93593900f5
+MD5sum: 89f1cfc6d7ae06787ec55d107f93e99a
 NeedsCompilation: yes
 
 Package: testdat
