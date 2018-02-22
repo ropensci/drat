@@ -66,7 +66,7 @@ Imports: dplyr (>= 0.7.0), MASS, lazyeval, stats, utils, rlang (>=
         0.1.2)
 Suggests: knitr, testthat, magrittr
 License: MIT + file LICENSE
-MD5sum: c54eb8fc26189b12f1f230cec0274442
+MD5sum: 3b00700a481935e178861b5084bd7a02
 NeedsCompilation: no
 
 Package: atomize
@@ -633,7 +633,7 @@ Version: 1.0.1
 Imports: ini, jsonlite, httr
 Suggests: covr, pingr, testthat
 License: MIT + file LICENSE
-MD5sum: 580df552701122061c1deedb039bcf2e
+MD5sum: 46d4e5a3d45d6151e548a2336ab6e18d
 NeedsCompilation: no
 
 Package: ghql
@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 54a1b916d2d3cbcb7ecfd5f7faa9cb19
+MD5sum: dd0af91f215d2bc5e0019aa6d0514827
 NeedsCompilation: yes
 
 Package: graphql
@@ -1203,13 +1203,13 @@ MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.1.9210
+Version: 0.8.1.9421
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 4e633c9094c931d884ee718c79f12508
+MD5sum: 4c0a90676b84bd6b33ef8b97b48a9d6b
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1842,17 +1842,17 @@ MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.0.9112
+Version: 0.2.0.9113
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6), taxize
 License: MIT + file LICENSE
-MD5sum: 2d3291a741707664032bdee28f6bbaeb
+MD5sum: 7e680e56773fad64185bdcc430c227b2
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.2.9213
+Version: 0.9.2.9421
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -1861,7 +1861,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 5bb2f2b0bf5ac603d4d360e76ffdd927
+MD5sum: a753a9218e57b42991887332f4ba30b7
 NeedsCompilation: no
 
 Package: taxizedb
@@ -1887,12 +1887,13 @@ MD5sum: 1b0b9ea2f3d24c965c4ed507f4bee062
 NeedsCompilation: no
 
 Package: tesseract
-Version: 1.9
-Imports: Rcpp (>= 0.12.12), xml2, stringr, curl, rappdirs, digest
+Version: 1.9000
+Imports: Rcpp (>= 0.12.12), xml2, stringr, curl, rappdirs, tibble,
+        digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.0), pdftools
 License: Apache License 2.0
-MD5sum: 89f1cfc6d7ae06787ec55d107f93e99a
+MD5sum: 900d3d2c895eb41b6c12752df79c1fea
 NeedsCompilation: yes
 
 Package: testdat
