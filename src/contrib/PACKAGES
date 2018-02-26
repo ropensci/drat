@@ -654,12 +654,12 @@ MD5sum: 897564d7afff1ecb179659390ec38eb9
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.21.0.9000
+Version: 0.21.0.9002
 Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: f034c194494f0b9693d4ea79680e2bf6
+MD5sum: eefefb38b00c5b8fd0fc1c93262102ba
 NeedsCompilation: yes
 
 Package: graphql
@@ -1838,7 +1838,7 @@ Version: 0.1.24
 Imports: utils, tools, tabulizerjars, rJava, png
 Suggests: graphics, grDevices, shiny, miniUI, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 3b4dce1e9edd69a6fdb2619ee2622ec7
+MD5sum: 27c676644bbc7b4db27d57acdf3f54cf
 NeedsCompilation: no
 
 Package: taxa
