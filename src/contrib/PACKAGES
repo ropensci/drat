@@ -170,11 +170,11 @@ MD5sum: a6435b30dd98ef4d8084125aaf6688d1
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.1.3.9649
+Version: 0.1.3.9711
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker, stringi, iptools
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 1a555b61671cdb2f9bb15b8ffb8287b0
+MD5sum: ca3a947695434dee9b212d72ab471e1a
 NeedsCompilation: no
 
 Package: chromer
@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.2
+Version: 0.5.2.9100
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: eb20286bb6291841162d8dffd5fb2c62
+MD5sum: f5b0c3883ff6355e4832a132190695a6
 NeedsCompilation: no
 
 Package: dashboard
@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: eefefb38b00c5b8fd0fc1c93262102ba
+MD5sum: d70bda6cea1441304e4093e60600d916
 NeedsCompilation: yes
 
 Package: graphql
@@ -691,7 +691,7 @@ Imports: dplyr, tibble, readr, httr, htmltools, magrittr, stringr,
         assertthat, leaflet, sp, sf, scales
 Suggests: testthat, knitr, rmarkdown
 License: GPL
-MD5sum: 43f1667189a43832992df7210a2d85c6
+MD5sum: 3d5545d57b77e90e7b44e50bfda4684e
 NeedsCompilation: no
 
 Package: gutenbergr
@@ -852,14 +852,14 @@ MD5sum: e1b67e42189c9655c1d7cf3414de41c3
 NeedsCompilation: no
 
 Package: magick
-Version: 1.7
+Version: 1.7.9000
 Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract
 License: MIT + file LICENSE
-MD5sum: cf009fa1c4cb82652356c376ee217bec
+MD5sum: c4cdff38c2c1c5fb7f86088c4eb60bf6
 NeedsCompilation: yes
 
 Package: mapr
@@ -1872,7 +1872,7 @@ Imports: curl (>= 2.4), DBI (>= 0.6-1), RPostgreSQL (>= 0.4.1), RMySQL
         1.5), hoardr (>= 0.1.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, taxize
 License: MIT + file LICENSE
-MD5sum: ace9402549a29fcfa3805c7e16f4d707
+MD5sum: 3bf0e873336bb88660da8b8448fc3b2f
 NeedsCompilation: no
 
 Package: taxizesoap
@@ -1890,9 +1890,10 @@ Package: tesseract
 Version: 1.9000
 Imports: Rcpp (>= 0.12.12), curl, rappdirs, tibble, digest
 LinkingTo: Rcpp
-Suggests: magick (>= 1.6), pdftools, knitr, rmarkdown
+Suggests: spelling, magick (>= 1.6), pdftools (>= 1.5), knitr,
+        rmarkdown
 License: Apache License 2.0
-MD5sum: aa28410cdad75d20e7b680a008208312
+MD5sum: e8401562f6f22cefaecf41ae788fb996
 NeedsCompilation: yes
 
 Package: testdat
