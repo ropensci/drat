@@ -174,7 +174,7 @@ Version: 0.1.3.9711
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker, stringi, iptools
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: ca3a947695434dee9b212d72ab471e1a
+MD5sum: 7ebe3ab5915d934af384b518201857ec
 NeedsCompilation: no
 
 Package: chromer
@@ -659,7 +659,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: d70bda6cea1441304e4093e60600d916
+MD5sum: a743030813c505f8e3903f46ce490e20
 NeedsCompilation: yes
 
 Package: graphql
@@ -820,7 +820,7 @@ Version: 1.0.0
 Imports: V8
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 77c31245c086c714858b6fb8f7e0d7c8
+MD5sum: e44651558cf65fa7176dd11658439963
 NeedsCompilation: no
 
 Package: laselva
@@ -1209,7 +1209,7 @@ Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         stringr, DT
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 84645827936e2f23522e3d43c2dcfd32
+MD5sum: 0f3c8176714334394bffc1e2828f9e81
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1244,7 +1244,7 @@ Depends: R (>= 2.15.2), countrycode, R.cache
 Imports: dplyr, httr, rgeos, sp
 Suggests: rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: 2534bb1fa799fc70f27f277fa833da6b
+MD5sum: 3f9745cd5b14676e3d495665d0ea0ade
 NeedsCompilation: no
 
 Package: rdpla
