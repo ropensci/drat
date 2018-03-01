@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: rocker/ropensci
+    steps:
+      - checkout
+      - run: Rscript build.R
+
+
+  deploy:
+    docker:
+      - image: rocker/ropensci
+    steps:
+      - checkout
+      - run: bash git_deploy.sh
+
