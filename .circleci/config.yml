@@ -7,6 +7,8 @@ jobs:
       - checkout
       - run: Rscript build.R
   deploy:
+    docker:
+      - image: rocker/ropensci
     steps:
       - run: bash git_deploy.sh
       
