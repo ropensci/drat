@@ -6,18 +6,5 @@ jobs:
     steps:
       - checkout
       - run: Rscript build.R
-  deploy:
-    docker:
-      - image: rocker/ropensci
-    steps:
       - run: bash git_deploy.sh
-      
-workflows:
-  version: 2
-  build-and-deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build      
 
