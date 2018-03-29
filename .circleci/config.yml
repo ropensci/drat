@@ -6,9 +6,8 @@ jobs:
     steps:
       - checkout
       - run: Rscript build.R
-
-
   deploy:
+    steps:
       - run: bash git_deploy.sh
       
 workflows:
