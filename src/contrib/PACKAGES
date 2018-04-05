@@ -90,7 +90,7 @@ Version: 0.4.0
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: 8cb9d51407338a0b1a066c341fafcb5f
+MD5sum: 427c7cca0d794055738890c559b0c3af
 NeedsCompilation: no
 
 Package: binomen
@@ -416,7 +416,7 @@ Version: 1.0.3
 Imports: xml2 (>= 1.1.1), methods, tools, uuid, digest
 Suggests: testthat, knitr, rmarkdown, listviewer, covr, taxize
 License: FreeBSD
-MD5sum: a16c3543e94d7e3646b92e13d23e6229
+MD5sum: 443efb4a33e365291ac9bcaae3eb670d
 NeedsCompilation: no
 
 Package: etseed
@@ -547,7 +547,7 @@ MD5sum: 9f7dcc7b64cc1128b53027c8583c78f4
 NeedsCompilation: no
 
 Package: geojsonio
-Version: 0.6.0
+Version: 0.6.0.9100
 Depends: R (>= 2.10)
 Imports: methods, sp, sf (>= 0.6), rgdal (>= 1.1-1), rgeos, httr (>=
         1.1.0), maptools, jsonlite (>= 0.9.21), magrittr, readr (>=
@@ -555,7 +555,7 @@ Imports: methods, sp, sf (>= 0.6), rgdal (>= 1.1-1), rgeos, httr (>=
 Suggests: gistr, testthat, knitr, leaflet
 Enhances: RColorBrewer
 License: MIT + file LICENSE
-MD5sum: 4e6c0b985b8ac11b16a8c6878477eaa1
+MD5sum: 56aea56d2e8014c0f32e4290b105d7a0
 NeedsCompilation: no
 
 Package: geojsonlint
@@ -849,7 +849,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: b00464978878624a3b2c487e18e37063
+MD5sum: 9103d0d072e1799d21b82dbeded66e06
 NeedsCompilation: no
 
 Package: magick
@@ -881,11 +881,12 @@ MD5sum: 84647d8efee1e7d22b0d60533193a52f
 NeedsCompilation: no
 
 Package: monkeylearn
-Version: 0.1.3
-Imports: jsonlite, httr, methods, digest, tibble (>= 1.2)
-Suggests: testthat, knitr, rmarkdown, dplyr
+Version: 0.2.0
+Imports: digest, dplyr, httr, jsonlite, magrittr, methods, purrr,
+        tibble (>= 1.2), tidyr, ratelimitr
+Suggests: knitr, rmarkdown, testthat
 License: GPL (>= 2)
-MD5sum: 8bcc0e3cf45227724b5abbae6ce3c0fb
+MD5sum: 53709794cfcd335399cbda1148c56a34
 NeedsCompilation: no
 
 Package: mregions
@@ -1107,10 +1108,10 @@ Imports: tools, scales, httr, jsonlite, magrittr, digest, viridisLite,
         crosstalk, purrr, data.table
 Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         shiny (>= 0.14), curl, rmarkdown, Rserve, RSclient, Cairo,
-        broom, webshot, listviewer, dendextend, sf, RSelenium, png,
-        IRdisplay
+        broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
+        RSelenium, png, IRdisplay
 License: MIT + file LICENSE
-MD5sum: bf01a5a6feadf5ebe1166cc158ab4d26
+MD5sum: fb098f5b4e86a0fcc8c37715ac7fe7a4
 NeedsCompilation: no
 
 Package: proj
@@ -1785,7 +1786,7 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.7.2.9100
+Version: 0.7.3.9310
 Imports: utils, rgbif (>= 0.9.9.9412), rbison (>= 0.5.5.9210), rebird
         (>= 0.3.0), rvertnet (>= 0.6.3.9112), ridigbio (>= 0.3.5),
         lubridate (>= 1.5.0), crul (>= 0.3.4), whisker (>= 0.3-2),
@@ -1793,7 +1794,7 @@ Imports: utils, rgbif (>= 0.9.9.9412), rbison (>= 0.5.5.9210), rebird
         wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 9fbd17aec562c7b997f2374dc16724c0
+MD5sum: 41d6575c1c049b8133fda5670d24f601
 NeedsCompilation: no
 
 Package: spplist
@@ -1850,7 +1851,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: a04d098eea5b1d1f215384a0e3035d49
+MD5sum: 59b54c892e4e6a4aad2e75432681bd7b
 NeedsCompilation: no
 
 Package: taxize
@@ -2004,9 +2005,9 @@ Package: vcr
 Version: 0.0.7.9324
 Imports: crul (>= 0.3.6), curl (>= 0.9.7), webmockr (>= 0.2.1.9222),
         urltools, yaml, digest, R6, lazyeval, base64enc, magrittr
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr
+Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: d47746c304cf91b124e82494404a6c7d
+MD5sum: f8c3922a8c1ca8d03bf68fe87c2275e4
 NeedsCompilation: no
 
 Package: webchem
@@ -2028,11 +2029,11 @@ MD5sum: 46216e38093cd32bebe347b156bdb5b9
 NeedsCompilation: no
 
 Package: wellknown
-Version: 0.5.0
+Version: 0.5.0.9100
 Imports: jsonlite (>= 0.9.21), V8 (>= 1.0.2)
 Suggests: knitr, rmarkdown, leaflet (>= 1.0.0), testthat
 License: MIT + file LICENSE
-MD5sum: b430feae2d17dc1efb6325ddf4c09381
+MD5sum: 1c1727bc63000696fa2fd0fe61631eca
 NeedsCompilation: no
 
 Package: wicket
