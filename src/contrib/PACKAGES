@@ -90,7 +90,7 @@ Version: 0.4.0
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: 427c7cca0d794055738890c559b0c3af
+MD5sum: 035503e035596c03f2013c7a8a49eff8
 NeedsCompilation: no
 
 Package: binomen
@@ -609,7 +609,7 @@ Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 040207513138a7ddef5f5423e5be3676
+MD5sum: 3895dc10bb0d6598dc9646ab7282287a
 NeedsCompilation: no
 
 Package: getlandsat
@@ -1169,7 +1169,7 @@ Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 377944a912514842ac5b4bd6e00da2b8
+MD5sum: 1a9e42637cb17d6e890cb067e7e0409a
 NeedsCompilation: no
 
 Package: rCharts
@@ -1264,7 +1264,7 @@ Imports: crul (>= 0.4.0), curl (>= 3.0), xml2 (>= 1.0.0), oai (>=
         0.2.2), solrium (>= 1.0.0), data.table, tibble
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: a9c454d5e4959191a71b734dc4613011
+MD5sum: e59ccd3c8b5dd47d40fca8c05022c18f
 NeedsCompilation: no
 
 Package: rebird
@@ -1794,7 +1794,7 @@ Imports: utils, rgbif (>= 0.9.9.9412), rbison (>= 0.5.5.9210), rebird
         wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 41d6575c1c049b8133fda5670d24f601
+MD5sum: e332fc5a67623447ff6c94ceca2e35a5
 NeedsCompilation: no
 
 Package: spplist
