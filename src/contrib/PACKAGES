@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: ff236fee11d89cbd7d58839f35a5af3c
+MD5sum: 1fae417c60b56628e50d2e958d70af3e
 NeedsCompilation: yes
 
 Package: bmc
@@ -270,13 +270,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.2.9100
+Version: 0.5.3.9210
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: f5b0c3883ff6355e4832a132190695a6
+MD5sum: 6bf86602766dcda1ed68dcb4dbbefcc7
 NeedsCompilation: no
 
 Package: dashboard
@@ -860,7 +860,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0)
 License: MIT + file LICENSE
-MD5sum: dfce43b84e1328991d04f3de56a21cc2
+MD5sum: f20bee018d62e2265955f666a7121090
 NeedsCompilation: yes
 
 Package: mapr
@@ -2011,12 +2011,12 @@ MD5sum: f8c3922a8c1ca8d03bf68fe87c2275e4
 NeedsCompilation: no
 
 Package: webchem
-Version: 0.3.0.9001
+Version: 0.4.0.9000
 Depends: R (>= 3.0)
 Imports: xml2, httr, rvest, RCurl, jsonlite, stringr, methods
 Suggests: testthat, rcdk
 License: MIT + file LICENSE
-MD5sum: 1c811e1643026efbfda8b6a8eafa5005
+MD5sum: c64146eaf7fb6715058e09617bf08df4
 NeedsCompilation: no
 
 Package: webmockr
