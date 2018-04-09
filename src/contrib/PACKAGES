@@ -276,7 +276,7 @@ Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 6bf86602766dcda1ed68dcb4dbbefcc7
+MD5sum: fead562f178e6b7d7a9ed97bfcd29d92
 NeedsCompilation: no
 
 Package: dashboard
@@ -849,7 +849,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 9103d0d072e1799d21b82dbeded66e06
+MD5sum: 1f53b883084332e6755387bcb69f81ac
 NeedsCompilation: no
 
 Package: magick
@@ -1205,13 +1205,13 @@ MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.1.9429
+Version: 0.8.1.9510
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr, DT
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 2e209c0a6c3bed098d76af0130b2a222
+MD5sum: 6e3eab73658c165b7711b2268c8dfe26
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1566,7 +1566,7 @@ Imports: crul (>= 0.5.0), httr, fauxpas, jsonlite (>= 1.5), xml2 (>=
         1.1.1), tibble (>= 1.3.0), data.table
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 42826b7595369c28b1b38bce0e4d704d
+MD5sum: 3800569d73b2fe6166b4b7c21e91f497
 NeedsCompilation: no
 
 Package: rotl
