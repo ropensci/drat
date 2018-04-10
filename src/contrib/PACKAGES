@@ -86,11 +86,11 @@ MD5sum: b064a6a6dc9883a6db95de27d4a37e6c
 NeedsCompilation: no
 
 Package: aws.signature
-Version: 0.4.0
+Version: 0.4.1
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: 035503e035596c03f2013c7a8a49eff8
+MD5sum: 731309a6456e20152931ffe4c23977d4
 NeedsCompilation: no
 
 Package: binomen
@@ -174,7 +174,7 @@ Version: 0.1.3.9713
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker, stringi, iptools
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 4f356b6f2b97f8010ac83680194309df
+MD5sum: a8b284d6deaf83b329b56bcec69afb81
 NeedsCompilation: no
 
 Package: chromer
@@ -400,7 +400,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: ff916cbd0d7457521664096298d428eb
+MD5sum: 93998a62e5218f0ed04170b68520a609
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -886,7 +886,7 @@ Imports: digest, dplyr, httr, jsonlite, magrittr, methods, purrr,
         tibble (>= 1.2), tidyr, ratelimitr
 Suggests: knitr, rmarkdown, testthat
 License: GPL (>= 2)
-MD5sum: 53709794cfcd335399cbda1148c56a34
+MD5sum: ca6c3feef548ad0a06d6ad340020551b
 NeedsCompilation: no
 
 Package: mregions
@@ -1164,12 +1164,12 @@ MD5sum: 7e5c1264a63cb6842f233699286cb5de
 NeedsCompilation: no
 
 Package: rbison
-Version: 0.5.5.9210
+Version: 0.5.5.9410
 Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 1a9e42637cb17d6e890cb067e7e0409a
+MD5sum: 261dacbf7fdc4f0eec75bf8e719b58e7
 NeedsCompilation: no
 
 Package: rCharts
@@ -1841,7 +1841,7 @@ Version: 0.1.24
 Imports: utils, tools, tabulizerjars, rJava, png
 Suggests: graphics, grDevices, shiny, miniUI, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: e6e8d3575883e968252baa22c1f92af1
+MD5sum: 0549a788116a6ac4ca42ad733f3b0a63
 NeedsCompilation: no
 
 Package: taxa
