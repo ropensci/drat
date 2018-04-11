@@ -90,7 +90,7 @@ Version: 0.4.1
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: 731309a6456e20152931ffe4c23977d4
+MD5sum: a30230ba90a5b71fe033f8002d32bf31
 NeedsCompilation: no
 
 Package: binomen
@@ -395,12 +395,12 @@ MD5sum: da1a974d10b28b724da1c534e9a27bb7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.2.9323
+Version: 0.8.2.9326
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 93998a62e5218f0ed04170b68520a609
+MD5sum: ace1caad2029ec6b3170622b78da3ee7
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -682,7 +682,7 @@ Suggests: ggplot2, ggthemes, gridExtra, knitr, lubridate, mapproj,
         rmarkdown, roxygen2 (>= 6.0.1), sf, sp, spacetime, testthat,
         tidyr, covr
 License: MIT + file LICENSE
-MD5sum: d5d611affef1fe2dd64ec1d7cc799dcb
+MD5sum: 8d1ec9f01d673a484e66fcf6dd36dbdc
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1164,12 +1164,12 @@ MD5sum: 7e5c1264a63cb6842f233699286cb5de
 NeedsCompilation: no
 
 Package: rbison
-Version: 0.5.5.9410
+Version: 0.6.0
 Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: 261dacbf7fdc4f0eec75bf8e719b58e7
+MD5sum: 5bbc9fda14cc0d980476bcdef7608e92
 NeedsCompilation: no
 
 Package: rCharts
@@ -1823,7 +1823,7 @@ MD5sum: bbbc537350d0c25ea1398ab6a84d6c69
 NeedsCompilation: no
 
 Package: stplanr
-Version: 0.2.3
+Version: 0.2.3.9000
 Depends: R (>= 3.0)
 Imports: sp, curl, readr, dplyr, httr, jsonlite, stringi, stringr,
         lubridate, maptools, raster, rgdal, rgeos, openxlsx, methods,
@@ -1833,7 +1833,7 @@ LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 3f5ca82d6e1eba9da69dcd056f378270
+MD5sum: 06388a53c5d625097cbb3ec81b6af8d7
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -1841,7 +1841,7 @@ Version: 0.1.24
 Imports: utils, tools, tabulizerjars, rJava, png
 Suggests: graphics, grDevices, shiny, miniUI, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 0549a788116a6ac4ca42ad733f3b0a63
+MD5sum: 19b4bd8a0aa2adbf208361c90e1e9373
 NeedsCompilation: no
 
 Package: taxa
