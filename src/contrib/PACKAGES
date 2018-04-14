@@ -713,13 +713,13 @@ MD5sum: 68ce82f0ab3f5d8d4c06840c69a82f8b
 NeedsCompilation: no
 
 Package: hddtools
-Version: 0.8
+Version: 0.8.1
 Depends: R (>= 3.2.1), rgdal
 Imports: zoo, sp, RCurl, XML, rnrfa, Hmisc, raster, stringr, gdata,
         tibble
 Suggests: testthat, leaflet, rmarkdown, knitr
 License: GPL-3
-MD5sum: 1b3b0ed8e8a078e79f213e9a9055f301
+MD5sum: 17b6e439b1370d143e56b70984421d53
 NeedsCompilation: no
 
 Package: helminthR
@@ -1024,7 +1024,7 @@ Imports: crul (>= 0.4.0), jsonlite (>= 1.5), rappdirs (>= 0.3.1), xml2
         (>= 1.1.1), oai (>= 0.2.2), tibble (>= 1.1), png
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 5f201389e247acd460cbfa891397e76f
+MD5sum: 41b8adf67d9e975a2548ef77b9de39a2
 NeedsCompilation: no
 
 Package: patentsview
@@ -1111,7 +1111,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         RSelenium, png, IRdisplay
 License: MIT + file LICENSE
-MD5sum: 9479630e6f214eb5b71d6c735c7f32f6
+MD5sum: 05bbd94ac98c8f0a1a69f3ffbbd354a9
 NeedsCompilation: no
 
 Package: proj
@@ -1359,13 +1359,13 @@ MD5sum: 553fa606a7cd242e1c5b919686b2ba34
 NeedsCompilation: no
 
 Package: rgbif
-Version: 0.9.9.9412
+Version: 0.9.9.9414
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0)
 Suggests: testthat, knitr, reshape2, maps, sp, rgeos
 License: MIT + file LICENSE
-MD5sum: 879325fdfef63a9fd7c5b4edc33ba0e6
+MD5sum: a9abf8a7e73cd0be82065e95b87668fe
 NeedsCompilation: no
 
 Package: rGEM
@@ -1852,7 +1852,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 2ca2824e360abcea1ccdd3bed8235991
+MD5sum: f1d55f250ed5999e90c104774c150eaa
 NeedsCompilation: no
 
 Package: taxize
@@ -2017,7 +2017,7 @@ Depends: R (>= 3.0)
 Imports: xml2, httr, rvest, RCurl, jsonlite, stringr, methods
 Suggests: testthat, rcdk
 License: MIT + file LICENSE
-MD5sum: 4555e1acb2f2fd7ab1c872ba313bed30
+MD5sum: acb369d380d5874735dae0c9465b29a8
 NeedsCompilation: no
 
 Package: webmockr
