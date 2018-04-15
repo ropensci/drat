@@ -82,7 +82,7 @@ Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 20af834c6719e33143e42172bc95128c
+MD5sum: 8433da56ad676b7df6b8a06bc7b4bdfd
 NeedsCompilation: no
 
 Package: aws.signature
@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: fbee3836a2c8c76fe233339b1df78fd5
+MD5sum: 64bd9a4b9c1ea020b8bf107b2df0d2d5
 NeedsCompilation: yes
 
 Package: bmc
@@ -813,7 +813,7 @@ Package: jsonld
 Version: 1.2.9000
 Imports: V8, jsonlite, curl (>= 2.7)
 License: BSD_3_clause + file LICENSE
-MD5sum: 6f017a584e2addae1cda7eca9bfa12a5
+MD5sum: 8dffab2eed8f6cd1cbb569acc6b91efc
 NeedsCompilation: no
 
 Package: jsonvalidate
@@ -1842,7 +1842,7 @@ Version: 0.2.0
 Imports: utils, tools, tabulizerjars, rJava, png
 Suggests: graphics, grDevices, shiny, miniUI, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 5ce72ff975c49bd37fe1f91d6e38f715
+MD5sum: 9b1c7853f23b1be5bb89b77e7620fce5
 NeedsCompilation: no
 
 Package: taxa
