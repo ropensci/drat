@@ -111,7 +111,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: 64bd9a4b9c1ea020b8bf107b2df0d2d5
+MD5sum: 0063e6462cc46c8580647a818694b7b7
 NeedsCompilation: yes
 
 Package: bmc
