@@ -62,11 +62,12 @@ NeedsCompilation: no
 
 Package: assertr
 Version: 2.5.5
+Depends: R (>= 3.1.0)
 Imports: dplyr (>= 0.7.0), MASS, lazyeval, stats, utils, rlang (>=
         0.1.2)
 Suggests: knitr, testthat, magrittr
 License: MIT + file LICENSE
-MD5sum: 5a8aebfb74e57c79b8eda38c5db2813d
+MD5sum: 0d7e9693074f4c08f9a8aece9e4d55fe
 NeedsCompilation: no
 
 Package: atomize
@@ -111,7 +112,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr
 License: GPL-2
-MD5sum: f36f553ea6be0628c82dd4a57c59ab4f
+MD5sum: ac55030b588746f6b3a17e6bd3e95efa
 NeedsCompilation: yes
 
 Package: bmc
@@ -1561,12 +1562,12 @@ MD5sum: 05e45278e53171acf8dc45882ff4003c
 NeedsCompilation: no
 
 Package: rorcid
-Version: 0.4.1.9210
+Version: 0.4.2.9110
 Imports: crul (>= 0.5.0), httr, fauxpas, jsonlite (>= 1.5), xml2 (>=
         1.1.1), tibble (>= 1.3.0), data.table
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 3800569d73b2fe6166b4b7c21e91f497
+MD5sum: 616527aa5b5d7f5a853c53a067c327c0
 NeedsCompilation: no
 
 Package: rotl
