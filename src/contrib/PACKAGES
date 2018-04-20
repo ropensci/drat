@@ -430,12 +430,12 @@ MD5sum: 6b2910c21ff6d8a44fbe67c477bf31b8
 NeedsCompilation: no
 
 Package: europepmc
-Version: 0.2.0900
+Version: 0.2.9000
 Depends: R (>= 3.00)
-Imports: httr, jsonlite, plyr, dplyr, progress, urltools, xml2
-Suggests: testthat, knitr, rmarkdown, ggplot2, purrr, readr
+Imports: httr, jsonlite, plyr, dplyr, progress, urltools, purrr, xml2
+Suggests: testthat, knitr, rmarkdown, ggplot2, readr
 License: GPL-3
-MD5sum: 92712c5bdb811ed3162699b999777ef9
+MD5sum: 704ba4a2858480cd924035ada22ceaec
 NeedsCompilation: no
 
 Package: extractr
@@ -610,7 +610,7 @@ Imports: data.table, dplyr, httr, hoardr, raster, tidyr, tibble, utils
 Suggests: covr, ggplot2, knitr, readr, rmarkdown, roxygen2 (>= 6.0.1),
         sp, testthat, viridis
 License: MIT + file LICENSE
-MD5sum: 7008e422593f1d798968eb06e2e7387f
+MD5sum: a6da049b01c142874beb6e5e74a0c7b7
 NeedsCompilation: no
 
 Package: getlandsat
@@ -1273,7 +1273,7 @@ Version: 0.4.1.9100
 Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr
 Suggests: knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 3a8f2754094fe79b63352ad4e49d3066
+MD5sum: 0c5becfa18061038935c812085411b9d
 NeedsCompilation: no
 
 Package: RedisAPI
@@ -1308,7 +1308,7 @@ Depends: R (>= 2.13.0)
 Imports: XML, RCurl, ape
 Suggests: roxygen2 (>= 6.0.1), utils, geiger, testthat, covr
 License: GPL (>= 2)
-MD5sum: c4634849dbc64cfed4cb21f68025c10e
+MD5sum: b69ef63049a767f1292a88cfa24e30d2
 NeedsCompilation: no
 
 Package: rerddap
@@ -1650,12 +1650,12 @@ MD5sum: 5c9714646f9a08d0a4bb1d41aea018bd
 NeedsCompilation: no
 
 Package: rvertnet
-Version: 0.7.0
+Version: 0.7.0.9100
 Imports: jsonlite (>= 1.5), crul (>= 0.5.2), dplyr (>= 0.5.0), ggplot2,
         maps
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 2c07762b917dcd94f97bc4926f2e04cf
+MD5sum: 287894eb24031cb72429b3cadc87a54d
 NeedsCompilation: no
 
 Package: rWBclimate
