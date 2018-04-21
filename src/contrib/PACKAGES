@@ -430,12 +430,12 @@ MD5sum: 6b2910c21ff6d8a44fbe67c477bf31b8
 NeedsCompilation: no
 
 Package: europepmc
-Version: 0.2.9000
+Version: 0.3
 Depends: R (>= 3.00)
 Imports: httr, jsonlite, plyr, dplyr, progress, urltools, purrr, xml2
 Suggests: testthat, knitr, rmarkdown, ggplot2, readr
 License: GPL-3
-MD5sum: 704ba4a2858480cd924035ada22ceaec
+MD5sum: 6466329cd9dc21c8f7ea3d7de60da0f1
 NeedsCompilation: no
 
 Package: extractr
@@ -1112,7 +1112,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         RSelenium, png, IRdisplay
 License: MIT + file LICENSE
-MD5sum: 586aaae246b0bcaf684cf703ec384e39
+MD5sum: a68330ad3567d60d0ff5cecafde0c1e4
 NeedsCompilation: no
 
 Package: proj
