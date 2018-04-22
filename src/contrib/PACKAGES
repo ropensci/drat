@@ -1937,7 +1937,7 @@ Version: 0.3
 Imports: Matrix
 Suggests: testthat
 License: GPL-2
-MD5sum: ff1a8399b787437b735670f76e70c9e9
+MD5sum: a253585459da6c86ec1431b8a7fa332e
 NeedsCompilation: no
 
 Package: tokenizers
@@ -2080,7 +2080,7 @@ Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: a9a5be5167955d4942ec167cb37810b9
+MD5sum: f20f5a1212cb6941bcb10942d26e11b3
 NeedsCompilation: yes
 
 Package: zenodo
