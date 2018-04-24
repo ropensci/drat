@@ -137,7 +137,7 @@ Depends: R(>= 3.2.1)
 Imports: crul (>= 0.4.0), curl (>= 1.2), ape, taxize, phytools
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 1c758807382ce4fbf8b9ec7601db5186
+MD5sum: 5c4a236eea75aa661388e3792eb90220
 NeedsCompilation: no
 
 Package: camsRad
@@ -1112,7 +1112,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         RSelenium, png, IRdisplay
 License: MIT + file LICENSE
-MD5sum: a68330ad3567d60d0ff5cecafde0c1e4
+MD5sum: 785ac2e63de9cde07e7755b5a7f8c6ea
 NeedsCompilation: no
 
 Package: proj
