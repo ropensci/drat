@@ -1212,7 +1212,7 @@ Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         stringr, DT
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 0218a9de041c9eb78a6e92d7fab34b9d
+MD5sum: cd294581926b86a0dc4cbf31a50caa90
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1852,7 +1852,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 18a4ec2dad0154cefcc97f7db09b3f28
+MD5sum: 959b6a190626e36cf9f8235db5ffa0e0
 NeedsCompilation: no
 
 Package: taxize
@@ -2003,12 +2003,12 @@ MD5sum: 225e82cae8591ccd5ba1705e0d27d703
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.0.7.9324
-Imports: crul (>= 0.3.6), curl (>= 0.9.7), webmockr (>= 0.2.1.9222),
+Version: 0.0.7.9325
+Imports: crul (>= 0.3.6), curl (>= 0.9.7), webmockr (>= 0.2.1.9227),
         urltools, yaml, digest, R6, lazyeval, base64enc, magrittr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: f8c3922a8c1ca8d03bf68fe87c2275e4
+MD5sum: 533f2c762e08bbb22f9d0320b6f331e3
 NeedsCompilation: no
 
 Package: webchem
