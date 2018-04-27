@@ -661,7 +661,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 29ae075c661676a6d43f94f7313b9fb9
+MD5sum: d253253cc0c50b284779e3a5ccea2c0e
 NeedsCompilation: yes
 
 Package: graphql
@@ -1852,7 +1852,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 583759252d50249c36ec0ce2031c5d7a
+MD5sum: 94718ee9d24ebcf8e64632b56ba3b34b
 NeedsCompilation: no
 
 Package: taxize
@@ -1891,13 +1891,13 @@ MD5sum: 1b0b9ea2f3d24c965c4ed507f4bee062
 NeedsCompilation: no
 
 Package: tesseract
-Version: 2.0.9000
+Version: 2.1
 Imports: Rcpp (>= 0.12.12), pdftools (>= 1.5), curl, rappdirs, tibble,
         digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.7), spelling, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 5e0de8896c2b376ae81e0aea9b586b3b
+MD5sum: e17e7e78484cf74f9684fea2d7d72a2a
 NeedsCompilation: yes
 
 Package: testdat
@@ -2003,12 +2003,12 @@ MD5sum: 225e82cae8591ccd5ba1705e0d27d703
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.0.7.9431
+Version: 0.0.8.9238
 Imports: crul (>= 0.3.6), curl (>= 0.9.7), webmockr (>= 0.2.2.9113),
-        urltools, yaml, digest, R6, lazyeval, base64enc, magrittr
+        urltools, yaml, R6, lazyeval, base64enc
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 4cd1f6a65eced2da8b3cf97baaf5b5b6
+MD5sum: 2f78d9df858c0324587a1e5f1621ad18
 NeedsCompilation: no
 
 Package: webchem
