@@ -661,7 +661,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: d253253cc0c50b284779e3a5ccea2c0e
+MD5sum: cc230b5a680a7a61ff9ac9dfb537d805
 NeedsCompilation: yes
 
 Package: graphql
@@ -1049,9 +1049,9 @@ NeedsCompilation: yes
 Package: phylocomr
 Version: 0.1.0
 Imports: tibble, sys (>= 1.1), ape
-Suggests: testthat, roxygen2 (>= 6.0.1), knitr, rmarkdown
+Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 4e2d9845339752177642970a3962eb86
+MD5sum: f20462fdad79ee2abf36d9a4e2f0b29a
 NeedsCompilation: yes
 
 Package: phyrmeta
@@ -1897,7 +1897,7 @@ Imports: Rcpp (>= 0.12.12), pdftools (>= 1.5), curl, rappdirs, tibble,
 LinkingTo: Rcpp
 Suggests: magick (>= 1.7), spelling, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: e17e7e78484cf74f9684fea2d7d72a2a
+MD5sum: 0c4a63386cffa231e9ea43cde77e94aa
 NeedsCompilation: yes
 
 Package: testdat
@@ -2003,12 +2003,12 @@ MD5sum: 225e82cae8591ccd5ba1705e0d27d703
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.0.8.9238
-Imports: crul (>= 0.3.6), curl (>= 0.9.7), webmockr (>= 0.2.2.9113),
-        urltools, yaml, R6, lazyeval, base64enc
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
+Version: 0.0.8.9316
+Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9113), urltools, yaml, R6,
+        lazyeval, base64enc
+Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 2f78d9df858c0324587a1e5f1621ad18
+MD5sum: c2447589cbdc01c285af2ddc61bba90d
 NeedsCompilation: no
 
 Package: webchem
@@ -2026,7 +2026,7 @@ Imports: curl, jsonlite, magrittr (>= 1.5), lazyeval (>= 0.2.0), R6 (>=
         2.1.3), urltools (>= 1.6.0), fauxpas, crul (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, vcr
 License: MIT + file LICENSE
-MD5sum: 4b0f381e3cf63674c0d845a6aa69b14a
+MD5sum: b6a3a578f020f18c1780e625d2bcf851
 NeedsCompilation: no
 
 Package: wellknown
