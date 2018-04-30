@@ -2007,7 +2007,7 @@ Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9119), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: e848f198bd378ea37bd93ba503a336ff
+MD5sum: 16845b0d1386357b519a9c329aae0306
 NeedsCompilation: no
 
 Package: webchem
