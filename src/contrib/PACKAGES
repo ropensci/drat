@@ -488,9 +488,9 @@ Package: gdoc
 Version: 0.0.0.9000
 Depends: R (>= 3.2.3)
 Imports: httr, jsonlite, rmarkdown, stringi, yaml
-Suggests: testthat
+Suggests: testthat, base64enc, testthat
 License: MIT + file LICENSE
-MD5sum: 1c5669ce89422a300a3bde31dedf4e34
+MD5sum: 174afb5a7d0d2f0322d160790a7d27a4
 NeedsCompilation: no
 
 Package: genbankr
@@ -614,12 +614,12 @@ MD5sum: a6da049b01c142874beb6e5e74a0c7b7
 NeedsCompilation: no
 
 Package: getlandsat
-Version: 0.1.3.9413
-Imports: methods, readr (>= 1.0.0), crul (>= 0.3.6), xml2 (>= 1.0.0),
+Version: 0.2.0
+Imports: methods, readr (>= 1.1.1), crul (>= 0.5.2), xml2 (>= 1.2.0),
         data.table, tibble, rappdirs
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, covr, raster
+Suggests: roxygen2 (>= 6.0.1), testthat, knitr, raster
 License: MIT + file LICENSE
-MD5sum: 525350c724cb7bab8d013a19a47d224d
+MD5sum: 641c6459955e28fb061275ea17160792
 NeedsCompilation: no
 
 Package: ggit
@@ -807,7 +807,7 @@ Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 71e7cfb3e57dac3901fdb7fcaa67ce4a
+MD5sum: 556148550d3d8a6efa1bf2b7d7fdfc16
 NeedsCompilation: yes
 
 Package: jsonld
@@ -850,7 +850,7 @@ Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 1f53b883084332e6755387bcb69f81ac
+MD5sum: 68d3ed96842d3c3ac228998dfb8a55a1
 NeedsCompilation: no
 
 Package: magick
@@ -861,7 +861,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0)
 License: MIT + file LICENSE
-MD5sum: ba2e62e060d6308d0e326e530b035d4b
+MD5sum: 285c6a776e1e8e26c8a039b05111b078
 NeedsCompilation: yes
 
 Package: mapr
@@ -972,12 +972,12 @@ MD5sum: 8d1e93c82cadbce144385ca9ccdf73e1
 NeedsCompilation: no
 
 Package: originr
-Version: 0.2.3.9210
-Imports: crul (>= 0.4), jsonlite (>= 1.5), data.table, xml2, taxize (>=
-        0.9.0)
+Version: 0.3.0
+Imports: crul (>= 0.5.2), jsonlite (>= 1.5), data.table, xml2, taxize
+        (>= 0.9.0)
 Suggests: testthat, roxygen2 (>= 6.0.1)
 License: MIT + file LICENSE
-MD5sum: 028784358c6bfe963bc83218ada7c018
+MD5sum: b5e6bc1fb102710e6f1fd625ed64d202
 NeedsCompilation: no
 
 Package: osmdata
@@ -2002,12 +2002,12 @@ MD5sum: 225e82cae8591ccd5ba1705e0d27d703
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.0.8.9531
+Version: 0.0.8.9534
 Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9119), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 16845b0d1386357b519a9c329aae0306
+MD5sum: a63e054917519998728c14289bb71696
 NeedsCompilation: no
 
 Package: webchem
