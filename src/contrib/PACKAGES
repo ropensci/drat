@@ -614,12 +614,12 @@ MD5sum: a6da049b01c142874beb6e5e74a0c7b7
 NeedsCompilation: no
 
 Package: getlandsat
-Version: 0.2.0
+Version: 0.2.0.9100
 Imports: methods, readr (>= 1.1.1), crul (>= 0.5.2), xml2 (>= 1.2.0),
         data.table, tibble, rappdirs
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, raster
 License: MIT + file LICENSE
-MD5sum: 641c6459955e28fb061275ea17160792
+MD5sum: ce48a043d727271393c425f455e671aa
 NeedsCompilation: no
 
 Package: ggit
@@ -802,12 +802,12 @@ MD5sum: 49ba69cac7c93efacf81d7a223ea149a
 NeedsCompilation: no
 
 Package: jqr
-Version: 1.0.9100
+Version: 1.0.9200
 Depends: R (>= 3.1.2)
 Imports: magrittr, lazyeval
 Suggests: roxygen2 (>= 6.0.1), jsonlite, testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 556148550d3d8a6efa1bf2b7d7fdfc16
+MD5sum: a9265daddc2ed983bb54bec2fa36a20e
 NeedsCompilation: yes
 
 Package: jsonld
@@ -861,7 +861,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0)
 License: MIT + file LICENSE
-MD5sum: 285c6a776e1e8e26c8a039b05111b078
+MD5sum: 92d4910f86f11b8145a6e6804d81a215
 NeedsCompilation: yes
 
 Package: mapr
@@ -972,12 +972,12 @@ MD5sum: 8d1e93c82cadbce144385ca9ccdf73e1
 NeedsCompilation: no
 
 Package: originr
-Version: 0.3.0
+Version: 0.3.0.9100
 Imports: crul (>= 0.5.2), jsonlite (>= 1.5), data.table, xml2, taxize
         (>= 0.9.0)
 Suggests: testthat, roxygen2 (>= 6.0.1)
 License: MIT + file LICENSE
-MD5sum: b5e6bc1fb102710e6f1fd625ed64d202
+MD5sum: 6249a73180ede4f351c27a3f322ad3e6
 NeedsCompilation: no
 
 Package: osmdata
@@ -1957,7 +1957,7 @@ Imports: jsonlite (>= 0.9.19), httr (>= 1.1.0), crul (>= 0.3.8), tibble
         0.7.4), xml2 (>= 0.1.2), rvest (>= 0.3.1), hoardr
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, dplyr, plyr
 License: MIT + file LICENSE
-MD5sum: d83a6db71ddd98b5811b752267308e21
+MD5sum: 6d5c117f4e6c26f23d11bde0ba2565bd
 NeedsCompilation: no
 
 Package: travis
@@ -2007,7 +2007,7 @@ Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9119), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: a63e054917519998728c14289bb71696
+MD5sum: 13cf4dfce9a8727ff41bdc29781af380
 NeedsCompilation: no
 
 Package: webchem
