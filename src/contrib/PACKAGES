@@ -988,7 +988,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 57b754721870a1c728a985365a6ee8f0
+MD5sum: 9c76a194016f3c400aeed74b55c6b6c5
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1076,7 +1076,7 @@ Depends: R (>= 3.1.0)
 Imports: utils, dplyr (> 0.4.3)
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: f75eb0058b5fa71a41883f649ae95c4e
+MD5sum: 56fb5676fef5eeb0057d557669dc4cc6
 NeedsCompilation: no
 
 Package: pleiades
@@ -1104,7 +1104,7 @@ Package: plotly
 Version: 4.7.1.9000
 Depends: R (>= 3.2.0), ggplot2 (>= 2.2.1)
 Imports: tools, scales, httr, jsonlite, magrittr, digest, viridisLite,
-        base64enc, htmltools, htmlwidgets (>= 0.9), tidyr, hexbin,
+        base64enc, htmltools, htmlwidgets (>= 1.2), tidyr, hexbin,
         RColorBrewer, dplyr, tibble, lazyeval (>= 0.2.0), rlang,
         crosstalk, purrr, data.table
 Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
@@ -1112,7 +1112,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         RSelenium, png, IRdisplay
 License: MIT + file LICENSE
-MD5sum: 785ac2e63de9cde07e7755b5a7f8c6ea
+MD5sum: 45bca4bf201411ec8701f76115adc6c5
 NeedsCompilation: no
 
 Package: proj
@@ -1729,7 +1729,7 @@ Imports: crul (>= 0.4.0), jsonlite, ggplot2, grid, scales, sp, rgdal,
         maps, wicket (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), testthat
 License: Apache License 2.0
-MD5sum: 7a2788d69b25792d28385070ce2da272
+MD5sum: 8a0397c47193026ea964e04ea4526609
 NeedsCompilation: no
 
 Package: seasl
@@ -1823,17 +1823,17 @@ MD5sum: bbbc537350d0c25ea1398ab6a84d6c69
 NeedsCompilation: no
 
 Package: stplanr
-Version: 0.2.3.9000
+Version: 0.2.4
 Depends: R (>= 3.0)
 Imports: sp, curl, readr, dplyr, httr, jsonlite, stringi, stringr,
         lubridate, maptools, raster, rgdal, rgeos, openxlsx, methods,
-        R.utils, geosphere, Rcpp (>= 0.12.1), igraph, nabor, rlang, sf,
-        lwgeom
+        R.utils, geosphere, Rcpp (>= 0.12.1), igraph, nabor, rlang,
+        lwgeom, sf
 LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr
 Enhances: tmap
 License: MIT + file LICENSE
-MD5sum: 06388a53c5d625097cbb3ec81b6af8d7
+MD5sum: 8391296a015642534f68f3d65c53b543
 NeedsCompilation: yes
 
 Package: tabulizer
@@ -2007,7 +2007,7 @@ Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9119), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 13cf4dfce9a8727ff41bdc29781af380
+MD5sum: e7282531c7b3ca97e6f603745e725706
 NeedsCompilation: no
 
 Package: webchem
@@ -2046,13 +2046,13 @@ MD5sum: 8299e507fc82bd62198c28ffd0c8182d
 NeedsCompilation: yes
 
 Package: wikitaxa
-Version: 0.2.0.9100
+Version: 0.2.1.9100
 Depends: R(>= 3.2.1)
 Imports: WikidataR, data.table, curl, crul (>= 0.3.4), tibble,
         jsonlite, xml2
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 258eac53b6614de27ab9bffee51b0086
+MD5sum: 5dbbbb5d5e9ae1afa9ecefff2c7dc95f
 NeedsCompilation: no
 
 Package: worrms
