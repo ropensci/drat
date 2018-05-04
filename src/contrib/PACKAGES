@@ -474,14 +474,14 @@ MD5sum: d292c064fbfa332f8c655c9b2a7e3f54
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9141
+Version: 1.0.1.9311
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 962cab3f72abebf9e6935aa0968ac4c6
+MD5sum: 8cc06969904dc2f935a4a73ee8b34a0a
 NeedsCompilation: no
 
 Package: gdoc
@@ -661,7 +661,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: cc230b5a680a7a61ff9ac9dfb537d805
+MD5sum: 126cba3b4593c6bd6217b03b1e9bfa61
 NeedsCompilation: yes
 
 Package: graphql
@@ -811,10 +811,11 @@ MD5sum: a9265daddc2ed983bb54bec2fa36a20e
 NeedsCompilation: yes
 
 Package: jsonld
-Version: 1.2.9000
+Version: 2.0
 Imports: V8, jsonlite, curl (>= 2.7)
+Suggests: spelling
 License: BSD_3_clause + file LICENSE
-MD5sum: 8dffab2eed8f6cd1cbb569acc6b91efc
+MD5sum: 2f6614a895e67cd7cb252e01d6a23daa
 NeedsCompilation: no
 
 Package: jsonvalidate
@@ -861,7 +862,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0)
 License: MIT + file LICENSE
-MD5sum: 92d4910f86f11b8145a6e6804d81a215
+MD5sum: 67801751ee653f0a3174904cc89ca5ec
 NeedsCompilation: yes
 
 Package: mapr
@@ -2002,12 +2003,12 @@ MD5sum: 225e82cae8591ccd5ba1705e0d27d703
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.0.8.9534
+Version: 0.0.8.9538
 Imports: crul (>= 0.5.2), webmockr (>= 0.2.2.9119), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: e7282531c7b3ca97e6f603745e725706
+MD5sum: 591d43af4a439d670939703c95a560d3
 NeedsCompilation: no
 
 Package: webchem
@@ -2025,7 +2026,7 @@ Imports: curl, jsonlite, magrittr (>= 1.5), lazyeval (>= 0.2.0), R6 (>=
         2.1.3), urltools (>= 1.6.0), fauxpas, crul (>= 0.4.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, vcr
 License: MIT + file LICENSE
-MD5sum: 2c6a73156c19e49381317a290af05b98
+MD5sum: 60612c4da95b6657537d44955ddcfa13
 NeedsCompilation: no
 
 Package: wellknown
