@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: build
-        command: Rscript build.R
-        no_output_timeout: 60m
+          name: build
+          command: Rscript build.R
+          no_output_timeout: 60m
       - run: bash git_deploy.sh
 
