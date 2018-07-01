@@ -5,6 +5,9 @@ jobs:
       - image: rocker/ropensci
     steps:
       - checkout
-      - run: Rscript build.R
+      - run: 
+        name: build
+        command: Rscript build.R
+        no_output_timeout: 60m
       - run: bash git_deploy.sh
 
