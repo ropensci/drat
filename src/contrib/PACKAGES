@@ -508,7 +508,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         tibble, tidyselect (>= 0.2.4), txtq, utils, visNetwork, withr
 Suggests: abind, callr, DBI, MASS, methods, RSQLite, rmarkdown, tidyr
 License: GPL-3
-MD5sum: 50444e594386c5e80944c1071ad70218
+MD5sum: f9ee6d5eb5bfece904220fa195f87a6e
 NeedsCompilation: no
 
 Package: drat.builder
@@ -859,12 +859,12 @@ MD5sum: f20314e46f0f939e019f1a4bca5b9994
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.22.0
+Version: 0.22.0.9000
 Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: b0e966ec7e1cb80ea78783884ab2edca
+MD5sum: fa4dfa578e5dcc1ba8d54b5feac893d5
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -938,12 +938,12 @@ MD5sum: 17b6e439b1370d143e56b70984421d53
 NeedsCompilation: no
 
 Package: helminthR
-Version: 1.0.3
-Imports: xml2, rvest, magrittr, plyr, ggmap, utils, knitr, rmarkdown,
-        igraph
+Version: 1.0.4
+Imports: xml2, rvest, httr, magrittr, plyr, ggmap, utils, knitr,
+        rmarkdown
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: 37b4849ee209b4e823a6902800fc0944
+MD5sum: 1647540b76ddeebf7a00a1b12837a80d
 NeedsCompilation: no
 
 Package: hirsutosa
@@ -2240,7 +2240,7 @@ Imports: cli, dplyr (>= 0.7), magrittr, pander, purrr, rlang, stats,
         0.7), tidyselect (>= 0.2.4)
 Suggests: extrafont, rmarkdown, testthat (>= 2.0.0), withr, covr
 License: GPL-3
-MD5sum: a27b67592a2595cdbcd93c005713df64
+MD5sum: a0f87ffc89b2844c50f54f1a51674e4e
 NeedsCompilation: no
 
 Package: snowball
@@ -2473,7 +2473,7 @@ Imports: backports, base64enc, crayon, git2r, magrittr, memoise,
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis,
         knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 5c7c528828d1c28a571e47495b2e6486
+MD5sum: f1c8f4841498c69e4e8653e1c50487f0
 NeedsCompilation: no
 
 Package: tidyhydat
