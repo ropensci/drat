@@ -142,7 +142,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr, magrittr
 License: GPL-2
-MD5sum: d816074ca6113574fd185958cfd6e423
+MD5sum: e47e0bfebef31c544c9f1776c57f5448
 NeedsCompilation: yes
 
 Package: bittrex
@@ -241,11 +241,12 @@ MD5sum: 7f7457db3d5713e5280d22ca2d393957
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.1.5.9110
-Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker, stringi, iptools
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
+Version: 0.2.0
+Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker
+Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, iptools,
+        stringi
 License: MIT + file LICENSE
-MD5sum: f0576c6822042fa5d7df544c99911dc5
+MD5sum: 2003de1c3505bd71bdef158263fbfc4a
 NeedsCompilation: no
 
 Package: chromer
@@ -506,9 +507,10 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         magrittr, parallel, pkgconfig, purrr, R6, R.utils, rlang (>=
         0.2.0), rprojroot, stats, storr (>= 1.1.0), stringi, testthat,
         tibble, tidyselect (>= 0.2.4), txtq, utils, visNetwork, withr
-Suggests: abind, callr, DBI, MASS, methods, RSQLite, rmarkdown, tidyr
+Suggests: abind, callr, clustermq, DBI, MASS, methods, RSQLite,
+        rmarkdown, tidyr
 License: GPL-3
-MD5sum: 1a8a787b1326c570616ab0e0ffd8261c
+MD5sum: db4a8b674afc1070c1b3b7e817c24677
 NeedsCompilation: no
 
 Package: drat.builder
@@ -998,7 +1000,7 @@ Imports: stringi (>= 1.1.7), stringr (>= 1.3), tibble(>= 1.4.2), pingr
 Suggests: ggplot2 (>= 2.2.1), knitr (>= 1.20), rmarkdown (>= 1.9),
         testthat (>= 2.0.0)
 License: MIT + file LICENSE
-MD5sum: 40ddda3cef5ef57df76d2e641461b1ea
+MD5sum: e99e7800ae2aa7c262393af6831e6c9d
 NeedsCompilation: no
 
 Package: IEEER
@@ -1093,7 +1095,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: c9089c240cc24aa74990685c16d4dd49
+MD5sum: e5e7e1c371956ee3c8a1792b12f92ee1
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1146,12 +1148,12 @@ MD5sum: 71a10ec34854a9ffcdbe2981b6150b5d
 NeedsCompilation: yes
 
 Package: mapr
-Version: 0.4.0
+Version: 0.4.0.9100
 Imports: ggplot2, leaflet, spocc (>= 0.6.0), sp, rworldmap,
         RColorBrewer, jsonlite, gistr, data.table
 Suggests: testthat, ggmap, knitr, taxize, maptools
 License: MIT + file LICENSE
-MD5sum: ec77f8e1f4d88b1533baec023808fd7e
+MD5sum: 78916d28a73fcc3e4ea800685c2512b5
 NeedsCompilation: no
 
 Package: microdemic
@@ -1792,13 +1794,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.0
+Version: 1.0.0.9100
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, reshape2, maps, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: 0ecbe653b9319c4ed6d1bcf8e7ad7f38
+MD5sum: 1ae0be77660b661533c9521190dd8e6a
 NeedsCompilation: no
 
 Package: rGEM
@@ -2108,9 +2110,9 @@ MD5sum: 0653dd9e6b63de1b187c86018089f944
 NeedsCompilation: no
 
 Package: rrricanesdata
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 3.3.3)
-MD5sum: 17e5ea1bbe1f4b67f95fad8312fce266
+MD5sum: 968908880a8d3cc60419e9ed8f774970
 NeedsCompilation: no
 
 Package: RSelenium
@@ -2327,14 +2329,14 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.7.3.9318
-Imports: utils, rgbif (>= 0.9.9.9615), rbison (>= 0.6.0), rebird (>=
-        0.3.0), rvertnet (>= 0.7.0), ridigbio (>= 0.3.5), lubridate (>=
-        1.5.0), crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
+Version: 0.7.9.9110
+Imports: utils, rgbif (>= 1.0.0), rbison (>= 0.6.0), rebird (>= 0.3.0),
+        rvertnet (>= 0.7.0), ridigbio (>= 0.3.5), lubridate (>= 1.5.0),
+        crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 19914df1c5147097104ebbbbce496dc3
+MD5sum: 18bb01d57999e014cbe5aac9fdd4b33c
 NeedsCompilation: no
 
 Package: spplist
