@@ -142,7 +142,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr, magrittr
 License: GPL-2
-MD5sum: e47e0bfebef31c544c9f1776c57f5448
+MD5sum: 234193f61f89872b0b6d3b034413beb7
 NeedsCompilation: yes
 
 Package: bittrex
@@ -384,13 +384,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.4.9410
+Version: 0.5.4.9521
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: c27f6694944827f31f62accfa9b325ca
+MD5sum: d79817ac026d745f585e74124cb1feed
 NeedsCompilation: no
 
 Package: cyphr
@@ -510,7 +510,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, MASS, methods, RSQLite,
         rmarkdown, tidyr
 License: GPL-3
-MD5sum: db4a8b674afc1070c1b3b7e817c24677
+MD5sum: f478735433e7205265fe0ec536a2b351
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1794,13 +1794,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.0.9100
+Version: 1.0.0.9210
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, reshape2, maps, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: 1ae0be77660b661533c9521190dd8e6a
+MD5sum: 206cb5aad852950100cb9a80b33efa22
 NeedsCompilation: no
 
 Package: rGEM
@@ -1914,7 +1914,7 @@ Suggests: rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
         1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
         rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos
 License: MIT + file LICENSE
-MD5sum: bd0f8b13f2797ed235860a2a684bbf49
+MD5sum: d718431ba85bdd41176d504b91953020
 NeedsCompilation: no
 
 Package: rnaturalearthdata
@@ -1923,7 +1923,7 @@ Depends: R (>= 3.1.1)
 Imports: sp (>= 1.0.15)
 Suggests: knitr (>= 1.12.3), testthat (>= 0.9.1)
 License: CC0
-MD5sum: c432c50d45974f7814000ee25e4fe588
+MD5sum: 682dadd4ddb7132ecb6c60b7f7992557
 NeedsCompilation: no
 
 Package: rnaturalearthhires
@@ -1932,7 +1932,7 @@ Depends: R (>= 3.1.1)
 Imports: sp (>= 1.0.15)
 Suggests: knitr (>= 1.12.3), testthat (>= 0.9.1)
 License: CC0
-MD5sum: 095112e6c6f040e8bd75186292ab0534
+MD5sum: aa4afc4995208dedce22b21ada67c998
 NeedsCompilation: no
 
 Package: RNeXML
@@ -2609,13 +2609,13 @@ MD5sum: 65b490853ae936f8a1b50de86249aa04
 NeedsCompilation: no
 
 Package: visdat
-Version: 0.5.0.9000
+Version: 0.5.1
 Depends: R (>= 3.2.2)
 Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6),
         magrittr, stats, tibble, rlang (>= 0.2.0)
 Suggests: testthat, knitr, rmarkdown, vdiffr, gdtools
 License: MIT + file LICENSE
-MD5sum: e40b0b0ba8abdeb6128f1f9e1485bb76
+MD5sum: 3f339d19c82385f7b80c3808f254677c
 NeedsCompilation: no
 
 Package: weathercan
