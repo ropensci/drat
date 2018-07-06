@@ -88,12 +88,12 @@ NeedsCompilation: no
 
 Package: available
 Version: 1.0.0
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.3.0)
 Imports: cli, clisymbols, crayon, tidytext, desc, glue, jsonlite,
-        memoise, purrr, SnowballC, stringdist, tibble, udapi, yesno
+        memoise, SnowballC, stringdist, tibble, udapi, yesno
 Suggests: devtools, BiocInstaller, testthat
 License: MIT + file LICENSE
-MD5sum: 50773e7f0124a65187b843681931541b
+MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
@@ -241,12 +241,12 @@ MD5sum: 7f7457db3d5713e5280d22ca2d393957
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.2.0
+Version: 0.2.2
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, iptools,
         stringi
 License: MIT + file LICENSE
-MD5sum: 2003de1c3505bd71bdef158263fbfc4a
+MD5sum: ab2e5901ed04d492f0266d8310a2d743
 NeedsCompilation: no
 
 Package: chromer
@@ -390,7 +390,7 @@ Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: d79817ac026d745f585e74124cb1feed
+MD5sum: 82b78985fe6ed27094ceb9e95504df37
 NeedsCompilation: no
 
 Package: cyphr
@@ -510,7 +510,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, MASS, methods, RSQLite,
         rmarkdown, tidyr
 License: GPL-3
-MD5sum: f478735433e7205265fe0ec536a2b351
+MD5sum: c3f1366c6349158a595071e49a28403b
 NeedsCompilation: no
 
 Package: drat.builder
@@ -649,14 +649,14 @@ MD5sum: 1d79c81f3182fb8dafc458e773af59a9
 NeedsCompilation: no
 
 Package: FedData
-Version: 2.5.3
+Version: 2.5.4
 Depends: R (>= 3.2.0), sp
 Imports: data.table, devtools, soilDB, igraph, curl, methods, rgdal,
         raster, Hmisc, rgeos, readr, lubridate, dplyr, magrittr,
         foreach, ncdf4, stringr, sf, httr
 Suggests: testthat, covr, roxygen2
 License: MIT + file LICENSE
-MD5sum: 5163cffe88f98ae7dff568d76366ca08
+MD5sum: f2535969dc09af6f3caa907d8f423823
 NeedsCompilation: no
 
 Package: finch
@@ -669,13 +669,13 @@ MD5sum: d292c064fbfa332f8c655c9b2a7e3f54
 NeedsCompilation: no
 
 Package: fingertipsR
-Version: 0.1.7
+Version: 0.1.8
 Depends: R (>= 3.4.0)
 Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: 77d21170740b4ec1ed583dffb7d94e74
+MD5sum: df737b87acb79b9a5d33dfeb46112af7
 NeedsCompilation: no
 
 Package: fulltext
@@ -866,7 +866,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: fa4dfa578e5dcc1ba8d54b5feac893d5
+MD5sum: 92ac358ee6923062e9c3389a9060449b
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1095,7 +1095,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: e5e7e1c371956ee3c8a1792b12f92ee1
+MD5sum: b3744e82997bcb7224a720ea86e2be59
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1105,7 +1105,7 @@ Imports: magrittr, checkmate, dplyr, extrafont, ggplot2, purrr, raster,
         rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: 0f40bb96261bc7b6e381b2d73af2adc8
+MD5sum: ef51370b21a09ae2091b7a04bd043cae
 NeedsCompilation: no
 
 Package: laselva
@@ -1794,13 +1794,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.0.9210
+Version: 1.0.2
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
-Suggests: testthat, knitr, reshape2, maps, sp, rgeos, png, raster
+Suggests: testthat, knitr, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: 206cb5aad852950100cb9a80b33efa22
+MD5sum: d6e6be10d8deb623d0b0d5e9d685da5e
 NeedsCompilation: no
 
 Package: rGEM
@@ -1907,32 +1907,32 @@ MD5sum: 0ceb40c7c8d355d6041782047f8c71e7
 NeedsCompilation: no
 
 Package: rnaturalearth
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.1)
 Imports: sp (>= 1.0.15), utils (>= 3.2.3), sf (>= 0.3-4)
 Suggests: rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
         1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
         rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos
 License: MIT + file LICENSE
-MD5sum: d718431ba85bdd41176d504b91953020
+MD5sum: d0ff90a577c5e7054b20de92ea8b0490
 NeedsCompilation: no
 
 Package: rnaturalearthdata
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.1)
 Imports: sp (>= 1.0.15)
 Suggests: knitr (>= 1.12.3), testthat (>= 0.9.1)
 License: CC0
-MD5sum: 682dadd4ddb7132ecb6c60b7f7992557
+MD5sum: 9c68863c21d51acd316b04c49c49aece
 NeedsCompilation: no
 
 Package: rnaturalearthhires
-Version: 0.1.0
+Version: 0.2.0
 Depends: R (>= 3.1.1)
 Imports: sp (>= 1.0.15)
 Suggests: knitr (>= 1.12.3), testthat (>= 0.9.1)
 License: CC0
-MD5sum: aa4afc4995208dedce22b21ada67c998
+MD5sum: fbce761aa2549c1b273a743332601eeb
 NeedsCompilation: no
 
 Package: RNeXML
@@ -2305,11 +2305,11 @@ MD5sum: 4bcba4caa3ebcffff8f082d4e547b62e
 NeedsCompilation: no
 
 Package: spelling
-Version: 1.1.9000
+Version: 1.2
 Imports: commonmark, xml2, hunspell (>= 2.9), knitr
 Suggests: pdftools
 License: MIT + file LICENSE
-MD5sum: 94e3b8fd05cbce6fa9229978f87c991a
+MD5sum: b0107d7bd0a30bd967fa4ab2a1511a09
 NeedsCompilation: no
 
 Package: spenv
@@ -2329,14 +2329,14 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.7.9.9110
+Version: 0.8.0.9100
 Imports: utils, rgbif (>= 1.0.0), rbison (>= 0.6.0), rebird (>= 0.3.0),
         rvertnet (>= 0.7.0), ridigbio (>= 0.3.5), lubridate (>= 1.5.0),
         crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 18bb01d57999e014cbe5aac9fdd4b33c
+MD5sum: a04232eb4cbb4de3d87263e9a53e1567
 NeedsCompilation: no
 
 Package: spplist
@@ -2554,7 +2554,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, glue (>= 1.2.0), httr, memoise, openssl, withr
 Suggests: remotes, roxygen2, testthat, usethis
 License: GPL (>= 2)
-MD5sum: 270b03cc5b136bfb93ab9e2a8e0d0dd7
+MD5sum: b6deafc9876d727e36a2c8bacca5bc6f
 NeedsCompilation: no
 
 Package: treebase
@@ -2619,7 +2619,7 @@ MD5sum: 3f339d19c82385f7b80c3808f254677c
 NeedsCompilation: no
 
 Package: weathercan
-Version: 0.2.7
+Version: 0.2.7.9000
 Depends: R (>= 3.1.2)
 Imports: dplyr (>= 0.7.0), httr (>= 1.1.0), lubridate (>= 1.7.1),
         methods (>= 3.2.2), purrr (>= 0.2.4), stringi (>= 1.1.2), tidyr
@@ -2627,7 +2627,7 @@ Imports: dplyr (>= 0.7.0), httr (>= 1.1.0), lubridate (>= 1.7.1),
 Suggests: devtools, ggplot2, ggmap, knitr, rmarkdown, sp, stringr,
         testthat
 License: GPL-3
-MD5sum: d757e358de90b2635b8d848b6018708f
+MD5sum: 19128641ef933f0c3bb2b3b5a0c2f029
 NeedsCompilation: no
 
 Package: webchem
