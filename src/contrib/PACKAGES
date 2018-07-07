@@ -241,12 +241,12 @@ MD5sum: 7f7457db3d5713e5280d22ca2d393957
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.2.2
+Version: 0.2.2.9100
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown, iptools,
         stringi
 License: MIT + file LICENSE
-MD5sum: ab2e5901ed04d492f0266d8310a2d743
+MD5sum: 35435e26119bb219a0acc854a08b078a
 NeedsCompilation: no
 
 Package: chromer
@@ -384,13 +384,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.4.9521
+Version: 0.5.6.9321
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 82b78985fe6ed27094ceb9e95504df37
+MD5sum: 95b57a125bb2424a4da88510a7f5d65d
 NeedsCompilation: no
 
 Package: cyphr
@@ -510,7 +510,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, MASS, methods, RSQLite,
         rmarkdown, tidyr
 License: GPL-3
-MD5sum: c3f1366c6349158a595071e49a28403b
+MD5sum: 8a967cb1058ff4feabefd5fb713bd251
 NeedsCompilation: no
 
 Package: drat.builder
@@ -992,15 +992,15 @@ MD5sum: ccc4331f79e292bc7b77e9df04d73096
 NeedsCompilation: yes
 
 Package: hydroscoper
-Version: 1.0.0.9000
-Depends: R (>= 3.4.0)
-Imports: stringi (>= 1.1.7), stringr (>= 1.3), tibble(>= 1.4.2), pingr
+Version: 1.1.0
+Depends: R (>= 3.5.0)
+Imports: stringi (>= 1.2), stringr (>= 1.3.1), tibble(>= 1.4.2), pingr
         (>= 1.1.2), readr (>= 1.1.1), jsonlite (>= 1.5), plyr (>=
         1.8.4)
-Suggests: ggplot2 (>= 2.2.1), knitr (>= 1.20), rmarkdown (>= 1.9),
+Suggests: ggplot2 (>= 3.0.0), knitr (>= 1.20), rmarkdown (>= 1.10),
         testthat (>= 2.0.0)
 License: MIT + file LICENSE
-MD5sum: e99e7800ae2aa7c262393af6831e6c9d
+MD5sum: 64400f1c219ea2723e18ba5852a41ba1
 NeedsCompilation: no
 
 Package: IEEER
@@ -1794,13 +1794,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.2
+Version: 1.0.2.9100
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: d6e6be10d8deb623d0b0d5e9d685da5e
+MD5sum: a4faddb467e286dc89be12d1672f4d40
 NeedsCompilation: no
 
 Package: rGEM
@@ -2615,7 +2615,7 @@ Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6),
         magrittr, stats, tibble, rlang (>= 0.2.0)
 Suggests: testthat, knitr, rmarkdown, vdiffr, gdtools
 License: MIT + file LICENSE
-MD5sum: 3f339d19c82385f7b80c3808f254677c
+MD5sum: b377ccde4cf47f96053078a668849424
 NeedsCompilation: no
 
 Package: weathercan
