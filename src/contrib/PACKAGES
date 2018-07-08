@@ -508,9 +508,9 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         0.2.0), rprojroot, stats, storr (>= 1.1.0), stringi, testthat,
         tibble, tidyselect (>= 0.2.4), txtq, utils, visNetwork, withr
 Suggests: abind, callr, clustermq, DBI, MASS, methods, RSQLite,
-        rmarkdown, tidyr
+        rmarkdown
 License: GPL-3
-MD5sum: 8a967cb1058ff4feabefd5fb713bd251
+MD5sum: 9c4926c2ad83f35aa056c2632c35b9a8
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1095,7 +1095,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: b3744e82997bcb7224a720ea86e2be59
+MD5sum: 1a0647bb5e244ae2ff56ba80714497ae
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1666,11 +1666,11 @@ MD5sum: c430ace000d152366bffb2139b1ba65f
 NeedsCompilation: no
 
 Package: rebird
-Version: 0.4.1.9100
+Version: 0.5.0
 Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr
 Suggests: knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: de802d6d5c01c5bd3d079637a5740488
+MD5sum: 5e2352ba8171b0885801a9b12ee37f49
 NeedsCompilation: no
 
 Package: RedisAPI
@@ -2271,7 +2271,7 @@ Depends: R (>= 3.1.2)
 Imports: data.table, igraph, dplyr, ggplot2, ggrepel, stringr, maps
 Suggests: knitr, rmarkdown, testthat, kableExtra, covr
 License: MIT + file LICENSE
-MD5sum: d86babe503845bceb8da158d06227378
+MD5sum: 89b0c5ad26eb95e9810cc36dcc319b71
 NeedsCompilation: no
 
 Package: snowball
@@ -2418,7 +2418,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 5db8ee46c72708d5cb5eb0aea457496b
+MD5sum: 8dddd486a27445bcb5a5102f041e7500
 NeedsCompilation: no
 
 Package: taxize
