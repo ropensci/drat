@@ -384,13 +384,13 @@ MD5sum: bc55b3c413a5e591df8635c50a005442
 NeedsCompilation: no
 
 Package: crul
-Version: 0.5.7.9421
+Version: 0.5.8.9110
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 4b9e00e6e49367c0cb15fe5812ad05f9
+MD5sum: 15b9c1dee36e4e41432f0d12f726cf71
 NeedsCompilation: no
 
 Package: cyphr
@@ -510,7 +510,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, ggplot2, ggraph, MASS, methods,
         RSQLite, rmarkdown, visNetwork
 License: GPL-3
-MD5sum: cb19f1a6f83b07251c6269a365ef8488
+MD5sum: 051d1814d7424b6bebd4467b607b7e15
 NeedsCompilation: no
 
 Package: drat.builder
@@ -861,12 +861,12 @@ MD5sum: f20314e46f0f939e019f1a4bca5b9994
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.22.0.9000
+Version: 0.22.1
 Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 92ac358ee6923062e9c3389a9060449b
+MD5sum: 10ad9e7ecf505e9c8d671819a5bfe37c
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -936,7 +936,7 @@ Imports: zoo, sp, RCurl, XML, rnrfa, Hmisc, raster, stringr, gdata,
         tibble
 Suggests: testthat, leaflet, rmarkdown, knitr
 License: GPL-3
-MD5sum: 17b6e439b1370d143e56b70984421d53
+MD5sum: 20e95d3008db2f1354dc11b22aa1becb
 NeedsCompilation: no
 
 Package: helminthR
@@ -2136,13 +2136,13 @@ MD5sum: 20ff48a00d636957a09adeb8db687d8d
 NeedsCompilation: no
 
 Package: rtika
-Version: 0.1.8
+Version: 0.1.9
 Depends: R (>= 3.1.0)
-Imports: curl, sys, stats, utils, rappdirs
+Imports: curl, sys, stats, utils, rappdirs, digest
 Suggests: jsonlite, xml2, data.table, testthat, knitr, rmarkdown, covr,
         magrittr
 License: Apache License 2.0 | file LICENSE
-MD5sum: bbfa1e1275cb1731f659dfd690abab78
+MD5sum: dc0050e9648396fc7fa41b328e95b7fa
 NeedsCompilation: no
 
 Package: rtimicropem
@@ -2310,7 +2310,7 @@ Version: 1.2
 Imports: commonmark, xml2, hunspell (>= 2.9), knitr
 Suggests: pdftools
 License: MIT + file LICENSE
-MD5sum: b0107d7bd0a30bd967fa4ab2a1511a09
+MD5sum: dac9552af14242be6fb903f36a0a26bf
 NeedsCompilation: no
 
 Package: spenv
@@ -2642,12 +2642,12 @@ MD5sum: 81af47eb65305a23c8f437355a85924b
 NeedsCompilation: no
 
 Package: webmockr
-Version: 0.2.6
+Version: 0.2.6.9100
 Imports: curl, jsonlite, magrittr (>= 1.5), lazyeval (>= 0.2.0), R6 (>=
         2.1.3), urltools (>= 1.6.0), fauxpas, crul (>= 0.5.2)
 Suggests: roxygen2 (>= 6.0.1), testthat, xml2, vcr
 License: MIT + file LICENSE
-MD5sum: d0296d0eed48e4234beb5f64fb7f923e
+MD5sum: 714e7cbc456c0cc0b094178885ae63bf
 NeedsCompilation: no
 
 Package: webrockets
