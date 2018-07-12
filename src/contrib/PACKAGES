@@ -184,13 +184,13 @@ MD5sum: a9bb43d594fe2e706a9177474ce3cecc
 NeedsCompilation: no
 
 Package: bowerbird
-Version: 0.7.3
+Version: 0.8.0.9000
 Depends: R (>= 3.3.0)
-Imports: assertthat, magrittr, methods, openssl, R.utils, rmarkdown,
-        stringr, sys (>= 1.4.9000), tibble
+Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
+        rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 1c63cbbd200c2c2508c7606e6fb5e723
+MD5sum: c4aebaec8c478ac7747846e0e9a89a79
 NeedsCompilation: no
 
 Package: brranching
@@ -306,12 +306,12 @@ MD5sum: a1900d2dc5f95debe088c44549429a55
 NeedsCompilation: no
 
 Package: cmipr
-Version: 0.0.8.9315
-Imports: hoardr (>= 0.0.3), raster (>= 2.5-8), curl (>= 2.3), crul (>=
-        0.2.1.9100), tibble
-Suggests: ncdf4, roxygen2 (>= 6.0.1), testthat, knitr, covr
+Version: 0.0.8.9621
+Imports: hoardr (>= 0.2.0), raster (>= 2.5-8), curl (>= 3.2), crul (>=
+        0.6.0), tibble
+Suggests: ncdf4, roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 10ed2864de16ccc3cf2fec9db5c74fab
+MD5sum: 57e287429083495d01def7bb5c2d352a
 NeedsCompilation: no
 
 Package: codemetar
@@ -866,7 +866,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 5cf9d7f643d40eacf0cd47190de92eea
+MD5sum: 73fad9fde035d4d772ecab04d4a3910e
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1127,13 +1127,13 @@ MD5sum: 6334c52230167ceb5fcc5d5cd09cec2c
 NeedsCompilation: no
 
 Package: lingtypology
-Version: 1.0.13
+Version: 1.0.14
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
         magrittr, grDevices, rowr, MASS, sp, rgeos
 Suggests: knitr, rmarkdown, testthat, covr
 License: GPL (>= 2)
-MD5sum: 798d0755113d4b1cc6774713b0ad8c31
+MD5sum: a2e1b3f51c47c3090880a4722714bc60
 NeedsCompilation: no
 
 Package: magick
@@ -1795,13 +1795,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.2.9100
+Version: 1.0.2.9310
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: a4faddb467e286dc89be12d1672f4d40
+MD5sum: 29ac8a028b23ab6e02a1172d8f35af00
 NeedsCompilation: no
 
 Package: rGEM
