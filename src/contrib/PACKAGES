@@ -866,7 +866,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 73fad9fde035d4d772ecab04d4a3910e
+MD5sum: 137ab66e964c74dbbcfcdeb63be6a5ae
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1305,13 +1305,13 @@ MD5sum: add215819fa4da2ea2d3eb243338e27e
 NeedsCompilation: yes
 
 Package: osmplotr
-Version: 0.3.0.99
+Version: 0.3.1
 Depends: R (>= 3.2.3)
 Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 7c59d48edf196348bd254b729babdaa8
+MD5sum: 7b6308c7f7719390b5e4462e84cf9cd5
 NeedsCompilation: no
 
 Package: ots
@@ -2161,7 +2161,7 @@ Version: 1.0.8
 Imports: XML, httr (>= 0.6.1), plyr, foreach, stringr, testthat,
         taxize, RCurl
 License: GPL (>= 2)
-MD5sum: 5c9714646f9a08d0a4bb1d41aea018bd
+MD5sum: 9c71f1f3179f4cac205fd716b4d1143d
 NeedsCompilation: no
 
 Package: rvertnet
