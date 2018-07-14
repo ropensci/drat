@@ -12,6 +12,17 @@ License: MIT + file LICENSE
 MD5sum: 7582161a744b3a2983a34f92e2fc3c66
 NeedsCompilation: no
 
+Package: antanym
+Version: 0.4.0
+Depends: R (>= 3.3.0)
+Imports: assertthat, C50, geosphere, httr, magrittr, rappdirs, raster,
+        readr, sp, stringi
+Suggests: covr, dplyr, testthat (>= 2.0.0), knitr, leaflet, rgdal,
+        rmarkdown, rworldmap
+License: MIT + file LICENSE
+MD5sum: fe5c2202c78832173e93cb67384eac2b
+NeedsCompilation: no
+
 Package: antiword
 Version: 1.2
 Imports: sys
@@ -190,7 +201,7 @@ Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
         rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: c4aebaec8c478ac7747846e0e9a89a79
+MD5sum: c744df117e79442f0dc4bf9199fbba10
 NeedsCompilation: no
 
 Package: brranching
@@ -508,9 +519,9 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         0.2.0), rprojroot, stats, storr (>= 1.1.0), stringi, testthat,
         tibble, tidyselect (>= 0.2.4), txtq, utils, withr
 Suggests: abind, callr, clustermq, DBI, ggplot2, ggraph, MASS, methods,
-        RSQLite, rmarkdown, visNetwork
+        networkD3, RSQLite, rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 051d1814d7424b6bebd4467b607b7e15
+MD5sum: 829386c8e8cf40d4d1c4960dd28c4997
 NeedsCompilation: no
 
 Package: drat.builder
@@ -866,7 +877,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 137ab66e964c74dbbcfcdeb63be6a5ae
+MD5sum: 1bb14c821235444f73c278f832d21168
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1395,6 +1406,16 @@ License: GPL-3
 MD5sum: 335cc30a34e3b4a71fd50b4de193a29e
 NeedsCompilation: no
 
+Package: phylotaR
+Version: 1.0.0
+Depends: R (>= 3.3.0), methods,
+Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
+        R.utils
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 9a9d98de6abdd703b246cd7cea17cefa
+NeedsCompilation: no
+
 Package: phyrmeta
 Version: 0.0.3.9000
 Imports: stringr, ape
@@ -1463,7 +1484,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, rstudioapi, forcats
 License: MIT + file LICENSE
-MD5sum: 627efd0b4c15b15afceb3e3378da112b
+MD5sum: df918db697cb058464203c19136ab9d4
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -2337,7 +2358,7 @@ Imports: utils, rgbif (>= 1.0.0), rbison (>= 0.6.0), rebird (>= 0.3.0),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: a04232eb4cbb4de3d87263e9a53e1567
+MD5sum: 06d33d1b7020bad32d26b1b268224568
 NeedsCompilation: no
 
 Package: spplist
@@ -2432,7 +2453,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 83df932eeb7e8b806dacc7cda2d8530b
+MD5sum: f1e442f8b177439b2822d78fbeb2e11a
 NeedsCompilation: no
 
 Package: taxizedb
