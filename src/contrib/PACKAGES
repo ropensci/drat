@@ -20,7 +20,7 @@ Imports: assertthat, C50, geosphere, httr, magrittr, rappdirs, raster,
 Suggests: covr, dplyr, testthat (>= 2.0.0), knitr, leaflet, rgdal,
         rmarkdown, rworldmap
 License: MIT + file LICENSE
-MD5sum: fe5c2202c78832173e93cb67384eac2b
+MD5sum: f8c179a7d69f38247dff4ff17b9d8301
 NeedsCompilation: no
 
 Package: antiword
@@ -191,7 +191,7 @@ Imports: curl (>= 2.8.1), data.table (>= 1.10.4), dplyr (>= 0.7.0),
 Suggests: ASGS.foyer, covr, testthat, knitr, rmarkdown, ggplot2,
         ggthemes, grid, gridExtra, maps, mapproj, rappdirs
 License: MIT + file LICENSE
-MD5sum: a9bb43d594fe2e706a9177474ce3cecc
+MD5sum: b1313d7b056a8680372534b56cdb7894
 NeedsCompilation: no
 
 Package: bowerbird
@@ -521,7 +521,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, ggplot2, ggraph, MASS, methods,
         networkD3, RSQLite, rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 829386c8e8cf40d4d1c4960dd28c4997
+MD5sum: 7eec573ad5201665363bd8cc14e60270
 NeedsCompilation: no
 
 Package: drat.builder
@@ -877,7 +877,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 1bb14c821235444f73c278f832d21168
+MD5sum: c4fa4610469a4039105f80277d6e03d7
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -901,7 +901,7 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.2.1
+Version: 1.2.1.9000
 Depends: R (>= 3.3.0)
 Imports: curl, dplyr (>= 0.7.0), magrittr, purrr (>= 0.2.0), R.utils,
         readr, rlang, stats, tibble, utils
@@ -910,7 +910,7 @@ Suggests: covr, ggplot2, ggthemes, gridExtra, knitr, lubridate,
         rgeos, rmarkdown, roxygen2 (>= 6.0.1), sf, sp, spacetime,
         testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 8ba3edacdd1614ae57e61a02de531df1
+MD5sum: 6e80e040506f8a86c84e811951cb9715
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1024,7 +1024,7 @@ MD5sum: 415d1885e14a99912d8574e4daec6546
 NeedsCompilation: no
 
 Package: iheatmapr
-Version: 0.4.4
+Version: 0.4.5
 Depends: R (>= 3.2.0)
 Imports: methods, plyr, utils, magrittr, S4Vectors, stats, ggdendro,
         fastcluster, RColorBrewer, htmlwidgets, jsonlite, scales,
@@ -1032,7 +1032,7 @@ Imports: methods, plyr, utils, magrittr, S4Vectors, stats, ggdendro,
 Suggests: htmltools, datasets, shiny, testthat, rmarkdown, reshape2,
         roxygen2, covr, webshot
 License: MIT + file LICENSE
-MD5sum: e6dae0ffaebc830c5c6c0c35938eb446
+MD5sum: 337947d35a2b2bb4ce69ce27731045e9
 NeedsCompilation: no
 
 Package: ijtiff
@@ -1098,7 +1098,7 @@ MD5sum: c926873ecc01d498f782b69451487b18
 NeedsCompilation: no
 
 Package: jstor
-Version: 0.3.1
+Version: 0.3.1.9000
 Depends: R (>= 3.1)
 Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.2.0), magrittr, stringr (>= 1.3.0), readr (>= 1.0.0), tibble
@@ -1106,7 +1106,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: 23d488be75c0460bade376a538d07a67
+MD5sum: b7656b536c0cd728cee47b1e56e985a1
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1155,7 +1155,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0)
 License: MIT + file LICENSE
-MD5sum: 71a10ec34854a9ffcdbe2981b6150b5d
+MD5sum: d4cf9b95695ac4a922c0daf404772740
 NeedsCompilation: yes
 
 Package: mapr
