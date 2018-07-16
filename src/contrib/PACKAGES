@@ -511,7 +511,7 @@ MD5sum: e0292c8a35ca4e5eebd30d310c2975ab
 NeedsCompilation: no
 
 Package: drake
-Version: 5.2.1.9000
+Version: 5.2.1.9001
 Depends: R (>= 3.2.0)
 Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         future, future.apply, fs, grDevices, igraph, knitr, lubridate,
@@ -521,7 +521,7 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
 Suggests: abind, callr, clustermq, DBI, ggplot2, ggraph, MASS, methods,
         networkD3, RSQLite, rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 7eec573ad5201665363bd8cc14e60270
+MD5sum: fe053394733ac5fddd4e876381627145
 NeedsCompilation: no
 
 Package: drat.builder
@@ -877,7 +877,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: c4fa4610469a4039105f80277d6e03d7
+MD5sum: bc5bda9645f1a2a7a1cce18ed28aa529
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1098,7 +1098,7 @@ MD5sum: c926873ecc01d498f782b69451487b18
 NeedsCompilation: no
 
 Package: jstor
-Version: 0.3.1.9000
+Version: 0.3.2
 Depends: R (>= 3.1)
 Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.2.0), magrittr, stringr (>= 1.3.0), readr (>= 1.0.0), tibble
@@ -1106,7 +1106,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: b7656b536c0cd728cee47b1e56e985a1
+MD5sum: d0c253628ee4ac49cd1fb0ab21f4e915
 NeedsCompilation: no
 
 Package: landscapetools
