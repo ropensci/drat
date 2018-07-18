@@ -136,13 +136,13 @@ MD5sum: 88c72bd82f88433e270b205d03b6906b
 NeedsCompilation: yes
 
 Package: binman
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.3)
 Imports: rappdirs, yaml, httr, jsonlite, xml2, utils, stats,
         assertthat, semver
 Suggests: testthat, covr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: e1f2db43910b93658e327bd45a12e4d5
+MD5sum: b793c19b663c8637161cc60e1fbd094b
 NeedsCompilation: no
 
 Package: binomen
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 7782460726f7a7e71c31155e665223a5
+MD5sum: 46babdb02dceaa82f65b4abe14fffbc3
 NeedsCompilation: no
 
 Package: drat.builder
@@ -573,12 +573,12 @@ MD5sum: f95f2e73fb79ee8efff6375598209bd7
 NeedsCompilation: no
 
 Package: elastic
-Version: 0.8.4.9100
+Version: 0.8.4.9410
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 02ce8101dde99dfc45778af654a2f631
+MD5sum: 06fabd5ce4c7a6ef2652b93688587819
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -883,12 +883,12 @@ MD5sum: f20314e46f0f939e019f1a4bca5b9994
 NeedsCompilation: no
 
 Package: git2r
-Version: 0.23.0
+Version: 0.23.0.9000
 Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 206216780d660e8f4958c1bc1744771e
+MD5sum: 0dc590d2fb0e7578dfc258f567426cf8
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -967,7 +967,7 @@ Imports: xml2, rvest, httr, magrittr, plyr, ggmap, utils, knitr,
         rmarkdown
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: a46aa52509883704ef9da74dc432da61
+MD5sum: a0e8b2d52da86a614898840952cf4ddb
 NeedsCompilation: no
 
 Package: hirsutosa
@@ -1424,7 +1424,7 @@ Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
         R.utils
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 9a9d98de6abdd703b246cd7cea17cefa
+MD5sum: 67e006eb482cc05240678a11fa5229c1
 NeedsCompilation: no
 
 Package: phyrmeta
@@ -2075,7 +2075,7 @@ Imports: ggplot2, crul (>= 0.4.0), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, knitr, testthat, webmockr, vcr
 License: MIT + file LICENSE
-MD5sum: 266c7296f5eadfccd1fb58f3fc27ce0b
+MD5sum: a6cfcf3142aed2058eb8e3cb47a61436
 NeedsCompilation: no
 
 Package: rppo
@@ -2192,8 +2192,9 @@ Package: rusda
 Version: 1.0.8
 Imports: XML, httr (>= 0.6.1), plyr, foreach, stringr, testthat,
         taxize, RCurl
+Suggests: knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 9c71f1f3179f4cac205fd716b4d1143d
+MD5sum: 833ab946ac32aa463fbfad74c3dd7219
 NeedsCompilation: no
 
 Package: rvertnet
@@ -2322,12 +2323,12 @@ MD5sum: 270cee0dc353b9c6d844c05595dc86e3
 NeedsCompilation: no
 
 Package: solrium
-Version: 1.0.0.9100
+Version: 1.0.0.9310
 Imports: utils, dplyr (>= 0.5.0), plyr (>= 1.8.4), crul (>= 0.4.0),
         xml2 (>= 1.0.0), jsonlite (>= 1.0), tibble (>= 1.2), R6
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: d1e09f5dcc41f862e9d396a5857c7ef4
+MD5sum: 7a92d8b7fe17bb3b4f7cf13ab565dc23
 NeedsCompilation: no
 
 Package: sparqldsl
