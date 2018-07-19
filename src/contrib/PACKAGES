@@ -142,7 +142,7 @@ Imports: rappdirs, yaml, httr, jsonlite, xml2, utils, stats,
         assertthat, semver
 Suggests: testthat, covr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: b793c19b663c8637161cc60e1fbd094b
+MD5sum: 0d3f630aed8c39d0cf9246a2c8b8e608
 NeedsCompilation: no
 
 Package: binomen
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 46babdb02dceaa82f65b4abe14fffbc3
+MD5sum: 95a4aec5759b941a9941edf0ae09aee2
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 0dc590d2fb0e7578dfc258f567426cf8
+MD5sum: d4648e0516a111fab8bbe868c7b76c78
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -2013,13 +2013,13 @@ MD5sum: c11d5e73ec231951de9d586759a5d650
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.6.1
+Version: 0.6.2
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
-        future (>= 1.6.2), magrittr, utils
+        future (>= 1.6.2), future.apply (>= 1.0.0), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: a3dd7573270558a1d561c5f2f1df53f3
+MD5sum: 885529941794d10d3e89b59ae2c96ab2
 NeedsCompilation: no
 
 Package: ropenaq
@@ -2075,7 +2075,7 @@ Imports: ggplot2, crul (>= 0.4.0), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, knitr, testthat, webmockr, vcr
 License: MIT + file LICENSE
-MD5sum: a6cfcf3142aed2058eb8e3cb47a61436
+MD5sum: b4dfbd267bba6534786eae5e8d6b4965
 NeedsCompilation: no
 
 Package: rppo
