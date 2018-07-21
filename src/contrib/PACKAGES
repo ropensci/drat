@@ -94,7 +94,7 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
 License: GPL-3
-MD5sum: 76af4a025fa9db1bc7ea76f975859aec
+MD5sum: cdc9a957e007e11feea15d26bf1f5144
 NeedsCompilation: no
 
 Package: available
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: d4648e0516a111fab8bbe868c7b76c78
+MD5sum: f6879d086536aee980bfd32895c99106
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1127,7 +1127,7 @@ Imports: magrittr, checkmate, dplyr, extrafont, ggplot2, purrr, raster,
         rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: ef51370b21a09ae2091b7a04bd043cae
+MD5sum: d4fe4c45e2770107b92eecf085bbac3f
 NeedsCompilation: no
 
 Package: laselva
@@ -1225,12 +1225,12 @@ MD5sum: 9f712cab431e82e2585407e96215fd56
 NeedsCompilation: no
 
 Package: neotoma
-Version: 1.7.0
+Version: 1.7.1
 Depends: R (>= 2.10)
 Imports: plyr, reshape2, jsonlite, httr, xml2, analogue, leaflet, dplyr
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 268949c4666ba0cc9fe142fe25a55f20
+MD5sum: a846cede70eb2a64c2012e231ebe433f
 NeedsCompilation: no
 
 Package: NLMR
@@ -1792,13 +1792,13 @@ MD5sum: 30a90e399bd4571aaf2ba24dbd4c3287
 NeedsCompilation: no
 
 Package: rfishbase
-Version: 2.1.2.5
+Version: 2.99
 Depends: R (>= 3.0)
-Imports: dplyr (>= 0.4.0), lazyeval, httr (>= 1.0.0), tidyr, methods,
-        utils
+Imports: dplyr, purrr, methods, utils, memoise, readr, rlang, magrittr,
+        stringr
 Suggests: devtools, testthat, rmarkdown, knitr
 License: CC0
-MD5sum: 96fcc184183c7618cf351fe2b6673aa7
+MD5sum: d3a3ca596726ed6a342af020b27ed4d9
 NeedsCompilation: no
 
 Package: rfisheries
@@ -2453,11 +2453,11 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 8dddd486a27445bcb5a5102f041e7500
+MD5sum: 49160e67a4528789df4deb358ba30298
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.3.9455
+Version: 0.9.4
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -2466,7 +2466,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 2c60897fc992faf2027ba8baa04352ce
+MD5sum: 8934422b5e0aee13a33b80cfb8deb0a1
 NeedsCompilation: no
 
 Package: taxizedb
