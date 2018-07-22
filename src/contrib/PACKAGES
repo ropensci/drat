@@ -108,12 +108,12 @@ MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.3.13
+Version: 0.3.14
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 8ea6fdeb05d19fca78191e79fccc75ce
+MD5sum: 0d512e1de034d7353189f8346b445516
 NeedsCompilation: no
 
 Package: aws.signature
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 9dfb457368cb73f4f79e563a642bd2f1
+MD5sum: bea898745052699272ad5c5d1fe09473
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: f6879d086536aee980bfd32895c99106
+MD5sum: 494a312f2d5f86f9bbc83e43329df1da
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -2608,7 +2608,7 @@ Imports: ape, dplyr, jsonlite, magrittr, methods, rlang, rvcheck,
         tibble, tidytree (>= 0.1.7), utils
 Suggests: ggplot2, ggtree, knitr, prettydoc, testthat, tidyr
 License: Artistic-2.0
-MD5sum: 1b99b551d1fccfdec83297b94bebfc4b
+MD5sum: 904255866a0a5e5587beea4dcb8fd1ee
 NeedsCompilation: no
 
 Package: unrtf
