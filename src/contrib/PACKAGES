@@ -94,7 +94,7 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
 License: GPL-3
-MD5sum: cdc9a957e007e11feea15d26bf1f5144
+MD5sum: 68dc2a8a43df78dc90c0e8da8fd9ce36
 NeedsCompilation: no
 
 Package: available
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork
 License: GPL-3
-MD5sum: bea898745052699272ad5c5d1fe09473
+MD5sum: 36fdd4cf2c65de3eb0d8949b25fa759f
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 494a312f2d5f86f9bbc83e43329df1da
+MD5sum: 8ae6b4bd73c9f3a8823805308ed4414c
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -967,7 +967,7 @@ Imports: xml2, rvest, httr, magrittr, plyr, ggmap, utils, knitr,
         rmarkdown
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: 6edcf391a0cbe1959809b66ee55ccb40
+MD5sum: ae675125e20326da22142ba0af192053
 NeedsCompilation: no
 
 Package: hirsutosa
@@ -2175,7 +2175,7 @@ Imports: curl, sys, stats, utils, rappdirs, digest
 Suggests: jsonlite, xml2, data.table, testthat, knitr, rmarkdown, covr,
         magrittr
 License: Apache License 2.0 | file LICENSE
-MD5sum: dc0050e9648396fc7fa41b328e95b7fa
+MD5sum: 59fc8b4d92ce6c449fc3694789e39775
 NeedsCompilation: no
 
 Package: rtimicropem
@@ -2447,13 +2447,13 @@ MD5sum: 4717f50b27725cb39547e012a7a21035
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.1.9006
+Version: 0.2.1.9008
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 49160e67a4528789df4deb358ba30298
+MD5sum: 0d5090d6053007d437cc4147d889d3ed
 NeedsCompilation: no
 
 Package: taxize
