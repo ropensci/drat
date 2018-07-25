@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork
 License: GPL-3
-MD5sum: 0628ace7e2bf8784fc9036c0e5fb5788
+MD5sum: 35803c3accc6ba486605a99065c28408
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 96a80550541d2b37a45a8199fcf17f32
+MD5sum: 3a9be1c172239399beab32fbc2112b6e
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1164,9 +1164,9 @@ Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
 LinkingTo: Rcpp
 Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
-        tesseract (>= 2.0)
+        tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: d4cf9b95695ac4a922c0daf404772740
+MD5sum: 1d7bbb3e51f7684d581e2fa606586b5a
 NeedsCompilation: yes
 
 Package: mapr
@@ -1253,13 +1253,13 @@ MD5sum: e91a4ffc3913cb37234b94ad72297f4d
 NeedsCompilation: no
 
 Package: nodbi
-Version: 0.0.7.9411
+Version: 0.1.0
 Depends: R (>= 2.10)
 Imports: data.table, jsonlite
-Suggests: sofa (>= 0.3.0), etseed (>= 0.1.0), elastic (>= 0.8.0),
-        mongolite (>= 1.5), redux, testthat
+Suggests: sofa (>= 0.3.0), etseed (>= 0.1.0), elastic (>= 0.8.4),
+        mongolite (>= 1.6), redux, testthat
 License: MIT + file LICENSE
-MD5sum: a4ae59116bb3f29ff432ed6ac0feca98
+MD5sum: 3e79bac9977e67e492a2228a29c3e667
 NeedsCompilation: no
 
 Package: nomisr
@@ -1833,7 +1833,7 @@ Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: 29ac8a028b23ab6e02a1172d8f35af00
+MD5sum: 6c3836eb95303b12ff4e3c66b86c6bf2
 NeedsCompilation: no
 
 Package: rGEM
@@ -2457,7 +2457,7 @@ MD5sum: fe601683382915d592af637cdc2af8b1
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.4
+Version: 0.9.4.9100
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -2466,7 +2466,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 4b0f3330ccb381f0b7f5426986ab3ed4
+MD5sum: 8f5bf8362e3ad625912a6984bc8ccc9b
 NeedsCompilation: no
 
 Package: taxizedb
