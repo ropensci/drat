@@ -220,7 +220,7 @@ Depends: R(>= 3.2.1)
 Imports: crul (>= 0.4.0), curl (>= 1.2), ape, taxize, phytools
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: a50edcdcd8a169bf7d46c16fdf80ed17
+MD5sum: 2dac142a4c2786c8ce09462febfc6d70
 NeedsCompilation: no
 
 Package: camsRad
@@ -318,12 +318,12 @@ MD5sum: 7cc3783228824b642d2c5fb3de00a5f0
 NeedsCompilation: yes
 
 Package: clifro
-Version: 3.1-999
+Version: 3.2-0
 Imports: methods, lubridate, xml2, magrittr, RCurl, utils, ggplot2 (>=
         2.0.0), scales, RColorBrewer, reshape2
 Suggests: knitr, rmarkdown, ggmap (>= 2.6), pander, testthat
 License: GPL-2
-MD5sum: a1900d2dc5f95debe088c44549429a55
+MD5sum: 346a29f2e1e224e3f0511e08ac9654d1
 NeedsCompilation: no
 
 Package: cmipr
@@ -530,9 +530,9 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         utils, withr
 Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
-        rmarkdown, visNetwork
+        rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: 35803c3accc6ba486605a99065c28408
+MD5sum: a84219e8966d967f78d5acc8c3452cf8
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 3a9be1c172239399beab32fbc2112b6e
+MD5sum: 4590a54d9210665e4355af4c0558c7d6
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1403,10 +1403,10 @@ NeedsCompilation: yes
 
 Package: phylocomr
 Version: 0.1.0
-Imports: tibble, sys (>= 1.1), ape
-Suggests: testthat, knitr, rmarkdown
+Imports: tibble, sys (>= 1.1)
+Suggests: testthat, knitr, rmarkdown, ape
 License: MIT + file LICENSE
-MD5sum: dd8437bad5ef675fc0bd305710274500
+MD5sum: 6e6859ee571c475c8f146dda27e0dbae
 NeedsCompilation: yes
 
 Package: phylogram
@@ -1621,7 +1621,7 @@ Imports: methods, Rcpp (>= 0.11.0), RApiSerialize, RcppMsgPack
 LinkingTo: Rcpp, RApiSerialize, BH
 Suggests: rredis, RUnit
 License: GPL (>= 2)
-MD5sum: eec85d3fbaf1cdbfb8fe8d0cf45853a2
+MD5sum: 390ce8e04a70bc5da06e55b4d144b2a0
 NeedsCompilation: yes
 
 Package: rcrossref
@@ -2429,13 +2429,13 @@ MD5sum: 6dc9461349ef45d64f5cee32fb20924c
 NeedsCompilation: yes
 
 Package: suppdata
-Version: 1.0-0.9001
+Version: 1.0.0.9003
 Imports: httr (>= 1.0.0), xml2 (>= 1.2.0), jsonlite (>= 1.5), rcrossref
         (>= 0.8.0)
 Suggests: knitr (>= 1.6), testthat (>= 2.0.0), covr (>= 3.0.1),
         fulltext (>= 0.1.4.9000)
 License: MIT + file LICENSE
-MD5sum: deb26f74e6f33ddff45ebd30ae9f8019
+MD5sum: 2727a9a2b03c896437f68256231cfc65
 NeedsCompilation: no
 
 Package: tabulizer
