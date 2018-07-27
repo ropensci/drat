@@ -108,20 +108,20 @@ MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.3.14
+Version: 0.3.15
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 0d512e1de034d7353189f8346b445516
+MD5sum: f812d50a030e427f3e24ddbf7fc92a86
 NeedsCompilation: no
 
 Package: aws.signature
-Version: 0.4.3
+Version: 0.4.4
 Imports: digest, base64enc
-Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+Suggests: testthat, aws.ec2metadata (>= 0.1.5)
 License: GPL (>= 2)
-MD5sum: b3d04400092c6627a2047dcfc69027c1
+MD5sum: 4a0ea76614e945afc5be5c496452645c
 NeedsCompilation: no
 
 Package: bikedata
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: a84219e8966d967f78d5acc8c3452cf8
+MD5sum: be9150c81e147b3f3608185297d8b727
 NeedsCompilation: no
 
 Package: drat.builder
@@ -841,12 +841,12 @@ MD5sum: baa53d3d04cdb2023329d6ca15dd1a54
 NeedsCompilation: no
 
 Package: getlandsat
-Version: 0.2.0.9100
+Version: 0.2.1.9210
 Imports: methods, readr (>= 1.1.1), crul (>= 0.5.2), xml2 (>= 1.2.0),
-        data.table, tibble, rappdirs
+        data.table, tibble, rappdirs, jsonlite
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, raster
 License: MIT + file LICENSE
-MD5sum: ce48a043d727271393c425f455e671aa
+MD5sum: 6165a6dae1748da61fa284957b3d246e
 NeedsCompilation: no
 
 Package: ggit
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 4590a54d9210665e4355af4c0558c7d6
+MD5sum: a1d45f76baed1b75b0d660e620f09172
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -967,7 +967,7 @@ Imports: xml2, rvest, httr, magrittr, plyr, ggmap, utils, knitr,
         rmarkdown
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: ae675125e20326da22142ba0af192053
+MD5sum: d87914b7014e36409e22a8888d19181a
 NeedsCompilation: no
 
 Package: hirsutosa
@@ -1495,7 +1495,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: 1aa842e99bfab3cce1e443eb29ed4ae0
+MD5sum: 99acb4f6146e22e2ba2d010f26d79b49
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -1571,7 +1571,7 @@ Imports: crul (>= 0.3.4), xml2 (>= 1.0.0), jsonlite (>= 1.1), plyr (>=
         1.8.4), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 12d4e47e2b93831b893bbba61877f807
+MD5sum: 0c720322672983569973967a95e83fd8
 NeedsCompilation: no
 
 Package: rbison
@@ -1798,7 +1798,7 @@ Imports: dplyr, purrr, methods, utils, memoise, readr, rlang, magrittr,
         stringr
 Suggests: devtools, testthat, rmarkdown, knitr
 License: CC0
-MD5sum: d3a3ca596726ed6a342af020b27ed4d9
+MD5sum: 1156a2318177a47e6373a731907138de
 NeedsCompilation: no
 
 Package: rfisheries
@@ -2569,7 +2569,7 @@ Imports: stringi (>= 1.0.1), Rcpp (>= 0.12.3), SnowballC (>= 0.5.1)
 LinkingTo: Rcpp
 Suggests: covr, knitr, rmarkdown, stopwords (>= 0.9.0), testthat
 License: MIT + file LICENSE
-MD5sum: 721a602368c99a5a36f79305ddaa64c8
+MD5sum: b311c6ad40e60f505bfcdb0c7adcd01f
 NeedsCompilation: yes
 
 Package: traits
