@@ -108,12 +108,12 @@ MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.3.15
+Version: 0.3.16
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: f812d50a030e427f3e24ddbf7fc92a86
+MD5sum: 20aa5e80d069513c547ae58cd70d2f57
 NeedsCompilation: no
 
 Package: aws.signature
@@ -578,7 +578,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 06fabd5ce4c7a6ef2652b93688587819
+MD5sum: 61cb5c4f677381dfebc9ebec69c5fb37
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: a1d45f76baed1b75b0d660e620f09172
+MD5sum: ef43756c282bdc276f52092861f8f163
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1268,7 +1268,7 @@ Depends: R (>= 3.4.0)
 Imports: jsonlite, tibble, readr, dplyr, httr, utils, rsdmx, rlang
 Suggests: knitr, rmarkdown, testthat, purrr, tidyr, magrittr
 License: MIT + file LICENSE
-MD5sum: 90497a0796cd7e5adb777a98c1b5c03b
+MD5sum: 4e0466c632730db48932098b1216f90a
 NeedsCompilation: no
 
 Package: oai
@@ -1389,7 +1389,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 5a001ef28374fda3a5e660fb05350d6e
+MD5sum: 895d8754e3d6743c6fe101fe9cf21403
 NeedsCompilation: no
 
 Package: pdftools
