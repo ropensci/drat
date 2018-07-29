@@ -108,12 +108,12 @@ MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.3.16
-Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+Version: 0.3.17
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 20aa5e80d069513c547ae58cd70d2f57
+MD5sum: d8339770272fe2d2ae5b469f2fec4dc1
 NeedsCompilation: no
 
 Package: aws.signature
@@ -192,7 +192,7 @@ MD5sum: f61c195f42363c2ad9bf65f3497556e4
 NeedsCompilation: no
 
 Package: bomrang
-Version: 0.2.2
+Version: 0.2.2.9000
 Depends: R (>= 3.2.0)
 Imports: curl (>= 2.8.1), data.table (>= 1.10.4), dplyr (>= 0.7.0),
         foreign, httr (>= 1.2.1), hoardr, janitor (>= 1.0.0), jsonlite
@@ -201,7 +201,7 @@ Imports: curl (>= 2.8.1), data.table (>= 1.10.4), dplyr (>= 0.7.0),
 Suggests: ASGS.foyer, covr, testthat, knitr, rmarkdown, ggplot2,
         ggthemes, grid, gridExtra, maps, mapproj, rappdirs
 License: MIT + file LICENSE
-MD5sum: aa706b6d726adcd44dfbef81a0572b02
+MD5sum: 0bb04bf4117fbb7b364b092988214dfb
 NeedsCompilation: no
 
 Package: bowerbird
@@ -958,7 +958,7 @@ Imports: zoo, sp, RCurl, XML, rnrfa, Hmisc, raster, stringr, gdata,
         tibble
 Suggests: testthat, leaflet, rmarkdown, knitr
 License: GPL-3
-MD5sum: 20e95d3008db2f1354dc11b22aa1becb
+MD5sum: 6e4d4c12488df53d773d8fae0b32239e
 NeedsCompilation: no
 
 Package: helminthR
@@ -1652,13 +1652,13 @@ MD5sum: b921146625100ac22468dbefccc4cd2c
 NeedsCompilation: no
 
 Package: rdefra
-Version: 0.3.5
+Version: 0.3.6
 Depends: R (>= 2.10)
 Imports: lubridate, tibble, httr, xml2, dplyr, sp, rgdal
 Suggests: testthat, leaflet, parallel, rmarkdown, knitr, ggplot2, zoo,
         lintr
 License: GPL-3
-MD5sum: 753dec749a55441df16ce4662bd42f8a
+MD5sum: 6ae2fa35d150ca87c96404be653c0935
 NeedsCompilation: no
 
 Package: rdflib
