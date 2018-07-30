@@ -108,12 +108,12 @@ MD5sum: fc3d7fef14082747825785f5ff93bc05
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.3.17
+Version: 0.3.19
 Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: d8339770272fe2d2ae5b469f2fec4dc1
+MD5sum: 6b1ac799dbfdaed34af5de841549ac6d
 NeedsCompilation: no
 
 Package: aws.signature
@@ -201,7 +201,7 @@ Imports: curl (>= 2.8.1), data.table (>= 1.10.4), dplyr (>= 0.7.0),
 Suggests: ASGS.foyer, covr, testthat, knitr, rmarkdown, ggplot2,
         ggthemes, grid, gridExtra, maps, mapproj, rappdirs
 License: MIT + file LICENSE
-MD5sum: 0bb04bf4117fbb7b364b092988214dfb
+MD5sum: cd6a26a722342bab321b313fec7f749f
 NeedsCompilation: no
 
 Package: bowerbird
@@ -229,7 +229,7 @@ Depends: R (>= 3.1.0)
 Imports: httr (>= 1.2.1), xml2 (>= 1.0.0)
 Suggests: ncdf4, roxygen2, knitr, testthat, rmarkdown
 License: MIT + file LICENSE
-MD5sum: a41a902f43af3e18e266f010b7319088
+MD5sum: 5b7694b6cca6c3440019ad332fa922aa
 NeedsCompilation: no
 
 Package: canpaginate
@@ -521,7 +521,7 @@ MD5sum: e0292c8a35ca4e5eebd30d310c2975ab
 NeedsCompilation: no
 
 Package: drake
-Version: 5.3.1.9000
+Version: 5.3.1.9001
 Depends: R (>= 3.2.0)
 Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         fs, grDevices, igraph, knitr, magrittr, parallel, pkgconfig,
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: be9150c81e147b3f3608185297d8b727
+MD5sum: 118f15b6c03dafeb65e644cb1d238d21
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: ef43756c282bdc276f52092861f8f163
+MD5sum: 73a1d583af6ebf2ac3907aa1535df672
 NeedsCompilation: yes
 
 Package: googleLanguageR
