@@ -211,7 +211,7 @@ Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
         rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: c744df117e79442f0dc4bf9199fbba10
+MD5sum: 2778e64f69160912c98e345951db7db2
 NeedsCompilation: no
 
 Package: brranching
@@ -229,7 +229,7 @@ Depends: R (>= 3.1.0)
 Imports: httr (>= 1.2.1), xml2 (>= 1.0.0)
 Suggests: ncdf4, roxygen2, knitr, testthat, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 5b7694b6cca6c3440019ad332fa922aa
+MD5sum: 3c91d685572ebf990e6b3c8200386f9f
 NeedsCompilation: no
 
 Package: canpaginate
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: 118f15b6c03dafeb65e644cb1d238d21
+MD5sum: 434fcbfe8ffc9573da0a7d60f7c2a820
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 73a1d583af6ebf2ac3907aa1535df672
+MD5sum: 567a086f0474bf452c766a8d1548b709
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1166,7 +1166,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 1d7bbb3e51f7684d581e2fa606586b5a
+MD5sum: f23da70b8a2c1449d4b985ce4d45d141
 NeedsCompilation: yes
 
 Package: mapr
@@ -1424,7 +1424,7 @@ Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
         R.utils
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 67e006eb482cc05240678a11fa5229c1
+MD5sum: b032a526e57807a88e4a5e887a246b19
 NeedsCompilation: no
 
 Package: phyrmeta
@@ -1983,14 +1983,14 @@ MD5sum: 16ff87f8dbb75043669742544184780c
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.7.1.9215
+Version: 0.7.1.9321
 Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
         tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
         gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 1845cb3c77d4635705298a34c3482908
+MD5sum: 0d4926e4592b10db912b77aa7ef7b3b9
 NeedsCompilation: no
 
 Package: rnpn
@@ -2056,7 +2056,7 @@ Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 0facf00fbc14d742a18bac0bcd5acd01
+MD5sum: f687abd94f5e5e96a4e2a016cc4e3c4a
 NeedsCompilation: no
 
 Package: rperseus
@@ -2156,7 +2156,7 @@ Imports: XML,methods,caTools,tools,utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 68b7c9f934dbd8ba1b6a1f32e0d2031a
+MD5sum: 9c481da4b92d44f15c3be5954797ee1f
 NeedsCompilation: no
 
 Package: rsnps
@@ -2506,7 +2506,7 @@ Imports: Rcpp (>= 0.12.12), pdftools (>= 1.5), curl, rappdirs, tibble,
 LinkingTo: Rcpp
 Suggests: magick (>= 1.7), spelling, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 6f5e20333fa8b9c501d896a736b07db5
+MD5sum: fbc406bde0f5393d2e98eded60bca156
 NeedsCompilation: yes
 
 Package: testdat
@@ -2589,7 +2589,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, glue (>= 1.2.0), httr, memoise, openssl, withr
 Suggests: remotes, roxygen2, testthat, usethis
 License: GPL (>= 2)
-MD5sum: b6deafc9876d727e36a2c8bacca5bc6f
+MD5sum: 640f0012123575648c13ce6f43b4a45f
 NeedsCompilation: no
 
 Package: treebase
