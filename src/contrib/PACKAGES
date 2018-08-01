@@ -88,13 +88,13 @@ MD5sum: 95deed71d41bd5366675d98cb0476a83
 NeedsCompilation: no
 
 Package: auk
-Version: 0.2.2
+Version: 0.2.3
 Depends: R (>= 3.1.2)
 Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
 License: GPL-3
-MD5sum: 6e9d318fae69dba7f98451df272a5820
+MD5sum: 08b7982756467375e4b97f710d05db31
 NeedsCompilation: no
 
 Package: available
@@ -532,7 +532,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: 434fcbfe8ffc9573da0a7d60f7c2a820
+MD5sum: 82439ac43bf1bdac0ac67a76f0982356
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +888,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 567a086f0474bf452c766a8d1548b709
+MD5sum: 8ff878c6de683363220d043030bb4a3e
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1424,7 +1424,7 @@ Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
         R.utils
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: b032a526e57807a88e4a5e887a246b19
+MD5sum: 1e333ea0666597d740c7f99b9e26d8b9
 NeedsCompilation: no
 
 Package: phyrmeta
@@ -1528,7 +1528,7 @@ Imports: httr, stringr, readr, jsonlite, assertthat, sjlabelled, yaml,
         dplyr, rlang
 Suggests: knitr, rmarkdown, httptest
 License: GPL-3 | file LICENSE
-MD5sum: 3b8a947aee9d2945db046b1537303238
+MD5sum: ab207de19824c2d8149c3cfaeae5a773
 NeedsCompilation: no
 
 Package: rAltmetric
@@ -1677,7 +1677,7 @@ Depends: R (>= 2.15.2), countrycode, R.cache
 Imports: dplyr, httr, rgeos, sp
 Suggests: rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: 3f9745cd5b14676e3d495665d0ea0ade
+MD5sum: 82749f7d7b3507b9d132da0addd98cec
 NeedsCompilation: no
 
 Package: rdpla
@@ -2156,7 +2156,7 @@ Imports: XML,methods,caTools,tools,utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 9c481da4b92d44f15c3be5954797ee1f
+MD5sum: 5a984518f2e3b15b11f81f93e102442c
 NeedsCompilation: no
 
 Package: rsnps
@@ -2672,7 +2672,7 @@ Imports: dplyr (>= 0.7.0), httr (>= 1.1.0), lubridate (>= 1.7.1),
 Suggests: devtools, ggplot2, ggmap, knitr, rmarkdown, sp, stringr,
         testthat
 License: GPL-3
-MD5sum: 19128641ef933f0c3bb2b3b5a0c2f029
+MD5sum: 682c9a9c3ed1cd4840791ad8e9d93461
 NeedsCompilation: no
 
 Package: webchem
