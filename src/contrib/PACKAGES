@@ -91,10 +91,11 @@ Package: auk
 Version: 0.2.3
 Depends: R (>= 3.1.2)
 Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
-        stringi, stringr, tidyr
-Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
+        stringi, stringr, tidyr, utils
+Suggests: covr, data.table, knitr, readr, rmarkdown, testthat,
+        rstudioapi
 License: GPL-3
-MD5sum: 08b7982756467375e4b97f710d05db31
+MD5sum: 9ebe7a64d7a14411ea819402a041f01b
 NeedsCompilation: no
 
 Package: available
@@ -532,7 +533,7 @@ Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
         ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
         rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: 82439ac43bf1bdac0ac67a76f0982356
+MD5sum: 96bef7cc2f3d9682a8ea12227aa6d343
 NeedsCompilation: no
 
 Package: drat.builder
@@ -888,7 +889,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 8ff878c6de683363220d043030bb4a3e
+MD5sum: 21ddd89b16b8f8ce9c1cb6d929ef6b2c
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1253,13 +1254,13 @@ MD5sum: e91a4ffc3913cb37234b94ad72297f4d
 NeedsCompilation: no
 
 Package: nodbi
-Version: 0.1.0
+Version: 0.1.0.9100
 Depends: R (>= 2.10)
 Imports: data.table, jsonlite
 Suggests: sofa (>= 0.3.0), etseed (>= 0.1.0), elastic (>= 0.8.4),
         mongolite (>= 1.6), redux, testthat
 License: MIT + file LICENSE
-MD5sum: 3e79bac9977e67e492a2228a29c3e667
+MD5sum: b8c3c9a2983e78616307cae746b6a2fc
 NeedsCompilation: no
 
 Package: nomisr
@@ -1268,7 +1269,7 @@ Depends: R (>= 3.4.0)
 Imports: jsonlite, tibble, readr, dplyr, httr, utils, rsdmx, rlang
 Suggests: knitr, rmarkdown, testthat, purrr, tidyr, magrittr
 License: MIT + file LICENSE
-MD5sum: 4e0466c632730db48932098b1216f90a
+MD5sum: 772e34084add3c879d1d6df373a075b9
 NeedsCompilation: no
 
 Package: oai
@@ -1424,7 +1425,7 @@ Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
         R.utils
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 1e333ea0666597d740c7f99b9e26d8b9
+MD5sum: 87fc8ebe1e2e9b71873b3ffa1d1791dd
 NeedsCompilation: no
 
 Package: phyrmeta
@@ -1990,7 +1991,7 @@ Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: 0d4926e4592b10db912b77aa7ef7b3b9
+MD5sum: 0bc6203bf16ba1f5ee2bf3830dc3484c
 NeedsCompilation: no
 
 Package: rnpn
