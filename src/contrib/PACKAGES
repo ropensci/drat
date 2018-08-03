@@ -529,11 +529,11 @@ Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
         purrr, R6, R.utils, rlang (>= 0.2.0), rprojroot, stats, storr
         (>= 1.1.0), stringi, testthat, tibble, tidyselect (>= 0.2.4),
         utils, withr
-Suggests: abind, callr, clustermq, DBI, future, future.apply, ggplot2,
-        ggraph, lubridate, MASS, methods, networkD3, RSQLite, txtq,
-        rmarkdown, visNetwork, webshot
+Suggests: abind, callr, clustermq, DBI, downloader, future,
+        future.apply, ggplot2, ggraph, lubridate, MASS, methods,
+        networkD3, RSQLite, txtq, rmarkdown, visNetwork, webshot
 License: GPL-3
-MD5sum: 96bef7cc2f3d9682a8ea12227aa6d343
+MD5sum: 00bc3574b8bdc9c04e3df73fcb4b9bc8
 NeedsCompilation: no
 
 Package: drat.builder
@@ -889,7 +889,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: 21ddd89b16b8f8ce9c1cb6d929ef6b2c
+MD5sum: cd9b3095d959317e20f6ea98d2fbd7bc
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1366,12 +1366,12 @@ MD5sum: b04093679ad808b92d358281a025ad8f
 NeedsCompilation: no
 
 Package: pangaear
-Version: 0.6.0.9100
+Version: 0.6.1.9100
 Imports: crul (>= 0.4.0), jsonlite (>= 1.5), rappdirs (>= 0.3.1), xml2
         (>= 1.1.1), oai (>= 0.2.2), tibble (>= 1.1), png
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 41b8adf67d9e975a2548ef77b9de39a2
+MD5sum: ef418ef007b8d6a45c685a842ebfa049
 NeedsCompilation: no
 
 Package: parseids
@@ -2448,13 +2448,13 @@ MD5sum: 4717f50b27725cb39547e012a7a21035
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.1.9009
+Version: 0.2.1.9012
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: fe601683382915d592af637cdc2af8b1
+MD5sum: fa2e6b1c56cf6c89e5c3e3a1a5e6e0f3
 NeedsCompilation: no
 
 Package: taxize
