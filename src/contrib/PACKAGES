@@ -20,7 +20,7 @@ Imports: assertthat, C50, geosphere, httr, magrittr, rappdirs, raster,
 Suggests: covr, dplyr, testthat (>= 2.0.0), knitr, leaflet, rgdal,
         rmarkdown, rworldmap
 License: MIT + file LICENSE
-MD5sum: f8c179a7d69f38247dff4ff17b9d8301
+MD5sum: 6fe449250e3a5fb11e3fc5cfb8f09822
 NeedsCompilation: no
 
 Package: antiword
@@ -524,16 +524,16 @@ NeedsCompilation: no
 Package: drake
 Version: 5.3.1.9001
 Depends: R (>= 3.2.0)
-Imports: bindr, codetools, crayon, evaluate, digest, dplyr, formatR,
-        fs, grDevices, igraph, knitr, magrittr, parallel, pkgconfig,
-        purrr, R6, R.utils, rlang (>= 0.2.0), rprojroot, stats, storr
-        (>= 1.1.0), stringi, testthat, tibble, tidyselect (>= 0.2.4),
-        utils, withr
-Suggests: abind, callr, clustermq, DBI, downloader, future,
-        future.apply, ggplot2, ggraph, lubridate, MASS, methods,
-        networkD3, RSQLite, txtq, rmarkdown, visNetwork, webshot
+Imports: codetools, evaluate, digest, dplyr, formatR, fs, igraph,
+        magrittr, parallel, pkgconfig, purrr, R6, R.utils, rlang (>=
+        0.2.0), stats, storr (>= 1.1.0), stringi, tibble, tidyselect
+        (>= 0.2.4), utils, withr
+Suggests: abind, bindr, callr, clustermq, crayon, DBI, downloader,
+        future, future.apply, grDevices, ggplot2, ggraph, knitr,
+        lubridate, MASS, methods, networkD3, RSQLite, rprojroot,
+        testthat, txtq, rmarkdown, styler, visNetwork, webshot
 License: GPL-3
-MD5sum: 0c782c5c92754a02537b88d9c6398262
+MD5sum: 50cffcef6d108d6fce76312a676be03b
 NeedsCompilation: no
 
 Package: drat.builder
@@ -889,7 +889,7 @@ Depends: R (>= 3.1)
 Imports: graphics, utils
 Suggests: getPass
 License: GPL-2
-MD5sum: c13bd7de435993537c61de4dd6fe1792
+MD5sum: 8f2dee8709f945ec1d1ba65653ed2b6d
 NeedsCompilation: yes
 
 Package: googleLanguageR
@@ -1626,13 +1626,13 @@ MD5sum: 390ce8e04a70bc5da06e55b4d144b2a0
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.1.9519
+Version: 0.8.3.9991
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr, DT
-Suggests: roxygen2 (>= 6.0.1), testthat, knitr
+Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 61ae8428c729f24b336f00de0dadd208
+MD5sum: 1e5e47f337d270ca6a76510f63cbb474
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1678,7 +1678,7 @@ Depends: R (>= 2.15.2), countrycode, R.cache
 Imports: dplyr, httr, rgeos, sp
 Suggests: rmarkdown, roxygen2, testthat
 License: MIT + file LICENSE
-MD5sum: 82749f7d7b3507b9d132da0addd98cec
+MD5sum: 418350179151c50aa39613084d5b6878
 NeedsCompilation: no
 
 Package: rdpla
@@ -2448,13 +2448,13 @@ MD5sum: 4717f50b27725cb39547e012a7a21035
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.2.1.9012
+Version: 0.3.0
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: fa2e6b1c56cf6c89e5c3e3a1a5e6e0f3
+MD5sum: 62b2d08ccaf27c8e5e4a3d2179a1cefd
 NeedsCompilation: no
 
 Package: taxize
