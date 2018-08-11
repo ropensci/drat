@@ -163,7 +163,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr, magrittr
 License: GPL-2
-MD5sum: 2f33b03c0c4ba9b6e588d785a665d61c
+MD5sum: 7e5ed3367e6b81b5ed85ed8537ec59fb
 NeedsCompilation: yes
 
 Package: bittrex
@@ -544,7 +544,7 @@ Suggests: abind, bindr, callr, clustermq, crayon, DBI, downloader,
         MASS, methods, networkD3, RSQLite, rprojroot, testthat, txtq,
         rmarkdown, styler, visNetwork, webshot
 License: GPL-3
-MD5sum: 2e4bd14d41611d1f00f24ce72e4e472b
+MD5sum: 3743cb95d1e3b48a38851d19f7f4c8bd
 NeedsCompilation: no
 
 Package: drat.builder
@@ -588,9 +588,9 @@ Package: elastic
 Version: 0.8.4.9410
 Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
-Suggests: roxygen2 (>= 6.0.1), knitr, testthat
+Suggests: roxygen2 (>= 6.1.0), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 61cb5c4f677381dfebc9ebec69c5fb37
+MD5sum: 192a788e6895df99ffe5a68f0439de61
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -721,14 +721,14 @@ MD5sum: 1ef3d4f29b6a39ea52fab8e47382bfef
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9316
+Version: 1.0.1.9321
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 3dd5207690f165d0d064bfd64306ac1b
+MD5sum: 3b55fe29eadc76796f2abea8950d404a
 NeedsCompilation: no
 
 Package: gdoc
@@ -1455,7 +1455,7 @@ Imports: igraph, rentrez, XML, ggplot2, sys, treeman, treemapify,
         R.utils
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 87fc8ebe1e2e9b71873b3ffa1d1791dd
+MD5sum: d6f7ea9c2bfb5c177f7afe5b2edef975
 NeedsCompilation: no
 
 Package: phyrmeta
@@ -1689,7 +1689,7 @@ Imports: lubridate, tibble, httr, xml2, dplyr, sp, rgdal
 Suggests: testthat, leaflet, parallel, rmarkdown, knitr, ggplot2, zoo,
         lintr, pkgdown
 License: GPL-3
-MD5sum: 4beee3c93be460f1dd54cd13bc68c01a
+MD5sum: e75ef51be6af3be54289845c515c006a
 NeedsCompilation: no
 
 Package: rdflib
@@ -2000,7 +2000,7 @@ MD5sum: fbce761aa2549c1b273a743332601eeb
 NeedsCompilation: no
 
 Package: RNeXML
-Version: 2.1.1
+Version: 2.1.2
 Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), reshape2 (>= 1.2.2), httr (>=
         0.3), uuid (>= 0.1-1), dplyr (>= 0.5.0), lazyeval (>= 0.1.0),
@@ -2010,7 +2010,7 @@ Suggests: rdflib, geiger (>= 2.0), phytools (>= 0.3.93), knitr (>=
         (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>= 0.3.3), xslt,
         taxize (>= 0.2.2), covr
 License: BSD_3_clause + file LICENSE
-MD5sum: 16ff87f8dbb75043669742544184780c
+MD5sum: 7f0b6cffb3abb440b1cda027d2f4f80f
 NeedsCompilation: no
 
 Package: rnoaa
@@ -2541,13 +2541,13 @@ MD5sum: d6f679083ab599231a7af1ed472899ba
 NeedsCompilation: no
 
 Package: tesseract
-Version: 2.2
+Version: 2.3
 Imports: Rcpp (>= 0.12.12), pdftools (>= 1.5), curl, rappdirs, tibble,
         digest
 LinkingTo: Rcpp
 Suggests: magick (>= 1.7), spelling, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: fbc406bde0f5393d2e98eded60bca156
+MD5sum: 98cd2e3421eb6179e347ca24b5c18983
 NeedsCompilation: yes
 
 Package: testdat
@@ -2580,7 +2580,7 @@ Imports: backports, base64enc, crayon, git2r, magrittr, memoise,
 Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis,
         knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: a1fc1634fe58b9ccd4ec87032b146a0c
+MD5sum: 06e7174ebc9b1557ccf21995306b572d
 NeedsCompilation: no
 
 Package: tidyhydat
@@ -2592,7 +2592,7 @@ Imports: cli (>= 1.0.0), crayon (>= 1.3.4), DBI (>= 0.7), dbplyr (>=
         0.1.2), RSQLite (>= 2.0), tidyr (>= 0.7.1)
 Suggests: ggplot2, knitr, rmarkdown, testthat, covr
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: 5ba2d0e49bc43c7fd550d4310f32c869
+MD5sum: 758a3a421bcc928429d9d7181cabade8
 NeedsCompilation: no
 
 Package: tif
