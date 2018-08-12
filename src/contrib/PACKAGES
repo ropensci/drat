@@ -960,7 +960,7 @@ Depends: R (>= 2.10)
 Imports: dplyr, readr, purrr, urltools, stringr, lazyeval
 Suggests: knitr, rmarkdown, testthat, tidytext, ggplot2, tidyr, curl
 License: GPL-2
-MD5sum: 585d0c7b19a8c8eb32f60e2ba0896de5
+MD5sum: 3c6120fd639b69a231d5b14d42fab8a6
 NeedsCompilation: no
 
 Package: hathi
@@ -2005,12 +2005,12 @@ Depends: R (>= 3.0.0), ape (>= 3.1), methods (>= 3.0.0)
 Imports: XML (>= 3.95), plyr (>= 1.8), reshape2 (>= 1.2.2), httr (>=
         0.3), uuid (>= 0.1-1), dplyr (>= 0.5.0), lazyeval (>= 0.1.0),
         tidyr (>= 0.3.1), stringr (>= 1.0), xml2
-Suggests: rdflib, geiger (>= 2.0), phytools (>= 0.3.93), knitr (>=
-        1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1), testthat
-        (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>= 0.3.3), xslt,
-        taxize (>= 0.2.2), covr
+Suggests: spelling, rdflib, geiger (>= 2.0), phytools (>= 0.3.93),
+        knitr (>= 1.5), rfigshare (>= 0.3.0), knitcitations (>= 1.0.1),
+        testthat (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>=
+        0.3.3), xslt, taxize (>= 0.2.2), covr
 License: BSD_3_clause + file LICENSE
-MD5sum: 7f0b6cffb3abb440b1cda027d2f4f80f
+MD5sum: c19ece68bfdaf3363e6f6925ecf27f06
 NeedsCompilation: no
 
 Package: rnoaa
@@ -2573,14 +2573,13 @@ MD5sum: c0669e7aee9bb092531196f440da1796
 NeedsCompilation: yes
 
 Package: tic
-Version: 0.2.13.9002
+Version: 0.2.13.9004
 Depends: R (>= 3.0.0)
-Imports: backports, base64enc, crayon, git2r, magrittr, memoise,
-        methods, R6, withr
-Suggests: covr, drat, openssl, rcmdcheck, remotes, testthat, travis,
-        knitr, rmarkdown
+Imports: backports, crayon, magrittr, memoise, methods, R6, withr
+Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
+        remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: 06e7174ebc9b1557ccf21995306b572d
+MD5sum: fed9facd926ec166ef76b3aff614fb46
 NeedsCompilation: no
 
 Package: tidyhydat
