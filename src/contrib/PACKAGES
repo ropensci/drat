@@ -2573,13 +2573,13 @@ MD5sum: c0669e7aee9bb092531196f440da1796
 NeedsCompilation: yes
 
 Package: tic
-Version: 0.2.13.9004
+Version: 0.2.13.9008
 Depends: R (>= 3.0.0)
 Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: fed9facd926ec166ef76b3aff614fb46
+MD5sum: bcf93c8d9603036c8ee2b12599dbea3a
 NeedsCompilation: no
 
 Package: tidyhydat
