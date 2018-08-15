@@ -54,6 +54,15 @@ License: MIT + file LICENSE
 MD5sum: 6ca25857aa46fb6ad1c05857959cc375
 NeedsCompilation: yes
 
+Package: arkdb
+Version: 0.0.1
+Imports: DBI, progress, tools, utils
+Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
+        knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
+License: MIT + file LICENSE
+MD5sum: 1c59a454a82acdaf32cf207a5c65242e
+NeedsCompilation: no
+
 Package: aRxiv
 Version: 0.5.17
 Depends: R (>= 3.0.0)
@@ -113,7 +122,7 @@ Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: ebce8b19fa7981aba8602eab70ca6b52
+MD5sum: 41a74b540af9de8c3a2c801fdd723d19
 NeedsCompilation: no
 
 Package: aws.signature
@@ -202,7 +211,7 @@ Suggests: ASGS.foyer, covr, testthat, knitr, rmarkdown, ggplot2,
         ggthemes, grid, gridExtra, maps, mapproj, rappdirs, roxygen2
         (>= 6.1.0)
 License: MIT + file LICENSE
-MD5sum: d1ced540a2bf3d488b00e699cc066e9f
+MD5sum: 2b5999a1429bc502c54e330b4879f0c6
 NeedsCompilation: no
 
 Package: bowerbird
@@ -212,7 +221,7 @@ Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
         rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 0d73f9779f413cd80183c91a86aa73a4
+MD5sum: 2dc4d4823f6eadf718d1dc00940e022d
 NeedsCompilation: no
 
 Package: brranching
@@ -454,14 +463,14 @@ MD5sum: 3f3c0405aa773d49b07570bd1994c71d
 NeedsCompilation: no
 
 Package: DataPackageR
-Version: 0.15
+Version: 0.15.0
 Depends: R (>= 3.5.0)
 Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         (>= 6.0.1), devtools (>= 1.12.0), assertthat, stringr,
         futile.logger, rprojroot, usethis, crayon
-Suggests: testthat, covr, data.tree,
+Suggests: testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: d9ddcde49943278c04ba50421eb4bfc5
+MD5sum: 6eb993baa919646528d599f76760f4f0
 NeedsCompilation: no
 
 Package: datapkg
@@ -544,7 +553,7 @@ Suggests: abind, bindr, callr, clustermq, crayon, DBI, downloader,
         MASS, methods, networkD3, RSQLite, rprojroot, testthat, txtq,
         rmarkdown, styler, visNetwork, webshot
 License: GPL-3
-MD5sum: 3743cb95d1e3b48a38851d19f7f4c8bd
+MD5sum: 44f8db79d6afe801a18d89fb6d0957a8
 NeedsCompilation: no
 
 Package: drat.builder
@@ -652,7 +661,7 @@ Imports: httr (>= 1.2.0), jsonlite (>= 1.0), R6 (>= 2.1.3), urltools
         (>= 1.7.0)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 6b2910c21ff6d8a44fbe67c477bf31b8
+MD5sum: 5387569106fa22c05743ff1dfdb20656
 NeedsCompilation: no
 
 Package: europepmc
@@ -717,7 +726,7 @@ Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: 1ef3d4f29b6a39ea52fab8e47382bfef
+MD5sum: 937431bd083e8c21ce93ac98bbf445b9
 NeedsCompilation: no
 
 Package: fulltext
@@ -2101,12 +2110,12 @@ MD5sum: 6241c3777e816914dcb43cb0ac73110e
 NeedsCompilation: no
 
 Package: rplos
-Version: 0.8.3.9214
+Version: 0.8.4
 Imports: ggplot2, crul (>= 0.4.0), jsonlite, dplyr, plyr, lubridate,
         reshape2, whisker, solrium (>= 1.0.0)
 Suggests: xml2, knitr, testthat, webmockr, vcr
 License: MIT + file LICENSE
-MD5sum: 10f7ef85de407c9da4d3eb09fa43b39d
+MD5sum: f480ef144e58d4f4d489af07ff800d47
 NeedsCompilation: no
 
 Package: rppo
@@ -2579,7 +2588,7 @@ Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: d0967785d05bd05ac96da86d41bd3518
+MD5sum: 19e335d189ed5b71c00cde6d11136a76
 NeedsCompilation: no
 
 Package: tidyhydat
@@ -2690,7 +2699,7 @@ Imports: ggplot2, tidyr, dplyr, purrr, readr, plotly (>= 4.5.6),
         magrittr, stats, tibble, rlang (>= 0.2.0)
 Suggests: testthat, knitr, rmarkdown, vdiffr, gdtools
 License: MIT + file LICENSE
-MD5sum: b377ccde4cf47f96053078a668849424
+MD5sum: a7703679277823174fa6abefed566079
 NeedsCompilation: no
 
 Package: wdman
