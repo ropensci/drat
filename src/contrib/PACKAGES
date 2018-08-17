@@ -463,14 +463,14 @@ MD5sum: 3f3c0405aa773d49b07570bd1994c71d
 NeedsCompilation: no
 
 Package: DataPackageR
-Version: 0.15.1
+Version: 0.15.1.9000
 Depends: R (>= 3.5.0)
 Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         (>= 6.0.1), devtools (>= 1.12.0), assertthat, stringr,
         futile.logger, rprojroot, usethis, crayon
 Suggests: testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: f207bfff9656cb9111318d06df33349b
+MD5sum: ac8e0162ccfe306895100bbcc1a77657
 NeedsCompilation: no
 
 Package: datapkg
@@ -2190,13 +2190,13 @@ MD5sum: 14de1a0ead72da0e188c837066023e69
 NeedsCompilation: no
 
 Package: RSelenium
-Version: 1.7.3
+Version: 1.7.3.9000
 Depends: R (>= 3.0.0)
 Imports: XML,methods,caTools,tools,utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 5a984518f2e3b15b11f81f93e102442c
+MD5sum: 78070cba07b74da1a59f1137eb09843a
 NeedsCompilation: no
 
 Package: rsnps
@@ -2354,9 +2354,9 @@ Version: 0.1.2
 Depends: R (>= 3.2.5)
 Imports: httr (>= 1.1.0), rappdirs (>= 0.3.1), raster (>= 2.5), rhdf5
         (>= 2.14), rvest, xml2
-Suggests: knitr, rgdal, rmarkdown, roxygen2, sp, testthat, utils
+Suggests: knitr, rgdal, rmarkdown, roxygen2, sp, testthat, utils, covr
 License: GPL-3
-MD5sum: ec20256bb8005cd07539dc5ef6314e3b
+MD5sum: 80b593b4ad7bca4afd60e8b19b7ec0bf
 NeedsCompilation: no
 
 Package: snowball
