@@ -221,7 +221,7 @@ Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
         rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 2dc4d4823f6eadf718d1dc00940e022d
+MD5sum: f0132e930f621a7fe35361ff00a3be44
 NeedsCompilation: no
 
 Package: brranching
@@ -369,10 +369,10 @@ NeedsCompilation: no
 Package: comtradr
 Version: 0.2.1.9000
 Depends: R (>= 3.0.0)
-Imports: httr, jsonlite, magrittr (>= 1.5), methods, purrr
+Imports: httr, jsonlite, magrittr (>= 1.5), purrr
 Suggests: testthat, knitr, rmarkdown, ggplot2, dplyr
 License: GPL-3
-MD5sum: 36ff3d815011ea06434856ba5d4fef90
+MD5sum: ecc2e6358332cd97871f97d2b08793dd
 NeedsCompilation: no
 
 Package: convertr
@@ -463,14 +463,14 @@ MD5sum: 3f3c0405aa773d49b07570bd1994c71d
 NeedsCompilation: no
 
 Package: DataPackageR
-Version: 0.15.1.9000
+Version: 0.15.2
 Depends: R (>= 3.5.0)
 Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         (>= 6.0.1), devtools (>= 1.12.0), assertthat, stringr,
         futile.logger, rprojroot, usethis, crayon
-Suggests: testthat, covr, data.tree
+Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: ac8e0162ccfe306895100bbcc1a77657
+MD5sum: c73cdb7c321c669f14bce8b043bd188c
 NeedsCompilation: no
 
 Package: datapkg
@@ -553,7 +553,7 @@ Suggests: abind, bindr, callr, clustermq, crayon, DBI, downloader,
         MASS, methods, networkD3, RSQLite, rprojroot, testthat, txtq,
         rmarkdown, styler, visNetwork, webshot
 License: GPL-3
-MD5sum: 44f8db79d6afe801a18d89fb6d0957a8
+MD5sum: a756fd9f7d5f4c0c9ad8649dc454e594
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1206,7 +1206,7 @@ Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
         pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: f23da70b8a2c1449d4b985ce4d45d141
+MD5sum: 27c924c445b825427602d18cdd716680
 NeedsCompilation: yes
 
 Package: mapr
@@ -1363,7 +1363,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: c62c1f92cbe26268e4caa038d4a7b27d
+MD5sum: e0215a0209a563a514758d91c576f117
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -2600,7 +2600,7 @@ Imports: cli (>= 1.0.0), crayon (>= 1.3.4), DBI (>= 0.7), dbplyr (>=
         0.1.2), RSQLite (>= 2.0), tidyr (>= 0.7.1)
 Suggests: ggplot2, knitr, rmarkdown, testthat, covr
 License: Apache License (== 2.0) | file LICENSE
-MD5sum: d31ac76459bfb3eeb485b4a2125f9add
+MD5sum: 9c976c6e1d5e8243e73063951a7552fe
 NeedsCompilation: no
 
 Package: tif
