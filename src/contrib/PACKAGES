@@ -548,12 +548,12 @@ Imports: codetools, evaluate, digest, dplyr, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
         rlang (>= 0.2.0), stats, storr (>= 1.1.0), stringi, tibble,
         tidyselect (>= 0.2.4), utils, withr
-Suggests: abind, bindr, callr, clustermq, crayon, DBI, downloader,
-        future.apply, grDevices, ggplot2, ggraph, knitr, lubridate,
-        MASS, methods, networkD3, RSQLite, rprojroot, testthat, txtq,
-        rmarkdown, styler, visNetwork, webshot
+Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
+        downloader, future.apply, grDevices, ggplot2, ggraph, knitr,
+        lubridate, MASS, methods, networkD3, RSQLite, rprojroot,
+        testthat, txtq, rmarkdown, styler, visNetwork, webshot
 License: GPL-3
-MD5sum: a756fd9f7d5f4c0c9ad8649dc454e594
+MD5sum: e8bb380a279fdefe34113a2ea787869a
 NeedsCompilation: no
 
 Package: drat.builder
@@ -928,7 +928,7 @@ Imports: assertthat, base64enc, googleAuthR, jsonlite, magrittr, purrr
 Suggests: cld2, httptest (>= 3.1.0), knitr, rmarkdown, rvest,
         stringdist, shiny, shinyjs, tidyr, tuneR, xml2
 License: MIT + file LICENSE
-MD5sum: 7a96c56298d362ee0aaa71d248ced9fc
+MD5sum: a2e8ddbc0ac01da9a29f1981b92a298e
 NeedsCompilation: no
 
 Package: graphql
