@@ -60,7 +60,7 @@ Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: 1c59a454a82acdaf32cf207a5c65242e
+MD5sum: 44865d759bf56962a7350a365d824e0e
 NeedsCompilation: no
 
 Package: aRxiv
@@ -550,10 +550,11 @@ Imports: codetools, evaluate, digest, dplyr, formatR, fs, future,
         tidyselect (>= 0.2.4), utils, withr
 Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         downloader, future.apply, grDevices, ggplot2, ggraph, knitr,
-        lubridate, MASS, methods, networkD3, RSQLite, rprojroot,
-        testthat, txtq, rmarkdown, styler, visNetwork, webshot
+        lubridate, MASS, methods, networkD3, prettycode, RSQLite,
+        rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
+        webshot
 License: GPL-3
-MD5sum: e8bb380a279fdefe34113a2ea787869a
+MD5sum: fa6104fc0b0cb4a01da517d1a487071f
 NeedsCompilation: no
 
 Package: drat.builder
@@ -928,7 +929,7 @@ Imports: assertthat, base64enc, googleAuthR, jsonlite, magrittr, purrr
 Suggests: cld2, httptest (>= 3.1.0), knitr, rmarkdown, rvest,
         stringdist, shiny, shinyjs, tidyr, tuneR, xml2
 License: MIT + file LICENSE
-MD5sum: a2e8ddbc0ac01da9a29f1981b92a298e
+MD5sum: 84029e359349463624ba06f0e9141a76
 NeedsCompilation: no
 
 Package: graphql
@@ -941,7 +942,7 @@ MD5sum: f40a890e6df0d73d56c76eb06098f240
 NeedsCompilation: yes
 
 Package: GSODR
-Version: 1.2.1.9000
+Version: 1.2.2
 Depends: R (>= 3.3.0)
 Imports: curl, dplyr (>= 0.7.0), magrittr, purrr (>= 0.2.0), R.utils,
         readr, rlang, stats, tibble, utils
@@ -950,7 +951,7 @@ Suggests: covr, ggplot2, ggthemes, gridExtra, knitr, lubridate,
         rgeos, rmarkdown, roxygen2 (>= 6.1.0), sf, sp, spacetime,
         testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: b78cb44cc85b349834b282c1274b2060
+MD5sum: 754cb7bf04bea15f2b37d157c48d2c3b
 NeedsCompilation: no
 
 Package: gtfsr
