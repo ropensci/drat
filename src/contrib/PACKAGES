@@ -55,12 +55,12 @@ MD5sum: 6ca25857aa46fb6ad1c05857959cc375
 NeedsCompilation: yes
 
 Package: arkdb
-Version: 0.0.1
+Version: 0.0.2
 Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: 44865d759bf56962a7350a365d824e0e
+MD5sum: 3086648ff4c61cd075d267cfe0500143
 NeedsCompilation: no
 
 Package: aRxiv
@@ -221,7 +221,7 @@ Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
         rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: f0132e930f621a7fe35361ff00a3be44
+MD5sum: 7444dfc85f0a66b18763705fa36b5e8a
 NeedsCompilation: no
 
 Package: brranching
@@ -1686,10 +1686,10 @@ NeedsCompilation: no
 Package: rdataretriever
 Version: 1.0.0
 Depends: R (>= 3.0.0)
-Imports: utils
+Imports: utils, reticulate
 Suggests: testthat (>= 1.0.0)
 License: MIT + file LICENSE
-MD5sum: b921146625100ac22468dbefccc4cd2c
+MD5sum: 4e42f8bfdacc1f14dca90e7e7195ec29
 NeedsCompilation: no
 
 Package: rdefra
