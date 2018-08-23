@@ -305,7 +305,7 @@ Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, readtext, cld3
 License: Apache License 2.0
-MD5sum: 090376d4a7e86bb3cebd4afa067fdcc0
+MD5sum: 1f411ff7d5c28611f650c70146bac098
 NeedsCompilation: yes
 
 Package: cld3
@@ -470,7 +470,7 @@ Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: 4ff3c1295d0ce64f9bdcb5218f8b8f0e
+MD5sum: 63682f5b1b45e7bdee70f04e93346260
 NeedsCompilation: no
 
 Package: datapkg
@@ -731,14 +731,14 @@ MD5sum: 937431bd083e8c21ce93ac98bbf445b9
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9321
+Version: 1.0.1.9322
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 3b55fe29eadc76796f2abea8950d404a
+MD5sum: b62019a866a6aafa68760f973ce2f035
 NeedsCompilation: no
 
 Package: gdoc
@@ -1117,11 +1117,11 @@ MD5sum: 87f489a0188c98e6182aa551662567f8
 NeedsCompilation: no
 
 Package: jaod
-Version: 0.1.0.9100
+Version: 0.1.1.9100
 Imports: jsonlite (>= 1.5), crul (>= 0.3.8), tibble (>= 1.3.4)
-Suggests: roxygen2 (>= 6.0.1), testthat
+Suggests: roxygen2 (>= 6.1.0), testthat
 License: MIT + file LICENSE
-MD5sum: 49ba69cac7c93efacf81d7a223ea149a
+MD5sum: 29867a878291df86a1168e973a687901
 NeedsCompilation: no
 
 Package: jqr
@@ -1201,13 +1201,13 @@ NeedsCompilation: no
 
 Package: magick
 Version: 1.9
-Imports: Rcpp (>= 0.12.12), magrittr, knitr, curl
+Imports: Rcpp (>= 0.12.12), magrittr, curl
 LinkingTo: Rcpp
-Suggests: spelling, jsonlite, methods, rmarkdown, rsvg, webp, png,
-        pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
+Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
+        png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 27c924c445b825427602d18cdd716680
+MD5sum: a302e6f7252e0a2f1cc4b46bfecaeea6
 NeedsCompilation: yes
 
 Package: mapr
@@ -1536,7 +1536,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: cd6ddfedeb780e14c7fd303047ec858b
+MD5sum: 26f11437a505a00255a290b00f409a6c
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -2236,7 +2236,7 @@ Imports: XML, httr (>= 0.6.1), plyr, foreach, stringr, testthat,
         taxize, RCurl
 Suggests: knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 833ab946ac32aa463fbfad74c3dd7219
+MD5sum: d9058cc1ff94141e9f2ea0ba9b847dc5
 NeedsCompilation: no
 
 Package: rvertnet
