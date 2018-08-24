@@ -103,7 +103,7 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
 License: GPL-3
-MD5sum: e767d65c47884accbc19a739cc848e9a
+MD5sum: b2b05d2c07ba1080a994f251d0e09135
 NeedsCompilation: no
 
 Package: available
@@ -470,7 +470,7 @@ Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: 63682f5b1b45e7bdee70f04e93346260
+MD5sum: 5f12d53b98ff2ce6f79d8c9e60049a84
 NeedsCompilation: no
 
 Package: datapkg
@@ -554,7 +554,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 320b4843174af471271d32abfc36f0fd
+MD5sum: dced6bd68cef7924937a126d0b8669aa
 NeedsCompilation: no
 
 Package: drat.builder
@@ -600,7 +600,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.1.0), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 192a788e6895df99ffe5a68f0439de61
+MD5sum: 7320cdc0a56cd9289488a72f2d30098c
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -648,12 +648,12 @@ MD5sum: 5c0ab3a66137fd92b8b56d284231058d
 NeedsCompilation: no
 
 Package: essurvey
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.4.0)
-Imports: xml2, httr, stringr, haven, rvest, tibble
+Imports: xml2, httr, stringr, haven, rvest
 Suggests: testthat, knitr, rmarkdown, covr
 License: MIT + file LICENSE
-MD5sum: cc9cb77bce0ff86c9257ea05ec518f66
+MD5sum: 69a66baefcff7dbc1b77223981a63cea
 NeedsCompilation: no
 
 Package: etseed
@@ -1207,7 +1207,7 @@ Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
         png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: a302e6f7252e0a2f1cc4b46bfecaeea6
+MD5sum: 73507e71f926c1b95f8b771ab94121dd
 NeedsCompilation: yes
 
 Package: mapr
@@ -2395,7 +2395,7 @@ Version: 1.2
 Imports: commonmark, xml2, hunspell (>= 2.9), knitr
 Suggests: pdftools
 License: MIT + file LICENSE
-MD5sum: dac9552af14242be6fb903f36a0a26bf
+MD5sum: 4ecf0eb8943a07aaf311fc3e7d698855
 NeedsCompilation: no
 
 Package: spenv
