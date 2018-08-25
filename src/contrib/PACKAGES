@@ -463,14 +463,14 @@ MD5sum: 3f3c0405aa773d49b07570bd1994c71d
 NeedsCompilation: no
 
 Package: DataPackageR
-Version: 0.15.3
+Version: 0.15.3.900
 Depends: R (>= 3.5.0)
 Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         (>= 6.0.1), devtools (>= 1.12.0), assertthat, stringr,
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: 5f12d53b98ff2ce6f79d8c9e60049a84
+MD5sum: 10cbc274b9065ffa299f08c14b7c8846
 NeedsCompilation: no
 
 Package: datapkg
@@ -542,7 +542,7 @@ MD5sum: e0292c8a35ca4e5eebd30d310c2975ab
 NeedsCompilation: no
 
 Package: drake
-Version: 5.4.0.9000
+Version: 5.4.0.9001
 Depends: R (>= 3.2.0)
 Imports: codetools, evaluate, digest, dplyr, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
@@ -554,7 +554,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: dced6bd68cef7924937a126d0b8669aa
+MD5sum: 56b05df987d644e60eb260a3bb096c7d
 NeedsCompilation: no
 
 Package: drat.builder
@@ -653,7 +653,7 @@ Depends: R (>= 3.4.0)
 Imports: xml2, httr, stringr, haven, rvest
 Suggests: testthat, knitr, rmarkdown, covr
 License: MIT + file LICENSE
-MD5sum: 69a66baefcff7dbc1b77223981a63cea
+MD5sum: ebd2c4f6b2a95abfa8c48e872ea34043
 NeedsCompilation: no
 
 Package: etseed
@@ -796,12 +796,13 @@ MD5sum: f6cafc6ad44164d1b9ab052077ee9d7a
 NeedsCompilation: no
 
 Package: geojson
-Version: 0.2.0
+Version: 0.2.1.9100
 Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
         1.0.0), magrittr, lazyeval
-Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown
+Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown,
+        sf
 License: MIT + file LICENSE
-MD5sum: 28c3f41307b326d1ce6366c31575d339
+MD5sum: d3798aa64d0c7987deb6c50e75aaa81d
 NeedsCompilation: no
 
 Package: geojsonio
@@ -1402,7 +1403,7 @@ Depends: raster, maps
 Imports: rjson, gtools, RCurl, plyr, scales
 Suggests: roxygen2, testthat
 License: GPL-2
-MD5sum: b04093679ad808b92d358281a025ad8f
+MD5sum: 2cfb425d3ca86a6b825bbe8173e316fa
 NeedsCompilation: no
 
 Package: pangaear
@@ -2342,12 +2343,12 @@ MD5sum: a0f87ffc89b2844c50f54f1a51674e4e
 NeedsCompilation: no
 
 Package: skynet
-Version: 1.2.3
+Version: 1.2.4
 Depends: R (>= 3.1.2)
 Imports: data.table, igraph, dplyr, ggplot2, ggrepel, stringr, maps
 Suggests: knitr, rmarkdown, testthat, kableExtra, covr
 License: MIT + file LICENSE
-MD5sum: e5e6d2a63af27fb5bd9095523d894f7a
+MD5sum: 2b1cf62596fe53bbe37e16f89084021d
 NeedsCompilation: no
 
 Package: smapr
@@ -2498,13 +2499,13 @@ MD5sum: 4717f50b27725cb39547e012a7a21035
 NeedsCompilation: no
 
 Package: taxa
-Version: 0.3.1
+Version: 0.3.1.9001
 Depends: R (>= 3.0.2)
 Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 3283e534726781f1d2f4de48599d5c2c
+MD5sum: 31da0c638a8cd7db40817ccf75e34879
 NeedsCompilation: no
 
 Package: taxize
