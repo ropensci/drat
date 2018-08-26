@@ -802,7 +802,7 @@ Imports: methods, sp, jsonlite (>= 1.5), protolite (>= 1.7), jqr (>=
 Suggests: geojsonlint (>= 0.2.0), tibble, testthat, knitr, rmarkdown,
         sf
 License: MIT + file LICENSE
-MD5sum: d3798aa64d0c7987deb6c50e75aaa81d
+MD5sum: 07882fbc4f66bb2d0d5f9881369240d2
 NeedsCompilation: no
 
 Package: geojsonio
@@ -1045,15 +1045,15 @@ MD5sum: ccc4331f79e292bc7b77e9df04d73096
 NeedsCompilation: yes
 
 Package: hydroscoper
-Version: 1.1.0
-Depends: R (>= 3.5.0)
-Imports: stringi (>= 1.2), stringr (>= 1.3.1), tibble(>= 1.4.2), pingr
-        (>= 1.1.2), readr (>= 1.1.1), jsonlite (>= 1.5), plyr (>=
+Version: 1.1.1
+Depends: R (>= 3.4)
+Imports: stringi (>= 1.1.7), stringr (>= 1.3.1), tibble(>= 1.4.2),
+        pingr (>= 1.1.2), readr (>= 1.1.1), jsonlite (>= 1.5), plyr (>=
         1.8.4)
 Suggests: ggplot2 (>= 3.0.0), knitr (>= 1.20), rmarkdown (>= 1.10),
         testthat (>= 2.0.0)
 License: MIT + file LICENSE
-MD5sum: 64400f1c219ea2723e18ba5852a41ba1
+MD5sum: a1b4341d0fb805b8a423dabaeb2a4a1b
 NeedsCompilation: no
 
 Package: IEEER
@@ -1613,7 +1613,7 @@ Imports: crul (>= 0.3.4), xml2 (>= 1.0.0), jsonlite (>= 1.1), plyr (>=
         1.8.4), tibble (>= 1.2)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: a8f91f5ddb2d183145a549a7c21e9207
+MD5sum: 89bf1390a753551b6351f029950a4c7e
 NeedsCompilation: no
 
 Package: rbison
