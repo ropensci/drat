@@ -217,11 +217,12 @@ NeedsCompilation: no
 Package: bowerbird
 Version: 0.8.0.9000
 Depends: R (>= 3.3.0)
-Imports: assertthat, httr, magrittr, methods, openssl, R.utils,
-        rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble, xml2
+Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
+        R.utils, rmarkdown, rvest, stringr, sys (>= 1.4.9000), tibble,
+        xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 7444dfc85f0a66b18763705fa36b5e8a
+MD5sum: 7b6afe4b8dbb909d5307e44ec1bef385
 NeedsCompilation: no
 
 Package: brranching
@@ -2558,7 +2559,7 @@ Imports: Rcpp (>= 0.12.12), pdftools (>= 1.5), curl, rappdirs, tibble,
 LinkingTo: Rcpp
 Suggests: magick (>= 1.7), spelling, knitr, rmarkdown
 License: Apache License 2.0
-MD5sum: 98cd2e3421eb6179e347ca24b5c18983
+MD5sum: 00e7f9a6f3f501f53e8f70488912beb9
 NeedsCompilation: yes
 
 Package: testdat
