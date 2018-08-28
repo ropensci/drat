@@ -222,7 +222,7 @@ Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
         xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 7b6afe4b8dbb909d5307e44ec1bef385
+MD5sum: 9e592a10747b7a3cd8f7a8b1fd55a618
 NeedsCompilation: no
 
 Package: brranching
@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 56b05df987d644e60eb260a3bb096c7d
+MD5sum: a1eec03d6dde98ee644d0d7b272ac454
 NeedsCompilation: no
 
 Package: drat.builder
@@ -654,7 +654,7 @@ Depends: R (>= 3.4.0)
 Imports: xml2, httr, stringr, haven, rvest
 Suggests: testthat, knitr, rmarkdown, covr
 License: MIT + file LICENSE
-MD5sum: ebd2c4f6b2a95abfa8c48e872ea34043
+MD5sum: 32582249e0a227cd2ddac1229e568570
 NeedsCompilation: no
 
 Package: etseed
@@ -953,7 +953,7 @@ Suggests: covr, ggplot2, ggthemes, gridExtra, knitr, lubridate,
         rgeos, rmarkdown, roxygen2 (>= 6.1.0), sf, sp, spacetime,
         testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 9195325dd6d19714a3607344a2cf0d39
+MD5sum: 075a04be2c5bd6a07fc14650230d6ea6
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1160,7 +1160,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: c6be184033085c0404a7f2c89e9b2616
+MD5sum: 98f3942ee9cd477da630251068a26af2
 NeedsCompilation: no
 
 Package: landscapetools
