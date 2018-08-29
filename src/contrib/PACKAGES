@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: a1eec03d6dde98ee644d0d7b272ac454
+MD5sum: f04f749a34d252247fe6aa8c4879c9c2
 NeedsCompilation: no
 
 Package: drat.builder
@@ -722,13 +722,13 @@ MD5sum: d292c064fbfa332f8c655c9b2a7e3f54
 NeedsCompilation: no
 
 Package: fingertipsR
-Version: 0.1.8.9000
+Version: 0.1.9.9000
 Depends: R (>= 3.4.0)
 Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: 937431bd083e8c21ce93ac98bbf445b9
+MD5sum: 3e1b4198f47c0a9b3a2a8e6242761d7a
 NeedsCompilation: no
 
 Package: fulltext
@@ -953,7 +953,7 @@ Suggests: covr, ggplot2, ggthemes, gridExtra, knitr, lubridate,
         rgeos, rmarkdown, roxygen2 (>= 6.1.0), sf, sp, spacetime,
         testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 075a04be2c5bd6a07fc14650230d6ea6
+MD5sum: 6c740f9e92ead523e358df3a3124c64c
 NeedsCompilation: no
 
 Package: gtfsr
@@ -1432,7 +1432,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 895d8754e3d6743c6fe101fe9cf21403
+MD5sum: dd3e325646a6292f5237cda225956c35
 NeedsCompilation: no
 
 Package: pdftools
@@ -2591,7 +2591,7 @@ Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: 19e335d189ed5b71c00cde6d11136a76
+MD5sum: fbcf9f3d4545986ab681237330b36079
 NeedsCompilation: no
 
 Package: tidyhydat
