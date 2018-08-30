@@ -953,7 +953,7 @@ Suggests: covr, ggplot2, ggthemes, gridExtra, knitr, lubridate,
         rgeos, rmarkdown, roxygen2 (>= 6.1.0), sf, sp, spacetime,
         testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 6c740f9e92ead523e358df3a3124c64c
+MD5sum: 25a4dd26e346793d68fa9c07bd15ef44
 NeedsCompilation: no
 
 Package: gtfsr
@@ -2506,7 +2506,7 @@ Imports: R6, jsonlite, dplyr, lazyeval, magrittr, tibble, knitr, rlang,
         stringr, crayon, tidyr, utils, taxize
 Suggests: roxygen2 (>= 6.0.1), testthat, rmarkdown (>= 0.9.6)
 License: MIT + file LICENSE
-MD5sum: 31da0c638a8cd7db40817ccf75e34879
+MD5sum: 9803b3d41605f52f1183be540946c2cc
 NeedsCompilation: no
 
 Package: taxize
@@ -2591,7 +2591,7 @@ Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: fbcf9f3d4545986ab681237330b36079
+MD5sum: 9c1198bbff1405dcb540b42a4c021cad
 NeedsCompilation: no
 
 Package: tidyhydat
