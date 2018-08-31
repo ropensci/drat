@@ -97,13 +97,13 @@ MD5sum: 95deed71d41bd5366675d98cb0476a83
 NeedsCompilation: no
 
 Package: auk
-Version: 0.2.3
+Version: 0.3.0
 Depends: R (>= 3.1.2)
 Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils
-Suggests: covr, data.table, knitr, readr, rmarkdown, testthat
+Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: b2b05d2c07ba1080a994f251d0e09135
+MD5sum: 2bee4777549b7d0f4cc749dc3f72e82c
 NeedsCompilation: no
 
 Package: available
@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: f04f749a34d252247fe6aa8c4879c9c2
+MD5sum: 8f706ecc0e92496dfd82dab8ea632e1c
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1432,7 +1432,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: dd3e325646a6292f5237cda225956c35
+MD5sum: 4ceae419b1238d0b5c3d5c201460d19a
 NeedsCompilation: no
 
 Package: pdftools
