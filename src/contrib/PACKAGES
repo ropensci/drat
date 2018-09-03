@@ -544,7 +544,7 @@ NeedsCompilation: no
 
 Package: drake
 Version: 5.4.0.9001
-Depends: R (>= 3.2.0)
+Depends: R (>= 3.3.0)
 Imports: codetools, evaluate, digest, dplyr, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
         rlang (>= 0.2.0), stats, storr (>= 1.1.0), stringi, tibble,
@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 8f706ecc0e92496dfd82dab8ea632e1c
+MD5sum: 70ae1c2bfcbf49ad5181f552c4c37dea
 NeedsCompilation: no
 
 Package: drat.builder
@@ -990,7 +990,7 @@ Imports: zoo, sp, RCurl, XML, rnrfa, Hmisc, raster, stringr, gdata,
         tibble
 Suggests: testthat, leaflet, rmarkdown, knitr, pkgdown
 License: GPL-3
-MD5sum: dc353cb954380dd5b7daab058222525f
+MD5sum: c1fd4b303ff2ab04b12bb0b803d62da8
 NeedsCompilation: no
 
 Package: helminthR
@@ -1538,7 +1538,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: 26f11437a505a00255a290b00f409a6c
+MD5sum: 9201268889729f426b886f382b6f10cc
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -1664,7 +1664,7 @@ Imports: methods, Rcpp (>= 0.11.0), RApiSerialize, RcppMsgPack
 LinkingTo: Rcpp, RApiSerialize, BH
 Suggests: rredis, RUnit
 License: GPL (>= 2)
-MD5sum: 390ce8e04a70bc5da06e55b4d144b2a0
+MD5sum: 313e57ab0718bbde75266c975142058e
 NeedsCompilation: yes
 
 Package: rcrossref
@@ -2478,7 +2478,7 @@ Imports: sp, curl, readr, dplyr, httr, jsonlite, stringi, stringr,
 LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr, tmap
 License: MIT + file LICENSE
-MD5sum: 6dc9461349ef45d64f5cee32fb20924c
+MD5sum: 9a26f3ff481f94eb66eb8a910afdcd0a
 NeedsCompilation: yes
 
 Package: suppdata
@@ -2591,7 +2591,7 @@ Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis
 License: GPL (>= 2)
-MD5sum: 9c1198bbff1405dcb540b42a4c021cad
+MD5sum: 84d564f76ddd7a1444021b8be237c282
 NeedsCompilation: no
 
 Package: tidyhydat
@@ -2810,12 +2810,12 @@ MD5sum: 0855c9850c1b680a96ba9ee452c2de21
 NeedsCompilation: no
 
 Package: xslt
-Version: 1.3
+Version: 1.3.9000
 Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: e99fede272c3c0f26be476c5cdf18121
+MD5sum: 5322972044e4c33b397eea16281868fa
 NeedsCompilation: yes
 
 Package: zbank
