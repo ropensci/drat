@@ -122,7 +122,7 @@ Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 1010cebe015acb70e7cfd1569b776da4
+MD5sum: 4a64a5cf8bbea28fec05426149608546
 NeedsCompilation: no
 
 Package: aws.signature
@@ -2056,13 +2056,13 @@ MD5sum: 49cc4beda02c0903696a0c65d07221d5
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.6.2
+Version: 0.6.3
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), future.apply (>= 1.0.0), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 885529941794d10d3e89b59ae2c96ab2
+MD5sum: 2da5895a35c508c8df326c5ea037a7b0
 NeedsCompilation: no
 
 Package: ropenaq
