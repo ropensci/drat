@@ -103,7 +103,7 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: 2bee4777549b7d0f4cc749dc3f72e82c
+MD5sum: 0469dda1a89c046c5fd75a049d1c8dd4
 NeedsCompilation: no
 
 Package: available
@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 70ae1c2bfcbf49ad5181f552c4c37dea
+MD5sum: ed810a43f4587e3046c8b803602674c4
 NeedsCompilation: no
 
 Package: drat.builder
@@ -728,7 +728,7 @@ Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: 3e1b4198f47c0a9b3a2a8e6242761d7a
+MD5sum: ccdcb3473d66c1ad34c1019ad731b145
 NeedsCompilation: no
 
 Package: fulltext
@@ -1538,7 +1538,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: 9201268889729f426b886f382b6f10cc
+MD5sum: d5d2a9059a5657cd6cf3ccf00e1bd6f6
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -2062,7 +2062,7 @@ Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), future.apply (>= 1.0.0), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 2da5895a35c508c8df326c5ea037a7b0
+MD5sum: caa37213454fa5caf51cb10267eae93b
 NeedsCompilation: no
 
 Package: ropenaq
