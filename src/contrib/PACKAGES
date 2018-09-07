@@ -222,7 +222,7 @@ Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
         xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 9e592a10747b7a3cd8f7a8b1fd55a618
+MD5sum: 829df10caf7b2cff1a8696fb0259e2dd
 NeedsCompilation: no
 
 Package: brranching
@@ -471,7 +471,7 @@ Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: 10cbc274b9065ffa299f08c14b7c8846
+MD5sum: bb56df7e0b44d6af78aa010d736d98f7
 NeedsCompilation: no
 
 Package: datapkg
@@ -637,7 +637,7 @@ Suggests: rmarkdown, testthat, pander, prettydoc, randomNames,
         generator, knitr, covr, circlize, googleVis, fuzzyjoin,
         reshape2, gplots
 License: GPL-3
-MD5sum: f57c9da6018d299a64c42f1c56786b97
+MD5sum: a43a17f6de794fb9a36d54538203ea47
 NeedsCompilation: no
 
 Package: epubr
@@ -2194,13 +2194,13 @@ MD5sum: 0c641fc39a57a2199ad1a9a4557a31f3
 NeedsCompilation: no
 
 Package: RSelenium
-Version: 1.7.3.9000
+Version: 1.7.4
 Depends: R (>= 3.0.0)
-Imports: XML,methods,caTools,tools,utils, openssl, httr, wdman(>=
+Imports: XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 78070cba07b74da1a59f1137eb09843a
+MD5sum: 1c6aaf8762edf973a902f7a7553e6406
 NeedsCompilation: no
 
 Package: rsnps
