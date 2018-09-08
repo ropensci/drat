@@ -55,12 +55,12 @@ MD5sum: 6ca25857aa46fb6ad1c05857959cc375
 NeedsCompilation: yes
 
 Package: arkdb
-Version: 0.0.2
+Version: 0.0.3
 Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: 3086648ff4c61cd075d267cfe0500143
+MD5sum: 8d652e34ec0807273ff193b1c8436cb6
 NeedsCompilation: no
 
 Package: aRxiv
@@ -471,7 +471,7 @@ Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: bb56df7e0b44d6af78aa010d736d98f7
+MD5sum: 2aeb70d7b70b92d6da34b1431ba89369
 NeedsCompilation: no
 
 Package: datapkg
@@ -1784,7 +1784,7 @@ Imports: xml2, jsonlite, utils, plyr, tools, httr, bibtex (>= 0.4.1),
         lubridate (>= 1.5.0), stringr, methods
 Suggests: knitr, testthat,
 License: GPL-2 | GPL-3 | BSD_3_clause + file LICENSE
-MD5sum: 134e97af6c80adc7e982ba12af958bcf
+MD5sum: e724eeb483391e5a4fb53cb2d372838c
 NeedsCompilation: no
 
 Package: rentrez
@@ -2200,7 +2200,7 @@ Imports: XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 1c6aaf8762edf973a902f7a7553e6406
+MD5sum: c4626b1dc9249373c811d77f408f28f2
 NeedsCompilation: no
 
 Package: rsnps
