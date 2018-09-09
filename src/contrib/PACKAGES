@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 539e43b652633489665cbc9b4ebc2414
+MD5sum: 50670cb79cedd1496d53947d8fb024cc
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1088,7 +1088,7 @@ LinkingTo: Rcpp
 Suggests: knitr, testthat, rmarkdown, covr, magick, abind, tiff,
         EBImage, rprojroot
 License: GPL-3
-MD5sum: 90d4462f38072fe020aa48cef34ac5de
+MD5sum: 191c09846b623c56ffd4403b83b73369
 NeedsCompilation: yes
 
 Package: infx
@@ -1991,7 +1991,7 @@ Suggests: rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
         1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
         rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos
 License: MIT + file LICENSE
-MD5sum: d0ff90a577c5e7054b20de92ea8b0490
+MD5sum: a8939125cd2ce14c990bb5c6dc0888f6
 NeedsCompilation: no
 
 Package: rnaturalearthdata
