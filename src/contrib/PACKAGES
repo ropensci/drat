@@ -555,7 +555,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 50670cb79cedd1496d53947d8fb024cc
+MD5sum: f99f0f0ca78b4f1cb0a5127486a7dad9
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1082,13 +1082,13 @@ Package: ijtiff
 Version: 1.4.0
 Depends: R (>= 2.10)
 Imports: checkmate, magrittr, filesstrings (>= 2.7.0), stringr, purrr,
-        Rcpp, fields, grDevices, readr, rlang, dplyr, methods, lattice,
-        glue, BBmisc, tibble
+        Rcpp, fields, grDevices, readr, rlang, dplyr, methods, glue,
+        BBmisc, tibble
 LinkingTo: Rcpp
 Suggests: knitr, testthat, rmarkdown, covr, magick, abind, tiff,
         EBImage, rprojroot
 License: GPL-3
-MD5sum: 191c09846b623c56ffd4403b83b73369
+MD5sum: fb130686257204834059d4f1584ac8c9
 NeedsCompilation: yes
 
 Package: infx
