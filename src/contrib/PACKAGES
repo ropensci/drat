@@ -471,7 +471,7 @@ Imports: digest, knitr, utils, rmarkdown, desc, yaml, purrr, roxygen2
         futile.logger, rprojroot, usethis, crayon
 Suggests: spelling, testthat, covr, data.tree
 License: MIT + file LICENSE
-MD5sum: 2aeb70d7b70b92d6da34b1431ba89369
+MD5sum: 322ceab47c9ecc139e59768c73bed91a
 NeedsCompilation: no
 
 Package: datapkg
@@ -2661,7 +2661,7 @@ Imports: ape, dplyr, jsonlite, magrittr, methods, rlang, rvcheck,
         tibble, tidytree (>= 0.1.7), utils
 Suggests: ggplot2, ggtree, knitr, prettydoc, testthat, tidyr
 License: Artistic-2.0
-MD5sum: 6dd804a2a2b6da2516367755d2c09bf7
+MD5sum: ef263723b82c95701c2211c4b05956aa
 NeedsCompilation: no
 
 Package: unrtf
