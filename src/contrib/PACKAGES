@@ -103,7 +103,7 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: 0469dda1a89c046c5fd75a049d1c8dd4
+MD5sum: 73cf206ce81eb0bf20b4213a0a47c7ab
 NeedsCompilation: no
 
 Package: available
@@ -1079,16 +1079,16 @@ MD5sum: 337947d35a2b2bb4ce69ce27731045e9
 NeedsCompilation: no
 
 Package: ijtiff
-Version: 1.4.0
+Version: 1.4.1
 Depends: R (>= 2.10)
 Imports: checkmate, magrittr, filesstrings (>= 2.7.0), stringr, purrr,
         Rcpp, fields, grDevices, readr, rlang, dplyr, methods, glue,
-        BBmisc, tibble
+        BBmisc
 LinkingTo: Rcpp
 Suggests: knitr, testthat, rmarkdown, covr, magick, abind, tiff,
         EBImage, rprojroot
 License: GPL-3
-MD5sum: fb130686257204834059d4f1584ac8c9
+MD5sum: 6f2db27bcfa2fb9cdfdfdcffeacfd8d9
 NeedsCompilation: yes
 
 Package: infx
@@ -1099,7 +1099,7 @@ Imports: R.matlab, jsonlite, assertthat, curl, progress, crayon,
 Suggests: testthat (>= 2.0.0), knitr, rmarkdown, rvest, tibble,
         ggplot2, RColorBrewer
 License: GPL-3 | file LICENSE
-MD5sum: a2cff0632adbd7f0bb391143e406647a
+MD5sum: 18a3f530336fa8f4fc0c185e7fac0799
 NeedsCompilation: no
 
 Package: internetarchive
@@ -2661,7 +2661,7 @@ Imports: ape, dplyr, jsonlite, magrittr, methods, rlang, rvcheck,
         tibble, tidytree (>= 0.1.7), utils
 Suggests: ggplot2, ggtree, knitr, prettydoc, testthat, tidyr
 License: Artistic-2.0
-MD5sum: ef263723b82c95701c2211c4b05956aa
+MD5sum: 78df863b379f085f225f985ff5012288
 NeedsCompilation: no
 
 Package: unrtf
