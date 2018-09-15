@@ -222,7 +222,7 @@ Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
         xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 829df10caf7b2cff1a8696fb0259e2dd
+MD5sum: ec6e06340ffc36a8677a100145d8f972
 NeedsCompilation: no
 
 Package: brranching
@@ -273,12 +273,12 @@ MD5sum: 9aa6c7e42f435977406373d763e999ac
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.2.4.9100
+Version: 0.2.5.9100
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr, rmarkdown, iptools,
         stringi
 License: MIT + file LICENSE
-MD5sum: 0ade477a23c34a373fd9a71d05e57da0
+MD5sum: 314639e0c9cc8be80aa098d40983894d
 NeedsCompilation: no
 
 Package: chromer
@@ -387,23 +387,23 @@ MD5sum: 289f08a3e2d1017e80e496bd3e3cbfcd
 NeedsCompilation: no
 
 Package: cRegulome
-Version: 0.1.1
+Version: 0.2.0
 Depends: R(>= 2.10.0)
-Imports: DBI, graphics, httr, RSQLite, UpSetR, VennDiagram, magrittr,
-        dplyr, ggplot2, ggridges, tidyr, reshape2, purrr, grid,
-        R.utils, AnnotationDbi, org.Hs.eg.db, clusterProfiler
-Suggests: knitr, rmarkdown, testthat, covr, dbplyr, igraph, readxl
+Imports: DBI, graphics, httr, RSQLite, UpSetR, VennDiagram, ggplot2,
+        ggridges, grid, R.utils, igraph
+Suggests: knitr, rmarkdown, testthat, covr, readxl, AnnotationDbi,
+        org.Hs.eg.db, clusterProfiler
 License: GPL-3
-MD5sum: 0f0b4755ef2dfe5440ed346c881521b0
+MD5sum: 3a77d18111e1083a28797058dc987cb1
 NeedsCompilation: no
 
 Package: crevents
-Version: 0.0.5.9244
+Version: 0.0.6.9100
 Imports: crul (>= 0.4.0), jsonlite (>= 1.5), tibble (>= 1.2), xml2 (>=
         1.0.0)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 73c966a1dce6fc1e3ef2e0e13e214dd6
+MD5sum: 3dd420e617b4667805282e008d5cb557
 NeedsCompilation: no
 
 Package: crminer
@@ -729,18 +729,18 @@ Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: 3f78134d83c491c0ff0a8d2afad2df35
+MD5sum: d34052c6b3e4fa1ae6d6d1b43dbea4d0
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9322
+Version: 1.0.1.9410
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: b62019a866a6aafa68760f973ce2f035
+MD5sum: ecfa9014ff431341ef90a2b507fd922c
 NeedsCompilation: no
 
 Package: gdoc
@@ -1676,7 +1676,7 @@ Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         stringr, DT
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 4abf9c5bc19d0884a43674122c5cc2aa
+MD5sum: ad798a8d99c40ffa2bff17109f72c33d
 NeedsCompilation: no
 
 Package: rdatacite
@@ -2058,13 +2058,13 @@ MD5sum: 49cc4beda02c0903696a0c65d07221d5
 NeedsCompilation: no
 
 Package: robotstxt
-Version: 0.6.3
+Version: 0.6.4
 Depends: R (>= 3.0.0)
 Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), future.apply (>= 1.0.0), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: caa37213454fa5caf51cb10267eae93b
+MD5sum: 3ab7eb6f03b8dbd25561e0d9ca14edee
 NeedsCompilation: no
 
 Package: ropenaq
@@ -2201,7 +2201,7 @@ Imports: XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: c4626b1dc9249373c811d77f408f28f2
+MD5sum: 6f41b816dfce7d203e1c9f60539be513
 NeedsCompilation: no
 
 Package: rsnps
@@ -2512,7 +2512,7 @@ MD5sum: 9803b3d41605f52f1183be540946c2cc
 NeedsCompilation: no
 
 Package: taxize
-Version: 0.9.4.9100
+Version: 0.9.4.9101
 Depends: R(>= 3.2.1)
 Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         1.2.1), xml2 (>= 1.0.0), jsonlite, reshape2, stringr, plyr,
@@ -2521,7 +2521,7 @@ Imports: graphics, methods, stats, utils, crul (>= 0.4.0), httr (>=
         worrms (>= 0.1.0), natserv (>= 0.1.4), wikitaxa (>= 0.1.4)
 Suggests: testthat, knitr, vegan
 License: MIT + file LICENSE
-MD5sum: 8f5bf8362e3ad625912a6984bc8ccc9b
+MD5sum: 320c370fcb1df5a83e27c80e293e93fc
 NeedsCompilation: no
 
 Package: taxizedb
@@ -2591,9 +2591,9 @@ Version: 0.2.13.9010
 Depends: R (>= 3.0.0)
 Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
-        remotes, rmarkdown, testthat, travis
+        remotes, rmarkdown, testthat, travis, usethis
 License: GPL (>= 2)
-MD5sum: 5ea13f152a1d12153783c18240f0cfcb
+MD5sum: 15012d33429ab0c9e6bced5ede6d35c6
 NeedsCompilation: no
 
 Package: tidyhydat
