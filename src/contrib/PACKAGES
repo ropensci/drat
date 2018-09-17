@@ -222,7 +222,7 @@ Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
         xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: ec6e06340ffc36a8677a100145d8f972
+MD5sum: bcf8d1f94012a02981ecc7b0543b2ecc
 NeedsCompilation: no
 
 Package: brranching
@@ -602,7 +602,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.1.0), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 7320cdc0a56cd9289488a72f2d30098c
+MD5sum: 0c57ee2cbb1e9c04110f09fbb9127269
 NeedsCompilation: no
 
 Package: elasticdsl
