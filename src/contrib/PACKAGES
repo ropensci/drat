@@ -729,7 +729,7 @@ Imports: curl, dplyr, DT, httr, jsonlite, miniUI, purrr, readr, shiny,
         shinycssloaders
 Suggests: ggplot2, knitr, pander, rmarkdown, testthat
 License: GPL-3
-MD5sum: d34052c6b3e4fa1ae6d6d1b43dbea4d0
+MD5sum: 753f235e7f487901c82eb1c880cef3bc
 NeedsCompilation: no
 
 Package: fulltext
@@ -1390,6 +1390,16 @@ License: MIT + file LICENSE
 MD5sum: 952b5b76b556671e901ef8b8565ad9bb
 NeedsCompilation: no
 
+Package: outcomerate
+Version: 1.0.0
+Depends: R (>= 2.10)
+Imports: Rdpack (>= 0.7), stats
+Suggests: dplyr, forcats, ggplot2, knitr, testthat, tidyr, covr,
+        rmarkdown, spelling, stringr
+License: CC0
+MD5sum: ce943a511c0550388948d8b0bb13c721
+NeedsCompilation: no
+
 Package: packagemetrics
 Version: 0.0.1.9001
 Depends: R (>= 3.4.0)
@@ -1540,7 +1550,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: d5d2a9059a5657cd6cf3ccf00e1bd6f6
+MD5sum: 11fe89e902f9f714f6bd5a23d5afee3d
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -1573,7 +1583,7 @@ Imports: httr, stringr, readr, jsonlite, assertthat, sjlabelled, yaml,
         dplyr, rlang
 Suggests: knitr, rmarkdown, httptest
 License: GPL-3 | file LICENSE
-MD5sum: ab207de19824c2d8149c3cfaeae5a773
+MD5sum: 0b6348dd7a39146f92bc31f45919486e
 NeedsCompilation: no
 
 Package: rAltmetric
@@ -2201,7 +2211,7 @@ Imports: XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 6f41b816dfce7d203e1c9f60539be513
+MD5sum: 51de63e522553ce30df00f8fccf054bb
 NeedsCompilation: no
 
 Package: rsnps
@@ -2269,10 +2279,10 @@ MD5sum: 73ec1b5680331f03efc0796d3b580d9a
 NeedsCompilation: no
 
 Package: rzmq
-Version: 0.9.3
+Version: 0.9.3.9000
 Depends: R (>= 3.1.0)
 License: GPL-3
-MD5sum: fe73148cc9f15129b12cfd89ec3e0b00
+MD5sum: 174233ef4b8f43f4e4bb4bf7988515f7
 NeedsCompilation: yes
 
 Package: sarsop
@@ -2419,14 +2429,14 @@ MD5sum: 8c019871c926036b5166c1110bd0162f
 NeedsCompilation: no
 
 Package: spocc
-Version: 0.8.0.9100
+Version: 0.8.1.9100
 Imports: utils, rgbif (>= 1.0.0), rbison (>= 0.6.0), rebird (>= 0.3.0),
         rvertnet (>= 0.7.0), ridigbio (>= 0.3.5), lubridate (>= 1.5.0),
         crul (>= 0.3.4), whisker (>= 0.3-2), jsonlite (>= 1.4),
         data.table (>= 1.9.6), tibble (>= 1.2), wicket (>= 0.3.0)
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, taxize (>= 0.8.4)
 License: MIT + file LICENSE
-MD5sum: 06d33d1b7020bad32d26b1b268224568
+MD5sum: e1795d8d5810b543cff537a7bb29d6dd
 NeedsCompilation: no
 
 Package: spplist
