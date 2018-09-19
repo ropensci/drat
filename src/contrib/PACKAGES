@@ -134,14 +134,14 @@ MD5sum: 285874fc648c2ecd71433b271e2d9155
 NeedsCompilation: no
 
 Package: bikedata
-Version: 0.2.1
+Version: 0.2.1.099
 Depends: R (>= 3.0)
 Imports: DBI, dodgr, httr, lubridate, magrittr, methods, Rcpp, readxl,
         RSQLite, reshape2, tibble, xml2
 LinkingTo: BH, Rcpp
 Suggests: knitr, rmarkdown, roxygen2, testthat, covr
 License: GPL-3
-MD5sum: 3b8560d67aa7f49647a19881644f249b
+MD5sum: ee1c3966a6d9e7c0a407216dab1eb7be
 NeedsCompilation: yes
 
 Package: binman
@@ -211,7 +211,7 @@ Suggests: ASGS.foyer, covr, testthat, knitr, rmarkdown, ggplot2,
         ggthemes, grid, gridExtra, maps, mapproj, rappdirs, roxygen2
         (>= 6.1.0)
 License: MIT + file LICENSE
-MD5sum: 4c31aaf39c74dee87274ad59c6911a4e
+MD5sum: 24aed92e72e2de2702b3bfa78c438c0c
 NeedsCompilation: no
 
 Package: bowerbird
@@ -416,13 +416,13 @@ MD5sum: 8e517bc36c596d97a563b6e970aaab3c
 NeedsCompilation: no
 
 Package: crul
-Version: 0.6.0
+Version: 0.6.0.9100
 Imports: curl (>= 3.1), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
         (>= 0.2.0), mime
 Suggests: testthat, fauxpas (>= 0.1.0), webmockr (>= 0.1.0), knitr,
         jsonlite
 License: MIT + file LICENSE
-MD5sum: 71b7e5bc1d77c384991d8dc0c1d28655
+MD5sum: a053458136a0d54567737fd3cea8ee21
 NeedsCompilation: no
 
 Package: cyphr
@@ -1368,7 +1368,7 @@ Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 144818d239b8eb39e75328390711d241
+MD5sum: f82fd64d04702b2ca163bd2f728b1ff7
 NeedsCompilation: yes
 
 Package: osmplotr
@@ -1378,7 +1378,7 @@ Imports: curl, e1071, ggm, ggplot2, httr, mapproj, methods, osmdata,
         rgeos, sp, spatstat
 Suggests: knitr, magrittr, roxygen2, rmarkdown, devtools, testthat
 License: GPL-3
-MD5sum: 7b6308c7f7719390b5e4462e84cf9cd5
+MD5sum: 8218c57ca46c24c5ea92bc274e8af2bc
 NeedsCompilation: no
 
 Package: ots
@@ -1461,7 +1461,7 @@ Version: 0.1.0
 Imports: tibble, sys (>= 1.1)
 Suggests: testthat, knitr, rmarkdown, ape
 License: MIT + file LICENSE
-MD5sum: 6e6859ee571c475c8f146dda27e0dbae
+MD5sum: addf0ccc13ec7b0150eb0454710169e3
 NeedsCompilation: yes
 
 Package: phylogram
@@ -2104,14 +2104,14 @@ MD5sum: 4c9c8a442a404b2577074e68bc34b39d
 NeedsCompilation: no
 
 Package: rotl
-Version: 3.0.4
+Version: 3.0.4.900
 Depends: R (>= 3.1.1)
 Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
         rentrez
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: f687abd94f5e5e96a4e2a016cc4e3c4a
+MD5sum: 4b69c6a087dfe217331a1826696652c6
 NeedsCompilation: no
 
 Package: rperseus
@@ -2205,13 +2205,13 @@ MD5sum: 0c641fc39a57a2199ad1a9a4557a31f3
 NeedsCompilation: no
 
 Package: RSelenium
-Version: 1.7.4
+Version: 1.7.4.9000
 Depends: R (>= 3.0.0)
 Imports: XML, methods, caTools, tools, utils, openssl, httr, wdman(>=
         0.2.2), binman
 Suggests: testthat, knitr, Rcompression, covr, rmarkdown
 License: AGPL-3
-MD5sum: 51de63e522553ce30df00f8fccf054bb
+MD5sum: 518df530fb382acb54aff0079c6053f6
 NeedsCompilation: no
 
 Package: rsnps
@@ -2279,10 +2279,10 @@ MD5sum: 73ec1b5680331f03efc0796d3b580d9a
 NeedsCompilation: no
 
 Package: rzmq
-Version: 0.9.3.9000
+Version: 0.9.4
 Depends: R (>= 3.1.0)
 License: GPL-3
-MD5sum: 174233ef4b8f43f4e4bb4bf7988515f7
+MD5sum: e55c2608d0884873be6ad5bd3b18c1cb
 NeedsCompilation: yes
 
 Package: sarsop
@@ -2490,7 +2490,7 @@ Imports: sp, curl, readr, dplyr, httr, jsonlite, stringi, stringr,
 LinkingTo: RcppArmadillo, Rcpp
 Suggests: testthat, knitr, rmarkdown, dodgr, tmap
 License: MIT + file LICENSE
-MD5sum: 85831bb94ab7c50dc6d4a6080618b61e
+MD5sum: 08a0933ae01ff18417ab1658a0de6d66
 NeedsCompilation: yes
 
 Package: suppdata
