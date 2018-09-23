@@ -645,7 +645,7 @@ Suggests: rmarkdown, testthat, pander, prettydoc, randomNames,
         generator, knitr, covr, circlize, googleVis, fuzzyjoin,
         reshape2, gplots
 License: GPL-3
-MD5sum: 25bf0595796198c6f36aae9d15f8fc41
+MD5sum: 3c44c4b3ea5584cb100983c13ff1a7ff
 NeedsCompilation: no
 
 Package: epubr
