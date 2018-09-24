@@ -1451,7 +1451,7 @@ Depends: R (>= 3.1)
 Imports: httr, jsonlite, utils
 Suggests: knitr, rmarkdown, testthat, tidyr
 License: MIT + file LICENSE
-MD5sum: 4ceae419b1238d0b5c3d5c201460d19a
+MD5sum: 59af9c463b849b256f2aa2cdc6e675d8
 NeedsCompilation: no
 
 Package: pdftools
