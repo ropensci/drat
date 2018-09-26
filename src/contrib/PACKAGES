@@ -60,7 +60,7 @@ Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: 30403ea98598d5ae64b3d4b0fcb07129
+MD5sum: ef9e9c749ec113e1ef70e56aceaab627
 NeedsCompilation: no
 
 Package: aRxiv
@@ -304,7 +304,7 @@ Imports: methods, stats, utils, httr (>= 1.0.0), jsonlite (>= 0.9.17),
         dplyr (>= 0.7.0), dbplyr, magrittr
 Suggests: knitr, maptools, readxl, testthat, xml2, lazyeval
 License: MIT + file LICENSE
-MD5sum: a7081809d6986c6d73ae21dc593e5a3f
+MD5sum: de928f0a672b68239199c66ec6f72450
 NeedsCompilation: no
 
 Package: cld2
@@ -645,7 +645,7 @@ Suggests: rmarkdown, testthat, pander, prettydoc, randomNames,
         generator, knitr, covr, circlize, googleVis, fuzzyjoin,
         reshape2, gplots
 License: GPL-3
-MD5sum: 3c44c4b3ea5584cb100983c13ff1a7ff
+MD5sum: 2a640fb6e7ed1142bf3539d2dbce00c8
 NeedsCompilation: no
 
 Package: epubr
@@ -740,14 +740,14 @@ MD5sum: 3fadac583a86fff7b493698fb33d5375
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9621
+Version: 1.0.1.9625
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: f66203359b14e4b3fef21ca8d5d95da1
+MD5sum: e78cbdf1e0c94961cf1ba0ef89efeae6
 NeedsCompilation: no
 
 Package: gdoc
@@ -1096,7 +1096,7 @@ LinkingTo: Rcpp
 Suggests: knitr, testthat, rmarkdown, covr, magick, abind, tiff,
         EBImage, spelling
 License: GPL-3
-MD5sum: 90c4636db2b2e44d1b2cab3c3302b50c
+MD5sum: 4a302bd504a77230bd6f1801f267dad2
 NeedsCompilation: yes
 
 Package: infx
@@ -1557,7 +1557,7 @@ Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
         broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
         png, IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: 11fe89e902f9f714f6bd5a23d5afee3d
+MD5sum: d6fadd7fce0a2aa8ce890d82f5fb3620
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -1824,16 +1824,16 @@ MD5sum: ea2f671495fd1cd3f1bdbe78ad762cc3
 NeedsCompilation: no
 
 Package: rerddap
-Version: 0.4.2.9521
+Version: 0.4.4.9310
 Depends: R (>= 2.10)
-Imports: utils, httr (>= 1.2.1), dplyr (>= 0.5.0), data.table (>=
+Imports: utils, crul (>= 0.6.0), dplyr (>= 0.5.0), data.table (>=
         1.10.0), jsonlite (>= 1.2), xml2 (>= 1.1.0), digest, ncdf4 (>=
         1.15), tibble, hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.1.0), knitr, rmarkdown, testthat, akima,
         ggplot2, mapdata, plot3D
 Enhances: taxize
 License: MIT + file LICENSE
-MD5sum: e55f0bc69a822ae6228db8887be6ab8f
+MD5sum: a425e931703735651f502146b9c5ef05
 NeedsCompilation: no
 
 Package: reuropeana
@@ -2004,12 +2004,14 @@ NeedsCompilation: no
 Package: rnaturalearth
 Version: 0.2.0
 Depends: R (>= 3.1.1)
-Imports: sp (>= 1.0.15), utils (>= 3.2.3), sf (>= 0.3-4)
-Suggests: rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
-        1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
-        rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos
+Imports: sp (>= 1.0.15), utils (>= 3.2.3), sf (>= 0.3-4), httr (>=
+        1.1.0), jsonlite
+Suggests: rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), devtools (>=
+        1.10.0), rnaturalearthdata (>= 0.1.0), rnaturalearthhires (>=
+        0.1.0), raster (>= 2.5-2), rgeos, pbapply, ggplot2, dplyr,
+        purrr
 License: MIT + file LICENSE
-MD5sum: 1b76d9ca984d710041664f60e8d8e393
+MD5sum: 414f11773fd3c6a6cb30b6b7eb08acff
 NeedsCompilation: no
 
 Package: rnaturalearthdata
@@ -2118,7 +2120,7 @@ Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 4b69c6a087dfe217331a1826696652c6
+MD5sum: 0d93ee231a5e0d502beeb751ef6d717a
 NeedsCompilation: no
 
 Package: rperseus
@@ -2257,7 +2259,7 @@ Imports: XML, httr (>= 0.6.1), plyr, foreach, stringr, testthat,
         taxize, RCurl
 Suggests: knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: d9058cc1ff94141e9f2ea0ba9b847dc5
+MD5sum: f9d537311be29cbccc5779b0b1f286ec
 NeedsCompilation: no
 
 Package: rvertnet
@@ -2372,13 +2374,13 @@ MD5sum: 2b1cf62596fe53bbe37e16f89084021d
 NeedsCompilation: no
 
 Package: smapr
-Version: 0.1.2
+Version: 0.2.0
 Depends: R (>= 3.2.5)
 Imports: httr (>= 1.1.0), rappdirs (>= 0.3.1), raster (>= 2.5), rhdf5
         (>= 2.14), rvest, xml2
 Suggests: knitr, rgdal, rmarkdown, roxygen2, sp, testthat, utils, covr
 License: GPL-3
-MD5sum: 80b593b4ad7bca4afd60e8b19b7ec0bf
+MD5sum: 930ff3df89f908b6540ae3b99819909c
 NeedsCompilation: no
 
 Package: snowball
@@ -2813,7 +2815,7 @@ Imports: crul (>= 0.3.6), tibble (>= 1.2), jsonlite (>= 1.1),
 Suggests: roxygen2 (>= 6.1.0), knitr, testthat, webmockr (>= 0.2.6),
         vcr (>= 0.1.0)
 License: MIT + file LICENSE
-MD5sum: ef0593640e62cfd2a7eb3980ca5b5c72
+MD5sum: 359c4a1a0aa95c898c8f830d17034f91
 NeedsCompilation: no
 
 Package: writexl
