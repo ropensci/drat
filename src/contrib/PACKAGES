@@ -55,12 +55,12 @@ MD5sum: 6ca25857aa46fb6ad1c05857959cc375
 NeedsCompilation: yes
 
 Package: arkdb
-Version: 0.0.3
+Version: 0.0.4
 Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: ef9e9c749ec113e1ef70e56aceaab627
+MD5sum: da2b70d943ecdef5a9bcdd290329fad7
 NeedsCompilation: no
 
 Package: aRxiv
@@ -100,10 +100,10 @@ Package: auk
 Version: 0.3.0
 Depends: R (>= 3.1.2)
 Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
-        stringi, stringr, tidyr, utils
+        stringi, stringr, tidyr, utils, httr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: cc660158d383245d5361a2394ebd55ac
+MD5sum: 9d352feb73b657dd8bc90df362826018
 NeedsCompilation: no
 
 Package: av
@@ -563,7 +563,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: f99f0f0ca78b4f1cb0a5127486a7dad9
+MD5sum: 3eab4ef75d14d0fd30db192bed79ac39
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1007,7 +1007,7 @@ Imports: xml2, rvest, httr, magrittr, plyr, ggmap, utils, knitr,
         rmarkdown
 Suggests: testthat, ggplot2,
 License: GPL-3
-MD5sum: 3c27b453c1c6136c334184f802a5cf2a
+MD5sum: b60ec12a361f87a379c4e2eb8d96ba2e
 NeedsCompilation: no
 
 Package: hirsutosa
@@ -1179,7 +1179,7 @@ Imports: magrittr, checkmate, dplyr, extrafont, ggplot2, purrr, raster,
         rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: d4fe4c45e2770107b92eecf085bbac3f
+MD5sum: 7ed5eb63c8ac4951acf60bcf9ed54172
 NeedsCompilation: no
 
 Package: laselva
@@ -1277,12 +1277,12 @@ MD5sum: f5be1c4da97afbc3b0e59b65df0aeeba
 NeedsCompilation: no
 
 Package: neotoma
-Version: 1.7.1
+Version: 1.7.2
 Depends: R (>= 2.10)
 Imports: plyr, reshape2, jsonlite, httr, xml2, analogue, leaflet, dplyr
 Suggests: testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 8bf9882180178b4858152a39e0a3c44f
+MD5sum: 6dab331e5b76085b969981c63aa8e107
 NeedsCompilation: no
 
 Package: NLMR
@@ -1292,7 +1292,7 @@ Imports: checkmate, dplyr, purrr, RandomFields, raster, spatstat,
         stats, tibble, fasterize, sf
 Suggests: testthat, covr, knitr, rmarkdown, lintr, classInt, rasterVis
 License: GPL-3
-MD5sum: 74602cee2899d4599c80dc1867c794c1
+MD5sum: 68bc50a11197d9e8d4c5e19b81b92c1c
 NeedsCompilation: no
 
 Package: nneo
@@ -1690,10 +1690,10 @@ Package: rcrossref
 Version: 0.8.4.9312
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
-        stringr, DT
+        stringr, DT, stats
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: bb725fdf036e0cb75d55649ef9e1994c
+MD5sum: 72159be26010c5ec3edd5760b1a117e6
 NeedsCompilation: no
 
 Package: rdatacite
@@ -1824,16 +1824,16 @@ MD5sum: ea2f671495fd1cd3f1bdbe78ad762cc3
 NeedsCompilation: no
 
 Package: rerddap
-Version: 0.4.4.9310
+Version: 0.4.5.9100
 Depends: R (>= 2.10)
 Imports: utils, crul (>= 0.6.0), dplyr (>= 0.5.0), data.table (>=
         1.10.0), jsonlite (>= 1.2), xml2 (>= 1.1.0), digest, ncdf4 (>=
         1.15), tibble, hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.1.0), knitr, rmarkdown, testthat, akima,
-        ggplot2, mapdata, plot3D
+        ggplot2, mapdata, plot3D, vcr (>= 0.1.0.9110)
 Enhances: taxize
 License: MIT + file LICENSE
-MD5sum: a425e931703735651f502146b9c5ef05
+MD5sum: 5a41dc8b5067c5d13796944b68eb2f74
 NeedsCompilation: no
 
 Package: reuropeana
@@ -2418,7 +2418,7 @@ Version: 1.2
 Imports: commonmark, xml2, hunspell (>= 2.9), knitr
 Suggests: pdftools
 License: MIT + file LICENSE
-MD5sum: 4ecf0eb8943a07aaf311fc3e7d698855
+MD5sum: 83bf3e96389bd78ee3e9c3c2aaa15df9
 NeedsCompilation: no
 
 Package: spenv
@@ -2712,12 +2712,12 @@ MD5sum: 6db6a611526775949e0e260da54b5b76
 NeedsCompilation: no
 
 Package: vcr
-Version: 0.1.0.9100
+Version: 0.1.0.9110
 Imports: crul (>= 0.5.2), webmockr (>= 0.2.4), urltools, yaml, R6,
         lazyeval, base64enc
 Suggests: jsonlite, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 178e7238d2e28d4e404ddcea211332b9
+MD5sum: e376ae92e57f027a8a4b4baeb823d719
 NeedsCompilation: no
 
 Package: visdat
