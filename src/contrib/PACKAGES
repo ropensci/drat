@@ -179,7 +179,7 @@ Imports: biomaRt, Biostrings, curl, tibble, jsonlite, data.table (>=
 Suggests: knitr (>= 1.6), rmarkdown (>= 0.3.3), devtools (>= 1.6.1),
         testthat, seqinr, magrittr
 License: GPL-2
-MD5sum: ebbb65e0e92253ff6f4f7b73248acb03
+MD5sum: 399fec6b23a6064c7e91c6e63f219020
 NeedsCompilation: yes
 
 Package: bittrex
@@ -553,7 +553,7 @@ NeedsCompilation: no
 Package: drake
 Version: 5.4.0.9001
 Depends: R (>= 3.3.0)
-Imports: codetools, evaluate, digest, dplyr, formatR, fs, future,
+Imports: codetools, digest, dplyr, evaluate, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
         rlang (>= 0.2.0), stats, storr (>= 1.1.0), stringi, tibble,
         tidyselect (>= 0.2.4), utils, withr
@@ -563,7 +563,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 3eab4ef75d14d0fd30db192bed79ac39
+MD5sum: c3e410b976834c65968a56a1c4d8d7a4
 NeedsCompilation: no
 
 Package: drat.builder
@@ -645,7 +645,7 @@ Suggests: rmarkdown, testthat, pander, prettydoc, randomNames,
         generator, knitr, covr, circlize, googleVis, fuzzyjoin,
         reshape2, gplots
 License: GPL-3
-MD5sum: 2a640fb6e7ed1142bf3539d2dbce00c8
+MD5sum: 6edd43bf70ca20023854c11d2b631329
 NeedsCompilation: no
 
 Package: epubr
@@ -1169,7 +1169,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr, crayon, cli
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: 76fc61a0e2623d7d7f6bfce498e53515
+MD5sum: 3bac432661940dd65faa98174d3aaa02
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1218,7 +1218,7 @@ Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
         png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 73507e71f926c1b95f8b771ab94121dd
+MD5sum: 8447144ddca6242ed94ae832180941aa
 NeedsCompilation: yes
 
 Package: mapr
@@ -1398,13 +1398,13 @@ MD5sum: 952b5b76b556671e901ef8b8565ad9bb
 NeedsCompilation: no
 
 Package: outcomerate
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 2.10)
 Imports: Rdpack (>= 0.7), stats
 Suggests: dplyr, forcats, ggplot2, knitr, testthat, tidyr, covr,
         rmarkdown, spelling, stringr
 License: CC0
-MD5sum: ce943a511c0550388948d8b0bb13c721
+MD5sum: db26f75948098ea2ee8a425038f88b56
 NeedsCompilation: no
 
 Package: packagemetrics
@@ -1761,11 +1761,13 @@ MD5sum: c430ace000d152366bffb2139b1ba65f
 NeedsCompilation: no
 
 Package: rebird
-Version: 0.5.0
-Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr
+Version: 1.0.0
+Depends: R (>= 2.10)
+Imports: methods, utils, stats, httr (>= 1.0.0), jsonlite, dplyr,
+        assertthat
 Suggests: knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 5e2352ba8171b0885801a9b12ee37f49
+MD5sum: 0d91cbfc403b25a7f1db749d9af29996
 NeedsCompilation: no
 
 Package: RedisAPI
@@ -2616,7 +2618,7 @@ Imports: backports, crayon, magrittr, memoise, methods, R6, withr
 Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
         remotes, rmarkdown, testthat, travis, usethis
 License: GPL (>= 2)
-MD5sum: 15012d33429ab0c9e6bced5ede6d35c6
+MD5sum: f41959deea368a7ccf0083271299a032
 NeedsCompilation: no
 
 Package: tidyhydat
