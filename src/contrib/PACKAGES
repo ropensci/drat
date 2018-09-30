@@ -551,7 +551,7 @@ MD5sum: e0292c8a35ca4e5eebd30d310c2975ab
 NeedsCompilation: no
 
 Package: drake
-Version: 5.4.0.9001
+Version: 6.0.0
 Depends: R (>= 3.3.0)
 Imports: codetools, digest, dplyr, evaluate, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
@@ -563,7 +563,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: c3e410b976834c65968a56a1c4d8d7a4
+MD5sum: f5d1563f3da20ab5302b32a1062f0457
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1173,13 +1173,13 @@ MD5sum: 3bac432661940dd65faa98174d3aaa02
 NeedsCompilation: no
 
 Package: landscapetools
-Version: 0.3.0
+Version: 0.4.0
 Depends: R (>= 3.1.0)
-Imports: magrittr, checkmate, dplyr, extrafont, ggplot2, purrr, raster,
-        rasterVis, tibble, tidyr, viridis
+Imports: classInt, cowplot, magrittr, checkmate, dplyr, extrafont,
+        ggplot2, purrr, raster, rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: 7ed5eb63c8ac4951acf60bcf9ed54172
+MD5sum: 7f99433a2323f7dc6b77bdbf0e09b068
 NeedsCompilation: no
 
 Package: laselva
@@ -1218,7 +1218,7 @@ Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
         png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 8447144ddca6242ed94ae832180941aa
+MD5sum: 3cc3dfade8bd48303997df8018959aad
 NeedsCompilation: yes
 
 Package: mapr
@@ -1286,13 +1286,13 @@ MD5sum: 6dab331e5b76085b969981c63aa8e107
 NeedsCompilation: no
 
 Package: NLMR
-Version: 0.3.0
+Version: 0.3.1
 Depends: R (>= 3.1.0)
-Imports: checkmate, dplyr, purrr, RandomFields, raster, spatstat,
-        stats, tibble, fasterize, sf
+Imports: checkmate, dplyr, RandomFields, raster, spatstat, stats,
+        tibble, fasterize, sf
 Suggests: testthat, covr, knitr, rmarkdown, lintr, classInt, rasterVis
 License: GPL-3
-MD5sum: 68bc50a11197d9e8d4c5e19b81b92c1c
+MD5sum: 72a6f1d346ad764a01f57d57904e8c5c
 NeedsCompilation: no
 
 Package: nneo
@@ -1404,7 +1404,7 @@ Imports: Rdpack (>= 0.7), stats
 Suggests: dplyr, forcats, ggplot2, knitr, testthat, tidyr, covr,
         rmarkdown, spelling, stringr
 License: CC0
-MD5sum: db26f75948098ea2ee8a425038f88b56
+MD5sum: 764fa0df0f504eddc97e5622648f4be9
 NeedsCompilation: no
 
 Package: packagemetrics
@@ -2115,14 +2115,14 @@ MD5sum: 4c9c8a442a404b2577074e68bc34b39d
 NeedsCompilation: no
 
 Package: rotl
-Version: 3.0.4.900
+Version: 3.0.5
 Depends: R (>= 3.1.1)
 Imports: httr, jsonlite, assertthat (>= 0.1), rncl (>= 0.6.0), ape,
         rentrez
 Suggests: knitr (>= 1.12), rmarkdown (>= 0.7), testthat, RNeXML,
         phylobase, MCMCglmm, fulltext (>= 0.1.6), readxl
 License: BSD_2_clause + file LICENSE
-MD5sum: 0d93ee231a5e0d502beeb751ef6d717a
+MD5sum: c3f66a83a1ba1609a5519366e74d0679
 NeedsCompilation: no
 
 Package: rperseus
