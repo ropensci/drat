@@ -551,7 +551,7 @@ MD5sum: e0292c8a35ca4e5eebd30d310c2975ab
 NeedsCompilation: no
 
 Package: drake
-Version: 6.0.0
+Version: 6.0.0.9000
 Depends: R (>= 3.3.0)
 Imports: codetools, digest, dplyr, evaluate, formatR, fs, future,
         igraph, magrittr, parallel, pkgconfig, purrr, R6, R.utils,
@@ -563,7 +563,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: f5d1563f3da20ab5302b32a1062f0457
+MD5sum: e5697ec1c60d6de95e488a505def1f7f
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1161,7 +1161,7 @@ MD5sum: c926873ecc01d498f782b69451487b18
 NeedsCompilation: no
 
 Package: jstor
-Version: 0.3.2.9000
+Version: 0.3.3.9000
 Depends: R (>= 3.1)
 Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.2.0), magrittr, stringr (>= 1.3.0), readr (>= 1.0.0), tibble
@@ -1169,7 +1169,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         1.0.0), curl, pryr, crayon, cli
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: 3bac432661940dd65faa98174d3aaa02
+MD5sum: 9ebc975b83b3256e308fa1e0a2a7cb3e
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1211,14 +1211,14 @@ MD5sum: a2e1b3f51c47c3090880a4722714bc60
 NeedsCompilation: no
 
 Package: magick
-Version: 1.9
+Version: 1.9000
 Imports: Rcpp (>= 0.12.12), magrittr, curl
 LinkingTo: Rcpp
 Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
         png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 3cc3dfade8bd48303997df8018959aad
+MD5sum: 7ac5b6121517818a9347e410fb6cba22
 NeedsCompilation: yes
 
 Package: mapr
@@ -2515,7 +2515,7 @@ Imports: httr (>= 1.0.0), xml2 (>= 1.2.0), jsonlite (>= 1.5), rcrossref
 Suggests: knitr (>= 1.6), testthat (>= 2.0.0), covr (>= 3.0.1),
         fulltext (>= 0.1.4.9000)
 License: MIT + file LICENSE
-MD5sum: 2727a9a2b03c896437f68256231cfc65
+MD5sum: 0372fa53e31b6990199612b674df9386
 NeedsCompilation: no
 
 Package: tabulizer
@@ -2681,13 +2681,13 @@ MD5sum: 0187ed93694eab625542b3d12aa91580
 NeedsCompilation: no
 
 Package: treeio
-Version: 1.5.3
+Version: 1.5.5
 Depends: R (>= 3.4.0)
 Imports: ape, dplyr, jsonlite, magrittr, methods, rlang, rvcheck,
         tibble, tidytree (>= 0.1.7), utils
 Suggests: ggplot2, ggtree, knitr, prettydoc, testthat, tidyr
 License: Artistic-2.0
-MD5sum: 78df863b379f085f225f985ff5012288
+MD5sum: c0da8f6231c3cf747a2603420be85c44
 NeedsCompilation: no
 
 Package: unrtf
