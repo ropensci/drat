@@ -103,14 +103,14 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils, httr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: 284bfc8efa3569953cb47c409d771f3d
+MD5sum: e63bc7865b9d0f8c4e91165b4d9171bb
 NeedsCompilation: no
 
 Package: av
-Version: 0.2
+Version: 0.2.9000
 Suggests: testthat, ps, ggplot2, gapminder
 License: MIT + file LICENSE
-MD5sum: c8233b26dbed4ad79aeaddb451d0fa75
+MD5sum: 9f2d322ebf992a0d0225c290bac40636
 NeedsCompilation: yes
 
 Package: available
@@ -280,12 +280,12 @@ MD5sum: 9aa6c7e42f435977406373d763e999ac
 NeedsCompilation: no
 
 Package: charlatan
-Version: 0.2.5.9100
+Version: 0.2.5.9421
 Imports: R6 (>= 2.2.0), tibble (>= 1.2), whisker
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr, rmarkdown, iptools,
         stringi
 License: MIT + file LICENSE
-MD5sum: 314639e0c9cc8be80aa098d40983894d
+MD5sum: 8d7be2e552be591e8fb6b98845844a77
 NeedsCompilation: no
 
 Package: chromer
@@ -365,6 +365,15 @@ License: GPL-3
 MD5sum: 4815446e352fb2989974d3fe538836b3
 NeedsCompilation: no
 
+Package: colocr
+Version: 0.1.0
+Imports: imager, magick, shiny, scales, magrittr
+Suggests: testthat, shinytest, covr, knitr, rmarkdown, devtools, purrr,
+        shinyBS
+License: GPL-3
+MD5sum: c5abd4aea69fe4e360a362b6855c134b
+NeedsCompilation: no
+
 Package: colorpiler
 Version: 0.1.0
 Imports: crayon, httr, jsonlite, rappdirs, storr, shiny, shinyjs (>=
@@ -414,12 +423,12 @@ MD5sum: 3dd420e617b4667805282e008d5cb557
 NeedsCompilation: no
 
 Package: crminer
-Version: 0.1.5.9110
+Version: 0.1.6.9100
 Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 8e517bc36c596d97a563b6e970aaab3c
+MD5sum: 7f9c2dfac8127a6fc782dc5467578a4b
 NeedsCompilation: no
 
 Package: crul
@@ -563,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: e5697ec1c60d6de95e488a505def1f7f
+MD5sum: fb173b38f2d6f0ce378e14110f3b85bc
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1315,12 +1324,12 @@ MD5sum: b8c3c9a2983e78616307cae746b6a2fc
 NeedsCompilation: no
 
 Package: nomisr
-Version: 0.4.0
+Version: 0.4.0.9000
 Depends: R (>= 3.4.0)
 Imports: jsonlite, tibble, readr, dplyr, httr, utils, rsdmx, rlang
 Suggests: knitr, rmarkdown, testthat, purrr, tidyr, magrittr
 License: MIT + file LICENSE
-MD5sum: ffbca053c60ff9122752a00526806d0b
+MD5sum: 2cab2d09268b26ffd9f97646a31722dc
 NeedsCompilation: no
 
 Package: oai
@@ -1497,6 +1506,15 @@ License: MIT + file LICENSE
 MD5sum: 203b75c40a0706c627fb32f2df4f555f
 NeedsCompilation: no
 
+Package: piggyback
+Version: 0.0.7
+Imports: gh, httr, jsonlite, git2r, fs, usethis, crayon, clisymbols,
+        magrittr, lubridate, memoise
+Suggests: spelling, readr, covr, testthat, datasets, knitr, rmarkdown
+License: GPL-3
+MD5sum: ab0d4faf27712446069cec9704b18ead
+NeedsCompilation: no
+
 Package: pkgreviewr
 Version: 0.0.3
 Imports: git2r (>= 0.21.0), devtools, usethis (>= 1.2.0), here, reprex,
@@ -1637,12 +1655,12 @@ MD5sum: 89bf1390a753551b6351f029950a4c7e
 NeedsCompilation: no
 
 Package: rbison
-Version: 0.6.0.9100
+Version: 0.6.0.9121
 Imports: plyr, crul (>= 0.3.4), ggplot2, mapproj, grid, sp, dplyr (>=
         0.5.0), jsonlite (>= 1.1)
 Suggests: roxygen2 (>= 6.0.1), knitr, testthat, taxize
 License: MIT + file LICENSE
-MD5sum: c2898bc8278ef3163481bec7d1d22701
+MD5sum: c52950715398ecd745dc2f0cce1e52b3
 NeedsCompilation: no
 
 Package: rbraries
@@ -2615,10 +2633,10 @@ Package: tic
 Version: 0.2.13.9010
 Depends: R (>= 3.0.0)
 Imports: backports, crayon, magrittr, memoise, methods, R6, withr
-Suggests: base64enc, covr, drat, git2r, knitr, openssl, rcmdcheck,
-        remotes, rmarkdown, testthat, travis, usethis
+Suggests: base64enc, callr, covr, drat, git2r, knitr, openssl,
+        rcmdcheck, remotes, rmarkdown, testthat, travis, usethis
 License: GPL (>= 2)
-MD5sum: f41959deea368a7ccf0083271299a032
+MD5sum: 4b804a80eafa8937a7e0e4777dbf628a
 NeedsCompilation: no
 
 Package: tidyhydat
@@ -2668,7 +2686,7 @@ Depends: R (>= 3.1.0)
 Imports: clipr, git2r, glue (>= 1.2.0), httr, memoise, openssl, withr
 Suggests: remotes, roxygen2, testthat, usethis
 License: GPL (>= 2)
-MD5sum: c6ccf4c3e8e160950e6d2184c3446d20
+MD5sum: a201f7e6c5f395fefd5073c2bd72ca98
 NeedsCompilation: no
 
 Package: treebase
