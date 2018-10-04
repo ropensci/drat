@@ -103,14 +103,14 @@ Imports: assertthat, countrycode (>= 1.0.0), dplyr (>= 0.7.0), rlang,
         stringi, stringr, tidyr, utils, httr
 Suggests: covr, data.table, knitr, readr, rmarkdown, testthat, unmarked
 License: GPL-3
-MD5sum: e63bc7865b9d0f8c4e91165b4d9171bb
+MD5sum: 35dfe93f7b2dbf294d4ec720928e6da3
 NeedsCompilation: no
 
 Package: av
 Version: 0.2.9000
 Suggests: testthat, ps, ggplot2, gapminder
 License: MIT + file LICENSE
-MD5sum: 9f2d322ebf992a0d0225c290bac40636
+MD5sum: f8e7fed5098c9d1e0c8a59ff6db8875e
 NeedsCompilation: yes
 
 Package: available
@@ -749,14 +749,14 @@ MD5sum: 3fadac583a86fff7b493698fb33d5375
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9625
+Version: 1.0.1.9811
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
-        0.1.4), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
+        0.1.6.9100), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         whisker, data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: e78cbdf1e0c94961cf1ba0ef89efeae6
+MD5sum: 9015720b4a387fd81858b2a0ecccdf9b
 NeedsCompilation: no
 
 Package: gdoc
@@ -1227,7 +1227,7 @@ Suggests: spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp,
         png, pdftools, ggplot2, raster, rgdal, gapminder, IRdisplay,
         tesseract (>= 2.0), gifski
 License: MIT + file LICENSE
-MD5sum: 474d32cd10d04d58ac1d8e8c9f24c9b6
+MD5sum: 245cbb8649c3b7e02b5a3ba0de535571
 NeedsCompilation: yes
 
 Package: mapr
@@ -1329,7 +1329,7 @@ Depends: R (>= 3.4.0)
 Imports: jsonlite, tibble, readr, dplyr, httr, utils, rsdmx, rlang
 Suggests: knitr, rmarkdown, testthat, purrr, tidyr, magrittr
 License: MIT + file LICENSE
-MD5sum: 2cab2d09268b26ffd9f97646a31722dc
+MD5sum: 1c7c5751aec9fb70a02bd9d269de5c20
 NeedsCompilation: no
 
 Package: oai
@@ -1512,7 +1512,7 @@ Imports: gh, httr, jsonlite, git2r, fs, usethis, crayon, clisymbols,
         magrittr, lubridate, memoise
 Suggests: spelling, readr, covr, testthat, datasets, knitr, rmarkdown
 License: GPL-3
-MD5sum: ab0d4faf27712446069cec9704b18ead
+MD5sum: dd943ab2b992eca3b3898ebba9400a4a
 NeedsCompilation: no
 
 Package: pkgreviewr
@@ -1595,11 +1595,11 @@ MD5sum: c36996dbab3ea0aa2785352fae784932
 NeedsCompilation: no
 
 Package: pubchunks
-Version: 0.0.4.9210
+Version: 0.1.0
 Imports: xml2 (>= 1.1.1), data.table
-Suggests: fulltext (>= 1.0.0), testthat
+Suggests: fulltext (>= 1.0.1), testthat
 License: MIT + file LICENSE
-MD5sum: 3798fb57db0aad328684c7787ae30226
+MD5sum: f05b2fdf6358696b0b200710668217e5
 NeedsCompilation: no
 
 Package: qualtRics
@@ -1705,13 +1705,13 @@ MD5sum: 313e57ab0718bbde75266c975142058e
 NeedsCompilation: yes
 
 Package: rcrossref
-Version: 0.8.4.9312
+Version: 0.8.5.9100
 Imports: methods, utils, jsonlite (>= 1.5), crul (>= 0.4.0), xml2 (>=
         1.1.1), plyr, bibtex, dplyr (>= 0.7.4), R6, shiny, miniUI,
         stringr, DT, stats
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: 72159be26010c5ec3edd5760b1a117e6
+MD5sum: a64a44a8ca5785fd8078fe923b10b41b
 NeedsCompilation: no
 
 Package: rdatacite
