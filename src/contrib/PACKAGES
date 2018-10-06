@@ -148,7 +148,7 @@ Imports: DBI, dodgr, httr, lubridate, magrittr, methods, Rcpp, readxl,
 LinkingTo: BH, Rcpp
 Suggests: knitr, rmarkdown, roxygen2, testthat, covr
 License: GPL-3
-MD5sum: da59c35400131ef592d89bbbc3c19a08
+MD5sum: dfac6ea3d0115da174a05102db5e6e07
 NeedsCompilation: yes
 
 Package: binman
@@ -384,12 +384,12 @@ MD5sum: 2b969b32d3b2361ea4072cfd4cc8b71f
 NeedsCompilation: no
 
 Package: comtradr
-Version: 0.2.1.9000
+Version: 0.2.2
 Depends: R (>= 3.0.0)
 Imports: httr, jsonlite, magrittr (>= 1.5), purrr
 Suggests: testthat, knitr, rmarkdown, ggplot2, dplyr
 License: GPL-3
-MD5sum: 3f7d97439277b2d8b038c470ba0082a9
+MD5sum: 6f259f8d5d776789608f88e799d58edf
 NeedsCompilation: no
 
 Package: convertr
@@ -572,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 1af0e3ff4c2b2bbf456934ef3c90ef5e
+MD5sum: 77052f53a0031cd1ed5b5c849b31513f
 NeedsCompilation: no
 
 Package: drat.builder
@@ -2224,7 +2224,7 @@ Imports: broom (>= 0.4.2), crul (>= 0.3.4), dplyr (>= 0.5.0), ggplot2
 Suggests: devtools, knitr, rmarkdown, rrricanesdata (>= 0.0.1), sp,
         testthat
 License: MIT + file LICENSE
-MD5sum: 62e9ca49cbe5334febf3cd3fb0939246
+MD5sum: 7a32f452a32b1570916fcf27323b0cec
 NeedsCompilation: no
 
 Package: rrricanesdata
@@ -2259,7 +2259,7 @@ Imports: curl, sys, stats, utils, rappdirs, digest
 Suggests: jsonlite, xml2, data.table, testthat, knitr, rmarkdown, covr,
         magrittr
 License: Apache License 2.0 | file LICENSE
-MD5sum: da95aae27536cb2e0b35f7200b903d0c
+MD5sum: b86cf50758b3df58aee4fbe71a8e0988
 NeedsCompilation: no
 
 Package: rtimicropem
@@ -2490,7 +2490,7 @@ Version: 0.2.9000
 Imports: getPass
 Suggests: knitr, rmarkdown, spelling, sys, testthat, mongolite
 License: MIT + file LICENSE
-MD5sum: ffb8086381498d0a17cce2858bb57151
+MD5sum: ac42eb397abb647e59682eb7a898c0ab
 NeedsCompilation: yes
 
 Package: SSOAP
