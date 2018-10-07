@@ -110,7 +110,7 @@ Package: av
 Version: 0.2.9000
 Suggests: testthat, ps, ggplot2, gapminder
 License: MIT + file LICENSE
-MD5sum: f8e7fed5098c9d1e0c8a59ff6db8875e
+MD5sum: 7ebf7cd78fa64068fbeaf6346f4b3ce5
 NeedsCompilation: yes
 
 Package: available
@@ -572,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 77052f53a0031cd1ed5b5c849b31513f
+MD5sum: 62ad7b7e38441b3a0011ec1aef290046
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1096,7 +1096,7 @@ MD5sum: 337947d35a2b2bb4ce69ce27731045e9
 NeedsCompilation: no
 
 Package: ijtiff
-Version: 1.4.1
+Version: 1.4.2
 Depends: R (>= 2.10)
 Imports: checkmate, magrittr, filesstrings (>= 2.7.0), stringr, purrr,
         Rcpp, fields, grDevices, readr, rlang, dplyr, methods, glue,
@@ -1105,7 +1105,7 @@ LinkingTo: Rcpp
 Suggests: knitr, testthat, rmarkdown, covr, magick, abind, tiff,
         EBImage, spelling
 License: GPL-3
-MD5sum: 4a302bd504a77230bd6f1801f267dad2
+MD5sum: b003d63f964baae701118baf16fc3a97
 NeedsCompilation: yes
 
 Package: infx
@@ -1507,12 +1507,12 @@ MD5sum: 203b75c40a0706c627fb32f2df4f555f
 NeedsCompilation: no
 
 Package: piggyback
-Version: 0.0.7
+Version: 0.0.8
 Imports: gh, httr, jsonlite, git2r, fs, usethis, crayon, clisymbols,
         magrittr, lubridate, memoise
 Suggests: spelling, readr, covr, testthat, datasets, knitr, rmarkdown
 License: GPL-3
-MD5sum: dd943ab2b992eca3b3898ebba9400a4a
+MD5sum: 52fb576d503ecf511ccec12c289a32d9
 NeedsCompilation: no
 
 Package: pkgreviewr
@@ -1909,13 +1909,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.2.9421
+Version: 1.0.3.9100
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
 Suggests: testthat, knitr, sp, rgeos, png, raster
 License: MIT + file LICENSE
-MD5sum: 2ca7fb96fa9424fc78f331daaf17be3a
+MD5sum: 60f53ef5d1a1402a466fe92909fd8644
 NeedsCompilation: no
 
 Package: rGEM
@@ -2486,11 +2486,11 @@ MD5sum: ff36944c1aad9118b8c2f9e065c2e031
 NeedsCompilation: no
 
 Package: ssh
-Version: 0.2.9000
+Version: 0.3
 Imports: getPass
 Suggests: knitr, rmarkdown, spelling, sys, testthat, mongolite
 License: MIT + file LICENSE
-MD5sum: ac42eb397abb647e59682eb7a898c0ab
+MD5sum: d8b0e54a9936133fa294c74c1ec32cc7
 NeedsCompilation: yes
 
 Package: SSOAP
