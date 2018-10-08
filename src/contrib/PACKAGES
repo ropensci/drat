@@ -27,7 +27,7 @@ Package: antiword
 Version: 1.2
 Imports: sys
 License: GPL-2
-MD5sum: 5159dc86e413b21107779006abb4fe67
+MD5sum: fdd35d9bb4254b5dcf3263a07b9d91f1
 NeedsCompilation: yes
 
 Package: AntWeb
@@ -572,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 62ad7b7e38441b3a0011ec1aef290046
+MD5sum: 06e9809add03a5d199ab961de8869ba8
 NeedsCompilation: no
 
 Package: drat.builder
@@ -2490,7 +2490,7 @@ Version: 0.3
 Imports: getPass
 Suggests: knitr, rmarkdown, spelling, sys, testthat, mongolite
 License: MIT + file LICENSE
-MD5sum: d8b0e54a9936133fa294c74c1ec32cc7
+MD5sum: 814f5741d0ad73821856e5858e12e180
 NeedsCompilation: yes
 
 Package: SSOAP
