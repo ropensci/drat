@@ -428,7 +428,7 @@ Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.2.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 7f9c2dfac8127a6fc782dc5467578a4b
+MD5sum: 9d62702cd9077bc0da66aa7d56492e0a
 NeedsCompilation: no
 
 Package: crul
@@ -572,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 06e9809add03a5d199ab961de8869ba8
+MD5sum: b0cb62a3244634f9cab9807931c46533
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1178,7 +1178,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         cli
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: 7683b992dbdcfa17cb9cf80bc5d920a8
+MD5sum: b609a794eff6f312a1ee8026f772e66a
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1571,11 +1571,11 @@ Imports: tools, scales, httr, jsonlite, magrittr, digest, viridisLite,
         RColorBrewer, dplyr, tibble, lazyeval (>= 0.2.0), rlang,
         crosstalk, purrr, data.table, promises
 Suggests: MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
-        shiny (>= 1.1.0), curl, rmarkdown, Rserve, RSclient, Cairo,
-        broom, webshot, listviewer, dendextend, sf, maptools, rgeos,
-        png, IRdisplay, processx, plotlyGeoAssets, forcats
+        shiny (>= 1.1.0), curl, rmarkdown, vdiffr, Cairo, broom,
+        webshot, listviewer, dendextend, sf, maptools, rgeos, png,
+        IRdisplay, processx, plotlyGeoAssets, forcats
 License: MIT + file LICENSE
-MD5sum: e6195f251e59bec78a541e4648267f12
+MD5sum: 1dad602e47a3301748212b6f9c755c37
 NeedsCompilation: no
 
 Package: PostcodesioR
@@ -2067,14 +2067,14 @@ MD5sum: c19ece68bfdaf3363e6f6925ecf27f06
 NeedsCompilation: no
 
 Package: rnoaa
-Version: 0.7.1.9631
+Version: 0.7.1.9635
 Imports: utils, httr (>= 1.0.0), crul (>= 0.2.0), lubridate, dplyr,
         tidyr, ggplot2, scales, XML, xml2, jsonlite, rappdirs,
         gridExtra, tibble, isdparser (>= 0.2.0), geonames, hoardr
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr, taxize, ncdf4, raster,
         leaflet, rgdal, rmarkdown, purrr, ggmap, ropenaq
 License: MIT + file LICENSE
-MD5sum: e29b2c98c46a46c9f734a774842bf042
+MD5sum: fe195214339d9ab02bb662a3ca93ebec
 NeedsCompilation: no
 
 Package: rnpn
@@ -2103,7 +2103,7 @@ Imports: stringr (>= 1.0.0), httr (>= 1.0.0), spiderbar (>= 0.2.0),
         future (>= 1.6.2), future.apply (>= 1.0.0), magrittr, utils
 Suggests: knitr, rmarkdown, dplyr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: 3ab7eb6f03b8dbd25561e0d9ca14edee
+MD5sum: e19046b3a94fb3fd0f6b122d178a9cec
 NeedsCompilation: no
 
 Package: ropenaq
@@ -2761,15 +2761,15 @@ MD5sum: 9197ff5189b30f3241cdb84248dccbaf
 NeedsCompilation: no
 
 Package: weathercan
-Version: 0.2.7.9000
+Version: 0.2.8
 Depends: R (>= 3.1.2)
 Imports: dplyr (>= 0.7.0), httr (>= 1.1.0), lubridate (>= 1.7.1),
-        methods (>= 3.2.2), purrr (>= 0.2.4), stringi (>= 1.1.2), tidyr
-        (>= 0.4.1), xml2 (>= 0.1.2)
-Suggests: devtools, ggplot2, ggmap, knitr, rmarkdown, sp, stringr,
-        testthat
+        methods (>= 3.2.2), purrr (>= 0.2.4), rlang (>= 0.1.4), stringi
+        (>= 1.1.2), tidyr (>= 0.4.1), xml2 (>= 0.1.2)
+Suggests: devtools, ggplot2, ggmap, knitr, lutz, rmarkdown, sf, sp,
+        stringr, testthat
 License: GPL-3
-MD5sum: ac5cc9802c2b3f0c41b97dbd6345c4d2
+MD5sum: 7a0525477650bd4fdf3e51105796bdd8
 NeedsCompilation: no
 
 Package: webchem
