@@ -572,7 +572,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 0fd18a7b43366cda54bb3801da7a0787
+MD5sum: 68b80ec010cb584235f869beb002f4e9
 NeedsCompilation: no
 
 Package: drat.builder
@@ -749,14 +749,14 @@ MD5sum: 3fadac583a86fff7b493698fb33d5375
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.1.9812
+Version: 1.0.2.9210
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.6.9100), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
-        whisker, data.table, hoardr, pdftools, storr, tibble
+        data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: ee350fc1d5b1e92f0e9915111fc93254
+MD5sum: 0d7192c99ff8029597ad400f0fac1148
 NeedsCompilation: no
 
 Package: gdoc
@@ -1178,7 +1178,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         cli
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: b609a794eff6f312a1ee8026f772e66a
+MD5sum: ca946f07ba88505552f88e4caf112b43
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1188,7 +1188,7 @@ Imports: classInt, cowplot, magrittr, checkmate, dplyr, extrafont,
         ggplot2, purrr, raster, rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: 7f99433a2323f7dc6b77bdbf0e09b068
+MD5sum: 40c80c18f74257aaf4559c3740ca1130
 NeedsCompilation: no
 
 Package: laselva
@@ -1282,7 +1282,7 @@ Imports: crul (>= 0.2.0), xml2 (>= 1.0.0), tibble (>= 1.2), data.table
         (>= 1.10.0)
 Suggests: roxygen2 (>= 5.0.1), testthat, knitr, ggplot2, maps, mapproj
 License: MIT + file LICENSE
-MD5sum: f5be1c4da97afbc3b0e59b65df0aeeba
+MD5sum: 146e1155704d5eae5f7baf8584a9c453
 NeedsCompilation: no
 
 Package: neotoma
@@ -1719,7 +1719,7 @@ Version: 0.4.0.9100
 Imports: oai (>= 0.2.2), solrium (>= 1.0.0), jsonlite, crul (>= 0.4.0)
 Suggests: knitr, testthat, webmockr, vcr
 License: MIT + file LICENSE
-MD5sum: ef2ab9472e34dded82e3834c8b78c6d0
+MD5sum: 6861d7d991c31f085bb6262e4489cf9c
 NeedsCompilation: no
 
 Package: rdataretriever
@@ -1880,7 +1880,7 @@ Imports: dplyr, purrr, methods, utils, memoise, readr, rlang, magrittr,
         stringr
 Suggests: devtools, testthat, rmarkdown, knitr
 License: CC0
-MD5sum: d1021cd59059b90eb06640c3e4d0f748
+MD5sum: 681ba3826136eef0e869b47049071c79
 NeedsCompilation: no
 
 Package: rfisheries
@@ -1909,13 +1909,13 @@ MD5sum: 6bebf3a52b721b31e7aa0c4428872250
 NeedsCompilation: no
 
 Package: rgbif
-Version: 1.0.4.9100
+Version: 1.0.5.9100
 Imports: xml2, ggplot2, crul (>= 0.3.4), data.table, whisker, magrittr,
         jsonlite (>= 0.9.16), oai (>= 0.2.2), geoaxe, tibble, wicket
         (>= 0.2.0), lazyeval
-Suggests: testthat, knitr, sp, rgeos, png, raster
+Suggests: testthat, knitr, sp, rgeos, png, raster, vcr
 License: MIT + file LICENSE
-MD5sum: a52b39713999d5fea441ab4713a3ce89
+MD5sum: 95d18bffb2f29d1c5ca11a7089148a1a
 NeedsCompilation: no
 
 Package: rGEM
