@@ -402,6 +402,17 @@ License: MIT + file LICENSE
 MD5sum: 289f08a3e2d1017e80e496bd3e3cbfcd
 NeedsCompilation: no
 
+Package: CoordinateCleaner
+Version: 2.0-2
+Depends: R (>= 3.5.0)
+Imports: dplyr, geosphere, ggplot2, graphics, methods, raster, rgeos,
+        rgdal, rnaturalearth, stats, sp, utils
+Suggests: countrycode, covr, knitr, maps, paleobioDB, rgbif, rmarkdown,
+        testthat
+License: GPL-3
+MD5sum: 1e57164c2c1fa1e41d9cdc5972ea48cb
+NeedsCompilation: no
+
 Package: cRegulome
 Version: 0.2.0
 Depends: R(>= 2.10.0)
@@ -572,7 +583,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 68b80ec010cb584235f869beb002f4e9
+MD5sum: 94e184381e31d1679cbbad970051a2c6
 NeedsCompilation: no
 
 Package: drat.builder
@@ -618,7 +629,7 @@ Imports: utils, methods, httr (>= 1.2.1), curl (>= 2.2), jsonlite (>=
         1.1)
 Suggests: roxygen2 (>= 6.1.0), knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 0c57ee2cbb1e9c04110f09fbb9127269
+MD5sum: 5c6a180ee673c71173b2f0426a5f0ef8
 NeedsCompilation: no
 
 Package: elasticdsl
@@ -749,14 +760,14 @@ MD5sum: 3fadac583a86fff7b493698fb33d5375
 NeedsCompilation: no
 
 Package: fulltext
-Version: 1.0.2.9210
+Version: 1.0.2.9215
 Imports: crul (>= 0.4.0), httr (>= 1.3.1), magrittr, xml2 (>= 1.1.1),
         jsonlite, rplos (>= 0.8.0), rcrossref (>= 0.8.0), crminer (>=
         0.1.6.9100), microdemic (>= 0.2.0), aRxiv, rentrez (>= 1.1.0),
         data.table, hoardr, pdftools, storr, tibble
 Suggests: roxygen2 (>= 6.1.0), testthat, knitr
 License: MIT + file LICENSE
-MD5sum: b6515a78e1652046a8a12a047e0486da
+MD5sum: 54b9cc827722aa14f24396c157eda6df
 NeedsCompilation: no
 
 Package: gdoc
@@ -1036,11 +1047,11 @@ MD5sum: 99363214b5fa915d91b3acfe219a6f86
 NeedsCompilation: no
 
 Package: hoardr
-Version: 0.2.0.9100
+Version: 0.5.0
 Imports: R6 (>= 2.2.0), rappdirs (>= 0.3.1), digest
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 01e02fa3bdeb8ce687000e85ae67a223
+MD5sum: 5b15a001df4bbeb1e0fd0ba70a142e10
 NeedsCompilation: no
 
 Package: hoasts
@@ -2804,7 +2815,7 @@ Imports: curl, jsonlite, magrittr (>= 1.5), lazyeval (>= 0.2.0), R6 (>=
         2.1.3), urltools (>= 1.6.0), fauxpas, crul (>= 0.5.2)
 Suggests: roxygen2 (>= 6.0.1), testthat, xml2, vcr
 License: MIT + file LICENSE
-MD5sum: 367a29814b40a6fe592c91425771ddd2
+MD5sum: 847ebf766bfde1d615290d62e5dff924
 NeedsCompilation: no
 
 Package: webrockets
