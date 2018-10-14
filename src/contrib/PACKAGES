@@ -410,7 +410,7 @@ Imports: dplyr, geosphere, ggplot2, graphics, methods, raster, rgeos,
 Suggests: countrycode, covr, knitr, maps, paleobioDB, rgbif, rmarkdown,
         testthat
 License: GPL-3
-MD5sum: 1e57164c2c1fa1e41d9cdc5972ea48cb
+MD5sum: 5547d244683a1a3b06bc5d0cec98995b
 NeedsCompilation: no
 
 Package: cRegulome
@@ -434,12 +434,12 @@ MD5sum: 3dd420e617b4667805282e008d5cb557
 NeedsCompilation: no
 
 Package: crminer
-Version: 0.1.6.9100
+Version: 0.2.0
 Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
-        (>= 1.2), hoardr (>= 0.2.0)
+        (>= 1.2), hoardr (>= 0.5.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 9d62702cd9077bc0da66aa7d56492e0a
+MD5sum: e0ce75a056a41aeb2c1c7276f17f12d1
 NeedsCompilation: no
 
 Package: crul
@@ -583,7 +583,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: 94e184381e31d1679cbbad970051a2c6
+MD5sum: dce030b0bdf26392536ba9b7f9ec5685
 NeedsCompilation: no
 
 Package: drat.builder
@@ -669,11 +669,11 @@ MD5sum: 6edd43bf70ca20023854c11d2b631329
 NeedsCompilation: no
 
 Package: epubr
-Version: 0.4.1
+Version: 0.5.0
 Imports: xml2, xslt, magrittr, dplyr, purrr, tidyr
 Suggests: testthat, knitr, rmarkdown, lintr, covr, readr
 License: MIT + file LICENSE
-MD5sum: 5c0ab3a66137fd92b8b56d284231058d
+MD5sum: 918e4f6c3f7b798aea1de123c959f541
 NeedsCompilation: no
 
 Package: essurvey
@@ -1224,10 +1224,10 @@ Package: lingtypology
 Version: 1.0.14
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
-        magrittr, grDevices, rowr, MASS, sp, rgeos
-Suggests: knitr, rmarkdown, testthat, covr
+        magrittr, grDevices, rowr
+Suggests: knitr, rmarkdown, testthat, covr, MASS, sp, rgeos
 License: GPL (>= 2)
-MD5sum: a2e1b3f51c47c3090880a4722714bc60
+MD5sum: 5a0f9a5fce4827f6712fb92f4cf6c6b4
 NeedsCompilation: no
 
 Package: magick
