@@ -60,7 +60,7 @@ Imports: DBI, progress, tools, utils
 Suggests: readr, spelling, dplyr, dbplyr, nycflights13, testthat,
         knitr, covr, fs, rmarkdown, RSQLite, MonetDBLite (>= 0.5.0)
 License: MIT + file LICENSE
-MD5sum: fb2618b7cb92e824a533fdd0265683b9
+MD5sum: 1305065c6107338bc57ee20a0de59c1e
 NeedsCompilation: no
 
 Package: aRxiv
@@ -439,7 +439,7 @@ Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.5.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: e0ce75a056a41aeb2c1c7276f17f12d1
+MD5sum: 8ffcf85a24b25521dd89311f36f31b7f
 NeedsCompilation: no
 
 Package: crul
@@ -583,7 +583,7 @@ Suggests: abind, bindr, callr, clustermq, CodeDepends, crayon, DBI,
         rprojroot, testthat, txtq, rmarkdown, styler, visNetwork,
         webshot
 License: GPL-3
-MD5sum: dce030b0bdf26392536ba9b7f9ec5685
+MD5sum: be618d474ff0bdac3944ccba5f180d2f
 NeedsCompilation: no
 
 Package: drat.builder
@@ -1047,11 +1047,11 @@ MD5sum: 99363214b5fa915d91b3acfe219a6f86
 NeedsCompilation: no
 
 Package: hoardr
-Version: 0.5.0
+Version: 0.5.0.9100
 Imports: R6 (>= 2.2.0), rappdirs (>= 0.3.1), digest
 Suggests: roxygen2 (>= 6.0.1), testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 5b15a001df4bbeb1e0fd0ba70a142e10
+MD5sum: 75d156e6c6354105eccf621647f0ac11
 NeedsCompilation: no
 
 Package: hoasts
@@ -1224,10 +1224,10 @@ Package: lingtypology
 Version: 1.0.14
 Depends: R (>= 3.1.0)
 Imports: leaflet, leaflet.minicharts, stats, utils, stringdist,
-        magrittr, grDevices, rowr
+        grDevices, rowr
 Suggests: knitr, rmarkdown, testthat, covr, MASS, sp, rgeos
 License: GPL (>= 2)
-MD5sum: 5a0f9a5fce4827f6712fb92f4cf6c6b4
+MD5sum: 1290c687dc29a67f0a743c680df1a19a
 NeedsCompilation: no
 
 Package: magick
@@ -2090,7 +2090,7 @@ Suggests: spelling, rdflib, geiger (>= 2.0), phytools (>= 0.3.93),
         testthat (>= 0.10.0), phylobase (>= 0.6.8), rmarkdown (>=
         0.3.3), xslt, taxize (>= 0.2.2), covr
 License: BSD_3_clause + file LICENSE
-MD5sum: c19ece68bfdaf3363e6f6925ecf27f06
+MD5sum: 1033d8f5d09a0249d3bb0931ec05349b
 NeedsCompilation: no
 
 Package: rnoaa
