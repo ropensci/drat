@@ -229,7 +229,7 @@ Imports: assertthat, httr, lubridate, magrittr, methods, openssl,
         xml2
 Suggests: archive, knitr, testthat, covr
 License: MIT + file LICENSE
-MD5sum: bcf8d1f94012a02981ecc7b0543b2ecc
+MD5sum: 899eedda0ed42bd65e7e88c27667097d
 NeedsCompilation: no
 
 Package: brranching
@@ -434,12 +434,12 @@ MD5sum: 3dd420e617b4667805282e008d5cb557
 NeedsCompilation: no
 
 Package: crminer
-Version: 0.2.0
+Version: 0.2.0.9100
 Imports: crul (>= 0.3.4), jsonlite (>= 1.4), xml2 (>= 1.1.0), pdftools
         (>= 1.2), hoardr (>= 0.5.0)
 Suggests: roxygen2 (>= 6.0.1), rcrossref, testthat
 License: MIT + file LICENSE
-MD5sum: 8ffcf85a24b25521dd89311f36f31b7f
+MD5sum: e746277bd97a6575594e58248aa9a267
 NeedsCompilation: no
 
 Package: crul
@@ -673,7 +673,7 @@ Version: 0.5.0
 Imports: xml2, xslt, magrittr, dplyr, purrr, tidyr
 Suggests: testthat, knitr, rmarkdown, lintr, covr, readr
 License: MIT + file LICENSE
-MD5sum: 918e4f6c3f7b798aea1de123c959f541
+MD5sum: b3311976e6be72157c362c3a0e87b131
 NeedsCompilation: no
 
 Package: essurvey
@@ -1189,7 +1189,7 @@ Imports: dplyr (>= 0.7.4), tidyr (>= 0.7.2), purrr (>= 0.2.4), xml2 (>=
         cli
 Suggests: testthat, covr, knitr, rmarkdown, future
 License: GPL-3 | file LICENSE
-MD5sum: bb6b25e6344bacb0e1d875038d7e9c48
+MD5sum: c62b2d8d467abb4e5e7481ba66171c2f
 NeedsCompilation: no
 
 Package: landscapetools
@@ -1199,7 +1199,7 @@ Imports: classInt, cowplot, magrittr, checkmate, dplyr, extrafont,
         ggplot2, purrr, raster, rasterVis, tibble, tidyr, viridis
 Suggests: testthat, covr
 License: GPL-3
-MD5sum: 40c80c18f74257aaf4559c3740ca1130
+MD5sum: a188ae4547febf2960ee98bbc4431e5a
 NeedsCompilation: no
 
 Package: laselva
@@ -1404,14 +1404,14 @@ MD5sum: 91a211700139af269108abe3bf100756
 NeedsCompilation: no
 
 Package: osmdata
-Version: 0.0.7.002
+Version: 0.0.8
 Depends: R (>= 3.2.4)
 Imports: curl, httr, lubridate, magrittr, methods, Rcpp (>= 0.12.4),
         rvest, jsonlite, sp, utils, xml2
 LinkingTo: Rcpp
 Suggests: devtools, knitr, rmarkdown, roxygen2, sf, testthat
 License: GPL-3
-MD5sum: 39ab1635e4c46f5fd71bd9a5ec3dc63d
+MD5sum: 3a38634ebe76af943ae5e22275b25820
 NeedsCompilation: yes
 
 Package: osmplotr
