@@ -9,10 +9,13 @@ This allows users to install development versions of our software without specia
 dependencies not hosted on CRAN to still be resolved automatically, and permits the use of `update.packages()`. 
 
 
+<!--
+
 ## Download Logs
 
 The rOpenSci packages repository publishes anonymous download statistics of packages pulled from the repository, using the same [format used by RStudio's CRAN mirror](http://cran-logs.rstudio.com/).  These can be found in a unified file at <http://packages.ropensci.org/downloads.csv>.  These may not be up to date.
 
+-->
 
 ## Quick Start
 
