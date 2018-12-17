@@ -922,7 +922,7 @@ Version: 1.0.1
 Imports: ini, jsonlite, httr
 Suggests: covr, pingr, testthat
 License: MIT + file LICENSE
-MD5sum: 60d9768d0f6c8ee3b753f327351bed87
+MD5sum: 361f6b6aa4271d1514e970fb455a6a58
 NeedsCompilation: no
 
 Package: ghql
@@ -1733,12 +1733,12 @@ MD5sum: 64c1939dd5d900b8b650f16d1ef90497
 NeedsCompilation: no
 
 Package: RcppRedis
-Version: 0.1.8.2
-Imports: methods, Rcpp (>= 0.11.0), RApiSerialize, RcppMsgPack
-LinkingTo: Rcpp, RApiSerialize, RcppMsgPack, BH
-Suggests: rredis, RUnit
+Version: 0.1.9
+Imports: methods, Rcpp (>= 0.11.0), RApiSerialize
+LinkingTo: Rcpp, RApiSerialize, BH
+Suggests: RcppMsgPack, rredis, RUnit
 License: GPL (>= 2)
-MD5sum: c048e85fbc782507730dd13aa1ef9679
+MD5sum: 7dcf1c30d260ca4d5fce84a96cf94393
 NeedsCompilation: yes
 
 Package: rcrossref
