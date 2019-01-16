@@ -1,7 +1,5 @@
 NCEAS/PKIplus
 DataONEorg/rdataone
-egonw/rrdf/rrdflibs
-egonw/rrdf/rrdf
 ramnathv/rcharts
 cloudyr/aws.signature
 cloudyr/aws.s3
