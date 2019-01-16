@@ -2591,6 +2591,16 @@ License: MIT + file LICENSE
 MD5sum: 9803b3d41605f52f1183be540946c2cc
 NeedsCompilation: no
 
+Package: taxadb
+Version: 0.0.1
+Depends: R (>= 2.10)
+Imports: dplyr, dbplyr, DBI, MonetDBLite, arkdb, tibble, memoise,
+        readr, rappdirs, rlang, magrittr, stringi
+Suggests: spelling, testthat, covr, tictoc, knitr, rmarkdown, purrr
+License: MIT + file LICENSE
+MD5sum: be33ed49ae63d6aaef020cf216313ac5
+NeedsCompilation: no
+
 Package: taxize
 Version: 0.9.4.9109
 Depends: R(>= 3.2.1)
